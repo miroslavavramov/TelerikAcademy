@@ -1,0 +1,6 @@
+D:\Telerik\Programming\CSharp_Part2\07.Arrays\Ex_Arrays\Ex4.MaxConsSequence\bin\Debug\Ex4.MaxConsSequence.exe.config
+D:\Telerik\Programming\CSharp_Part2\07.Arrays\Ex_Arrays\Ex4.MaxConsSequence\bin\Debug\Ex4.MaxConsSequence.exe
+D:\Telerik\Programming\CSharp_Part2\07.Arrays\Ex_Arrays\Ex4.MaxConsSequence\bin\Debug\Ex4.MaxConsSequence.pdb
+D:\Telerik\Programming\CSharp_Part2\07.Arrays\Ex_Arrays\Ex4.MaxConsSequence\obj\Debug\Ex4.MaxConsSequence.exe
+D:\Telerik\Programming\CSharp_Part2\07.Arrays\Ex_Arrays\Ex4.MaxConsSequence\obj\Debug\Ex4.MaxConsSequence.pdb
+D:\Telerik\Programming\CSharp_Part2\07.Arrays\Ex_Arrays\Ex4.MaxConsSequence\obj\Debug\Ex4.MaxConsSequence.csprojResolveAssemblyReference.cache

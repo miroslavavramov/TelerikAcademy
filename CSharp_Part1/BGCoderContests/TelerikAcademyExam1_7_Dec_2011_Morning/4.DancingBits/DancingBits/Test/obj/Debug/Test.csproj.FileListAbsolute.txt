@@ -1,0 +1,6 @@
+D:\Telerik\Programming\CSharp_Part1\BGCoderContests\TelerikAcademyExam1_7_Dec_2011_Morning\4.DancingBits\DancingBits\Test\bin\Debug\Test.exe.config
+D:\Telerik\Programming\CSharp_Part1\BGCoderContests\TelerikAcademyExam1_7_Dec_2011_Morning\4.DancingBits\DancingBits\Test\bin\Debug\Test.exe
+D:\Telerik\Programming\CSharp_Part1\BGCoderContests\TelerikAcademyExam1_7_Dec_2011_Morning\4.DancingBits\DancingBits\Test\bin\Debug\Test.pdb
+D:\Telerik\Programming\CSharp_Part1\BGCoderContests\TelerikAcademyExam1_7_Dec_2011_Morning\4.DancingBits\DancingBits\Test\obj\Debug\Test.csprojResolveAssemblyReference.cache
+D:\Telerik\Programming\CSharp_Part1\BGCoderContests\TelerikAcademyExam1_7_Dec_2011_Morning\4.DancingBits\DancingBits\Test\obj\Debug\Test.exe
+D:\Telerik\Programming\CSharp_Part1\BGCoderContests\TelerikAcademyExam1_7_Dec_2011_Morning\4.DancingBits\DancingBits\Test\obj\Debug\Test.pdb

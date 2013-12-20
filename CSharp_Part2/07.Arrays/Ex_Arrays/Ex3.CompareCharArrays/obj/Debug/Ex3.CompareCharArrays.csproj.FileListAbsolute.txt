@@ -1,0 +1,5 @@
+D:\Telerik\Programming\CSharp_Part2\07.Arrays\Ex_Arrays\Ex3.CompareCharArrays\bin\Debug\Ex3.CompareCharArrays.exe.config
+D:\Telerik\Programming\CSharp_Part2\07.Arrays\Ex_Arrays\Ex3.CompareCharArrays\bin\Debug\Ex3.CompareCharArrays.exe
+D:\Telerik\Programming\CSharp_Part2\07.Arrays\Ex_Arrays\Ex3.CompareCharArrays\bin\Debug\Ex3.CompareCharArrays.pdb
+D:\Telerik\Programming\CSharp_Part2\07.Arrays\Ex_Arrays\Ex3.CompareCharArrays\obj\Debug\Ex3.CompareCharArrays.exe
+D:\Telerik\Programming\CSharp_Part2\07.Arrays\Ex_Arrays\Ex3.CompareCharArrays\obj\Debug\Ex3.CompareCharArrays.pdb

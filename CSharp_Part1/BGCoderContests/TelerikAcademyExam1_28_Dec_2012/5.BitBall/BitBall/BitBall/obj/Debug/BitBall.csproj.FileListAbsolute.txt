@@ -1,0 +1,6 @@
+D:\Telerik\Programming\CSharp_Part1\BGCoderContests\TelerikAcademyExam1_28_Dec_2012\5.BitBall\BitBall\BitBall\bin\Debug\BitBall.exe.config
+D:\Telerik\Programming\CSharp_Part1\BGCoderContests\TelerikAcademyExam1_28_Dec_2012\5.BitBall\BitBall\BitBall\obj\Debug\BitBall.csprojResolveAssemblyReference.cache
+D:\Telerik\Programming\CSharp_Part1\BGCoderContests\TelerikAcademyExam1_28_Dec_2012\5.BitBall\BitBall\BitBall\bin\Debug\BitBall.exe
+D:\Telerik\Programming\CSharp_Part1\BGCoderContests\TelerikAcademyExam1_28_Dec_2012\5.BitBall\BitBall\BitBall\bin\Debug\BitBall.pdb
+D:\Telerik\Programming\CSharp_Part1\BGCoderContests\TelerikAcademyExam1_28_Dec_2012\5.BitBall\BitBall\BitBall\obj\Debug\BitBall.exe
+D:\Telerik\Programming\CSharp_Part1\BGCoderContests\TelerikAcademyExam1_28_Dec_2012\5.BitBall\BitBall\BitBall\obj\Debug\BitBall.pdb

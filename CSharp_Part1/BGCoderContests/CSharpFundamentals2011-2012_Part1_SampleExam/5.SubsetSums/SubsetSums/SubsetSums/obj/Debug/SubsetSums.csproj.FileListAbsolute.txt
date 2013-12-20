@@ -1,0 +1,6 @@
+D:\Telerik\C#1\Contests\CSharpFundamentals2011-2012_Part1_SampleExam\5.SubsetSums\SubsetSums\SubsetSums\bin\Debug\SubsetSums.exe.config
+D:\Telerik\C#1\Contests\CSharpFundamentals2011-2012_Part1_SampleExam\5.SubsetSums\SubsetSums\SubsetSums\bin\Debug\SubsetSums.exe
+D:\Telerik\C#1\Contests\CSharpFundamentals2011-2012_Part1_SampleExam\5.SubsetSums\SubsetSums\SubsetSums\bin\Debug\SubsetSums.pdb
+D:\Telerik\C#1\Contests\CSharpFundamentals2011-2012_Part1_SampleExam\5.SubsetSums\SubsetSums\SubsetSums\obj\Debug\SubsetSums.csprojResolveAssemblyReference.cache
+D:\Telerik\C#1\Contests\CSharpFundamentals2011-2012_Part1_SampleExam\5.SubsetSums\SubsetSums\SubsetSums\obj\Debug\SubsetSums.exe
+D:\Telerik\C#1\Contests\CSharpFundamentals2011-2012_Part1_SampleExam\5.SubsetSums\SubsetSums\SubsetSums\obj\Debug\SubsetSums.pdb

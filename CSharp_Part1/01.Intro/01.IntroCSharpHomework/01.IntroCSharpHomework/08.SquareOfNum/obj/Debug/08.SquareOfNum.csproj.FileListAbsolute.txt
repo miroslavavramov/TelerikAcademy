@@ -1,0 +1,13 @@
+D:\Telerik\C#_part_1\01_Intro\01.IntroCSharp_Homework\08_SquareOfNum\bin\Debug\08_SquareOfNum.exe.config
+D:\Telerik\C#_part_1\01_Intro\01.IntroCSharp_Homework\08_SquareOfNum\obj\Debug\08_SquareOfNum.exe
+D:\Telerik\C#_part_1\01_Intro\01.IntroCSharp_Homework\08_SquareOfNum\obj\Debug\08_SquareOfNum.pdb
+D:\Telerik\C#_part_1\01_Intro\01.IntroCSharp_Homework\08_SquareOfNum\bin\Debug\08_SquareOfNum.exe
+D:\Telerik\C#_part_1\01_Intro\01.IntroCSharp_Homework\08_SquareOfNum\bin\Debug\08_SquareOfNum.pdb
+D:\Telerik\C#1\01.Intro\01.IntroCSharpHomework\08.SquareOfNum\bin\Debug\08.SquareOfNum.exe.config
+D:\Telerik\C#1\01.Intro\01.IntroCSharpHomework\08.SquareOfNum\bin\Debug\08.SquareOfNum.exe
+D:\Telerik\C#1\01.Intro\01.IntroCSharpHomework\08.SquareOfNum\bin\Debug\08.SquareOfNum.pdb
+D:\Telerik\C#1\01.Intro\01.IntroCSharpHomework\08.SquareOfNum\obj\Debug\08.SquareOfNum.exe
+D:\Telerik\C#1\01.Intro\01.IntroCSharpHomework\08.SquareOfNum\obj\Debug\08.SquareOfNum.pdb
+D:\Telerik\C#1\01.Intro\01.IntroCSharpHomework\01.IntroCSharpHomework\08.SquareOfNum\bin\Debug\08.SquareOfNum.exe.config
+D:\Telerik\C#1\01.Intro\01.IntroCSharpHomework\01.IntroCSharpHomework\08.SquareOfNum\obj\Debug\08.SquareOfNum.exe
+D:\Telerik\C#1\01.Intro\01.IntroCSharpHomework\01.IntroCSharpHomework\08.SquareOfNum\obj\Debug\08.SquareOfNum.pdb

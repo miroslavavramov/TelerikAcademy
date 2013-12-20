@@ -1,0 +1,5 @@
+D:\Telerik\Programming\CSharp_Part2\07.Arrays\Ex_Arrays\Ex2.EqualArrays\bin\Debug\Ex2.EqualArrays.exe.config
+D:\Telerik\Programming\CSharp_Part2\07.Arrays\Ex_Arrays\Ex2.EqualArrays\bin\Debug\Ex2.EqualArrays.exe
+D:\Telerik\Programming\CSharp_Part2\07.Arrays\Ex_Arrays\Ex2.EqualArrays\bin\Debug\Ex2.EqualArrays.pdb
+D:\Telerik\Programming\CSharp_Part2\07.Arrays\Ex_Arrays\Ex2.EqualArrays\obj\Debug\Ex2.EqualArrays.exe
+D:\Telerik\Programming\CSharp_Part2\07.Arrays\Ex_Arrays\Ex2.EqualArrays\obj\Debug\Ex2.EqualArrays.pdb

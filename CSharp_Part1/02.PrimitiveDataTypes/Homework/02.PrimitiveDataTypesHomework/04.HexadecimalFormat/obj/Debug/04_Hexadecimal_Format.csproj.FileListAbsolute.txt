@@ -1,0 +1,6 @@
+D:\Telerik\C#_part_1\02_Primitive_Data_Types\Homework\02_Primitive_Data_Types_Homework\04\obj\Debug\04_Hexadecimal_Format.csprojResolveAssemblyReference.cache
+D:\Telerik\C#_part_1\02_Primitive_Data_Types\Homework\02_Primitive_Data_Types_Homework\04\bin\Debug\04.exe.config
+D:\Telerik\C#_part_1\02_Primitive_Data_Types\Homework\02_Primitive_Data_Types_Homework\04\bin\Debug\04.exe
+D:\Telerik\C#_part_1\02_Primitive_Data_Types\Homework\02_Primitive_Data_Types_Homework\04\bin\Debug\04.pdb
+D:\Telerik\C#_part_1\02_Primitive_Data_Types\Homework\02_Primitive_Data_Types_Homework\04\obj\Debug\04.exe
+D:\Telerik\C#_part_1\02_Primitive_Data_Types\Homework\02_Primitive_Data_Types_Homework\04\obj\Debug\04.pdb

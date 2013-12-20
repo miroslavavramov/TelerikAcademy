@@ -1,0 +1,15 @@
+C:\Users\Administrator\Desktop\6. Loops\CountsAZeros\bin\Debug\CountsAZeros.exe
+C:\Users\Administrator\Desktop\6. Loops\CountsAZeros\bin\Debug\CountsAZeros.pdb
+C:\Users\Administrator\Desktop\6. Loops\CountsAZeros\obj\Debug\CountsAZeros.exe
+C:\Users\Administrator\Desktop\6. Loops\CountsAZeros\obj\Debug\CountsAZeros.pdb
+C:\Users\Administrator\Desktop\6. Loops\CountsAZeros\obj\Debug\13. CountsAZeros.csprojResolveAssemblyReference.cache
+C:\Users\Administrator\Desktop\6. Loops\Homework 6\CountsAZeros\bin\Debug\CountsAZeros.exe
+C:\Users\Administrator\Desktop\6. Loops\Homework 6\CountsAZeros\bin\Debug\CountsAZeros.pdb
+C:\Users\Administrator\Desktop\6. Loops\Homework 6\CountsAZeros\obj\Debug\13. CountsAZeros.csprojResolveAssemblyReference.cache
+C:\Users\Administrator\Desktop\6. Loops\Homework 6\CountsAZeros\obj\Debug\CountsAZeros.exe
+C:\Users\Administrator\Desktop\6. Loops\Homework 6\CountsAZeros\obj\Debug\CountsAZeros.pdb
+C:\Users\Administrator\Desktop\06. Loops\Homework 6\CountsAZeros\obj\Debug\CountsAZeros.exe
+C:\Users\Administrator\Desktop\06. Loops\Homework 6\CountsAZeros\obj\Debug\CountsAZeros.pdb
+C:\Users\Administrator\Desktop\06. Loops\Homework 6\CountsAZeros\bin\Debug\CountsAZeros.exe
+C:\Users\Administrator\Desktop\06. Loops\Homework 6\CountsAZeros\bin\Debug\CountsAZeros.pdb
+C:\Users\Administrator\Desktop\06. Loops\Homework 6\CountsAZeros\obj\Debug\13. CountsAZeros.csprojResolveAssemblyReference.cache

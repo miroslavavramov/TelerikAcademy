@@ -1,0 +1,15 @@
+D:\Telerik\Programming\C#_Part1\Contests\TelerikAcademyExam1_23_June_2013\5.Neurons\Neurons\Neurons\bin\Debug\Neurons.exe.config
+D:\Telerik\Programming\C#_Part1\Contests\TelerikAcademyExam1_23_June_2013\5.Neurons\Neurons\Neurons\bin\Debug\Neurons.exe
+D:\Telerik\Programming\C#_Part1\Contests\TelerikAcademyExam1_23_June_2013\5.Neurons\Neurons\Neurons\bin\Debug\Neurons.pdb
+D:\Telerik\Programming\C#_Part1\Contests\TelerikAcademyExam1_23_June_2013\5.Neurons\Neurons\Neurons\obj\Debug\Neurons.csprojResolveAssemblyReference.cache
+D:\Telerik\Programming\C#_Part1\Contests\TelerikAcademyExam1_23_June_2013\5.Neurons\Neurons\Neurons\obj\Debug\Neurons.exe
+D:\Telerik\Programming\C#_Part1\Contests\TelerikAcademyExam1_23_June_2013\5.Neurons\Neurons\Neurons\obj\Debug\Neurons.pdb
+D:\Telerik\Programming\CSharp_Part1\Contests\TelerikAcademyExam1_23_June_2013\5.Neurons\Neurons\Neurons\bin\Debug\Neurons.exe.config
+D:\Telerik\Programming\CSharp_Part1\Contests\TelerikAcademyExam1_23_June_2013\5.Neurons\Neurons\Neurons\obj\Debug\Neurons.exe
+D:\Telerik\Programming\CSharp_Part1\Contests\TelerikAcademyExam1_23_June_2013\5.Neurons\Neurons\Neurons\obj\Debug\Neurons.pdb
+D:\Telerik\Programming\CSharp_Part1\Contests\TelerikAcademyExam1_23_June_2013\5.Neurons\Neurons\Neurons\obj\Debug\Neurons.csprojResolveAssemblyReference.cache
+D:\Telerik\Programming\CSharp_Part1\Contests\TelerikAcademyExam1_23_June_2013\5.Neurons\Neurons\Neurons\bin\Debug\Neurons.exe
+D:\Telerik\Programming\CSharp_Part1\Contests\TelerikAcademyExam1_23_June_2013\5.Neurons\Neurons\Neurons\bin\Debug\Neurons.pdb
+D:\Telerik\Programming\CSharp_Part1\BGCoderContests\TelerikAcademyExam1_23_June_2013\5.Neurons\Neurons\Neurons\bin\Debug\Neurons.exe.config
+D:\Telerik\Programming\CSharp_Part1\BGCoderContests\TelerikAcademyExam1_23_June_2013\5.Neurons\Neurons\Neurons\obj\Debug\Neurons.exe
+D:\Telerik\Programming\CSharp_Part1\BGCoderContests\TelerikAcademyExam1_23_June_2013\5.Neurons\Neurons\Neurons\obj\Debug\Neurons.pdb

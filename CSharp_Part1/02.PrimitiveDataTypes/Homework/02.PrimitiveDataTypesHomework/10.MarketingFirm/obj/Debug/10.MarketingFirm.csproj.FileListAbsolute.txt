@@ -1,0 +1,6 @@
+D:\Telerik\C#1\02.PrimitiveDataTypes\Homework\02.PrimitiveDataTypesHomework\10.MarketingFirm\bin\Debug\10.MarketingFirm.exe.config
+D:\Telerik\C#1\02.PrimitiveDataTypes\Homework\02.PrimitiveDataTypesHomework\10.MarketingFirm\obj\Debug\10.MarketingFirm.csprojResolveAssemblyReference.cache
+D:\Telerik\C#1\02.PrimitiveDataTypes\Homework\02.PrimitiveDataTypesHomework\10.MarketingFirm\bin\Debug\10.MarketingFirm.exe
+D:\Telerik\C#1\02.PrimitiveDataTypes\Homework\02.PrimitiveDataTypesHomework\10.MarketingFirm\bin\Debug\10.MarketingFirm.pdb
+D:\Telerik\C#1\02.PrimitiveDataTypes\Homework\02.PrimitiveDataTypesHomework\10.MarketingFirm\obj\Debug\10.MarketingFirm.exe
+D:\Telerik\C#1\02.PrimitiveDataTypes\Homework\02.PrimitiveDataTypesHomework\10.MarketingFirm\obj\Debug\10.MarketingFirm.pdb

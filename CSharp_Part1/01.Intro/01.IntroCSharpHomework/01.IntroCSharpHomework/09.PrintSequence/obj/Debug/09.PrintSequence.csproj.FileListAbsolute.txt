@@ -1,0 +1,14 @@
+D:\Telerik\C#_part_1\01_Intro\01.IntroCSharp_Homework\09_PrintSequence\bin\Debug\09_PrintSequence.exe.config
+D:\Telerik\C#_part_1\01_Intro\01.IntroCSharp_Homework\09_PrintSequence\obj\Debug\09_PrintSequence.exe
+D:\Telerik\C#_part_1\01_Intro\01.IntroCSharp_Homework\09_PrintSequence\obj\Debug\09_PrintSequence.pdb
+D:\Telerik\C#1\01.Intro\01.IntroCSharpHomework\09.PrintSequence\bin\Debug\09.PrintSequence.exe.config
+D:\Telerik\C#1\01.Intro\01.IntroCSharpHomework\09.PrintSequence\bin\Debug\09.PrintSequence.exe
+D:\Telerik\C#1\01.Intro\01.IntroCSharpHomework\09.PrintSequence\bin\Debug\09.PrintSequence.pdb
+D:\Telerik\C#1\01.Intro\01.IntroCSharpHomework\09.PrintSequence\obj\Debug\09.PrintSequence.exe
+D:\Telerik\C#1\01.Intro\01.IntroCSharpHomework\09.PrintSequence\obj\Debug\09.PrintSequence.pdb
+D:\Telerik\C#1\01.Intro\01.IntroCSharpHomework\01.IntroCSharpHomework\09.PrintSequence\bin\Debug\09.PrintSequence.exe.config
+D:\Telerik\C#1\01.Intro\01.IntroCSharpHomework\01.IntroCSharpHomework\09.PrintSequence\obj\Debug\09.PrintSequence.exe
+D:\Telerik\C#1\01.Intro\01.IntroCSharpHomework\01.IntroCSharpHomework\09.PrintSequence\obj\Debug\09.PrintSequence.pdb
+D:\Telerik\C#1\01.Intro\01.IntroCSharpHomework\01.IntroCSharpHomework\09.PrintSequence\bin\Debug\09.PrintSequence.exe
+D:\Telerik\C#1\01.Intro\01.IntroCSharpHomework\01.IntroCSharpHomework\09.PrintSequence\bin\Debug\09.PrintSequence.pdb
+D:\Telerik\C#1\01.Intro\01.IntroCSharpHomework\01.IntroCSharpHomework\09.PrintSequence\obj\Debug\09.PrintSequence.csprojResolveAssemblyReference.cache

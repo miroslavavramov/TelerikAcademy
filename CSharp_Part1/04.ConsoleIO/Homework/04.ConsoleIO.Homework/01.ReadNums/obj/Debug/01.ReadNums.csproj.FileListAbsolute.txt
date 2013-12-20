@@ -1,0 +1,9 @@
+D:\Telerik\C#1\04.ConsoleIO\Homework\04.ConsoleIO.Homework\01.ReadNums\bin\Debug\01.ReadNums.exe.config
+D:\Telerik\C#1\04.ConsoleIO\Homework\04.ConsoleIO.Homework\01.ReadNums\bin\Debug\01.ReadNums.exe
+D:\Telerik\C#1\04.ConsoleIO\Homework\04.ConsoleIO.Homework\01.ReadNums\bin\Debug\01.ReadNums.pdb
+D:\Telerik\C#1\04.ConsoleIO\Homework\04.ConsoleIO.Homework\01.ReadNums\obj\Debug\01.ReadNums.csprojResolveAssemblyReference.cache
+D:\Telerik\C#1\04.ConsoleIO\Homework\04.ConsoleIO.Homework\01.ReadNums\obj\Debug\01.ReadNums.exe
+D:\Telerik\C#1\04.ConsoleIO\Homework\04.ConsoleIO.Homework\01.ReadNums\obj\Debug\01.ReadNums.pdb
+D:\Telerik\Programming\CSharp_Part1\04.ConsoleIO\Homework\04.ConsoleIO.Homework\01.ReadNums\bin\Debug\01.ReadNums.exe.config
+D:\Telerik\Programming\CSharp_Part1\04.ConsoleIO\Homework\04.ConsoleIO.Homework\01.ReadNums\obj\Debug\01.ReadNums.exe
+D:\Telerik\Programming\CSharp_Part1\04.ConsoleIO\Homework\04.ConsoleIO.Homework\01.ReadNums\obj\Debug\01.ReadNums.pdb

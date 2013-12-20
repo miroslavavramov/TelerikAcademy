@@ -1,0 +1,12 @@
+D:\Telerik\C#1\02.PrimitiveDataTypes\Homework\02.PrimitiveDataTypesHomework\14.BankAccount\bin\Debug\14.BankAccount.exe.config
+D:\Telerik\C#1\02.PrimitiveDataTypes\Homework\02.PrimitiveDataTypesHomework\14.BankAccount\obj\Debug\14.BankAccount.csprojResolveAssemblyReference.cache
+D:\Telerik\C#1\02.PrimitiveDataTypes\Homework\02.PrimitiveDataTypesHomework\14.BankAccount\bin\Debug\14.BankAccount.exe
+D:\Telerik\C#1\02.PrimitiveDataTypes\Homework\02.PrimitiveDataTypesHomework\14.BankAccount\bin\Debug\14.BankAccount.pdb
+D:\Telerik\C#1\02.PrimitiveDataTypes\Homework\02.PrimitiveDataTypesHomework\14.BankAccount\obj\Debug\14.BankAccount.exe
+D:\Telerik\C#1\02.PrimitiveDataTypes\Homework\02.PrimitiveDataTypesHomework\14.BankAccount\obj\Debug\14.BankAccount.pdb
+C:\Users\denis\Desktop\hw\02.PrimitiveDataTypesHomework\14.BankAccount\bin\Debug\14.BankAccount.exe.config
+C:\Users\denis\Desktop\hw\02.PrimitiveDataTypesHomework\14.BankAccount\obj\Debug\14.BankAccount.exe
+C:\Users\denis\Desktop\hw\02.PrimitiveDataTypesHomework\14.BankAccount\obj\Debug\14.BankAccount.pdb
+D:\Telerik\Programming\CSharp_Part1\02.PrimitiveDataTypes\Homework\02.PrimitiveDataTypesHomework\14.BankAccount\bin\Debug\14.BankAccount.exe.config
+D:\Telerik\Programming\CSharp_Part1\02.PrimitiveDataTypes\Homework\02.PrimitiveDataTypesHomework\14.BankAccount\obj\Debug\14.BankAccount.exe
+D:\Telerik\Programming\CSharp_Part1\02.PrimitiveDataTypes\Homework\02.PrimitiveDataTypesHomework\14.BankAccount\obj\Debug\14.BankAccount.pdb

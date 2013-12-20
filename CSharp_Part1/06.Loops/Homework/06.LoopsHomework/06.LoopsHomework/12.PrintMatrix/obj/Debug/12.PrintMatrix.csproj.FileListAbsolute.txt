@@ -1,0 +1,12 @@
+D:\Telerik\C#1\06.Loops\Homework\06.LoopsHomework\06.LoopsHomework\12.PrintMatrix\bin\Debug\12.PrintMatrix.exe.config
+D:\Telerik\C#1\06.Loops\Homework\06.LoopsHomework\06.LoopsHomework\12.PrintMatrix\bin\Debug\12.PrintMatrix.exe
+D:\Telerik\C#1\06.Loops\Homework\06.LoopsHomework\06.LoopsHomework\12.PrintMatrix\bin\Debug\12.PrintMatrix.pdb
+D:\Telerik\C#1\06.Loops\Homework\06.LoopsHomework\06.LoopsHomework\12.PrintMatrix\obj\Debug\12.PrintMatrix.csprojResolveAssemblyReference.cache
+D:\Telerik\C#1\06.Loops\Homework\06.LoopsHomework\06.LoopsHomework\12.PrintMatrix\obj\Debug\12.PrintMatrix.exe
+D:\Telerik\C#1\06.Loops\Homework\06.LoopsHomework\06.LoopsHomework\12.PrintMatrix\obj\Debug\12.PrintMatrix.pdb
+D:\Telerik\Programming\CSharp_Part1\06.Loops\Homework\06.LoopsHomework\06.LoopsHomework\12.PrintMatrix\bin\Debug\12.PrintMatrix.exe.config
+D:\Telerik\Programming\CSharp_Part1\06.Loops\Homework\06.LoopsHomework\06.LoopsHomework\12.PrintMatrix\obj\Debug\12.PrintMatrix.exe
+D:\Telerik\Programming\CSharp_Part1\06.Loops\Homework\06.LoopsHomework\06.LoopsHomework\12.PrintMatrix\obj\Debug\12.PrintMatrix.pdb
+D:\Telerik\Programming\CSharp_Part1\06.Loops\Homework\06.LoopsHomework\06.LoopsHomework\12.PrintMatrix\bin\Debug\12.PrintMatrix.exe
+D:\Telerik\Programming\CSharp_Part1\06.Loops\Homework\06.LoopsHomework\06.LoopsHomework\12.PrintMatrix\bin\Debug\12.PrintMatrix.pdb
+D:\Telerik\Programming\CSharp_Part1\06.Loops\Homework\06.LoopsHomework\06.LoopsHomework\12.PrintMatrix\obj\Debug\12.PrintMatrix.csprojResolveAssemblyReference.cache

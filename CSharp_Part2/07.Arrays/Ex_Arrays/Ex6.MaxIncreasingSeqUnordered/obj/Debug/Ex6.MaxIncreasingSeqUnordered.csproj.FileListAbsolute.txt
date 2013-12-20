@@ -1,0 +1,6 @@
+D:\Telerik\Programming\CSharp_Part2\07.Arrays\Ex_Arrays\Ex6.MaxIncreasingSeqUnordered\bin\Debug\Ex6.MaxIncreasingSeqUnordered.exe.config
+D:\Telerik\Programming\CSharp_Part2\07.Arrays\Ex_Arrays\Ex6.MaxIncreasingSeqUnordered\bin\Debug\Ex6.MaxIncreasingSeqUnordered.exe
+D:\Telerik\Programming\CSharp_Part2\07.Arrays\Ex_Arrays\Ex6.MaxIncreasingSeqUnordered\bin\Debug\Ex6.MaxIncreasingSeqUnordered.pdb
+D:\Telerik\Programming\CSharp_Part2\07.Arrays\Ex_Arrays\Ex6.MaxIncreasingSeqUnordered\obj\Debug\Ex6.MaxIncreasingSeqUnordered.csprojResolveAssemblyReference.cache
+D:\Telerik\Programming\CSharp_Part2\07.Arrays\Ex_Arrays\Ex6.MaxIncreasingSeqUnordered\obj\Debug\Ex6.MaxIncreasingSeqUnordered.exe
+D:\Telerik\Programming\CSharp_Part2\07.Arrays\Ex_Arrays\Ex6.MaxIncreasingSeqUnordered\obj\Debug\Ex6.MaxIncreasingSeqUnordered.pdb

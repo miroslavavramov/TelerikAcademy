@@ -1,0 +1,6 @@
+D:\Telerik\C#1\Contests\NextDate\NextDate\NextDate\bin\Debug\NextDate.exe.config
+D:\Telerik\C#1\Contests\NextDate\NextDate\NextDate\obj\Debug\NextDate.csprojResolveAssemblyReference.cache
+D:\Telerik\C#1\Contests\NextDate\NextDate\NextDate\bin\Debug\NextDate.exe
+D:\Telerik\C#1\Contests\NextDate\NextDate\NextDate\bin\Debug\NextDate.pdb
+D:\Telerik\C#1\Contests\NextDate\NextDate\NextDate\obj\Debug\NextDate.exe
+D:\Telerik\C#1\Contests\NextDate\NextDate\NextDate\obj\Debug\NextDate.pdb

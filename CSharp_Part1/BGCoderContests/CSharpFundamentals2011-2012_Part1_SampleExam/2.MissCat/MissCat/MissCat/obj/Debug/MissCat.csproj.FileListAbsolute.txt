@@ -1,0 +1,6 @@
+D:\Telerik\C#1\Contests\CSharpFundamentals2011-2012_Part1_SampleExam\2.MissCat\MissCat\MissCat\bin\Debug\MissCat.exe.config
+D:\Telerik\C#1\Contests\CSharpFundamentals2011-2012_Part1_SampleExam\2.MissCat\MissCat\MissCat\bin\Debug\MissCat.exe
+D:\Telerik\C#1\Contests\CSharpFundamentals2011-2012_Part1_SampleExam\2.MissCat\MissCat\MissCat\bin\Debug\MissCat.pdb
+D:\Telerik\C#1\Contests\CSharpFundamentals2011-2012_Part1_SampleExam\2.MissCat\MissCat\MissCat\obj\Debug\MissCat.csprojResolveAssemblyReference.cache
+D:\Telerik\C#1\Contests\CSharpFundamentals2011-2012_Part1_SampleExam\2.MissCat\MissCat\MissCat\obj\Debug\MissCat.exe
+D:\Telerik\C#1\Contests\CSharpFundamentals2011-2012_Part1_SampleExam\2.MissCat\MissCat\MissCat\obj\Debug\MissCat.pdb

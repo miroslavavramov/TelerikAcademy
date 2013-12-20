@@ -1,0 +1,12 @@
+D:\Telerik\C#1\05.ConditionalStatements\Homework\05.ConditionalStatementsHomework\08.FindVariableType.Solution2\bin\Debug\08.FindVariableType.Solution2.exe.config
+D:\Telerik\C#1\05.ConditionalStatements\Homework\05.ConditionalStatementsHomework\08.FindVariableType.Solution2\bin\Debug\08.FindVariableType.Solution2.exe
+D:\Telerik\C#1\05.ConditionalStatements\Homework\05.ConditionalStatementsHomework\08.FindVariableType.Solution2\bin\Debug\08.FindVariableType.Solution2.pdb
+D:\Telerik\C#1\05.ConditionalStatements\Homework\05.ConditionalStatementsHomework\08.FindVariableType.Solution2\obj\Debug\08.FindVariableType.Solution2.csprojResolveAssemblyReference.cache
+D:\Telerik\C#1\05.ConditionalStatements\Homework\05.ConditionalStatementsHomework\08.FindVariableType.Solution2\obj\Debug\08.FindVariableType.Solution2.exe
+D:\Telerik\C#1\05.ConditionalStatements\Homework\05.ConditionalStatementsHomework\08.FindVariableType.Solution2\obj\Debug\08.FindVariableType.Solution2.pdb
+D:\Telerik\Programming\CSharp_Part1\05.ConditionalStatements\Homework\05.ConditionalStatementsHomework\08.FindVariableType.Solution2\bin\Debug\08.FindVariableType.Solution2.exe.config
+D:\Telerik\Programming\CSharp_Part1\05.ConditionalStatements\Homework\05.ConditionalStatementsHomework\08.FindVariableType.Solution2\bin\Debug\08.FindVariableType.Solution2.exe
+D:\Telerik\Programming\CSharp_Part1\05.ConditionalStatements\Homework\05.ConditionalStatementsHomework\08.FindVariableType.Solution2\bin\Debug\08.FindVariableType.Solution2.pdb
+D:\Telerik\Programming\CSharp_Part1\05.ConditionalStatements\Homework\05.ConditionalStatementsHomework\08.FindVariableType.Solution2\obj\Debug\08.FindVariableType.Solution2.csprojResolveAssemblyReference.cache
+D:\Telerik\Programming\CSharp_Part1\05.ConditionalStatements\Homework\05.ConditionalStatementsHomework\08.FindVariableType.Solution2\obj\Debug\08.FindVariableType.Solution2.exe
+D:\Telerik\Programming\CSharp_Part1\05.ConditionalStatements\Homework\05.ConditionalStatementsHomework\08.FindVariableType.Solution2\obj\Debug\08.FindVariableType.Solution2.pdb

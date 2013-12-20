@@ -1,0 +1,6 @@
+D:\Telerik\Programming\CSharp_Part2\07.Arrays\Homework\07.ArraysHomework\01.PrintArray\bin\Debug\01.PrintArray.exe.config
+D:\Telerik\Programming\CSharp_Part2\07.Arrays\Homework\07.ArraysHomework\01.PrintArray\bin\Debug\01.PrintArray.exe
+D:\Telerik\Programming\CSharp_Part2\07.Arrays\Homework\07.ArraysHomework\01.PrintArray\bin\Debug\01.PrintArray.pdb
+D:\Telerik\Programming\CSharp_Part2\07.Arrays\Homework\07.ArraysHomework\01.PrintArray\obj\Debug\01.PrintArray.csprojResolveAssemblyReference.cache
+D:\Telerik\Programming\CSharp_Part2\07.Arrays\Homework\07.ArraysHomework\01.PrintArray\obj\Debug\01.PrintArray.exe
+D:\Telerik\Programming\CSharp_Part2\07.Arrays\Homework\07.ArraysHomework\01.PrintArray\obj\Debug\01.PrintArray.pdb

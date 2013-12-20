@@ -1,0 +1,6 @@
+D:\Telerik\Programming\CSharp_Part1\BGCoderContests\TelerikAcademyExam1_24_June_2013_Evening\5.Bittris\Bittris\Bittris\bin\Debug\Bittris.exe.config
+D:\Telerik\Programming\CSharp_Part1\BGCoderContests\TelerikAcademyExam1_24_June_2013_Evening\5.Bittris\Bittris\Bittris\obj\Debug\Bittris.csprojResolveAssemblyReference.cache
+D:\Telerik\Programming\CSharp_Part1\BGCoderContests\TelerikAcademyExam1_24_June_2013_Evening\5.Bittris\Bittris\Bittris\bin\Debug\Bittris.exe
+D:\Telerik\Programming\CSharp_Part1\BGCoderContests\TelerikAcademyExam1_24_June_2013_Evening\5.Bittris\Bittris\Bittris\bin\Debug\Bittris.pdb
+D:\Telerik\Programming\CSharp_Part1\BGCoderContests\TelerikAcademyExam1_24_June_2013_Evening\5.Bittris\Bittris\Bittris\obj\Debug\Bittris.exe
+D:\Telerik\Programming\CSharp_Part1\BGCoderContests\TelerikAcademyExam1_24_June_2013_Evening\5.Bittris\Bittris\Bittris\obj\Debug\Bittris.pdb

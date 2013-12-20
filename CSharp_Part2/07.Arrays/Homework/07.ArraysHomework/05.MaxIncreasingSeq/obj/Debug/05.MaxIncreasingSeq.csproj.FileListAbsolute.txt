@@ -1,0 +1,5 @@
+D:\Telerik\Programming\CSharp_Part2\07.Arrays\Homework\07.ArraysHomework\05.MaxIncreasingSeq\bin\Debug\05.MaxIncreasingSeq.exe.config
+D:\Telerik\Programming\CSharp_Part2\07.Arrays\Homework\07.ArraysHomework\05.MaxIncreasingSeq\bin\Debug\05.MaxIncreasingSeq.exe
+D:\Telerik\Programming\CSharp_Part2\07.Arrays\Homework\07.ArraysHomework\05.MaxIncreasingSeq\bin\Debug\05.MaxIncreasingSeq.pdb
+D:\Telerik\Programming\CSharp_Part2\07.Arrays\Homework\07.ArraysHomework\05.MaxIncreasingSeq\obj\Debug\05.MaxIncreasingSeq.exe
+D:\Telerik\Programming\CSharp_Part2\07.Arrays\Homework\07.ArraysHomework\05.MaxIncreasingSeq\obj\Debug\05.MaxIncreasingSeq.pdb

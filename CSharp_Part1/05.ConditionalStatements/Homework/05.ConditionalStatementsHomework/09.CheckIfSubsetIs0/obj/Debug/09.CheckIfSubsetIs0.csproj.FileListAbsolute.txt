@@ -1,0 +1,12 @@
+D:\Telerik\C#1\05.ConditionalStatements\Homework\05.ConditionalStatementsHomework\09.CheckIfSubsetIs0\bin\Debug\09.CheckIfSubsetIs0.exe.config
+D:\Telerik\C#1\05.ConditionalStatements\Homework\05.ConditionalStatementsHomework\09.CheckIfSubsetIs0\bin\Debug\09.CheckIfSubsetIs0.exe
+D:\Telerik\C#1\05.ConditionalStatements\Homework\05.ConditionalStatementsHomework\09.CheckIfSubsetIs0\bin\Debug\09.CheckIfSubsetIs0.pdb
+D:\Telerik\C#1\05.ConditionalStatements\Homework\05.ConditionalStatementsHomework\09.CheckIfSubsetIs0\obj\Debug\09.CheckIfSubsetIs0.csprojResolveAssemblyReference.cache
+D:\Telerik\C#1\05.ConditionalStatements\Homework\05.ConditionalStatementsHomework\09.CheckIfSubsetIs0\obj\Debug\09.CheckIfSubsetIs0.exe
+D:\Telerik\C#1\05.ConditionalStatements\Homework\05.ConditionalStatementsHomework\09.CheckIfSubsetIs0\obj\Debug\09.CheckIfSubsetIs0.pdb
+D:\Telerik\Programming\CSharp_Part1\05.ConditionalStatements\Homework\05.ConditionalStatementsHomework\09.CheckIfSubsetIs0\bin\Debug\09.CheckIfSubsetIs0.exe.config
+D:\Telerik\Programming\CSharp_Part1\05.ConditionalStatements\Homework\05.ConditionalStatementsHomework\09.CheckIfSubsetIs0\bin\Debug\09.CheckIfSubsetIs0.exe
+D:\Telerik\Programming\CSharp_Part1\05.ConditionalStatements\Homework\05.ConditionalStatementsHomework\09.CheckIfSubsetIs0\bin\Debug\09.CheckIfSubsetIs0.pdb
+D:\Telerik\Programming\CSharp_Part1\05.ConditionalStatements\Homework\05.ConditionalStatementsHomework\09.CheckIfSubsetIs0\obj\Debug\09.CheckIfSubsetIs0.csprojResolveAssemblyReference.cache
+D:\Telerik\Programming\CSharp_Part1\05.ConditionalStatements\Homework\05.ConditionalStatementsHomework\09.CheckIfSubsetIs0\obj\Debug\09.CheckIfSubsetIs0.exe
+D:\Telerik\Programming\CSharp_Part1\05.ConditionalStatements\Homework\05.ConditionalStatementsHomework\09.CheckIfSubsetIs0\obj\Debug\09.CheckIfSubsetIs0.pdb

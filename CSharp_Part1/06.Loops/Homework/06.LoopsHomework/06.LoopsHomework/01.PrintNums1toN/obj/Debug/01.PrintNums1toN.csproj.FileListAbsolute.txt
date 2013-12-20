@@ -1,0 +1,9 @@
+D:\Telerik\C#1\06.Loops\Homework\06.LoopsHomework\06.LoopsHomework\01.PrintNums1toN\bin\Debug\01.PrintNums1toN.exe.config
+D:\Telerik\C#1\06.Loops\Homework\06.LoopsHomework\06.LoopsHomework\01.PrintNums1toN\bin\Debug\01.PrintNums1toN.exe
+D:\Telerik\C#1\06.Loops\Homework\06.LoopsHomework\06.LoopsHomework\01.PrintNums1toN\bin\Debug\01.PrintNums1toN.pdb
+D:\Telerik\C#1\06.Loops\Homework\06.LoopsHomework\06.LoopsHomework\01.PrintNums1toN\obj\Debug\01.PrintNums1toN.csprojResolveAssemblyReference.cache
+D:\Telerik\C#1\06.Loops\Homework\06.LoopsHomework\06.LoopsHomework\01.PrintNums1toN\obj\Debug\01.PrintNums1toN.exe
+D:\Telerik\C#1\06.Loops\Homework\06.LoopsHomework\06.LoopsHomework\01.PrintNums1toN\obj\Debug\01.PrintNums1toN.pdb
+D:\Telerik\Programming\CSharp_Part1\06.Loops\Homework\06.LoopsHomework\06.LoopsHomework\01.PrintNums1toN\bin\Debug\01.PrintNums1toN.exe.config
+D:\Telerik\Programming\CSharp_Part1\06.Loops\Homework\06.LoopsHomework\06.LoopsHomework\01.PrintNums1toN\obj\Debug\01.PrintNums1toN.exe
+D:\Telerik\Programming\CSharp_Part1\06.Loops\Homework\06.LoopsHomework\06.LoopsHomework\01.PrintNums1toN\obj\Debug\01.PrintNums1toN.pdb

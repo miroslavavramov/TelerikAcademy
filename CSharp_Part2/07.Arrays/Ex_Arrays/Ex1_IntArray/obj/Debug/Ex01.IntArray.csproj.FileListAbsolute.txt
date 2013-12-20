@@ -1,0 +1,5 @@
+D:\Telerik\Programming\CSharp_Part2\07.Arrays\Ex_Arrays\Ex1_IntArray\bin\Debug\Ex1_IntArray.exe.config
+D:\Telerik\Programming\CSharp_Part2\07.Arrays\Ex_Arrays\Ex1_IntArray\bin\Debug\Ex1_IntArray.exe
+D:\Telerik\Programming\CSharp_Part2\07.Arrays\Ex_Arrays\Ex1_IntArray\bin\Debug\Ex1_IntArray.pdb
+D:\Telerik\Programming\CSharp_Part2\07.Arrays\Ex_Arrays\Ex1_IntArray\obj\Debug\Ex1_IntArray.exe
+D:\Telerik\Programming\CSharp_Part2\07.Arrays\Ex_Arrays\Ex1_IntArray\obj\Debug\Ex1_IntArray.pdb

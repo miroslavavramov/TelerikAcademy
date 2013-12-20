@@ -1,0 +1,15 @@
+C:\Users\Administrator\Desktop\6. Loops\FactorialDivision\bin\Debug\FactorialDivision.exe
+C:\Users\Administrator\Desktop\6. Loops\FactorialDivision\bin\Debug\FactorialDivision.pdb
+C:\Users\Administrator\Desktop\6. Loops\FactorialDivision\obj\Debug\FactorialDivision.exe
+C:\Users\Administrator\Desktop\6. Loops\FactorialDivision\obj\Debug\FactorialDivision.pdb
+C:\Users\Administrator\Desktop\6. Loops\FactorialDivision\obj\Debug\04. FactorialDivision.csprojResolveAssemblyReference.cache
+C:\Users\Administrator\Desktop\06. Loops\Homework 6\FactorialDivision\obj\Debug\FactorialDivision.exe
+C:\Users\Administrator\Desktop\06. Loops\Homework 6\FactorialDivision\obj\Debug\FactorialDivision.pdb
+C:\Users\Administrator\Desktop\06. Loops\Homework 6\FactorialDivision\bin\Debug\FactorialDivision.exe
+C:\Users\Administrator\Desktop\06. Loops\Homework 6\FactorialDivision\bin\Debug\FactorialDivision.pdb
+C:\Users\Administrator\Desktop\06. Loops\Homework 6\FactorialDivision\obj\Debug\04. FactorialDivision.csprojResolveAssemblyReference.cache
+C:\Users\Administrator\Desktop\HW_Flystar_Cikli_2013-11-13_17-16\Homework 6\FactorialDivision\obj\Debug\FactorialDivision.exe
+C:\Users\Administrator\Desktop\HW_Flystar_Cikli_2013-11-13_17-16\Homework 6\FactorialDivision\obj\Debug\FactorialDivision.pdb
+C:\Users\Administrator\Desktop\HW_Flystar_Cikli_2013-11-13_17-16\Homework 6\FactorialDivision\bin\Debug\FactorialDivision.exe
+C:\Users\Administrator\Desktop\HW_Flystar_Cikli_2013-11-13_17-16\Homework 6\FactorialDivision\bin\Debug\FactorialDivision.pdb
+C:\Users\Administrator\Desktop\HW_Flystar_Cikli_2013-11-13_17-16\Homework 6\FactorialDivision\obj\Debug\04. FactorialDivision.csprojResolveAssemblyReference.cache

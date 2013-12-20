@@ -1,0 +1,15 @@
+D:\Telerik\C#_part_1\02_Primitive_Data_Types\Homework\02_Primitive_Data_Types_Homework\06.AssignBool\bin\Debug\ConsoleApplication3.exe.config
+D:\Telerik\C#_part_1\02_Primitive_Data_Types\Homework\02_Primitive_Data_Types_Homework\06.AssignBool\obj\Debug\ConsoleApplication3.exe
+D:\Telerik\C#_part_1\02_Primitive_Data_Types\Homework\02_Primitive_Data_Types_Homework\06.AssignBool\obj\Debug\ConsoleApplication3.pdb
+D:\Telerik\C#1\02.PrimitiveDataTypes\Homework\02.PrimitiveDataTypesHomework\06.AssignBool\bin\Debug\ConsoleApplication3.exe.config
+D:\Telerik\C#1\02.PrimitiveDataTypes\Homework\02.PrimitiveDataTypesHomework\06.AssignBool\bin\Debug\ConsoleApplication3.exe
+D:\Telerik\C#1\02.PrimitiveDataTypes\Homework\02.PrimitiveDataTypesHomework\06.AssignBool\bin\Debug\ConsoleApplication3.pdb
+D:\Telerik\C#1\02.PrimitiveDataTypes\Homework\02.PrimitiveDataTypesHomework\06.AssignBool\obj\Debug\06.AssignBool.csprojResolveAssemblyReference.cache
+D:\Telerik\C#1\02.PrimitiveDataTypes\Homework\02.PrimitiveDataTypesHomework\06.AssignBool\obj\Debug\ConsoleApplication3.exe
+D:\Telerik\C#1\02.PrimitiveDataTypes\Homework\02.PrimitiveDataTypesHomework\06.AssignBool\obj\Debug\ConsoleApplication3.pdb
+C:\Users\denis\Desktop\hw\02.PrimitiveDataTypesHomework\06.AssignBool\obj\Debug\06.AssignBool.csprojResolveAssemblyReference.cache
+C:\Users\denis\Desktop\hw\02.PrimitiveDataTypesHomework\06.AssignBool\obj\Debug\ConsoleApplication3.exe
+C:\Users\denis\Desktop\hw\02.PrimitiveDataTypesHomework\06.AssignBool\bin\Debug\ConsoleApplication3.exe.config
+C:\Users\denis\Desktop\hw\02.PrimitiveDataTypesHomework\06.AssignBool\bin\Debug\ConsoleApplication3.exe
+C:\Users\denis\Desktop\hw\02.PrimitiveDataTypesHomework\06.AssignBool\bin\Debug\ConsoleApplication3.pdb
+C:\Users\denis\Desktop\hw\02.PrimitiveDataTypesHomework\06.AssignBool\obj\Debug\ConsoleApplication3.pdb

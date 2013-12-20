@@ -1,0 +1,6 @@
+D:\Telerik\C#1\03.OperatorsAndExpressions\Homework\03.OperatorsAndExpressionsHomework\12.ReplaceABitInInt\bin\Debug\12.ReplaceABitInInt.exe.config
+D:\Telerik\C#1\03.OperatorsAndExpressions\Homework\03.OperatorsAndExpressionsHomework\12.ReplaceABitInInt\bin\Debug\12.ReplaceABitInInt.exe
+D:\Telerik\C#1\03.OperatorsAndExpressions\Homework\03.OperatorsAndExpressionsHomework\12.ReplaceABitInInt\bin\Debug\12.ReplaceABitInInt.pdb
+D:\Telerik\C#1\03.OperatorsAndExpressions\Homework\03.OperatorsAndExpressionsHomework\12.ReplaceABitInInt\obj\Debug\12.ReplaceBit.csprojResolveAssemblyReference.cache
+D:\Telerik\C#1\03.OperatorsAndExpressions\Homework\03.OperatorsAndExpressionsHomework\12.ReplaceABitInInt\obj\Debug\12.ReplaceABitInInt.exe
+D:\Telerik\C#1\03.OperatorsAndExpressions\Homework\03.OperatorsAndExpressionsHomework\12.ReplaceABitInInt\obj\Debug\12.ReplaceABitInInt.pdb

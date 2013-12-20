@@ -1,0 +1,12 @@
+D:\Telerik\C#1\06.Loops\Homework\06.LoopsHomework\06.LoopsHomework\14.SpiralMatrix\bin\Debug\14.SpiralMatrix.exe.config
+D:\Telerik\C#1\06.Loops\Homework\06.LoopsHomework\06.LoopsHomework\14.SpiralMatrix\bin\Debug\14.SpiralMatrix.exe
+D:\Telerik\C#1\06.Loops\Homework\06.LoopsHomework\06.LoopsHomework\14.SpiralMatrix\bin\Debug\14.SpiralMatrix.pdb
+D:\Telerik\C#1\06.Loops\Homework\06.LoopsHomework\06.LoopsHomework\14.SpiralMatrix\obj\Debug\14.SpiralMatrix.exe
+D:\Telerik\C#1\06.Loops\Homework\06.LoopsHomework\06.LoopsHomework\14.SpiralMatrix\obj\Debug\14.SpiralMatrix.pdb
+D:\Telerik\C#1\06.Loops\Homework\06.LoopsHomework\06.LoopsHomework\14.SpiralMatrix\obj\Debug\14.SpiralMatrix.csprojResolveAssemblyReference.cache
+D:\Telerik\Programming\CSharp_Part1\06.Loops\Homework\06.LoopsHomework\06.LoopsHomework\14.SpiralMatrix\bin\Debug\14.SpiralMatrix.exe.config
+D:\Telerik\Programming\CSharp_Part1\06.Loops\Homework\06.LoopsHomework\06.LoopsHomework\14.SpiralMatrix\obj\Debug\14.SpiralMatrix.exe
+D:\Telerik\Programming\CSharp_Part1\06.Loops\Homework\06.LoopsHomework\06.LoopsHomework\14.SpiralMatrix\obj\Debug\14.SpiralMatrix.pdb
+D:\Telerik\Programming\CSharp_Part1\06.Loops\Homework\06.LoopsHomework\06.LoopsHomework\14.SpiralMatrix\bin\Debug\14.SpiralMatrix.exe
+D:\Telerik\Programming\CSharp_Part1\06.Loops\Homework\06.LoopsHomework\06.LoopsHomework\14.SpiralMatrix\bin\Debug\14.SpiralMatrix.pdb
+D:\Telerik\Programming\CSharp_Part1\06.Loops\Homework\06.LoopsHomework\06.LoopsHomework\14.SpiralMatrix\obj\Debug\14.SpiralMatrix.csprojResolveAssemblyReference.cache

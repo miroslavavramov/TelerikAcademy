@@ -1,0 +1,6 @@
+D:\Telerik\Programming\CSharp_Part1\BGCoderContests\TelerikAcademyExam1_7_Dec_2011_Morning\1.FighterAttack\FighterAttack\FighterAttack\bin\Debug\FighterAttack.exe.config
+D:\Telerik\Programming\CSharp_Part1\BGCoderContests\TelerikAcademyExam1_7_Dec_2011_Morning\1.FighterAttack\FighterAttack\FighterAttack\bin\Debug\FighterAttack.exe
+D:\Telerik\Programming\CSharp_Part1\BGCoderContests\TelerikAcademyExam1_7_Dec_2011_Morning\1.FighterAttack\FighterAttack\FighterAttack\bin\Debug\FighterAttack.pdb
+D:\Telerik\Programming\CSharp_Part1\BGCoderContests\TelerikAcademyExam1_7_Dec_2011_Morning\1.FighterAttack\FighterAttack\FighterAttack\obj\Debug\FighterAttack.csprojResolveAssemblyReference.cache
+D:\Telerik\Programming\CSharp_Part1\BGCoderContests\TelerikAcademyExam1_7_Dec_2011_Morning\1.FighterAttack\FighterAttack\FighterAttack\obj\Debug\FighterAttack.exe
+D:\Telerik\Programming\CSharp_Part1\BGCoderContests\TelerikAcademyExam1_7_Dec_2011_Morning\1.FighterAttack\FighterAttack\FighterAttack\obj\Debug\FighterAttack.pdb

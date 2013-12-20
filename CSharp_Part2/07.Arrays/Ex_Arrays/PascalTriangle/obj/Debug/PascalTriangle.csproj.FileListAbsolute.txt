@@ -1,0 +1,6 @@
+D:\Telerik\Programming\CSharp_Part2\07.Arrays\Ex_Arrays\PascalTriangle\bin\Debug\PascalTriangle.exe.config
+D:\Telerik\Programming\CSharp_Part2\07.Arrays\Ex_Arrays\PascalTriangle\bin\Debug\PascalTriangle.exe
+D:\Telerik\Programming\CSharp_Part2\07.Arrays\Ex_Arrays\PascalTriangle\bin\Debug\PascalTriangle.pdb
+D:\Telerik\Programming\CSharp_Part2\07.Arrays\Ex_Arrays\PascalTriangle\obj\Debug\PascalTriangle.csprojResolveAssemblyReference.cache
+D:\Telerik\Programming\CSharp_Part2\07.Arrays\Ex_Arrays\PascalTriangle\obj\Debug\PascalTriangle.exe
+D:\Telerik\Programming\CSharp_Part2\07.Arrays\Ex_Arrays\PascalTriangle\obj\Debug\PascalTriangle.pdb

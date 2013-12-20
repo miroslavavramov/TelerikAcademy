@@ -1,0 +1,5 @@
+D:\Telerik\C#1\02.PrimitiveDataTypes\Homework\02.PrimitiveDataTypesHomework\11.ExchangeValues\bin\Debug\11.ExchangeValues.exe.config
+D:\Telerik\C#1\02.PrimitiveDataTypes\Homework\02.PrimitiveDataTypesHomework\11.ExchangeValues\bin\Debug\11.ExchangeValues.exe
+D:\Telerik\C#1\02.PrimitiveDataTypes\Homework\02.PrimitiveDataTypesHomework\11.ExchangeValues\bin\Debug\11.ExchangeValues.pdb
+D:\Telerik\C#1\02.PrimitiveDataTypes\Homework\02.PrimitiveDataTypesHomework\11.ExchangeValues\obj\Debug\11.ExchangeValues.exe
+D:\Telerik\C#1\02.PrimitiveDataTypes\Homework\02.PrimitiveDataTypesHomework\11.ExchangeValues\obj\Debug\11.ExchangeValues.pdb

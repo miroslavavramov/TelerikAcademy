@@ -1,0 +1,19 @@
+C:\Users\Administrator\Desktop\6. Loops\SpiralMatrix\bin\Debug\SpiralMatrix.exe
+C:\Users\Administrator\Desktop\6. Loops\SpiralMatrix\bin\Debug\SpiralMatrix.pdb
+C:\Users\Administrator\Desktop\6. Loops\SpiralMatrix\obj\Debug\14. SpiralMatrix.csprojResolveAssemblyReference.cache
+C:\Users\Administrator\Desktop\6. Loops\SpiralMatrix\obj\Debug\SpiralMatrix.exe
+C:\Users\Administrator\Desktop\6. Loops\SpiralMatrix\obj\Debug\SpiralMatrix.pdb
+C:\Users\Administrator\Desktop\6. Loops\Homework 6\SpiralMatrix\obj\Debug\SpiralMatrix.exe
+C:\Users\Administrator\Desktop\6. Loops\Homework 6\SpiralMatrix\obj\Debug\SpiralMatrix.pdb
+C:\Users\Administrator\Desktop\06. Loops\Homework 6\SpiralMatrix\obj\Debug\SpiralMatrix.exe
+C:\Users\Administrator\Desktop\06. Loops\Homework 6\SpiralMatrix\obj\Debug\SpiralMatrix.pdb
+C:\Users\Administrator\Desktop\06. Loops\Homework 6\SpiralMatrix\bin\Debug\SpiralMatrix.exe
+C:\Users\Administrator\Desktop\06. Loops\Homework 6\SpiralMatrix\bin\Debug\SpiralMatrix.pdb
+C:\Users\Administrator\Desktop\06. Loops\Homework 6\SpiralMatrix\obj\Debug\14. SpiralMatrix.csprojResolveAssemblyReference.cache
+C:\Users\Administrator\Desktop\HW_Flystar_Cikli_2013-11-13_17-16\Homework 6\SpiralMatrix\obj\Debug\SpiralMatrix.exe
+C:\Users\Administrator\Desktop\HW_Flystar_Cikli_2013-11-13_17-16\Homework 6\SpiralMatrix\obj\Debug\SpiralMatrix.pdb
+C:\Users\Administrator\Desktop\HW_Flystar_Cikli_2013-11-13_17-16\Homework 6\SpiralMatrix\bin\Debug\SpiralMatrix.exe
+C:\Users\Administrator\Desktop\HW_Flystar_Cikli_2013-11-13_17-16\Homework 6\SpiralMatrix\bin\Debug\SpiralMatrix.pdb
+C:\Users\Administrator\Desktop\HW_Flystar_Cikli_2013-11-13_17-16\Homework 6\SpiralMatrix\obj\Debug\14. SpiralMatrix.csprojResolveAssemblyReference.cache
+D:\Telerik\Programming\CSharp_Part1\06.Loops\HW\Homework 6\SpiralMatrix\obj\Debug\SpiralMatrix.exe
+D:\Telerik\Programming\CSharp_Part1\06.Loops\HW\Homework 6\SpiralMatrix\obj\Debug\SpiralMatrix.pdb

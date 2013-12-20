@@ -1,0 +1,6 @@
+D:\Telerik\Programming\CSharp_Part2\07.Arrays\Homework\07.ArraysHomework\06.MaxSumOfElements\bin\Debug\06.MaxSumOfElements.exe.config
+D:\Telerik\Programming\CSharp_Part2\07.Arrays\Homework\07.ArraysHomework\06.MaxSumOfElements\bin\Debug\06.MaxSumOfElements.exe
+D:\Telerik\Programming\CSharp_Part2\07.Arrays\Homework\07.ArraysHomework\06.MaxSumOfElements\bin\Debug\06.MaxSumOfElements.pdb
+D:\Telerik\Programming\CSharp_Part2\07.Arrays\Homework\07.ArraysHomework\06.MaxSumOfElements\obj\Debug\06.MaxSumOfElements.exe
+D:\Telerik\Programming\CSharp_Part2\07.Arrays\Homework\07.ArraysHomework\06.MaxSumOfElements\obj\Debug\06.MaxSumOfElements.pdb
+D:\Telerik\Programming\CSharp_Part2\07.Arrays\Homework\07.ArraysHomework\06.MaxSumOfElements\obj\Debug\06.MaxSumOfElements.csprojResolveAssemblyReference.cache

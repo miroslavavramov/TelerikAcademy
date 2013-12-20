@@ -1,0 +1,9 @@
+D:\Telerik\C#1\03.OperatorsAndExpressions\Homework\03.OperatorsAndExpressionsHomework\01.CheckOddEven\bin\Debug\01.CheckOddEven.exe.config
+D:\Telerik\C#1\03.OperatorsAndExpressions\Homework\03.OperatorsAndExpressionsHomework\01.CheckOddEven\bin\Debug\01.CheckOddEven.exe
+D:\Telerik\C#1\03.OperatorsAndExpressions\Homework\03.OperatorsAndExpressionsHomework\01.CheckOddEven\bin\Debug\01.CheckOddEven.pdb
+D:\Telerik\C#1\03.OperatorsAndExpressions\Homework\03.OperatorsAndExpressionsHomework\01.CheckOddEven\obj\Debug\01.CheckOddEven.csprojResolveAssemblyReference.cache
+D:\Telerik\C#1\03.OperatorsAndExpressions\Homework\03.OperatorsAndExpressionsHomework\01.CheckOddEven\obj\Debug\01.CheckOddEven.exe
+D:\Telerik\C#1\03.OperatorsAndExpressions\Homework\03.OperatorsAndExpressionsHomework\01.CheckOddEven\obj\Debug\01.CheckOddEven.pdb
+D:\Telerik\Programming\CSharp_Part1\03.OperatorsAndExpressions\Homework\03.OperatorsAndExpressionsHomework\01.CheckOddEven\bin\Debug\01.CheckOddEven.exe.config
+D:\Telerik\Programming\CSharp_Part1\03.OperatorsAndExpressions\Homework\03.OperatorsAndExpressionsHomework\01.CheckOddEven\obj\Debug\01.CheckOddEven.exe
+D:\Telerik\Programming\CSharp_Part1\03.OperatorsAndExpressions\Homework\03.OperatorsAndExpressionsHomework\01.CheckOddEven\obj\Debug\01.CheckOddEven.pdb

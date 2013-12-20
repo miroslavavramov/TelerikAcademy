@@ -1,0 +1,6 @@
+D:\Telerik\Programming\CSharp_Part2\09.Methods\Homework\09.MethodsHomework\01.Greeting\bin\Debug\01.Greeting.exe.config
+D:\Telerik\Programming\CSharp_Part2\09.Methods\Homework\09.MethodsHomework\01.Greeting\obj\Debug\01.Greeting.csprojResolveAssemblyReference.cache
+D:\Telerik\Programming\CSharp_Part2\09.Methods\Homework\09.MethodsHomework\01.Greeting\bin\Debug\01.Greeting.exe
+D:\Telerik\Programming\CSharp_Part2\09.Methods\Homework\09.MethodsHomework\01.Greeting\bin\Debug\01.Greeting.pdb
+D:\Telerik\Programming\CSharp_Part2\09.Methods\Homework\09.MethodsHomework\01.Greeting\obj\Debug\01.Greeting.exe
+D:\Telerik\Programming\CSharp_Part2\09.Methods\Homework\09.MethodsHomework\01.Greeting\obj\Debug\01.Greeting.pdb

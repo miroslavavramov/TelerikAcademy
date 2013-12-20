@@ -1,0 +1,6 @@
+D:\Telerik\C#1\03.OperatorsAndExpressions\Homework\03.OperatorsAndExpressionsHomework\08.AreaOfTrapezoid\bin\Debug\08.AreaOfTrapezoid.exe.config
+D:\Telerik\C#1\03.OperatorsAndExpressions\Homework\03.OperatorsAndExpressionsHomework\08.AreaOfTrapezoid\bin\Debug\08.AreaOfTrapezoid.exe
+D:\Telerik\C#1\03.OperatorsAndExpressions\Homework\03.OperatorsAndExpressionsHomework\08.AreaOfTrapezoid\bin\Debug\08.AreaOfTrapezoid.pdb
+D:\Telerik\C#1\03.OperatorsAndExpressions\Homework\03.OperatorsAndExpressionsHomework\08.AreaOfTrapezoid\obj\Debug\08.AreaOfTrapezoid.csprojResolveAssemblyReference.cache
+D:\Telerik\C#1\03.OperatorsAndExpressions\Homework\03.OperatorsAndExpressionsHomework\08.AreaOfTrapezoid\obj\Debug\08.AreaOfTrapezoid.exe
+D:\Telerik\C#1\03.OperatorsAndExpressions\Homework\03.OperatorsAndExpressionsHomework\08.AreaOfTrapezoid\obj\Debug\08.AreaOfTrapezoid.pdb

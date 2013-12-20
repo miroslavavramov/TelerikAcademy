@@ -1,0 +1,10 @@
+D:\Telerik\C#1\05.ConditionalStatements\Homework\05.ConditionalStatementsHomework\08.FindVariableType\bin\Debug\08.FindVariableType.exe.config
+D:\Telerik\C#1\05.ConditionalStatements\Homework\05.ConditionalStatementsHomework\08.FindVariableType\bin\Debug\08.FindVariableType.exe
+D:\Telerik\C#1\05.ConditionalStatements\Homework\05.ConditionalStatementsHomework\08.FindVariableType\bin\Debug\08.FindVariableType.pdb
+D:\Telerik\C#1\05.ConditionalStatements\Homework\05.ConditionalStatementsHomework\08.FindVariableType\obj\Debug\08.FindVariableType.exe
+D:\Telerik\C#1\05.ConditionalStatements\Homework\05.ConditionalStatementsHomework\08.FindVariableType\obj\Debug\08.FindVariableType.pdb
+D:\Telerik\Programming\CSharp_Part1\05.ConditionalStatements\Homework\05.ConditionalStatementsHomework\08.FindVariableType\bin\Debug\08.FindVariableType.exe.config
+D:\Telerik\Programming\CSharp_Part1\05.ConditionalStatements\Homework\05.ConditionalStatementsHomework\08.FindVariableType\bin\Debug\08.FindVariableType.exe
+D:\Telerik\Programming\CSharp_Part1\05.ConditionalStatements\Homework\05.ConditionalStatementsHomework\08.FindVariableType\bin\Debug\08.FindVariableType.pdb
+D:\Telerik\Programming\CSharp_Part1\05.ConditionalStatements\Homework\05.ConditionalStatementsHomework\08.FindVariableType\obj\Debug\08.FindVariableType.exe
+D:\Telerik\Programming\CSharp_Part1\05.ConditionalStatements\Homework\05.ConditionalStatementsHomework\08.FindVariableType\obj\Debug\08.FindVariableType.pdb

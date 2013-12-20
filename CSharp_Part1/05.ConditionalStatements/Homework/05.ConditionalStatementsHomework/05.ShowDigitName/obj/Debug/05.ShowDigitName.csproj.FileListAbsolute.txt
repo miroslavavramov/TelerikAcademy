@@ -1,0 +1,10 @@
+D:\Telerik\C#1\05.ConditionalStatements\Homework\05.ConditionalStatementsHomework\05.ShowDigitName\bin\Debug\05.ShowDigitName.exe.config
+D:\Telerik\C#1\05.ConditionalStatements\Homework\05.ConditionalStatementsHomework\05.ShowDigitName\bin\Debug\05.ShowDigitName.exe
+D:\Telerik\C#1\05.ConditionalStatements\Homework\05.ConditionalStatementsHomework\05.ShowDigitName\bin\Debug\05.ShowDigitName.pdb
+D:\Telerik\C#1\05.ConditionalStatements\Homework\05.ConditionalStatementsHomework\05.ShowDigitName\obj\Debug\05.ShowDigitName.exe
+D:\Telerik\C#1\05.ConditionalStatements\Homework\05.ConditionalStatementsHomework\05.ShowDigitName\obj\Debug\05.ShowDigitName.pdb
+D:\Telerik\Programming\CSharp_Part1\05.ConditionalStatements\Homework\05.ConditionalStatementsHomework\05.ShowDigitName\bin\Debug\05.ShowDigitName.exe.config
+D:\Telerik\Programming\CSharp_Part1\05.ConditionalStatements\Homework\05.ConditionalStatementsHomework\05.ShowDigitName\bin\Debug\05.ShowDigitName.exe
+D:\Telerik\Programming\CSharp_Part1\05.ConditionalStatements\Homework\05.ConditionalStatementsHomework\05.ShowDigitName\bin\Debug\05.ShowDigitName.pdb
+D:\Telerik\Programming\CSharp_Part1\05.ConditionalStatements\Homework\05.ConditionalStatementsHomework\05.ShowDigitName\obj\Debug\05.ShowDigitName.exe
+D:\Telerik\Programming\CSharp_Part1\05.ConditionalStatements\Homework\05.ConditionalStatementsHomework\05.ShowDigitName\obj\Debug\05.ShowDigitName.pdb

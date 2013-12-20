@@ -1,0 +1,6 @@
+D:\Telerik\C#1\06.Loops\Homework\06.LoopsHomework\06.LoopsHomework\06.CalculateSum\bin\Debug\06.CalculateSum.exe.config
+D:\Telerik\C#1\06.Loops\Homework\06.LoopsHomework\06.LoopsHomework\06.CalculateSum\obj\Debug\06.CalculateSum.csprojResolveAssemblyReference.cache
+D:\Telerik\C#1\06.Loops\Homework\06.LoopsHomework\06.LoopsHomework\06.CalculateSum\bin\Debug\06.CalculateSum.exe
+D:\Telerik\C#1\06.Loops\Homework\06.LoopsHomework\06.LoopsHomework\06.CalculateSum\bin\Debug\06.CalculateSum.pdb
+D:\Telerik\C#1\06.Loops\Homework\06.LoopsHomework\06.LoopsHomework\06.CalculateSum\obj\Debug\06.CalculateSum.exe
+D:\Telerik\C#1\06.Loops\Homework\06.LoopsHomework\06.LoopsHomework\06.CalculateSum\obj\Debug\06.CalculateSum.pdb

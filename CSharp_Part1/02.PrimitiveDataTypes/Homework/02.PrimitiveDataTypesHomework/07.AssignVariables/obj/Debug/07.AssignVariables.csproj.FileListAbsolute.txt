@@ -1,0 +1,9 @@
+D:\Telerik\C#_part_1\02_Primitive_Data_Types\Homework\02_Primitive_Data_Types_Homework\ConsoleApplication4\bin\Debug\07.AssignVariables.exe.config
+D:\Telerik\C#_part_1\02_Primitive_Data_Types\Homework\02_Primitive_Data_Types_Homework\ConsoleApplication4\bin\Debug\07.AssignVariables.exe
+D:\Telerik\C#_part_1\02_Primitive_Data_Types\Homework\02_Primitive_Data_Types_Homework\ConsoleApplication4\bin\Debug\07.AssignVariables.pdb
+D:\Telerik\C#_part_1\02_Primitive_Data_Types\Homework\02_Primitive_Data_Types_Homework\ConsoleApplication4\obj\Debug\07.AssignVariables.csprojResolveAssemblyReference.cache
+D:\Telerik\C#_part_1\02_Primitive_Data_Types\Homework\02_Primitive_Data_Types_Homework\ConsoleApplication4\obj\Debug\07.AssignVariables.exe
+D:\Telerik\C#_part_1\02_Primitive_Data_Types\Homework\02_Primitive_Data_Types_Homework\ConsoleApplication4\obj\Debug\07.AssignVariables.pdb
+D:\Telerik\C#_part_1\02_Primitive_Data_Types\Homework\02_Primitive_Data_Types_Homework\07.AssignVariables\bin\Debug\07.AssignVariables.exe.config
+D:\Telerik\C#_part_1\02_Primitive_Data_Types\Homework\02_Primitive_Data_Types_Homework\07.AssignVariables\obj\Debug\07.AssignVariables.exe
+D:\Telerik\C#_part_1\02_Primitive_Data_Types\Homework\02_Primitive_Data_Types_Homework\07.AssignVariables\obj\Debug\07.AssignVariables.pdb

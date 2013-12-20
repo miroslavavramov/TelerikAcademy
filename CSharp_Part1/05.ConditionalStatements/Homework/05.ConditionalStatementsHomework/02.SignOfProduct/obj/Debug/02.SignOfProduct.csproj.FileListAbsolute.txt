@@ -1,0 +1,11 @@
+D:\Telerik\C#1\05.ConditionalStatements\Homework\05.ConditionalStatementsHomework\02.SignOfProduct\bin\Debug\02.SignOfProduct.exe.config
+D:\Telerik\C#1\05.ConditionalStatements\Homework\05.ConditionalStatementsHomework\02.SignOfProduct\bin\Debug\02.SignOfProduct.exe
+D:\Telerik\C#1\05.ConditionalStatements\Homework\05.ConditionalStatementsHomework\02.SignOfProduct\bin\Debug\02.SignOfProduct.pdb
+D:\Telerik\C#1\05.ConditionalStatements\Homework\05.ConditionalStatementsHomework\02.SignOfProduct\obj\Debug\02.SignOfProduct.exe
+D:\Telerik\C#1\05.ConditionalStatements\Homework\05.ConditionalStatementsHomework\02.SignOfProduct\obj\Debug\02.SignOfProduct.pdb
+D:\Telerik\Programming\CSharp_Part1\05.ConditionalStatements\Homework\05.ConditionalStatementsHomework\02.SignOfProduct\bin\Debug\02.SignOfProduct.exe.config
+D:\Telerik\Programming\CSharp_Part1\05.ConditionalStatements\Homework\05.ConditionalStatementsHomework\02.SignOfProduct\bin\Debug\02.SignOfProduct.exe
+D:\Telerik\Programming\CSharp_Part1\05.ConditionalStatements\Homework\05.ConditionalStatementsHomework\02.SignOfProduct\bin\Debug\02.SignOfProduct.pdb
+D:\Telerik\Programming\CSharp_Part1\05.ConditionalStatements\Homework\05.ConditionalStatementsHomework\02.SignOfProduct\obj\Debug\02.SignOfProduct.csprojResolveAssemblyReference.cache
+D:\Telerik\Programming\CSharp_Part1\05.ConditionalStatements\Homework\05.ConditionalStatementsHomework\02.SignOfProduct\obj\Debug\02.SignOfProduct.exe
+D:\Telerik\Programming\CSharp_Part1\05.ConditionalStatements\Homework\05.ConditionalStatementsHomework\02.SignOfProduct\obj\Debug\02.SignOfProduct.pdb

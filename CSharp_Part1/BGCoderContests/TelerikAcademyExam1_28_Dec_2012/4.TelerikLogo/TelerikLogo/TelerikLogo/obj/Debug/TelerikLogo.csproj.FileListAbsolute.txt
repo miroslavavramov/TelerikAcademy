@@ -1,0 +1,6 @@
+D:\Telerik\Programming\CSharp_Part1\BGCoderContests\TelerikAcademyExam1_28_Dec_2012\4.TelerikLogo\TelerikLogo\TelerikLogo\bin\Debug\TelerikLogo.exe.config
+D:\Telerik\Programming\CSharp_Part1\BGCoderContests\TelerikAcademyExam1_28_Dec_2012\4.TelerikLogo\TelerikLogo\TelerikLogo\bin\Debug\TelerikLogo.exe
+D:\Telerik\Programming\CSharp_Part1\BGCoderContests\TelerikAcademyExam1_28_Dec_2012\4.TelerikLogo\TelerikLogo\TelerikLogo\bin\Debug\TelerikLogo.pdb
+D:\Telerik\Programming\CSharp_Part1\BGCoderContests\TelerikAcademyExam1_28_Dec_2012\4.TelerikLogo\TelerikLogo\TelerikLogo\obj\Debug\TelerikLogo.csprojResolveAssemblyReference.cache
+D:\Telerik\Programming\CSharp_Part1\BGCoderContests\TelerikAcademyExam1_28_Dec_2012\4.TelerikLogo\TelerikLogo\TelerikLogo\obj\Debug\TelerikLogo.exe
+D:\Telerik\Programming\CSharp_Part1\BGCoderContests\TelerikAcademyExam1_28_Dec_2012\4.TelerikLogo\TelerikLogo\TelerikLogo\obj\Debug\TelerikLogo.pdb

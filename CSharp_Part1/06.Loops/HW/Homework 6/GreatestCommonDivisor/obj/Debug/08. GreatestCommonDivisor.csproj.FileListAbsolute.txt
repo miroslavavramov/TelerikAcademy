@@ -1,0 +1,17 @@
+C:\Users\Administrator\Desktop\6. Loops\GreatestCommonDivisor\bin\Debug\GreatestCommonDivisor.exe
+C:\Users\Administrator\Desktop\6. Loops\GreatestCommonDivisor\bin\Debug\GreatestCommonDivisor.pdb
+C:\Users\Administrator\Desktop\6. Loops\GreatestCommonDivisor\obj\Debug\GreatestCommonDivisor.exe
+C:\Users\Administrator\Desktop\6. Loops\GreatestCommonDivisor\obj\Debug\GreatestCommonDivisor.pdb
+C:\Users\Administrator\Desktop\6. Loops\GreatestCommonDivisor\obj\Debug\08. GreatestCommonDivisor.csprojResolveAssemblyReference.cache
+C:\Users\Administrator\Desktop\06. Loops\Homework 6\GreatestCommonDivisor\obj\Debug\GreatestCommonDivisor.exe
+C:\Users\Administrator\Desktop\06. Loops\Homework 6\GreatestCommonDivisor\obj\Debug\GreatestCommonDivisor.pdb
+C:\Users\Administrator\Desktop\06. Loops\Homework 6\GreatestCommonDivisor\bin\Debug\GreatestCommonDivisor.exe
+C:\Users\Administrator\Desktop\06. Loops\Homework 6\GreatestCommonDivisor\bin\Debug\GreatestCommonDivisor.pdb
+C:\Users\Administrator\Desktop\06. Loops\Homework 6\GreatestCommonDivisor\obj\Debug\08. GreatestCommonDivisor.csprojResolveAssemblyReference.cache
+C:\Users\Administrator\Desktop\HW_Flystar_Cikli_2013-11-13_17-16\Homework 6\GreatestCommonDivisor\obj\Debug\GreatestCommonDivisor.exe
+C:\Users\Administrator\Desktop\HW_Flystar_Cikli_2013-11-13_17-16\Homework 6\GreatestCommonDivisor\obj\Debug\GreatestCommonDivisor.pdb
+C:\Users\Administrator\Desktop\HW_Flystar_Cikli_2013-11-13_17-16\Homework 6\GreatestCommonDivisor\bin\Debug\GreatestCommonDivisor.exe
+C:\Users\Administrator\Desktop\HW_Flystar_Cikli_2013-11-13_17-16\Homework 6\GreatestCommonDivisor\bin\Debug\GreatestCommonDivisor.pdb
+C:\Users\Administrator\Desktop\HW_Flystar_Cikli_2013-11-13_17-16\Homework 6\GreatestCommonDivisor\obj\Debug\08. GreatestCommonDivisor.csprojResolveAssemblyReference.cache
+D:\Telerik\Programming\CSharp_Part1\06.Loops\HW\Homework 6\GreatestCommonDivisor\obj\Debug\GreatestCommonDivisor.exe
+D:\Telerik\Programming\CSharp_Part1\06.Loops\HW\Homework 6\GreatestCommonDivisor\obj\Debug\GreatestCommonDivisor.pdb

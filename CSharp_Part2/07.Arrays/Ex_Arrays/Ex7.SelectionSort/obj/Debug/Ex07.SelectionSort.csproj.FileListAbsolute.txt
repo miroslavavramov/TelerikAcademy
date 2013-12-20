@@ -1,0 +1,3 @@
+D:\Telerik\Programming\CSharp_Part2\07.Arrays\Ex_Arrays\Ex7.SelectionSort\bin\Debug\Ex7.SelectionSort.exe.config
+D:\Telerik\Programming\CSharp_Part2\07.Arrays\Ex_Arrays\Ex7.SelectionSort\obj\Debug\Ex7.SelectionSort.exe
+D:\Telerik\Programming\CSharp_Part2\07.Arrays\Ex_Arrays\Ex7.SelectionSort\obj\Debug\Ex7.SelectionSort.pdb

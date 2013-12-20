@@ -1,0 +1,6 @@
+D:\Telerik\C#1\03.OperatorsAndExpressions\Homework\03.OperatorsAndExpressionsHomework\02.CheckIfDivisibleByFiveAndSeven\bin\Debug\02.CheckIfDivisibleByFiveAndSeven.exe.config
+D:\Telerik\C#1\03.OperatorsAndExpressions\Homework\03.OperatorsAndExpressionsHomework\02.CheckIfDivisibleByFiveAndSeven\bin\Debug\02.CheckIfDivisibleByFiveAndSeven.exe
+D:\Telerik\C#1\03.OperatorsAndExpressions\Homework\03.OperatorsAndExpressionsHomework\02.CheckIfDivisibleByFiveAndSeven\bin\Debug\02.CheckIfDivisibleByFiveAndSeven.pdb
+D:\Telerik\C#1\03.OperatorsAndExpressions\Homework\03.OperatorsAndExpressionsHomework\02.CheckIfDivisibleByFiveAndSeven\obj\Debug\02.CheckIfDivisibleByFiveAndSeven.exe
+D:\Telerik\C#1\03.OperatorsAndExpressions\Homework\03.OperatorsAndExpressionsHomework\02.CheckIfDivisibleByFiveAndSeven\obj\Debug\02.CheckIfDivisibleByFiveAndSeven.pdb
+D:\Telerik\C#1\03.OperatorsAndExpressions\Homework\03.OperatorsAndExpressionsHomework\02.CheckIfDivisibleByFiveAndSeven\obj\Debug\02.CheckIfDivisibleByFiveAndSeven.csprojResolveAssemblyReference.cache

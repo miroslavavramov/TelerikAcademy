@@ -1,0 +1,6 @@
+D:\Telerik\Programming\CSharp_Part2\08.MultidimensionalArrays\Homework\08.MultidimArraysHW\Ex01.FillAndPrintMatrix\bin\Debug\Ex01.FillAndPrintMatrix.exe.config
+D:\Telerik\Programming\CSharp_Part2\08.MultidimensionalArrays\Homework\08.MultidimArraysHW\Ex01.FillAndPrintMatrix\obj\Debug\Ex01.FillAndPrintMatrix.csprojResolveAssemblyReference.cache
+D:\Telerik\Programming\CSharp_Part2\08.MultidimensionalArrays\Homework\08.MultidimArraysHW\Ex01.FillAndPrintMatrix\bin\Debug\Ex01.FillAndPrintMatrix.exe
+D:\Telerik\Programming\CSharp_Part2\08.MultidimensionalArrays\Homework\08.MultidimArraysHW\Ex01.FillAndPrintMatrix\bin\Debug\Ex01.FillAndPrintMatrix.pdb
+D:\Telerik\Programming\CSharp_Part2\08.MultidimensionalArrays\Homework\08.MultidimArraysHW\Ex01.FillAndPrintMatrix\obj\Debug\Ex01.FillAndPrintMatrix.exe
+D:\Telerik\Programming\CSharp_Part2\08.MultidimensionalArrays\Homework\08.MultidimArraysHW\Ex01.FillAndPrintMatrix\obj\Debug\Ex01.FillAndPrintMatrix.pdb

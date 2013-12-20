@@ -1,0 +1,6 @@
+D:\Telerik\Programming\CSharp_Part1\BGCoderContests\TelerikAcademyExam1_06_Dec_2011_Morning\4.LoveBits\LoveBits\LoveBits\bin\Debug\LoveBits.exe.config
+D:\Telerik\Programming\CSharp_Part1\BGCoderContests\TelerikAcademyExam1_06_Dec_2011_Morning\4.LoveBits\LoveBits\LoveBits\obj\Debug\LoveBits.csprojResolveAssemblyReference.cache
+D:\Telerik\Programming\CSharp_Part1\BGCoderContests\TelerikAcademyExam1_06_Dec_2011_Morning\4.LoveBits\LoveBits\LoveBits\bin\Debug\LoveBits.exe
+D:\Telerik\Programming\CSharp_Part1\BGCoderContests\TelerikAcademyExam1_06_Dec_2011_Morning\4.LoveBits\LoveBits\LoveBits\bin\Debug\LoveBits.pdb
+D:\Telerik\Programming\CSharp_Part1\BGCoderContests\TelerikAcademyExam1_06_Dec_2011_Morning\4.LoveBits\LoveBits\LoveBits\obj\Debug\LoveBits.exe
+D:\Telerik\Programming\CSharp_Part1\BGCoderContests\TelerikAcademyExam1_06_Dec_2011_Morning\4.LoveBits\LoveBits\LoveBits\obj\Debug\LoveBits.pdb

@@ -1,0 +1,1 @@
+D:\Telerik\Programming\CSharp_Part1\BGCoderContests\TelerikAcademyExam1_29_Dec_2012\3.Poker\Poker\Poker\bin\Debug\Poker.exe.config

@@ -1,0 +1,6 @@
+D:\Telerik\Programming\CSharp_Part1\Misc\LOLcopter\LOLcopter\bin\Debug\LOLcopter.exe.config
+D:\Telerik\Programming\CSharp_Part1\Misc\LOLcopter\LOLcopter\bin\Debug\LOLcopter.exe
+D:\Telerik\Programming\CSharp_Part1\Misc\LOLcopter\LOLcopter\bin\Debug\LOLcopter.pdb
+D:\Telerik\Programming\CSharp_Part1\Misc\LOLcopter\LOLcopter\obj\Debug\LOLcopter.csprojResolveAssemblyReference.cache
+D:\Telerik\Programming\CSharp_Part1\Misc\LOLcopter\LOLcopter\obj\Debug\LOLcopter.exe
+D:\Telerik\Programming\CSharp_Part1\Misc\LOLcopter\LOLcopter\obj\Debug\LOLcopter.pdb

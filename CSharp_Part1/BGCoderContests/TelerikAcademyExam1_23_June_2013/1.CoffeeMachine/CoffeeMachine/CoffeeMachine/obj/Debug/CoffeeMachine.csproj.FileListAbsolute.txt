@@ -1,0 +1,6 @@
+D:\Telerik\C#1\Contests\TelerikAcademyExam1_23_June_2013\1.CoffeeMachine\CoffeeMachine\CoffeeMachine\bin\Debug\CoffeeMachine.exe.config
+D:\Telerik\C#1\Contests\TelerikAcademyExam1_23_June_2013\1.CoffeeMachine\CoffeeMachine\CoffeeMachine\bin\Debug\CoffeeMachine.exe
+D:\Telerik\C#1\Contests\TelerikAcademyExam1_23_June_2013\1.CoffeeMachine\CoffeeMachine\CoffeeMachine\bin\Debug\CoffeeMachine.pdb
+D:\Telerik\C#1\Contests\TelerikAcademyExam1_23_June_2013\1.CoffeeMachine\CoffeeMachine\CoffeeMachine\obj\Debug\CoffeeMachine.csprojResolveAssemblyReference.cache
+D:\Telerik\C#1\Contests\TelerikAcademyExam1_23_June_2013\1.CoffeeMachine\CoffeeMachine\CoffeeMachine\obj\Debug\CoffeeMachine.exe
+D:\Telerik\C#1\Contests\TelerikAcademyExam1_23_June_2013\1.CoffeeMachine\CoffeeMachine\CoffeeMachine\obj\Debug\CoffeeMachine.pdb

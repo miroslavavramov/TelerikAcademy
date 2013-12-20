@@ -1,0 +1,12 @@
+D:\Telerik\Programming\CSharp_Part2\07.Arrays\Homework\07.ArraysHomework\12.ArrayOfLetters\bin\Debug\12.ArrayOfLetters.exe.config
+D:\Telerik\Programming\CSharp_Part2\07.Arrays\Homework\07.ArraysHomework\12.ArrayOfLetters\bin\Debug\12.ArrayOfLetters.exe
+D:\Telerik\Programming\CSharp_Part2\07.Arrays\Homework\07.ArraysHomework\12.ArrayOfLetters\bin\Debug\12.ArrayOfLetters.pdb
+D:\Telerik\Programming\CSharp_Part2\07.Arrays\Homework\07.ArraysHomework\12.ArrayOfLetters\obj\Debug\12.ArrayOfLetters.exe
+D:\Telerik\Programming\CSharp_Part2\07.Arrays\Homework\07.ArraysHomework\12.ArrayOfLetters\obj\Debug\12.ArrayOfLetters.pdb
+D:\Telerik\Programming\CSharp_Part2\07.Arrays\Homework\07.ArraysHomework\12.ArrayOfLetters\obj\Debug\12.ArrayOfLetters.csprojResolveAssemblyReference.cache
+C:\Users\denis\Desktop\07.ArraysHomework\12.ArrayOfLetters\bin\Debug\12.ArrayOfLetters.exe.config
+C:\Users\denis\Desktop\07.ArraysHomework\12.ArrayOfLetters\bin\Debug\12.ArrayOfLetters.exe
+C:\Users\denis\Desktop\07.ArraysHomework\12.ArrayOfLetters\bin\Debug\12.ArrayOfLetters.pdb
+C:\Users\denis\Desktop\07.ArraysHomework\12.ArrayOfLetters\obj\Debug\12.ArrayOfLetters.csprojResolveAssemblyReference.cache
+C:\Users\denis\Desktop\07.ArraysHomework\12.ArrayOfLetters\obj\Debug\12.ArrayOfLetters.exe
+C:\Users\denis\Desktop\07.ArraysHomework\12.ArrayOfLetters\obj\Debug\12.ArrayOfLetters.pdb

@@ -1,0 +1,15 @@
+C:\Users\Administrator\Desktop\6. Loops\MinAndMaxOfSequence\bin\Debug\MinAndMaxOfSequence.exe
+C:\Users\Administrator\Desktop\6. Loops\MinAndMaxOfSequence\bin\Debug\MinAndMaxOfSequence.pdb
+C:\Users\Administrator\Desktop\6. Loops\MinAndMaxOfSequence\obj\Debug\MinAndMaxOfSequence.exe
+C:\Users\Administrator\Desktop\6. Loops\MinAndMaxOfSequence\obj\Debug\MinAndMaxOfSequence.pdb
+C:\Users\Administrator\Desktop\6. Loops\MinAndMaxOfSequence\obj\Debug\03. MinAndMaxOfSequence.csprojResolveAssemblyReference.cache
+C:\Users\Administrator\Desktop\06. Loops\Homework 6\MinAndMaxOfSequence\obj\Debug\MinAndMaxOfSequence.exe
+C:\Users\Administrator\Desktop\06. Loops\Homework 6\MinAndMaxOfSequence\obj\Debug\MinAndMaxOfSequence.pdb
+C:\Users\Administrator\Desktop\06. Loops\Homework 6\MinAndMaxOfSequence\bin\Debug\MinAndMaxOfSequence.exe
+C:\Users\Administrator\Desktop\06. Loops\Homework 6\MinAndMaxOfSequence\bin\Debug\MinAndMaxOfSequence.pdb
+C:\Users\Administrator\Desktop\06. Loops\Homework 6\MinAndMaxOfSequence\obj\Debug\03. MinAndMaxOfSequence.csprojResolveAssemblyReference.cache
+C:\Users\Administrator\Desktop\HW_Flystar_Cikli_2013-11-13_17-16\Homework 6\MinAndMaxOfSequence\obj\Debug\MinAndMaxOfSequence.exe
+C:\Users\Administrator\Desktop\HW_Flystar_Cikli_2013-11-13_17-16\Homework 6\MinAndMaxOfSequence\obj\Debug\MinAndMaxOfSequence.pdb
+C:\Users\Administrator\Desktop\HW_Flystar_Cikli_2013-11-13_17-16\Homework 6\MinAndMaxOfSequence\bin\Debug\MinAndMaxOfSequence.exe
+C:\Users\Administrator\Desktop\HW_Flystar_Cikli_2013-11-13_17-16\Homework 6\MinAndMaxOfSequence\bin\Debug\MinAndMaxOfSequence.pdb
+C:\Users\Administrator\Desktop\HW_Flystar_Cikli_2013-11-13_17-16\Homework 6\MinAndMaxOfSequence\obj\Debug\03. MinAndMaxOfSequence.csprojResolveAssemblyReference.cache

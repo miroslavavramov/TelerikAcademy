@@ -1,0 +1,144 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{596FB0E1-9992-4B36-8D89-EFBA7BD2D85E}</ProjectGuid>
+    <OutputType>Exe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>_00.MainMenu</RootNamespace>
+    <AssemblyName>00.MainMenu</AssemblyName>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="MainMenu.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\01.PrintArray\01.PrintArray.csproj">
+      <Project>{5334f770-cc97-411a-b4f3-fb174f30c2c9}</Project>
+      <Name>01.PrintArray</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\02.EqualArrays\02.EqualArrays.csproj">
+      <Project>{95e5ee8a-348c-42a5-b3a3-93b77da1af32}</Project>
+      <Name>02.EqualArrays</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\03.CompareCharArrays\03.CompareCharArrays.csproj">
+      <Project>{d3903cd1-cfb6-41b6-a6b6-4d08fd4b8c67}</Project>
+      <Name>03.CompareCharArrays</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\04.MaxSeqOfConsElements\04.MaxSeqOfConsElements.csproj">
+      <Project>{291c9f2d-4d59-4fe8-84bf-a27a3001eb07}</Project>
+      <Name>04.MaxSeqOfConsElements</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\05.MaxIncreasingSeq\05.MaxIncreasingSeq.csproj">
+      <Project>{8b976696-cc6a-435f-96d5-44d11fec2884}</Project>
+      <Name>05.MaxIncreasingSeq</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\06.MaxSumOfElements\06.MaxSumOfElements.csproj">
+      <Project>{deefbd4d-be3c-4b6b-bf77-cb9ed28e2344}</Project>
+      <Name>06.MaxSumOfElements</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\07.SelectionSort\07.SelectionSort.csproj">
+      <Project>{6b02f991-d933-4699-9c16-e7ac3b641193}</Project>
+      <Name>07.SelectionSort</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\08.MaxSumOfSeq\08.MaxSumOfSeq.csproj">
+      <Project>{483f9139-9cb1-45ab-837b-46f736d45f87}</Project>
+      <Name>08.MaxSumOfSeq</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\09.MostFrequentNumber\09.MostFrequentNumber.csproj">
+      <Project>{f397cdcf-1e0c-49a6-bb33-70f6170acad9}</Project>
+      <Name>09.MostFrequentNumber</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\10.FindSumInArray\10.FindSumInArray.csproj">
+      <Project>{753a1fc9-418a-4372-a941-35a08a957cec}</Project>
+      <Name>10.FindSumInArray</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\11.BinarySearch\11.BinarySearch.csproj">
+      <Project>{005ee2bd-6bfe-4fb3-808e-1c9f3491c38f}</Project>
+      <Name>11.BinarySearch</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\12.ArrayOfLetters\12.ArrayOfLetters.csproj">
+      <Project>{162073de-d18e-4076-abfe-70c7fb63f279}</Project>
+      <Name>12.ArrayOfLetters</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\13.MergeSort\13.MergeSortAlgorithm.csproj">
+      <Project>{d0a0a868-a8de-4fa8-9cc0-017d0d7d4d68}</Project>
+      <Name>13.MergeSortAlgorithm</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\14.QuickSortAlgorithm\14.QuickSortAlgorithm.csproj">
+      <Project>{10cd61d4-92b0-4ad1-9612-b5ea172552e0}</Project>
+      <Name>14.QuickSortAlgorithm</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\15.SieveOfEratosthenesAlgorithm\15.SieveOfEratosthenesAlgorithm.csproj">
+      <Project>{92b21ada-a91f-46be-949d-5b387e52e318}</Project>
+      <Name>15.SieveOfEratosthenesAlgorithm</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\16.CheckSubsetSum\16.CheckSubsetSum.csproj">
+      <Project>{3804d783-6c7c-488b-b151-cf00b2bd64f4}</Project>
+      <Name>16.CheckSubsetSum</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\17.CheckSpecificSubsetSum\17.CheckSpecificSubsetSum.csproj">
+      <Project>{3df90b81-8bbd-4b80-935c-e3d51eb86b72}</Project>
+      <Name>17.CheckSpecificSubsetSum</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\18.SortByRemoving\18.SortByRemoving.csproj">
+      <Project>{e34a7017-5be3-4362-bbf3-88f7d0fecc63}</Project>
+      <Name>18.SortByRemoving</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\19.PrintAllPermutations\19.PrintAllPermutations.csproj">
+      <Project>{cf7d305b-a886-40e3-9ed9-a21ad05e0fe3}</Project>
+      <Name>19.PrintAllPermutations</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\20.PrintAllVariations\20.PrintAllVariations.csproj">
+      <Project>{94a4feed-1ab0-4216-ae51-62749fcabea5}</Project>
+      <Name>20.PrintAllVariations</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\21.PrintAllCombinations\21.PrintAllCombinations.csproj">
+      <Project>{933770a1-f3cc-456c-aa75-47910ce0fc1c}</Project>
+      <Name>21.PrintAllCombinations</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

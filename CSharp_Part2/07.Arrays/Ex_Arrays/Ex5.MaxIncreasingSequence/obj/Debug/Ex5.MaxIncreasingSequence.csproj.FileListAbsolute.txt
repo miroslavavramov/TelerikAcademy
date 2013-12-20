@@ -1,0 +1,6 @@
+D:\Telerik\Programming\CSharp_Part2\07.Arrays\Ex_Arrays\Ex5.MaxIncreasingSequence\bin\Debug\Ex5.MaxIncreasingSequence.exe.config
+D:\Telerik\Programming\CSharp_Part2\07.Arrays\Ex_Arrays\Ex5.MaxIncreasingSequence\bin\Debug\Ex5.MaxIncreasingSequence.exe
+D:\Telerik\Programming\CSharp_Part2\07.Arrays\Ex_Arrays\Ex5.MaxIncreasingSequence\bin\Debug\Ex5.MaxIncreasingSequence.pdb
+D:\Telerik\Programming\CSharp_Part2\07.Arrays\Ex_Arrays\Ex5.MaxIncreasingSequence\obj\Debug\Ex5.MaxIncreasingSequence.csprojResolveAssemblyReference.cache
+D:\Telerik\Programming\CSharp_Part2\07.Arrays\Ex_Arrays\Ex5.MaxIncreasingSequence\obj\Debug\Ex5.MaxIncreasingSequence.exe
+D:\Telerik\Programming\CSharp_Part2\07.Arrays\Ex_Arrays\Ex5.MaxIncreasingSequence\obj\Debug\Ex5.MaxIncreasingSequence.pdb

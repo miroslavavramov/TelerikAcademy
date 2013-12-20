@@ -1,0 +1,15 @@
+D:\Telerik\C#1\Contests\TelerikAcademyExam1_27_dec_2012\05.FormulaBit1\FormulaBit1\FormulaBit1_Ex2\bin\Debug\FormulaBit1_Ex2.exe.config
+D:\Telerik\C#1\Contests\TelerikAcademyExam1_27_dec_2012\05.FormulaBit1\FormulaBit1\FormulaBit1_Ex2\bin\Debug\FormulaBit1_Ex2.exe
+D:\Telerik\C#1\Contests\TelerikAcademyExam1_27_dec_2012\05.FormulaBit1\FormulaBit1\FormulaBit1_Ex2\bin\Debug\FormulaBit1_Ex2.pdb
+D:\Telerik\C#1\Contests\TelerikAcademyExam1_27_dec_2012\05.FormulaBit1\FormulaBit1\FormulaBit1_Ex2\obj\Debug\FormulaBit1_Ex2.exe
+D:\Telerik\C#1\Contests\TelerikAcademyExam1_27_dec_2012\05.FormulaBit1\FormulaBit1\FormulaBit1_Ex2\obj\Debug\FormulaBit1_Ex2.pdb
+D:\Telerik\C#1\Contests\TelerikAcademyExam1_27_dec_2012\05.FormulaBit1\FormulaBit1\FormulaBit1_Ex2\obj\Debug\FormulaBit1_Ex2.csprojResolveAssemblyReference.cache
+D:\Telerik\Programming\CSharp_Part1\Contests\TelerikAcademyExam1_27_dec_2012\05.FormulaBit1\FormulaBit1\FormulaBit1_Ex2\bin\Debug\FormulaBit1_Ex2.exe.config
+D:\Telerik\Programming\CSharp_Part1\Contests\TelerikAcademyExam1_27_dec_2012\05.FormulaBit1\FormulaBit1\FormulaBit1_Ex2\obj\Debug\FormulaBit1_Ex2.exe
+D:\Telerik\Programming\CSharp_Part1\Contests\TelerikAcademyExam1_27_dec_2012\05.FormulaBit1\FormulaBit1\FormulaBit1_Ex2\obj\Debug\FormulaBit1_Ex2.pdb
+D:\Telerik\Programming\CSharp_Part1\BGCoderContests\TelerikAcademyExam1_27_dec_2012\05.FormulaBit1\FormulaBit1\FormulaBit1_Ex2\bin\Debug\FormulaBit1_Ex2.exe.config
+D:\Telerik\Programming\CSharp_Part1\BGCoderContests\TelerikAcademyExam1_27_dec_2012\05.FormulaBit1\FormulaBit1\FormulaBit1_Ex2\obj\Debug\FormulaBit1_Ex2.exe
+D:\Telerik\Programming\CSharp_Part1\BGCoderContests\TelerikAcademyExam1_27_dec_2012\05.FormulaBit1\FormulaBit1\FormulaBit1_Ex2\obj\Debug\FormulaBit1_Ex2.pdb
+D:\Telerik\Programming\CSharp_Part1\BGCoderContests\TelerikAcademyExam1_27_dec_2012\05.FormulaBit1\FormulaBit1\FormulaBit1_Ex2\bin\Debug\FormulaBit1_Ex2.exe
+D:\Telerik\Programming\CSharp_Part1\BGCoderContests\TelerikAcademyExam1_27_dec_2012\05.FormulaBit1\FormulaBit1\FormulaBit1_Ex2\bin\Debug\FormulaBit1_Ex2.pdb
+D:\Telerik\Programming\CSharp_Part1\BGCoderContests\TelerikAcademyExam1_27_dec_2012\05.FormulaBit1\FormulaBit1\FormulaBit1_Ex2\obj\Debug\FormulaBit1_Ex2.csprojResolveAssemblyReference.cache

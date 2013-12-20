@@ -1,0 +1,11 @@
+D:\Telerik\C#1\05.ConditionalStatements\Homework\05.ConditionalStatementsHomework\03.FindBiggestOfThreeNums\bin\Debug\03.FindBiggestOfThreeNums.exe.config
+D:\Telerik\C#1\05.ConditionalStatements\Homework\05.ConditionalStatementsHomework\03.FindBiggestOfThreeNums\bin\Debug\03.FindBiggestOfThreeNums.exe
+D:\Telerik\C#1\05.ConditionalStatements\Homework\05.ConditionalStatementsHomework\03.FindBiggestOfThreeNums\bin\Debug\03.FindBiggestOfThreeNums.pdb
+D:\Telerik\C#1\05.ConditionalStatements\Homework\05.ConditionalStatementsHomework\03.FindBiggestOfThreeNums\obj\Debug\03.FindBiggestOfThreeNums.exe
+D:\Telerik\C#1\05.ConditionalStatements\Homework\05.ConditionalStatementsHomework\03.FindBiggestOfThreeNums\obj\Debug\03.FindBiggestOfThreeNums.pdb
+D:\Telerik\Programming\CSharp_Part1\05.ConditionalStatements\Homework\05.ConditionalStatementsHomework\03.FindBiggestOfThreeNums\bin\Debug\03.FindBiggestOfThreeNums.exe.config
+D:\Telerik\Programming\CSharp_Part1\05.ConditionalStatements\Homework\05.ConditionalStatementsHomework\03.FindBiggestOfThreeNums\bin\Debug\03.FindBiggestOfThreeNums.exe
+D:\Telerik\Programming\CSharp_Part1\05.ConditionalStatements\Homework\05.ConditionalStatementsHomework\03.FindBiggestOfThreeNums\bin\Debug\03.FindBiggestOfThreeNums.pdb
+D:\Telerik\Programming\CSharp_Part1\05.ConditionalStatements\Homework\05.ConditionalStatementsHomework\03.FindBiggestOfThreeNums\obj\Debug\03.FindBiggestOfThreeNums.csprojResolveAssemblyReference.cache
+D:\Telerik\Programming\CSharp_Part1\05.ConditionalStatements\Homework\05.ConditionalStatementsHomework\03.FindBiggestOfThreeNums\obj\Debug\03.FindBiggestOfThreeNums.exe
+D:\Telerik\Programming\CSharp_Part1\05.ConditionalStatements\Homework\05.ConditionalStatementsHomework\03.FindBiggestOfThreeNums\obj\Debug\03.FindBiggestOfThreeNums.pdb

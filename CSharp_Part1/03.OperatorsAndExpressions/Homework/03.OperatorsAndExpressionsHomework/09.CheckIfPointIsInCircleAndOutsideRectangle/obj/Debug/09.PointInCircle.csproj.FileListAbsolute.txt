@@ -1,0 +1,1 @@
+D:\Telerik\C#1\03.OperatorsAndExpressions\Homework\03.OperatorsAndExpressionsHomework\09.PointInCircle\bin\Debug\09.PointInCircle.exe.config

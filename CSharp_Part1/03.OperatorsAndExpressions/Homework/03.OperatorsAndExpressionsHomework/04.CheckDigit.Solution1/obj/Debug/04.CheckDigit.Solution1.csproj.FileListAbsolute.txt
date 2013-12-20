@@ -1,0 +1,5 @@
+D:\Telerik\C#1\03.OperatorsAndExpressions\Homework\03.OperatorsAndExpressionsHomework\04.CheckDigit.Solution1\bin\Debug\04.CheckDigit.Solution1.exe.config
+D:\Telerik\C#1\03.OperatorsAndExpressions\Homework\03.OperatorsAndExpressionsHomework\04.CheckDigit.Solution1\bin\Debug\04.CheckDigit.Solution1.exe
+D:\Telerik\C#1\03.OperatorsAndExpressions\Homework\03.OperatorsAndExpressionsHomework\04.CheckDigit.Solution1\bin\Debug\04.CheckDigit.Solution1.pdb
+D:\Telerik\C#1\03.OperatorsAndExpressions\Homework\03.OperatorsAndExpressionsHomework\04.CheckDigit.Solution1\obj\Debug\04.CheckDigit.Solution1.exe
+D:\Telerik\C#1\03.OperatorsAndExpressions\Homework\03.OperatorsAndExpressionsHomework\04.CheckDigit.Solution1\obj\Debug\04.CheckDigit.Solution1.pdb

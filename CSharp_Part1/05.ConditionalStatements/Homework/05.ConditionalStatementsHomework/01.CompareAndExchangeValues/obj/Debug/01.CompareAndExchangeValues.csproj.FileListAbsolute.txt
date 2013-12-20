@@ -1,0 +1,12 @@
+D:\Telerik\C#1\05.ConditionalStatements\Homework\05.ConditionalStatementsHomework\01.CompareAndExchangeValues\bin\Debug\01.CompareAndExchangeValues.exe.config
+D:\Telerik\C#1\05.ConditionalStatements\Homework\05.ConditionalStatementsHomework\01.CompareAndExchangeValues\obj\Debug\01.CompareAndExchangeValues.csprojResolveAssemblyReference.cache
+D:\Telerik\C#1\05.ConditionalStatements\Homework\05.ConditionalStatementsHomework\01.CompareAndExchangeValues\bin\Debug\01.CompareAndExchangeValues.exe
+D:\Telerik\C#1\05.ConditionalStatements\Homework\05.ConditionalStatementsHomework\01.CompareAndExchangeValues\bin\Debug\01.CompareAndExchangeValues.pdb
+D:\Telerik\C#1\05.ConditionalStatements\Homework\05.ConditionalStatementsHomework\01.CompareAndExchangeValues\obj\Debug\01.CompareAndExchangeValues.exe
+D:\Telerik\C#1\05.ConditionalStatements\Homework\05.ConditionalStatementsHomework\01.CompareAndExchangeValues\obj\Debug\01.CompareAndExchangeValues.pdb
+D:\Telerik\Programming\CSharp_Part1\05.ConditionalStatements\Homework\05.ConditionalStatementsHomework\01.CompareAndExchangeValues\bin\Debug\01.CompareAndExchangeValues.exe.config
+D:\Telerik\Programming\CSharp_Part1\05.ConditionalStatements\Homework\05.ConditionalStatementsHomework\01.CompareAndExchangeValues\obj\Debug\01.CompareAndExchangeValues.exe
+D:\Telerik\Programming\CSharp_Part1\05.ConditionalStatements\Homework\05.ConditionalStatementsHomework\01.CompareAndExchangeValues\obj\Debug\01.CompareAndExchangeValues.pdb
+D:\Telerik\Programming\CSharp_Part1\05.ConditionalStatements\Homework\05.ConditionalStatementsHomework\01.CompareAndExchangeValues\bin\Debug\01.CompareAndExchangeValues.exe
+D:\Telerik\Programming\CSharp_Part1\05.ConditionalStatements\Homework\05.ConditionalStatementsHomework\01.CompareAndExchangeValues\bin\Debug\01.CompareAndExchangeValues.pdb
+D:\Telerik\Programming\CSharp_Part1\05.ConditionalStatements\Homework\05.ConditionalStatementsHomework\01.CompareAndExchangeValues\obj\Debug\01.CompareAndExchangeValues.csprojResolveAssemblyReference.cache

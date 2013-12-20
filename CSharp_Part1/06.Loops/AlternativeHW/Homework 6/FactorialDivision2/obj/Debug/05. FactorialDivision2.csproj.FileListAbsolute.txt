@@ -1,0 +1,10 @@
+C:\Users\Administrator\Desktop\6. Loops\FactorialDivision2\bin\Debug\FactorialDivision2.exe
+C:\Users\Administrator\Desktop\6. Loops\FactorialDivision2\bin\Debug\FactorialDivision2.pdb
+C:\Users\Administrator\Desktop\6. Loops\FactorialDivision2\obj\Debug\FactorialDivision2.exe
+C:\Users\Administrator\Desktop\6. Loops\FactorialDivision2\obj\Debug\FactorialDivision2.pdb
+C:\Users\Administrator\Desktop\6. Loops\FactorialDivision2\obj\Debug\05. FactorialDivision2.csprojResolveAssemblyReference.cache
+C:\Users\Administrator\Desktop\06. Loops\Homework 6\FactorialDivision2\obj\Debug\FactorialDivision2.exe
+C:\Users\Administrator\Desktop\06. Loops\Homework 6\FactorialDivision2\obj\Debug\FactorialDivision2.pdb
+C:\Users\Administrator\Desktop\06. Loops\Homework 6\FactorialDivision2\bin\Debug\FactorialDivision2.exe
+C:\Users\Administrator\Desktop\06. Loops\Homework 6\FactorialDivision2\bin\Debug\FactorialDivision2.pdb
+C:\Users\Administrator\Desktop\06. Loops\Homework 6\FactorialDivision2\obj\Debug\05. FactorialDivision2.csprojResolveAssemblyReference.cache
