@@ -17,6 +17,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "06.FindElement", "06.FindEl
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "07.ReverseDigits", "07.ReverseDigits\07.ReverseDigits.csproj", "{992EE1FA-CB09-48BA-AB8E-B203A4AADDFF}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "08.MyBigInt", "08.MyBigInt\08.MyBigInt.csproj", "{DD2F9291-087E-4FF8-AEDB-CE4A78794083}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -51,6 +53,10 @@ Global
 		{992EE1FA-CB09-48BA-AB8E-B203A4AADDFF}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{992EE1FA-CB09-48BA-AB8E-B203A4AADDFF}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{992EE1FA-CB09-48BA-AB8E-B203A4AADDFF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DD2F9291-087E-4FF8-AEDB-CE4A78794083}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DD2F9291-087E-4FF8-AEDB-CE4A78794083}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DD2F9291-087E-4FF8-AEDB-CE4A78794083}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DD2F9291-087E-4FF8-AEDB-CE4A78794083}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
