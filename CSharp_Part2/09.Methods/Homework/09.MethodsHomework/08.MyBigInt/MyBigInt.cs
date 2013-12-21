@@ -24,9 +24,15 @@ class MyBigInt
 
         StringBuilder sb1 = new StringBuilder(); sb1.Append(Reverse(str1));
         StringBuilder sb2 = new StringBuilder(); sb2.Append(Reverse(str2));
+<<<<<<< HEAD
 		
         Console.WriteLine(Reverse(Add(sb1, sb2).ToString()));
 		
+=======
+        
+        Console.WriteLine(Reverse(Add(sb1, sb2).ToString()));
+        
+>>>>>>> 53544bca61017e4663f1585b7ca599033001d199
         DateTime end = DateTime.Now;
         Console.WriteLine("Execution Time: " + (end - start));
     }
