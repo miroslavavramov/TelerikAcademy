@@ -228,7 +228,7 @@ class LargestArea
         }
 
     }
-    static void Print<T>(T[,] matrix)   //generic method; works with all data types 
+    static void Print<T>(T[,] matrix)   //generic method; works with various data types 
     {
         Console.WriteLine();
         for (int row = 0; row < matrix.GetLength(0); row++)

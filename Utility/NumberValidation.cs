@@ -1,4 +1,4 @@
-			int numVal = -1;
+	    int numVal = -1;
             bool repeat = true;
 
             while (repeat == true)
