@@ -1,6 +1,0 @@
-D:\Telerik\Programming\CSharp_Part1\Misc\SomeGame\SomeGame\bin\Debug\SomeGame.exe.config
-D:\Telerik\Programming\CSharp_Part1\Misc\SomeGame\SomeGame\bin\Debug\SomeGame.exe
-D:\Telerik\Programming\CSharp_Part1\Misc\SomeGame\SomeGame\bin\Debug\SomeGame.pdb
-D:\Telerik\Programming\CSharp_Part1\Misc\SomeGame\SomeGame\obj\Debug\SomeGame.csprojResolveAssemblyReference.cache
-D:\Telerik\Programming\CSharp_Part1\Misc\SomeGame\SomeGame\obj\Debug\SomeGame.exe
-D:\Telerik\Programming\CSharp_Part1\Misc\SomeGame\SomeGame\obj\Debug\SomeGame.pdb

@@ -9,28 +9,26 @@ class MyBigInt
 {
     static void Main()
     {
-        DateTime start = DateTime.Now;
+        //DateTime start = DateTime.Now;
 
-        string str1 = new string('9', (int)1E+6);         //Performance Test
-        string str2 = new string('9', (int)1E+6);
+        //string str1 = new string('9', (int)1E+6);         //Performance Test
+        //string str2 = new string('9', (int)1E+6);
 
-        //string str1 = Console.ReadLine();
-        //string str2 = Console.ReadLine();
+        string str1 = Console.ReadLine();
+        string str2 = Console.ReadLine();
 
         if (str1.Length > str2.Length)
-            str2 = new string('0', str1.Length - str2.Length) + str2;
-        else
-            str1 = new string('0', str2.Length - str1.Length) + str1;
+            str2 = str2.Insert(0, new string('0', str1.Length - str2.Length));
+        else if (str1.Length < str2.Length)
+            str1 = str1.Insert(0, new string('0', str2.Length - str1.Length));
 
         StringBuilder sb1 = new StringBuilder(); sb1.Append(Reverse(str1));
         StringBuilder sb2 = new StringBuilder(); sb2.Append(Reverse(str2));
-		
-        Console.WriteLine(Reverse(Add(sb1, sb2).ToString()));
         
         Console.WriteLine(Reverse(Add(sb1, sb2).ToString()));
 
-        DateTime end = DateTime.Now;
-        Console.WriteLine("Execution Time: " + (end - start));
+        //DateTime end = DateTime.Now;
+        //Console.WriteLine("Execution Time: " + (end - start));
     }
     static StringBuilder Add(StringBuilder s1, StringBuilder s2)
     {
@@ -72,5 +70,4 @@ class MyBigInt
         Array.Reverse(arr);
         return new string (arr);
     }
-   
 }
