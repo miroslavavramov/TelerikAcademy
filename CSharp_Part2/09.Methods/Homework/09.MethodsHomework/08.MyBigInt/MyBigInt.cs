@@ -11,11 +11,11 @@ class MyBigInt
     {
         DateTime start = DateTime.Now;
 
-        //string str1 = new string('9', (int)1E+4);         //Performance Test
-        //string str2 = new string('9', (int)1E+4);
+        string str1 = new string('9', (int)1E+6);         //Performance Test
+        string str2 = new string('9', (int)1E+6);
 
-        string str1 = Console.ReadLine();
-        string str2 = Console.ReadLine();
+        //string str1 = Console.ReadLine();
+        //string str2 = Console.ReadLine();
 
         if (str1.Length > str2.Length)
             str2 = new string('0', str1.Length - str2.Length) + str2;

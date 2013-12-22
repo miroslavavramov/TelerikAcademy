@@ -1,6 +1,6 @@
 ﻿using System;
 using System.Threading;
-
+// a try to implement a basic UI
     class Program
     {
         static void Main()

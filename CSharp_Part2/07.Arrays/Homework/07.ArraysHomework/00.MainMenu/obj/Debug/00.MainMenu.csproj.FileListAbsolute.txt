@@ -94,3 +94,6 @@ C:\Users\denis\Desktop\07.ArraysHomework\00.MainMenu\bin\Debug\19.PrintAllPermut
 C:\Users\denis\Desktop\07.ArraysHomework\00.MainMenu\bin\Debug\20.PrintAllVariations.pdb
 C:\Users\denis\Desktop\07.ArraysHomework\00.MainMenu\bin\Debug\21.PrintAllCombinations.pdb
 C:\Users\denis\Desktop\07.ArraysHomework\00.MainMenu\obj\Debug\00.MainMenu.csprojResolveAssemblyReference.cache
+D:\Telerik\CSharp_Part2\07.Arrays\Homework\07.ArraysHomework\00.MainMenu\bin\Debug\00.MainMenu.exe.config
+D:\Telerik\CSharp_Part2\07.Arrays\Homework\07.ArraysHomework\00.MainMenu\obj\Debug\00.MainMenu.exe
+D:\Telerik\CSharp_Part2\07.Arrays\Homework\07.ArraysHomework\00.MainMenu\obj\Debug\00.MainMenu.pdb

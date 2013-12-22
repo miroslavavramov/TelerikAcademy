@@ -3,3 +3,6 @@ D:\Telerik\Programming\CSharp_Part2\07.Arrays\Homework\07.ArraysHomework\09.Most
 D:\Telerik\Programming\CSharp_Part2\07.Arrays\Homework\07.ArraysHomework\09.MostFrequentNumber\bin\Debug\09.MostFrequentNumber.pdb
 D:\Telerik\Programming\CSharp_Part2\07.Arrays\Homework\07.ArraysHomework\09.MostFrequentNumber\obj\Debug\09.MostFrequentNumber.exe
 D:\Telerik\Programming\CSharp_Part2\07.Arrays\Homework\07.ArraysHomework\09.MostFrequentNumber\obj\Debug\09.MostFrequentNumber.pdb
+D:\Telerik\CSharp_Part2\07.Arrays\Homework\07.ArraysHomework\09.MostFrequentNumber\bin\Debug\09.MostFrequentNumber.exe.config
+D:\Telerik\CSharp_Part2\07.Arrays\Homework\07.ArraysHomework\09.MostFrequentNumber\obj\Debug\09.MostFrequentNumber.exe
+D:\Telerik\CSharp_Part2\07.Arrays\Homework\07.ArraysHomework\09.MostFrequentNumber\obj\Debug\09.MostFrequentNumber.pdb
