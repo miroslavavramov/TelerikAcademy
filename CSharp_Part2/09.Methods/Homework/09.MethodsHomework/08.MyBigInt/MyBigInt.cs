@@ -32,7 +32,7 @@ class MyBigInt
         s1 = Reverse(s1);
         s2 = Reverse(s2);
 
-        StringBuilder result = new StringBuilder();
+        StringBuilder sum = new StringBuilder();
         int temp = 0;
 
         for (int i = 0; i < s1.Length; i++)
@@ -42,27 +42,23 @@ class MyBigInt
                 temp += (int)(char.GetNumericValue(s1[i]) + char.GetNumericValue(s2[i]));
                 if (temp > 9 && i == s1.Length - 1)
                 {
-                    result.Append(temp % 10);
-                    result.Append(temp / 10);
+                    sum.Append(temp % 10);
+                    sum.Append(temp / 10);
                 }
                 else if (temp > 9)
                 {
-                    result.Append(temp - 10);
+                    sum.Append(temp - 10);
                     temp = 1;
                 }
                 else
                 {
-                    result.Append(temp);
+                    sum.Append(temp);
                     temp = 0;
                 }
             }
-            else
-            {
-                Console.WriteLine("Invalid Input!");
-                return result.Clear().ToString();
-            }
+            else{ Console.WriteLine("Invalid Input!"); return null; }
         }
-        return Reverse(result.ToString());
+        return Reverse(sum.ToString());
     }
     static string Reverse(string s)
     {
