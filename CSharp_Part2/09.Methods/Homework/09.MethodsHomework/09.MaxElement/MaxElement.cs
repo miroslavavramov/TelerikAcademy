@@ -1,17 +1,21 @@
 ﻿using System;
 //Write a method that return the maximal element in a portion of array of integers 
 //starting at given index. Using it write another method that sorts an array in ascending / descending order.
-
 class MaxElement
 {
     static void Main()
     {
-        int[] myArray = GenerateArray();
-        Console.Write("Unsorted : ");
-        Print(myArray);
-        SortMyArray(myArray);
-        Console.Write("Sorted : ");
-        Print(myArray);
+        try
+        {
+            int[] myArray = GenerateArray();
+            Console.Write("Unsorted : ");
+            Print(myArray);
+            SortMyArray(myArray);
+            Console.Write("Sorted : ");
+            Print(myArray);
+        }
+        catch (FormatException fe) { Console.WriteLine(fe.Message); }
+        catch (OverflowException ofe) { Console.WriteLine(ofe.Message); }
     }
     static int GetMaxElementIndex(int[] arr, int startIndex)
     {
