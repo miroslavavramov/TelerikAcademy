@@ -11,7 +11,7 @@ class DecToHex
         string hex = "";
 
         for (int i = n; i > 0; i >>= 4)     
-            hex += (char)((i & 15) > 9 ? ((i & 15) + 'A' - 10) : ((i & 15) + '0')); // x % 16 == x & 15
+            hex += (char)((i & 15) > 9 ? ((i & 15) + 'A' - 10) : ((i & 15) + '0')); 
 
         return Reverse(hex);
     }

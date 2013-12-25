@@ -2,16 +2,16 @@
 //Write a program to convert decimal numbers to their binary representation.
 class DecToBin
 {
-    static void Main()                                                          
-    {                                                                           
-        Console.WriteLine(ToBinary(int.Parse(Console.ReadLine())));                       
+    static void Main()                                                          // x * (2^y) == x << y
+    {                                                                           // x / (2^y) == x >> y
+        Console.WriteLine(ToBinary(int.Parse(Console.ReadLine())));             // x % y == x & (y-1)          
     }                                                                                       
     static string ToBinary(int n)                                                           
     {
         string binary = "";
 
-        for (int i = n; i != 0; i >>= 1)        // i / 2
-            binary += (char)('0' + (i & 1));    // i % 2
+        for (int i = n; i != 0; i >>= 1)        
+            binary += (char)('0' + (i & 1));    
                                                                                        
         return Reverse(binary);                                                         
     }                                                                                   

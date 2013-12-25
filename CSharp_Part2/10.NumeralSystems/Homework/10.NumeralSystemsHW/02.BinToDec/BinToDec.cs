@@ -10,7 +10,7 @@ class BinToDec
         int dec = binary[binary.Length - 1] - '0';
 
         for (int i = binary.Length-2; i >= 0; i--)
-            dec += binary[i] != '0' ? 2 << (binary.Length - 2 - i) : 0;     //2 << x == 2^(x+1)
+            dec += binary[i] != '0' ? 2 << (binary.Length - 2 - i) : 0;     
         
         return dec;
     }

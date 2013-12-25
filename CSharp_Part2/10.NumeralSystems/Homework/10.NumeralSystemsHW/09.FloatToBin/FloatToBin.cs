@@ -7,8 +7,7 @@ class FloatToBin
 {                                                                                                       
     static void Main()                                                                                  
     {
-        Console.WriteLine(41 % 4);
-        Console.WriteLine(41 & 3);
+
     }
 }
 
