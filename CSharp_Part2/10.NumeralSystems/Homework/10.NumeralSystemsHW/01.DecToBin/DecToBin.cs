@@ -13,7 +13,7 @@ class DecToBin
         for (int i = n; i != 0; i >>= 1)        
             binary += (char)('0' + (i & 1));    
                                                                                        
-        return Reverse(binary);                                                         
+        return n == 0 ? "0" : Reverse(binary);                                                         
     }                                                                                   
     static string Reverse(string s)
     {
