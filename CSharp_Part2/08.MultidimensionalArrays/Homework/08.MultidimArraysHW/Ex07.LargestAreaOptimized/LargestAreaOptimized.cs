@@ -4,7 +4,7 @@
 class LargestAreaOptimized
 {
     static int[,] field = new int[7, 7];
-    static bool[,] visited = new bool[17, 7];
+    static bool[,] visited = new bool[7, 7];
     static void Main()
     {
         Random rnd = new Random();
