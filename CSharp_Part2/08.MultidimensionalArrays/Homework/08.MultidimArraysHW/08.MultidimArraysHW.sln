@@ -21,6 +21,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ex05.SortByLengthUsingLinq"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ex05.SortByLengthUsingLambda", "Ex05.SortByLengthUsingLambda\Ex05.SortByLengthUsingLambda.csproj", "{37004082-BA51-4D09-B7AE-2AB3DEEF521E}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ex07.LargestAreaOptimized", "Ex07.LargestAreaOptimized\Ex07.LargestAreaOptimized.csproj", "{5C64FD6C-31D6-4835-94E4-68701BC9B006}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -63,6 +65,10 @@ Global
 		{37004082-BA51-4D09-B7AE-2AB3DEEF521E}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{37004082-BA51-4D09-B7AE-2AB3DEEF521E}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{37004082-BA51-4D09-B7AE-2AB3DEEF521E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5C64FD6C-31D6-4835-94E4-68701BC9B006}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5C64FD6C-31D6-4835-94E4-68701BC9B006}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5C64FD6C-31D6-4835-94E4-68701BC9B006}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5C64FD6C-31D6-4835-94E4-68701BC9B006}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
