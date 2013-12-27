@@ -19,12 +19,12 @@ class FloatToBin
         exp = power + 127;                                  //calculate the decimal value of the exponent
 
         f = (f - 1) * 2;                                    //only the fractional part of the normalized number is to be used
+
         for (; mantissa.Length < 23; f *= 2)
         {
             mantissa += f >= 1 ? "1" : "0";
             f = f >= 1 ? f - 1 : f;
         }
-
         Console.ForegroundColor = ConsoleColor.Green;
         Console.Write(msb);
         Console.ForegroundColor = ConsoleColor.Yellow;
@@ -33,8 +33,6 @@ class FloatToBin
         Console.WriteLine(mantissa);
         Console.ResetColor();
     }
-    
-
     static string ToBinary(int n)
     {
         string binary = "";

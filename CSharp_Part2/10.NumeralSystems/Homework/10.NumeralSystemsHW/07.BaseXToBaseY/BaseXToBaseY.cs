@@ -5,7 +5,7 @@ class BaseXToBaseY
 {
     static void Main()
     {
-        Console.WriteLine(ConvertBaseXToBaseY("653", 11, 2));
+        Console.WriteLine(ConvertBaseXToBaseY("112B", 11, 2));
         Console.WriteLine(ConvertBaseXToBaseY("52", 7, 9));
         Console.WriteLine(ConvertBaseXToBaseY("AA",12,14));
         Console.WriteLine(ConvertBaseXToBaseY("777",8,15));
@@ -25,7 +25,7 @@ class BaseXToBaseY
         for (int i = numToBase10; i > 0; i/=y)
             numToBaseY += (char)((i % y) > 9 ? (i % y) + 'A' - 10 : (i % y) + '0');
         
-        return Reverse(numToBaseY);
+        return numToBase10 == 0 ? "0" : Reverse(numToBaseY);
     }
     static int CheckDigit(string s, int pos)
     {

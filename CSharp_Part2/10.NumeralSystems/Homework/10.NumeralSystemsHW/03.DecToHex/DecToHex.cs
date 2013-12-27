@@ -13,7 +13,7 @@ class DecToHex
         for (int i = n; i > 0; i >>= 4)     
             hex += (char)((i & 15) > 9 ? ((i & 15) + 'A' - 10) : ((i & 15) + '0')); 
 
-        return Reverse(hex);
+        return n == 0 ? "0" : Reverse(hex);
     }
     static string Reverse(string s)
     {
