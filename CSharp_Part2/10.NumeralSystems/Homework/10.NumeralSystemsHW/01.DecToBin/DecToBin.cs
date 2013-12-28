@@ -2,9 +2,11 @@
 //Write a program to convert decimal numbers to their binary representation.
 class DecToBin
 {
-    static void Main()                                                          // x * (2^y) == x << y
-    {                                                                           // x / (2^y) == x >> y
-        Console.WriteLine(ToBinary(int.Parse(Console.ReadLine())));             // x % y == x & (y-1)          
+    static void Main()                                                          
+    {
+        int n = int.Parse(Console.ReadLine());                                  // x * (2^y) == x << y         
+        Console.WriteLine(ToBinary(n));                                         // x / (2^y) == x >> y
+        Console.WriteLine(RecursiveDecToBin(n));                                // x % y == x & (y-1) 
     }                                                                                       
     static string ToBinary(int n)                                                           
     {
@@ -14,7 +16,17 @@ class DecToBin
             binary += (char)('0' + (i & 1));    
                                                                                        
         return n == 0 ? "0" : Reverse(binary);                                                         
-    }                                                                                   
+    }
+    static string RecursiveDecToBin(int n)
+    {
+        string bin = string.Empty;
+
+        if (n > 1)
+        {
+            return bin = RecursiveDecToBin(n / 2) + (n % 2).ToString();
+        }
+        return (n % 2).ToString();
+    }                                                                               
     static string Reverse(string s)
     {
         char[] arr = s.ToCharArray();
