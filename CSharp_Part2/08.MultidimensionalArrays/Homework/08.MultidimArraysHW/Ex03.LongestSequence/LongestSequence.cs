@@ -33,7 +33,7 @@ class LongestSequence
 
                 //generate string matrix and fill it with array's elements in random order
                 for (int row = 0; row < height; row++)
-                    for (int col = 0; col < width; col++) { matrix[row, col] = words[rnd.Next(0, strCount)]; }
+                    for (int col = 0; col < width; col++) { matrix[row, col] = words[rnd.Next(strCount)]; }
 
                 Print(matrix);
 

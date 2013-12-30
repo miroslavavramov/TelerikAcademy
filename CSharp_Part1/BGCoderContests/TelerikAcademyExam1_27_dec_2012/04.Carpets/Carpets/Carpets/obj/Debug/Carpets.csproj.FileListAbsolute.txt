@@ -4,3 +4,9 @@ D:\Telerik\C#1\Contests\TelerikAcademyExam1_27_dec_2012\04.Carpets\Carpets\Carpe
 D:\Telerik\C#1\Contests\TelerikAcademyExam1_27_dec_2012\04.Carpets\Carpets\Carpets\bin\Debug\Carpets.pdb
 D:\Telerik\C#1\Contests\TelerikAcademyExam1_27_dec_2012\04.Carpets\Carpets\Carpets\obj\Debug\Carpets.exe
 D:\Telerik\C#1\Contests\TelerikAcademyExam1_27_dec_2012\04.Carpets\Carpets\Carpets\obj\Debug\Carpets.pdb
+D:\Telerik\CSharp_Part1\BGCoderContests\TelerikAcademyExam1_27_dec_2012\04.Carpets\Carpets\Carpets\bin\Debug\Carpets.exe.config
+D:\Telerik\CSharp_Part1\BGCoderContests\TelerikAcademyExam1_27_dec_2012\04.Carpets\Carpets\Carpets\obj\Debug\Carpets.exe
+D:\Telerik\CSharp_Part1\BGCoderContests\TelerikAcademyExam1_27_dec_2012\04.Carpets\Carpets\Carpets\obj\Debug\Carpets.pdb
+D:\Telerik\CSharp_Part1\BGCoderContests\TelerikAcademyExam1_27_dec_2012\04.Carpets\Carpets\Carpets\bin\Debug\Carpets.exe
+D:\Telerik\CSharp_Part1\BGCoderContests\TelerikAcademyExam1_27_dec_2012\04.Carpets\Carpets\Carpets\bin\Debug\Carpets.pdb
+D:\Telerik\CSharp_Part1\BGCoderContests\TelerikAcademyExam1_27_dec_2012\04.Carpets\Carpets\Carpets\obj\Debug\Carpets.csprojResolveAssemblyReference.cache
