@@ -20,7 +20,6 @@ class BinSearch
                 for (int i = 0; i < n; i++)
                     numbers[i] = int.Parse(Console.ReadLine());
 
-
                 Array.Sort(numbers);
                 Console.Write("Sorted array: ");
                 Print(numbers);
