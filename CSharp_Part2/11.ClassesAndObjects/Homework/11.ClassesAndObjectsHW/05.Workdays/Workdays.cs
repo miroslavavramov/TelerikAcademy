@@ -1,11 +1,13 @@
 ﻿using System;
+using System.Collections.Generic;
 //Write a method that calculates the number of workdays between today and given date, passed as parameter. 
 //Consider that workdays are all days from Monday to Friday except a fixed list of public holidays specified preliminary as array.
 class Workdays
 {
-    static readonly DateTime[] publicHolidays = {new DateTime(2013, 12, 24), new DateTime(2013,12,25), new DateTime(2013,12,30),
-                                       new DateTime(2013, 12, 31), new DateTime(2014, 1, 1), new DateTime(2014,3,3),
-                                       new DateTime(2014,5,6), new DateTime(2014,5,24), new DateTime(2014,9,6) };
+    static readonly List<DateTime> publicHolidays = new List<DateTime>() {new DateTime(2013, 12, 24), 
+                                        new DateTime(2013,12,25), new DateTime(2013,12,30),
+                                        new DateTime(2013, 12, 31), new DateTime(2014, 1, 1), new DateTime(2014,3,3),
+                                        new DateTime(2014,5,6), new DateTime(2014,5,24), new DateTime(2014,9,6) };
     static void Main()
     {
         Console.Write("Enter date in DD/MM/YYYY format: ");
@@ -27,27 +29,13 @@ class Workdays
         {
             if (date.DayOfWeek != DayOfWeek.Saturday
                 && date.DayOfWeek != DayOfWeek.Sunday
-                && !(CheckIfPublicHoliday(date)))
+                && !(publicHolidays.Contains(date)))
             {
                 workdays++;
             }
         }
         return workdays;
     }
-    static bool CheckIfPublicHoliday(DateTime date)
-    {
-        bool isHoliday = false;
-
-        for (int i = 0; i < publicHolidays.Length; i++)
-        {
-            if (publicHolidays[i].Month == date.Month
-                && publicHolidays[i].Day == date.Day)
-            {
-                isHoliday = true;
-                break;
-            }
-        }
-        return isHoliday;
-    }
+ 
 }
 
