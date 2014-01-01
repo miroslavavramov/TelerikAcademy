@@ -12,8 +12,9 @@ class ArithmeticalExpression
     static void Main()
     {
         Thread.CurrentThread.CurrentCulture = System.Globalization.CultureInfo.InvariantCulture;
+        //TODO : Add Sin, Cos f's
 
-        string input = Console.ReadLine().Trim();
+        string input = Console.ReadLine();
         input = input.Replace(" ", String.Empty);
 
         try
@@ -21,8 +22,7 @@ class ArithmeticalExpression
             List<string> tokens = GetTokens(input);
             Queue<string> reversePolishNotation = ConvertToReversePolishNotation(tokens);
 
-            double result = CalcSum(reversePolishNotation);
-            Console.WriteLine(result);
+            Console.WriteLine(CalculateResult(reversePolishNotation));
         }
         catch(ArgumentException aE) 
         {
@@ -157,7 +157,7 @@ class ArithmeticalExpression
         }
         return queue;
     }
-    static double CalcSum(Queue<string> queue)
+    static double CalculateResult(Queue<string> queue)
     {
         Stack<double> stack = new Stack<double>();
 
