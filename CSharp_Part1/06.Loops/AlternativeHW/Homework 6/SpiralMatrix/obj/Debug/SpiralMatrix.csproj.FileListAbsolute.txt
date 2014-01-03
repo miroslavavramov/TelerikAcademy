@@ -1,5 +1,0 @@
-C:\Users\Administrator\Desktop\6. Loops\SpiralMatrix\bin\Debug\SpiralMatrix.exe
-C:\Users\Administrator\Desktop\6. Loops\SpiralMatrix\bin\Debug\SpiralMatrix.pdb
-C:\Users\Administrator\Desktop\6. Loops\SpiralMatrix\obj\Debug\SpiralMatrix.csprojResolveAssemblyReference.cache
-C:\Users\Administrator\Desktop\6. Loops\SpiralMatrix\obj\Debug\SpiralMatrix.exe
-C:\Users\Administrator\Desktop\6. Loops\SpiralMatrix\obj\Debug\SpiralMatrix.pdb
