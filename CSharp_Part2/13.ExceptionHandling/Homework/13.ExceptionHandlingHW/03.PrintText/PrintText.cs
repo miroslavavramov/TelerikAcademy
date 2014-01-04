@@ -14,11 +14,11 @@ class PrintText
         }
         catch (ArgumentException)
         {
-            Console.WriteLine("Your path is either blank or contains invalid characters.");
+            Console.WriteLine("File path is either blank or contains invalid characters.");
         }
         catch (PathTooLongException)
         {
-            Console.WriteLine("Your path is too long.");
+            Console.WriteLine("File path is too long.");
         }
         catch (FileNotFoundException)
         {
