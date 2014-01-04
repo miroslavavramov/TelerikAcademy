@@ -32,8 +32,7 @@ class MaxPlatform
                     matrix[row, col] = int.Parse(line[col]);
             }
             return matrix;
-        }
-        
+        }   
     }
     static int GetMaxPlatform(int[,] matrix)
     {

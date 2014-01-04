@@ -1,7 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.IO;
-using System.Text.RegularExpressions;
 //Write a program that removes from a text file all words listed in given another text file. 
 //Handle all possible exceptions in your methods.
 class DeleteWords2
@@ -48,8 +47,8 @@ class DeleteWords2
         using (StreamReader reader = new StreamReader(path))
         {
             string text = reader.ReadToEnd();
-            list = new List<string>(text.Split(' ', ',', '.', '!', '?',':',';', '(', ')', '\n'));
-            list.RemoveAll(string.IsNullOrEmpty);
+            char[] separators = { ' ', ',', '.', '!', '?', ':', ';', '(', ')', '\n', '\r' };
+            list = new List<string>(text.Split(separators, StringSplitOptions.RemoveEmptyEntries));
         }
         return list;
     }

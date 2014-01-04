@@ -11,29 +11,51 @@ class WordsCount
 {
     static void Main()
     {
-        List<string> words = SeparateWordsFromText(@"..\..\words.txt");
-        Dictionary<string, int> result = new Dictionary<string, int>();
-        
-        using (StreamReader reader = new StreamReader(@"..\..\text.txt"))
+        try
         {
-            using (StreamWriter writer = new StreamWriter(@"..\..\result.txt")) 
-            { 
-                string text = reader.ReadToEnd();
-                int count;
+            List<string> words = SeparateWordsFromText(@"..\..\words.txt");
+            Dictionary<string, int> result = new Dictionary<string, int>();
 
-                for (int i = 0; i < words.Count; i++)
+            using (StreamReader reader = new StreamReader(@"..\..\text.txt"))
+            {
+                using (StreamWriter writer = new StreamWriter(@"..\..\result.txt"))
                 {
-                    count = Regex.Matches(text, @"\b" + words[i] + @"\b").Count;
-                    result.Add(words[i], count);
+                    string text = reader.ReadToEnd();
+                    int count;
+
+                    for (int i = 0; i < words.Count; i++)
+                    {
+                        count = Regex.Matches(text, @"\b" + words[i] + @"\b").Count;
+                        result.Add(words[i], count);
+                    }
+
+                    result = result.OrderByDescending(x => x.Value).ToDictionary(x => x.Key, x => x.Value);
+
+                    foreach (var item in result)
+                        writer.WriteLine("word \"{0}\" occurs {1} times", item.Key, item.Value);
                 }
-
-                result = result.OrderByDescending(x => x.Value).ToDictionary(x => x.Key, x => x.Value);
-
-                foreach (var item in result)
-                    writer.WriteLine("word \"{0}\" occurs {1} times", item.Key, item.Value);
             }
         }
-
+        catch (FileNotFoundException fnfe)
+        {
+            Console.WriteLine(fnfe.Message);
+        }
+        catch (DirectoryNotFoundException dnfe)
+        {
+            Console.WriteLine(dnfe.Message);
+        }
+        catch (IOException ioe)
+        {
+            Console.WriteLine(ioe.Message);
+        }
+        catch (System.Security.SecurityException se)
+        {
+            Console.WriteLine(se.Message);
+        }
+        catch (UnauthorizedAccessException uae)
+        {
+            Console.WriteLine(uae.Message);
+        }
     }
     static List<string> SeparateWordsFromText(string path)
     {

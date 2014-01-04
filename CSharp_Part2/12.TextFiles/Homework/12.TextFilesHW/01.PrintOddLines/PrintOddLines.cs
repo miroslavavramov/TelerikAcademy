@@ -5,16 +5,11 @@ class PrintOddLines
 {
     static void Main()
     {
-        StreamReader reader = new StreamReader(@"..\..\someText.txt ");
-
-        using (reader)
+        using (StreamReader reader = new StreamReader(@"..\..\someText.txt "))
         {
             string line = reader.ReadLine();
-
             for (int i = 1; line != null; i++, line = reader.ReadLine())
-            {
                 if ((i & 1) != 0) { Console.WriteLine(line); }
-            }
         }
     }
 }

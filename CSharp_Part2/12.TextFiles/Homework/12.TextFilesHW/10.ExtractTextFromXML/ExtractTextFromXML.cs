@@ -1,7 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.IO;
-using System.Text.RegularExpressions;
 //Write a program that extracts from given XML file all the text without the tags.
 class ExtractTextFromXML
 {

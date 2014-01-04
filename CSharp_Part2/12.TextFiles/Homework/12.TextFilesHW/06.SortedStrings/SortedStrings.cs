@@ -13,7 +13,7 @@ class SortedStrings
     static void Main()
     {
         List<string> words = ReadStringsFromFile(@"..\..\input.txt");
-        WriteStringsToFile(words, @"..\..\output.txt");
+        WriteSortedStringsToFile(words, @"..\..\output.txt");
     }
     static List<string> ReadStringsFromFile(string path) 
     {
@@ -25,7 +25,7 @@ class SortedStrings
         }
         return words;
     }
-    static void WriteStringsToFile(List<string> words, string path)
+    static void WriteSortedStringsToFile(List<string> words, string path)
     {
         words.Sort();
         using (StreamWriter writer = new StreamWriter(path))
