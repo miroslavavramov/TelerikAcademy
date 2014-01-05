@@ -29,7 +29,7 @@ class Program
                 sum = 0;
                 for (int k = 0; k < count; k++) //a loop that goes through each element in the array "numbers"
                 {
-                    sum += numbers[k] * GetBinaryNum(number: i, bit: k);    //e.g. i==30 => 30==11110(binary) i.e. for each k, except the 
+                    sum += numbers[k] * CheckBitAtPosition(number: i, bit: k);    //e.g. i==30 => 30==11110(binary) i.e. for each k, except the 
                 }                                                           //last one(k==5), the method will return 1 => sum = numbers[k=1]*1+
                                                                             //[k=2]*1 + [k=3]*1 + [k=4]*1 + [k=5]*0 ;               
                 if (sum == 0)
@@ -56,8 +56,8 @@ class Program
             Console.WriteLine(ofe.Message);
         }
     }
-    static int GetBinaryNum(int number, int bit)      // a method that takes 2 int arguments (number and bit) and checks
-    {                                               // if the bit in "number" on place "digit" has value of 0 or 1
-        return (number & (1 << bit)) >> bit;
+    static int CheckBitAtPosition(int number, int pos)      // a method that takes 2 int arguments (number and pos) and checks
+    {                                                       // if the bit in "number" at "pos" position has value of 0 or 1
+        return (number & (1 << pos)) >> pos;
     }
 }
