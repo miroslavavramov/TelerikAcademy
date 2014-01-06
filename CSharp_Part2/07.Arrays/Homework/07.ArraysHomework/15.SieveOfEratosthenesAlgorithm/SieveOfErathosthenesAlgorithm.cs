@@ -21,7 +21,7 @@
                 {
                     if (!isComposite[i])
                     {
-                        for (int k = 1; i * k <= n; k++)
+                        for (int k = i; i * k <= n; k++)
                         {
                             isComposite[i * k] = true;
                         }
