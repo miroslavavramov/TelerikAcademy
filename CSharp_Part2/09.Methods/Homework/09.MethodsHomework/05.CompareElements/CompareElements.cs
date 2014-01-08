@@ -41,7 +41,7 @@ class CompareElements
         }
         else if(index == 0 || index == arr.Length-1)
         {
-            Console.WriteLine("Element is at the array border.");
+            Console.WriteLine("Element is on the array border.");
         }
         else
         {
