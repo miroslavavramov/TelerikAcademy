@@ -12,7 +12,7 @@ class DeleteWords
             using (StreamWriter writer = new StreamWriter(@"..\..\output.txt"))
             {
                 string text = reader.ReadToEnd();
-                writer.WriteLine(Regex.Replace(text, @"\b(test)\w+", ""));
+                writer.WriteLine(Regex.Replace(text, @"\b(test)\w*", ""));
             }
         }
     }
