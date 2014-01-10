@@ -4,3 +4,6 @@ D:\Telerik\Programming\CSharp_Part2\07.Arrays\Homework\07.ArraysHomework\19.Prin
 D:\Telerik\Programming\CSharp_Part2\07.Arrays\Homework\07.ArraysHomework\19.PrintAllPermutations\obj\Debug\19.PrintAllPermutations.csprojResolveAssemblyReference.cache
 D:\Telerik\Programming\CSharp_Part2\07.Arrays\Homework\07.ArraysHomework\19.PrintAllPermutations\obj\Debug\19.PrintAllPermutations.exe
 D:\Telerik\Programming\CSharp_Part2\07.Arrays\Homework\07.ArraysHomework\19.PrintAllPermutations\obj\Debug\19.PrintAllPermutations.pdb
+D:\Telerik\CSharp_Part2\07.Arrays\Homework\07.ArraysHomework\19.PrintAllPermutations\bin\Debug\19.PrintAllPermutations.exe.config
+D:\Telerik\CSharp_Part2\07.Arrays\Homework\07.ArraysHomework\19.PrintAllPermutations\obj\Debug\19.PrintAllPermutations.exe
+D:\Telerik\CSharp_Part2\07.Arrays\Homework\07.ArraysHomework\19.PrintAllPermutations\obj\Debug\19.PrintAllPermutations.pdb

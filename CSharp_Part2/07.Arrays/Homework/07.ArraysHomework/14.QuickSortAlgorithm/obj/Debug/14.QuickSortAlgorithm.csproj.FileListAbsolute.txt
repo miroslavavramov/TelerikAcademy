@@ -4,3 +4,6 @@ D:\Telerik\Programming\CSharp_Part2\07.Arrays\Homework\07.ArraysHomework\14.Quic
 D:\Telerik\Programming\CSharp_Part2\07.Arrays\Homework\07.ArraysHomework\14.QuickSortAlgorithm\obj\Debug\14.QuickSortAlgorithm.exe
 D:\Telerik\Programming\CSharp_Part2\07.Arrays\Homework\07.ArraysHomework\14.QuickSortAlgorithm\obj\Debug\14.QuickSortAlgorithm.pdb
 D:\Telerik\Programming\CSharp_Part2\07.Arrays\Homework\07.ArraysHomework\14.QuickSortAlgorithm\obj\Debug\14.QuickSortAlgorithm.csprojResolveAssemblyReference.cache
+D:\Telerik\CSharp_Part2\07.Arrays\Homework\07.ArraysHomework\14.QuickSortAlgorithm\bin\Debug\14.QuickSortAlgorithm.exe.config
+D:\Telerik\CSharp_Part2\07.Arrays\Homework\07.ArraysHomework\14.QuickSortAlgorithm\obj\Debug\14.QuickSortAlgorithm.exe
+D:\Telerik\CSharp_Part2\07.Arrays\Homework\07.ArraysHomework\14.QuickSortAlgorithm\obj\Debug\14.QuickSortAlgorithm.pdb

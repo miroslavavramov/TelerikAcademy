@@ -4,3 +4,6 @@ D:\Telerik\Programming\CSharp_Part2\07.Arrays\Homework\07.ArraysHomework\18.Sort
 D:\Telerik\Programming\CSharp_Part2\07.Arrays\Homework\07.ArraysHomework\18.SortByRemoving\bin\Debug\18.SortByRemoving.pdb
 D:\Telerik\Programming\CSharp_Part2\07.Arrays\Homework\07.ArraysHomework\18.SortByRemoving\obj\Debug\18.SortByRemoving.exe
 D:\Telerik\Programming\CSharp_Part2\07.Arrays\Homework\07.ArraysHomework\18.SortByRemoving\obj\Debug\18.SortByRemoving.pdb
+D:\Telerik\CSharp_Part2\07.Arrays\Homework\07.ArraysHomework\18.SortByRemoving\bin\Debug\18.SortByRemoving.exe.config
+D:\Telerik\CSharp_Part2\07.Arrays\Homework\07.ArraysHomework\18.SortByRemoving\obj\Debug\18.SortByRemoving.exe
+D:\Telerik\CSharp_Part2\07.Arrays\Homework\07.ArraysHomework\18.SortByRemoving\obj\Debug\18.SortByRemoving.pdb

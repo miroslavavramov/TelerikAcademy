@@ -26,7 +26,7 @@ public class PrintAllVariations
             Console.Write("\n Variations of {0} elements in [1..{1}] : ", k, n);
             PrintVariations(0, numbers);
             Console.Write("\n\n");
-            Console.WriteLine(" Total Variations : {0}", Math.Pow(n,k));
+            Console.WriteLine(" Total Variations : {0}", Math.Pow(n, k));
             Console.ResetColor();
             Console.ReadKey();
             Console.Clear();

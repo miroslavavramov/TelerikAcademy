@@ -4,3 +4,6 @@ D:\Telerik\Programming\CSharp_Part2\07.Arrays\Homework\07.ArraysHomework\08.MaxS
 D:\Telerik\Programming\CSharp_Part2\07.Arrays\Homework\07.ArraysHomework\08.MaxSumOfSeq\obj\Debug\08.MaxSumOfSeq.exe
 D:\Telerik\Programming\CSharp_Part2\07.Arrays\Homework\07.ArraysHomework\08.MaxSumOfSeq\obj\Debug\08.MaxSumOfSeq.pdb
 D:\Telerik\Programming\CSharp_Part2\07.Arrays\Homework\07.ArraysHomework\08.MaxSumOfSeq\obj\Debug\08.MaxSumOfSeq.csprojResolveAssemblyReference.cache
+D:\Telerik\CSharp_Part2\07.Arrays\Homework\07.ArraysHomework\08.MaxSumOfSeq\bin\Debug\08.MaxSumOfSeq.exe.config
+D:\Telerik\CSharp_Part2\07.Arrays\Homework\07.ArraysHomework\08.MaxSumOfSeq\obj\Debug\08.MaxSumOfSeq.exe
+D:\Telerik\CSharp_Part2\07.Arrays\Homework\07.ArraysHomework\08.MaxSumOfSeq\obj\Debug\08.MaxSumOfSeq.pdb

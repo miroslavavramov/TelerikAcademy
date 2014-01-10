@@ -4,3 +4,6 @@ D:\Telerik\Programming\CSharp_Part2\07.Arrays\Homework\07.ArraysHomework\16.Chec
 D:\Telerik\Programming\CSharp_Part2\07.Arrays\Homework\07.ArraysHomework\16.CheckSubsetSum\obj\Debug\16.CheckSubsetSum.csprojResolveAssemblyReference.cache
 D:\Telerik\Programming\CSharp_Part2\07.Arrays\Homework\07.ArraysHomework\16.CheckSubsetSum\obj\Debug\16.CheckSubsetSum.exe
 D:\Telerik\Programming\CSharp_Part2\07.Arrays\Homework\07.ArraysHomework\16.CheckSubsetSum\obj\Debug\16.CheckSubsetSum.pdb
+D:\Telerik\CSharp_Part2\07.Arrays\Homework\07.ArraysHomework\16.CheckSubsetSum\bin\Debug\16.CheckSubsetSum.exe.config
+D:\Telerik\CSharp_Part2\07.Arrays\Homework\07.ArraysHomework\16.CheckSubsetSum\obj\Debug\16.CheckSubsetSum.exe
+D:\Telerik\CSharp_Part2\07.Arrays\Homework\07.ArraysHomework\16.CheckSubsetSum\obj\Debug\16.CheckSubsetSum.pdb

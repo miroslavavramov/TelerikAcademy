@@ -61,7 +61,7 @@ public class EqualArrays
                 Console.ReadKey();
             }
         }
-        catch(Exception)
+        catch (Exception)
         {
             Console.ForegroundColor = ConsoleColor.Red;
             Console.Write("\n\n You did something wrong!\n Type task number and press");

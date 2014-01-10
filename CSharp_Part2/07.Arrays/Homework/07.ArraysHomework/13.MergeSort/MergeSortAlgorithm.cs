@@ -31,7 +31,7 @@ public class MergeSortAlgorithm
             Console.ForegroundColor = ConsoleColor.Red;
             Console.Write("to try again.\n");
             Console.ResetColor();
-        }   
+        }
     }
     static int[] MergeSort(int[] array)
     {
@@ -81,7 +81,7 @@ public class MergeSortAlgorithm
     }
     static void PrintArray(int[] array)
     {
-        Console.Write("\t { " );
+        Console.Write("\t { ");
         foreach (int element in array)
         {
             Console.Write(element + " ");
