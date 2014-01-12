@@ -7,3 +7,6 @@ D:\Telerik\Programming\CSharp_Part2\07.Arrays\Homework\07.ArraysHomework\20.Prin
 D:\Telerik\CSharp_Part2\07.Arrays\Homework\07.ArraysHomework\20.PrintAllVariations\bin\Debug\20.PrintAllVariations.exe.config
 D:\Telerik\CSharp_Part2\07.Arrays\Homework\07.ArraysHomework\20.PrintAllVariations\obj\Debug\20.PrintAllVariations.exe
 D:\Telerik\CSharp_Part2\07.Arrays\Homework\07.ArraysHomework\20.PrintAllVariations\obj\Debug\20.PrintAllVariations.pdb
+D:\Telerik\CSharp_Part2\07.Arrays\Homework\07.ArraysHomework\20.PrintAllVariations\bin\Debug\20.PrintAllVariations.exe
+D:\Telerik\CSharp_Part2\07.Arrays\Homework\07.ArraysHomework\20.PrintAllVariations\bin\Debug\20.PrintAllVariations.pdb
+D:\Telerik\CSharp_Part2\07.Arrays\Homework\07.ArraysHomework\20.PrintAllVariations\obj\Debug\20.PrintAllVariations.csprojResolveAssemblyReference.cache
