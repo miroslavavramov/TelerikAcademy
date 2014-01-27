@@ -59,6 +59,7 @@ class MyBigInt
             else{ Console.WriteLine("Invalid Input!"); return null; }
         }
         return Reverse(sum.ToString());
+        //return sum.ToString();
     }
     static string Reverse(string s)
     {
