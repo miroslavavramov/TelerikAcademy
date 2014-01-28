@@ -14,7 +14,7 @@ namespace MobilePhone.Common
         private Battery battery;
         private Display display;
 
-        private const decimal rate = 0.37M;
+        private const decimal RATE = 0.37M;
         private List<Call> callHistory = new List<Call>();
 
         private static readonly GSM iPhone4S = new GSM("iPhone 4S", "Apple", 700M, "Nemo Nobody",
@@ -231,7 +231,7 @@ namespace MobilePhone.Common
 
             foreach (var call in this.CallHistory)
             {
-                total += ((call.CallDuration / 60M) * rate);
+                total += ((call.CallDuration / 60M) * RATE);
             }
 
             return Math.Round(total,2);
