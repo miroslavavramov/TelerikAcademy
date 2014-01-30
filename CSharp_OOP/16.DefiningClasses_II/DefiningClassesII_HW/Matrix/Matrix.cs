@@ -44,12 +44,12 @@ class Matrix<T>
 
     public static Matrix<T> operator +(Matrix<T> matrix1, Matrix<T> matrix2)     //addition  
     {
-        Matrix<T> sum = new Matrix<T>(matrix1.Rows, matrix1.Columns);
-
         if (matrix1.Rows != matrix2.Rows || matrix1.Columns != matrix2.Columns)
         {
             throw new ArgumentException("Matrices can't be added, because they're not the same size!");
         }
+
+        Matrix<T> sum = new Matrix<T>(matrix1.Rows, matrix1.Columns);
 
         for (int row = 0; row < matrix1.Rows; row++)
         {
@@ -60,15 +60,14 @@ class Matrix<T>
         }
         return sum;
     }
-
     public static Matrix<T> operator -(Matrix<T> matrix1, Matrix<T> matrix2)     //subtraction  
     {
-        Matrix<T> sum = new Matrix<T>(matrix1.Rows, matrix1.Columns);
-
         if (matrix1.Rows != matrix2.Rows || matrix1.Columns != matrix2.Columns)
         {
             throw new ArgumentException("Matrices can't be subtracted, because they're not the same size!");
         }
+
+        Matrix<T> sum = new Matrix<T>(matrix1.Rows, matrix1.Columns);
 
         for (int row = 0; row < matrix1.Rows; row++)
         {
@@ -81,13 +80,13 @@ class Matrix<T>
     }
     public static Matrix<T> operator *(Matrix<T> matrix1, Matrix<T> matrix2)     //multiplication 
     {
-        Matrix<T> product = new Matrix<T>(matrix1.Rows, matrix2.Columns);
-
         if (matrix1.Columns != matrix2.Rows)
         {
             throw new ArgumentException(@"Matrices can't be multiplied, because the colums of the first\n
              matrix don't match the rows of the second!");
         }
+
+        Matrix<T> product = new Matrix<T>(matrix1.Rows, matrix2.Columns);
 
         for (int row = 0; row < product.Rows; row++)
         {
