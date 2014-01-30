@@ -52,7 +52,7 @@
     <None Include="App.config" />
   </ItemGroup>
   <ItemGroup>
-    <Content Include="Task.txt" />
+    <Content Include="TaskDescription.txt" />
     <Content Include="SamplePathInput.txt" />
     <Content Include="SamplePathOutput.txt" />
   </ItemGroup>
