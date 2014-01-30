@@ -108,7 +108,7 @@ class Matrix<T>
         {
             for (int k = 0; k < matrix.Columns; k++)
             {
-                if ((dynamic)matrix[i, k] == 0)
+                if ((dynamic)matrix[i, k].Equals(default(T)))
                 {
                     return false;
                 }
@@ -122,7 +122,7 @@ class Matrix<T>
         {
             for (int k = 0; k < matrix.Columns; k++)
             {
-                if ((dynamic)matrix[i, k] == 0)
+                if ((dynamic)matrix[i, k].Equals(default(T)))
                 {
                     return false;
                 }
