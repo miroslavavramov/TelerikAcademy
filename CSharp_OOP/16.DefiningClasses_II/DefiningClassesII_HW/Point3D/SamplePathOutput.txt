@@ -1,0 +1,6 @@
+Point coordinates : X:0 Y:2 Z:1
+Point coordinates : X:66 Y:0 Z:2
+Point coordinates : X:5.1 Y:1 Z:4
+Point coordinates : X:10 Y:1701 Z:0.6
+Point coordinates : X:3 Y:2 Z:3
+Point coordinates : X:1 Y:5555 Z:1
