@@ -45,7 +45,7 @@ struct Point3D
     #region Methods
     public override string ToString()
     {
-        return string.Format("Point coordinates : X:{0} Y:{1} Z:{2}", this.X, this.Y, this.Z);
+        return string.Format("X:{0} Y:{1} Z:{2}", this.X, this.Y, this.Z);
     }
     #endregion
 }

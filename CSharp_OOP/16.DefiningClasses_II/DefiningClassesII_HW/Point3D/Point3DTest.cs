@@ -4,7 +4,7 @@ class Point3DTest
 {
     static void Main()
     {
-        Console.WriteLine(new Point3D(5, 1.5, 99).ToString()+"\n");
+        Console.WriteLine(new Point3D(5, 1.5, 99) + "\n");
 
         Path points = PathStorage.LoadPathFromFile(@"..\..\SamplePathInput.txt");
 
@@ -17,7 +17,7 @@ class Point3DTest
         
         points.Add(new Point3D(101, 5555, 0.1));
 
-        Console.WriteLine("Path coordinates: \r\n" + points.ToString());
+        Console.WriteLine("Path coordinates: \r\n" + points);
 
         PathStorage.SavePathToFile(points, @"..\..\SamplePathOutput.txt");
     }

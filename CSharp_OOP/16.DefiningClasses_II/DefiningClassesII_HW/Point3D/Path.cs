@@ -35,7 +35,7 @@ class Path
 
         foreach (var point in this.path)
         {
-            output.AppendLine(string.Format("p1 : X:{0} Y:{1} Z:{2}", point.X, point.Y, point.Z));
+            output.AppendLine(string.Format("X:{0} Y:{1} Z:{2}", point.X, point.Y, point.Z));
         }
 
         return output.ToString();

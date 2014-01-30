@@ -17,7 +17,9 @@ static class PathStorage
 
                 if (!string.IsNullOrEmpty(inputLine))
                 {
-                    double[] pointCoords = inputLine.Split().Select(double.Parse).ToArray();
+                    double[] pointCoords = inputLine
+                        .Split(new char[] { 'X', 'Y', 'Z', ':' }, StringSplitOptions.RemoveEmptyEntries)
+                        .Select(double.Parse).ToArray();
 
                     path.Add(new Point3D(pointCoords[0], pointCoords[1], pointCoords[2]));
                 }
