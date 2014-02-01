@@ -1,6 +1,0 @@
-D:\Telerik\Programming\CSharp_Part2\07.Arrays\Ex_Arrays\Ex10.FindSumInArray\bin\Debug\Ex10.FindSumInArray.exe.config
-D:\Telerik\Programming\CSharp_Part2\07.Arrays\Ex_Arrays\Ex10.FindSumInArray\bin\Debug\Ex10.FindSumInArray.exe
-D:\Telerik\Programming\CSharp_Part2\07.Arrays\Ex_Arrays\Ex10.FindSumInArray\bin\Debug\Ex10.FindSumInArray.pdb
-D:\Telerik\Programming\CSharp_Part2\07.Arrays\Ex_Arrays\Ex10.FindSumInArray\obj\Debug\Ex10.FindSumInArray.exe
-D:\Telerik\Programming\CSharp_Part2\07.Arrays\Ex_Arrays\Ex10.FindSumInArray\obj\Debug\Ex10.FindSumInArray.pdb
-D:\Telerik\Programming\CSharp_Part2\07.Arrays\Ex_Arrays\Ex10.FindSumInArray\obj\Debug\Ex10.FindSumInArray.csprojResolveAssemblyReference.cache

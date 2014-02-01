@@ -16,12 +16,12 @@ class SelectStudentsByName
             new {FirstName = "Lubo", LastName = "Ivanov"}
         };
 
-        var sortedStudents =
+        var selectedStudents =
             from student in students
             where student.FirstName.CompareTo(student.LastName) < 0
             select student;
 
-        foreach (var student in sortedStudents)
+        foreach (var student in selectedStudents)
         {
             Console.WriteLine("{0} {1}", student.FirstName, student.LastName);
         }

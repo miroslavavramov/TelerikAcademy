@@ -10,13 +10,13 @@ public class Timer
         : this(5,20)
     {
     }
-    public Timer(int span, int executionSeconds)
+    public Timer(int span, int elapsedRuntimeSeconds)
     {
         this.Span = span;
-        this.ExecutionSeconds = executionSeconds;
+        this.ElapsedRuntimeSeconds = elapsedRuntimeSeconds;
     }
     public int Span { get; private set; }
-    public int ExecutionSeconds { get; private set; }
+    public int ElapsedRuntimeSeconds { get; private set; }
 
     public void Execute()
     {
@@ -26,17 +26,18 @@ public class Timer
         VoidMethodPointer notify = new VoidMethodPointer( 
             delegate()
             {
-                Console.WriteLine("{0} seconds remaining.", this.ExecutionSeconds - sw.Elapsed.Seconds);
+                Console.WriteLine("{0} seconds remaining.", this.ElapsedRuntimeSeconds - sw.Elapsed.Seconds);
             });
 
         VoidMethodPointer tick = new VoidMethodPointer(
             delegate()
             {
-                Console.WriteLine("tick-tack");
+                Console.Write("tick-");
+                Console.WriteLine("tack");
             });
 
         
-        while (sw.Elapsed.Seconds < this.ExecutionSeconds)
+        while (sw.Elapsed.Seconds < this.ElapsedRuntimeSeconds)
         {
             if (sw.Elapsed.Seconds % this.Span != 0)
             {

@@ -15,12 +15,12 @@ class SelectStudentsByAge
             new {FirstName = "Lubo", LastName = "Ivanov", Age = 15}
         };
 
-        var sortedStudents =
+        var selectedStudents =
             from student in students
             where (student.Age >= 18 && student.Age <= 24)
             select student;
 
-        foreach (var student in sortedStudents)
+        foreach (var student in selectedStudents)
         {
             Console.WriteLine("{0} {1} {2}", student.FirstName, student.LastName, student.Age);
         }

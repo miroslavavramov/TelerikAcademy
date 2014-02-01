@@ -1,6 +1,0 @@
-D:\Telerik\Programming\CSharp_Part2\07.Arrays\Ex_Arrays\Ex8.FindSeqOfMaximalSum\bin\Debug\Ex8.FindSeqOfMaximalSum.exe.config
-D:\Telerik\Programming\CSharp_Part2\07.Arrays\Ex_Arrays\Ex8.FindSeqOfMaximalSum\bin\Debug\Ex8.FindSeqOfMaximalSum.exe
-D:\Telerik\Programming\CSharp_Part2\07.Arrays\Ex_Arrays\Ex8.FindSeqOfMaximalSum\bin\Debug\Ex8.FindSeqOfMaximalSum.pdb
-D:\Telerik\Programming\CSharp_Part2\07.Arrays\Ex_Arrays\Ex8.FindSeqOfMaximalSum\obj\Debug\Ex08.FindSeqOfMaximalSum.csprojResolveAssemblyReference.cache
-D:\Telerik\Programming\CSharp_Part2\07.Arrays\Ex_Arrays\Ex8.FindSeqOfMaximalSum\obj\Debug\Ex8.FindSeqOfMaximalSum.exe
-D:\Telerik\Programming\CSharp_Part2\07.Arrays\Ex_Arrays\Ex8.FindSeqOfMaximalSum\obj\Debug\Ex8.FindSeqOfMaximalSum.pdb

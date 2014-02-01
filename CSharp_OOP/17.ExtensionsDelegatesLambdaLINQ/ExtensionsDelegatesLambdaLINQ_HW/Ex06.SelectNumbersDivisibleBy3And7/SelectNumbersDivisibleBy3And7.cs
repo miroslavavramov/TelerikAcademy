@@ -15,20 +15,20 @@ class SelectNumbersDivisibleBy3And7
             numbers[i] = i + 1;
         }
 
-        var extractedUsingLambdaEx =
+        var selectedUsingLambda =
             numbers.Where(x => (x % 21 == 0));
 
-        var extractedUsingLINQ =
+        var selectedUsingLinq =
             from n in numbers
             where (n % 21 == 0)
             select n;
 
-        foreach (var n in extractedUsingLambdaEx)
+        foreach (var n in selectedUsingLambda)
         {
             Console.WriteLine(n);
         }
 
-        foreach (var n in extractedUsingLINQ)
+        foreach (var n in selectedUsingLinq)
         {
             Console.WriteLine(n);
         }

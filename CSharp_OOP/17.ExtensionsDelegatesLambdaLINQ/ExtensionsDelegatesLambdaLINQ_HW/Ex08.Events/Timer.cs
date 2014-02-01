@@ -38,7 +38,7 @@ public class Timer
 
     void Message(object o, EventArgs e)
     {
-        Console.WriteLine("You've probably better things to do.");
+        Console.WriteLine("You've probably got better things to do.");
     }
 }
 
