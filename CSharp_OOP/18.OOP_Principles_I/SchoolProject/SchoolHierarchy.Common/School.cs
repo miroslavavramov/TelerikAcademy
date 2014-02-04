@@ -8,9 +8,6 @@
         public string SchoolName { get; private set; }
         public List<ClassOfStudents> Classes { get; private set; }
 
-        public School() : this(null)
-        {
-        }
         public School(string schoolName)
         {
             this.SchoolName = schoolName;

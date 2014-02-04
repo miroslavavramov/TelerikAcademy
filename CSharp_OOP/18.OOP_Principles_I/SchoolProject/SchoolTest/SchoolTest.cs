@@ -15,7 +15,7 @@ class SchoolTest
         Discipline chemistry = new Discipline("Chemistry", 4, 4);
 
         Teacher lubomirKolev = new Teacher("Lubomir", "Kolev");
-        Teacher gerasimGerasimov = new Teacher("Gerasim", "Gerasimov", "nickname - Gero");
+        Teacher gerasimGerasimov = new Teacher("Gerassim", "Gerassimov", "nickname - Gero");
         
         Student petarGeorgiev = new Student("Petar", "Georgiev", 16, "troblemaker");
         Student aniPlamenova = new Student("Ani", "Plamenova", 1);
@@ -28,13 +28,12 @@ class SchoolTest
         class10A.AddStudent(petarGeorgiev, aniPlamenova, mladenNikolov, new Student("Kim", "Xo", "guest student"));
 
         mladenNikolov.AddComment("weakspot - Chemisty");
+        petarGeorgiev.ClearComments();
 
-        mySchool.AddClass(class10A, new ClassOfStudents("9 B"));
+        mySchool.AddClass(class10A, new ClassOfStudents("9 B", "empty test class"));
 
         foreach (var classOfStudents in mySchool.Classes)
-        {
             Console.WriteLine(classOfStudents);
-        }
     }
 }
 

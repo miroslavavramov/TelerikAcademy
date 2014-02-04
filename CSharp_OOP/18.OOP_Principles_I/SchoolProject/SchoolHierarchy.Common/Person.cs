@@ -2,7 +2,7 @@
 {
     using System;
 
-    public class Person
+    public abstract class Person
     {
         public string FirstName { get; private set; }
         public string LastName { get; private set; }
