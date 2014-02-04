@@ -7,8 +7,9 @@
     public class Teacher
         : Person, ICommentable
     {
-        private List<Discipline> disciplines = new List<Discipline>();
         private string comment = String.Empty;
+        private List<Discipline> disciplines = new List<Discipline>();
+
         public List<Discipline> Disciplines 
         {
             get { return this.disciplines; }
