@@ -19,7 +19,10 @@
             get { return this.classNumber; }
             set
             {
-                if (value < 1) throw new ArgumentOutOfRangeException("Class number can't be zero or negative!");
+                if (value < 1) 
+                {
+                    throw new ArgumentOutOfRangeException("Class number can't be zero or negative!"); 
+                }
                 this.classNumber = value;
             }
         }

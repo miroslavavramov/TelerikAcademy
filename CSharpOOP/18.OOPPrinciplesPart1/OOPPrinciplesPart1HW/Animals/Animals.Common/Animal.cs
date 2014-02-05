@@ -45,8 +45,8 @@
 
         public override string ToString()
         {
-            return String.Format("Name : {0}, Age : {1}, Sex : {2}"
-                , this.Name, this.Age, IsMale ? "male" : "female");
+            return String.Format("Name : {0}, Age : {1}, Sex : {2}",
+                 this.Name, this.Age, IsMale ? "male" : "female");
         }
 
         public abstract void ProduceSound();    //abstract methods don't possess bodies

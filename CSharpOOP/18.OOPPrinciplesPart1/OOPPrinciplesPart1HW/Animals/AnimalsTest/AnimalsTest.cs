@@ -7,7 +7,7 @@ class AnimalsTest
 {
     static void Main()
     {
-        HashSet<Animal> animals = new HashSet<Animal>()
+        var animals = new HashSet<Animal>()
         {
             new Frog("Kermit", 11, true),
             new Dog("Druppy", 7, true),

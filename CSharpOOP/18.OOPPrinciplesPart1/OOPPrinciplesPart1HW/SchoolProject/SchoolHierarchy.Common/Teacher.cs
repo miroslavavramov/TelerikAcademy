@@ -67,7 +67,7 @@
         {
             var output = new StringBuilder(this.FirstName + " " + this.LastName);
 
-            if (!this.Comments.Equals(null))
+            if (!this.Comments.Equals(String.Empty))
             {
                 output.AppendFormat(" ({0})", this.Comments);
             }

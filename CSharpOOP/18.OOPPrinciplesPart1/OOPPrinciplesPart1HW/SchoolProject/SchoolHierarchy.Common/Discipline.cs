@@ -22,7 +22,10 @@
             get { return this.lectures; }
             set
             {
-                if (value < 0) throw new ArgumentOutOfRangeException("Lectures can't be a negative number!");
+                if (value < 0) 
+                { 
+                    throw new ArgumentOutOfRangeException("Lectures can't be a negative number!"); 
+                }
                 this.lectures = value;
             }
         }
@@ -31,13 +34,16 @@
             get { return this.exercises; }
             set
             {
-                if (value < 0) throw new ArgumentOutOfRangeException("Exercises can't be a negative number!");
+                if (value < 0)
+                { 
+                    throw new ArgumentOutOfRangeException("Exercises can't be a negative number!"); 
+                }
                 this.exercises = value;
             }
         }
 
         public Discipline(string name)
-            : this(name, 2, 2, String.Empty)
+            : this(name, 2, 2, String.Empty)    //default 
         {
         }
         public Discipline(string name, string comment)
