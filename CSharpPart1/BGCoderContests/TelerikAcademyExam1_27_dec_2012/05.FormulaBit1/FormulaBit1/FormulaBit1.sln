@@ -1,0 +1,28 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.21005.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FormulaBit1", "FormulaBit1\FormulaBit1.csproj", "{D915BB6F-D5FE-4466-8520-439C708C1EEE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FormulaBit1_Ex2", "FormulaBit1_Ex2\FormulaBit1_Ex2.csproj", "{B947557B-69B7-4880-B863-CCF63272D6AA}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{D915BB6F-D5FE-4466-8520-439C708C1EEE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D915BB6F-D5FE-4466-8520-439C708C1EEE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D915BB6F-D5FE-4466-8520-439C708C1EEE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D915BB6F-D5FE-4466-8520-439C708C1EEE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B947557B-69B7-4880-B863-CCF63272D6AA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B947557B-69B7-4880-B863-CCF63272D6AA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B947557B-69B7-4880-B863-CCF63272D6AA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B947557B-69B7-4880-B863-CCF63272D6AA}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
