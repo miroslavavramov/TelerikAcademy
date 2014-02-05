@@ -29,7 +29,7 @@ class SchoolTest
 
         mladenNikolov.AddComment("weakspot - Chemisty");
         petarGeorgiev.ClearComments();
-
+        
         mySchool.AddClass(class10A, new ClassOfStudents("9 B", "empty test class"));
 
         foreach (var classOfStudents in mySchool.Classes)

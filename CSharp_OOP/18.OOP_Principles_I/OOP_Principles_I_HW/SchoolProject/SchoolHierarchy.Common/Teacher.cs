@@ -39,9 +39,7 @@
         public void AddDiscipline(params Discipline[] disciplines)
         {
             foreach (var discipline in disciplines)
-            {
                 this.Disciplines.Add(discipline);
-            }
         }
 
         public void RemoveDiscipline(Discipline discipline)
@@ -69,7 +67,7 @@
         {
             var output = new StringBuilder(this.FirstName + " " + this.LastName);
 
-            if (!this.Comments.Equals(String.Empty))
+            if (!this.Comments.Equals(null))
             {
                 output.AppendFormat(" ({0})", this.Comments);
             }

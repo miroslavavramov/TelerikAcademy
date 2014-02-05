@@ -7,10 +7,16 @@
     public class ClassOfStudents 
         : ICommentable
     {
-        public string ClassID { get; private set; }
-        public string Comments { get; set; }
+        private string comments = String.Empty;
+
         public List<Teacher> Teachers { get; private set; }
         public List<Student> Students { get; private set; }
+        public string ClassID { get; private set; }
+        public string Comments
+        {
+            get { return this.comments; }
+            set { this.comments = value; }
+        }
 
         public ClassOfStudents(string classId)
             : this(classId, new List<Teacher>(), new List<Student>(), String.Empty)
@@ -27,12 +33,11 @@
             this.Students = students;
             this.Comments = comment;
         }
+
         public void AddTeacher(params Teacher[] teachers)
         {
             foreach (var teacher in teachers)
-            {
                 this.Teachers.Add(teacher);    
-            }
         }
 
         public void RemoveTeacher(Teacher teacher)
@@ -48,9 +53,7 @@
         public void AddStudent(params Student[] students)
         {
             foreach (var student in students)
-            {
                 this.Students.Add(student);   
-            }
         }
 
         public void RemoveStudent(Student student)

@@ -17,9 +17,7 @@
         public void AddClass(params ClassOfStudents[] classesOfStudents)
         {
             foreach (var classOfStudents in classesOfStudents)
-            {
                 this.Classes.Add(classOfStudents);   
-            }
         }
 
         public void RemoveClass(ClassOfStudents classOfStudents)

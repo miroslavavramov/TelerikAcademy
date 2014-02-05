@@ -9,9 +9,14 @@
     {
         private byte lectures;
         private byte exercises;
+        private string comments = String.Empty;
 
         public string Name { get; private set; }
-        public string Comments { get; set; }
+        public string Comments
+        {
+            get { return this.comments; }
+            set { this.comments = value; }
+        }
         public byte Lectures 
         {
             get { return this.lectures; }
