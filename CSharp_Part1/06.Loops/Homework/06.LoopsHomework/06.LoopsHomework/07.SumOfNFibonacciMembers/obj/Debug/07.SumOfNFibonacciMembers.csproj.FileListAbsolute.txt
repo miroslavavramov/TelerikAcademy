@@ -1,6 +1,0 @@
-D:\Telerik\C#1\06.Loops\Homework\06.LoopsHomework\06.LoopsHomework\07.SumOfNFibonacciMembers\bin\Debug\07.SumOfNFibonacciMembers.exe.config
-D:\Telerik\C#1\06.Loops\Homework\06.LoopsHomework\06.LoopsHomework\07.SumOfNFibonacciMembers\bin\Debug\07.SumOfNFibonacciMembers.exe
-D:\Telerik\C#1\06.Loops\Homework\06.LoopsHomework\06.LoopsHomework\07.SumOfNFibonacciMembers\bin\Debug\07.SumOfNFibonacciMembers.pdb
-D:\Telerik\C#1\06.Loops\Homework\06.LoopsHomework\06.LoopsHomework\07.SumOfNFibonacciMembers\obj\Debug\07.SumOfNFibonacciMembers.exe
-D:\Telerik\C#1\06.Loops\Homework\06.LoopsHomework\06.LoopsHomework\07.SumOfNFibonacciMembers\obj\Debug\07.SumOfNFibonacciMembers.pdb
-D:\Telerik\C#1\06.Loops\Homework\06.LoopsHomework\06.LoopsHomework\07.SumOfNFibonacciMembers\obj\Debug\07.SumOfNFibonacciMembers.csprojResolveAssemblyReference.cache

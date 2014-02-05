@@ -1,6 +1,0 @@
-D:\Telerik\C#1\06.Loops\Homework\06.LoopsHomework\06.LoopsHomework\11.PrintCardNames\bin\Debug\11.PrintCardNames.exe.config
-D:\Telerik\C#1\06.Loops\Homework\06.LoopsHomework\06.LoopsHomework\11.PrintCardNames\bin\Debug\11.PrintCardNames.exe
-D:\Telerik\C#1\06.Loops\Homework\06.LoopsHomework\06.LoopsHomework\11.PrintCardNames\bin\Debug\11.PrintCardNames.pdb
-D:\Telerik\C#1\06.Loops\Homework\06.LoopsHomework\06.LoopsHomework\11.PrintCardNames\obj\Debug\11.PrintCardNames.csprojResolveAssemblyReference.cache
-D:\Telerik\C#1\06.Loops\Homework\06.LoopsHomework\06.LoopsHomework\11.PrintCardNames\obj\Debug\11.PrintCardNames.exe
-D:\Telerik\C#1\06.Loops\Homework\06.LoopsHomework\06.LoopsHomework\11.PrintCardNames\obj\Debug\11.PrintCardNames.pdb

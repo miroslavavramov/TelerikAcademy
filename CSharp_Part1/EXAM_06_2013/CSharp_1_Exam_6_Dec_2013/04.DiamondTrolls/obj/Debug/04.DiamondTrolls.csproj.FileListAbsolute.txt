@@ -1,6 +1,0 @@
-C:\Users\denis\Desktop\EXAM\CSharp_1_Exam_6_Dec_2013\04.DiamondTrolls\bin\Debug\04.DiamondTrolls.exe.config
-C:\Users\denis\Desktop\EXAM\CSharp_1_Exam_6_Dec_2013\04.DiamondTrolls\bin\Debug\04.DiamondTrolls.exe
-C:\Users\denis\Desktop\EXAM\CSharp_1_Exam_6_Dec_2013\04.DiamondTrolls\bin\Debug\04.DiamondTrolls.pdb
-C:\Users\denis\Desktop\EXAM\CSharp_1_Exam_6_Dec_2013\04.DiamondTrolls\obj\Debug\04.DiamondTrolls.csprojResolveAssemblyReference.cache
-C:\Users\denis\Desktop\EXAM\CSharp_1_Exam_6_Dec_2013\04.DiamondTrolls\obj\Debug\04.DiamondTrolls.exe
-C:\Users\denis\Desktop\EXAM\CSharp_1_Exam_6_Dec_2013\04.DiamondTrolls\obj\Debug\04.DiamondTrolls.pdb

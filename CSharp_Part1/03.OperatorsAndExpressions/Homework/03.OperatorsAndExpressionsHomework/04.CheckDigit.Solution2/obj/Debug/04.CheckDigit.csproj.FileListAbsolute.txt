@@ -1,6 +1,0 @@
-D:\Telerik\C#1\03.OperatorsAndExpressions\Homework\03.OperatorsAndExpressionsHomework\04.CheckDigit\bin\Debug\04.CheckDigit.exe.config
-D:\Telerik\C#1\03.OperatorsAndExpressions\Homework\03.OperatorsAndExpressionsHomework\04.CheckDigit\bin\Debug\04.CheckDigit.exe
-D:\Telerik\C#1\03.OperatorsAndExpressions\Homework\03.OperatorsAndExpressionsHomework\04.CheckDigit\bin\Debug\04.CheckDigit.pdb
-D:\Telerik\C#1\03.OperatorsAndExpressions\Homework\03.OperatorsAndExpressionsHomework\04.CheckDigit\obj\Debug\04.CheckDigit.exe
-D:\Telerik\C#1\03.OperatorsAndExpressions\Homework\03.OperatorsAndExpressionsHomework\04.CheckDigit\obj\Debug\04.CheckDigit.pdb
-D:\Telerik\C#1\03.OperatorsAndExpressions\Homework\03.OperatorsAndExpressionsHomework\04.CheckDigit\obj\Debug\04.CheckDigit.csprojResolveAssemblyReference.cache

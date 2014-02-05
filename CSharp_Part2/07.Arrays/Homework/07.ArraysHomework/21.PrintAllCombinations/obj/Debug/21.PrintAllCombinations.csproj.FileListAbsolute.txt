@@ -1,9 +1,0 @@
-D:\Telerik\Programming\CSharp_Part2\07.Arrays\Homework\07.ArraysHomework\21.PrintAllCombinations\bin\Debug\21.PrintAllCombinations.exe.config
-D:\Telerik\Programming\CSharp_Part2\07.Arrays\Homework\07.ArraysHomework\21.PrintAllCombinations\obj\Debug\21.PrintAllCombinations.csprojResolveAssemblyReference.cache
-D:\Telerik\Programming\CSharp_Part2\07.Arrays\Homework\07.ArraysHomework\21.PrintAllCombinations\bin\Debug\21.PrintAllCombinations.exe
-D:\Telerik\Programming\CSharp_Part2\07.Arrays\Homework\07.ArraysHomework\21.PrintAllCombinations\bin\Debug\21.PrintAllCombinations.pdb
-D:\Telerik\Programming\CSharp_Part2\07.Arrays\Homework\07.ArraysHomework\21.PrintAllCombinations\obj\Debug\21.PrintAllCombinations.exe
-D:\Telerik\Programming\CSharp_Part2\07.Arrays\Homework\07.ArraysHomework\21.PrintAllCombinations\obj\Debug\21.PrintAllCombinations.pdb
-D:\Telerik\CSharp_Part2\07.Arrays\Homework\07.ArraysHomework\21.PrintAllCombinations\bin\Debug\21.PrintAllCombinations.exe.config
-D:\Telerik\CSharp_Part2\07.Arrays\Homework\07.ArraysHomework\21.PrintAllCombinations\obj\Debug\21.PrintAllCombinations.exe
-D:\Telerik\CSharp_Part2\07.Arrays\Homework\07.ArraysHomework\21.PrintAllCombinations\obj\Debug\21.PrintAllCombinations.pdb

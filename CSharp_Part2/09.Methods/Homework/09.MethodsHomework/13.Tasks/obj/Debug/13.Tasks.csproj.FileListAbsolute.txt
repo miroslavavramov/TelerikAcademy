@@ -1,6 +1,0 @@
-D:\Telerik\CSharp_Part2\09.Methods\Homework\09.MethodsHomework\13.Tasks\bin\Debug\13.Tasks.exe.config
-D:\Telerik\CSharp_Part2\09.Methods\Homework\09.MethodsHomework\13.Tasks\obj\Debug\13.Tasks.csprojResolveAssemblyReference.cache
-D:\Telerik\CSharp_Part2\09.Methods\Homework\09.MethodsHomework\13.Tasks\bin\Debug\13.Tasks.exe
-D:\Telerik\CSharp_Part2\09.Methods\Homework\09.MethodsHomework\13.Tasks\bin\Debug\13.Tasks.pdb
-D:\Telerik\CSharp_Part2\09.Methods\Homework\09.MethodsHomework\13.Tasks\obj\Debug\13.Tasks.exe
-D:\Telerik\CSharp_Part2\09.Methods\Homework\09.MethodsHomework\13.Tasks\obj\Debug\13.Tasks.pdb

@@ -1,6 +1,0 @@
-D:\Telerik\C#1\04.ConsoleIO\Homework\04.ConsoleIO.Homework\03.CompanyData\bin\Debug\03.CompanyData.exe.config
-D:\Telerik\C#1\04.ConsoleIO\Homework\04.ConsoleIO.Homework\03.CompanyData\bin\Debug\03.CompanyData.exe
-D:\Telerik\C#1\04.ConsoleIO\Homework\04.ConsoleIO.Homework\03.CompanyData\bin\Debug\03.CompanyData.pdb
-D:\Telerik\C#1\04.ConsoleIO\Homework\04.ConsoleIO.Homework\03.CompanyData\obj\Debug\03.CompanyData.exe
-D:\Telerik\C#1\04.ConsoleIO\Homework\04.ConsoleIO.Homework\03.CompanyData\obj\Debug\03.CompanyData.pdb
-D:\Telerik\C#1\04.ConsoleIO\Homework\04.ConsoleIO.Homework\03.CompanyData\obj\Debug\03.CompanyData.csprojResolveAssemblyReference.cache

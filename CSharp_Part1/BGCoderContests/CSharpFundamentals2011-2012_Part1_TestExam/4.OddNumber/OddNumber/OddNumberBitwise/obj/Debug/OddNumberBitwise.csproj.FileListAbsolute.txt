@@ -1,1 +1,0 @@
-D:\Telerik\Programming\CSharp_Part1\Contests\CSharpFundamentals2011-2012_Part1_TestExam\4.OddNumber\OddNumber\OddNumberBitwise\bin\Debug\OddNumberBitwise.exe.config

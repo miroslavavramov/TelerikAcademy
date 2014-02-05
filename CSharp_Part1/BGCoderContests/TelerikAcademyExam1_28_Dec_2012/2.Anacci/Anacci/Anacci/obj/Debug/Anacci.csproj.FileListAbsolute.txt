@@ -1,6 +1,0 @@
-D:\Telerik\Programming\CSharp_Part1\BGCoderContests\TelerikAcademyExam1_28_Dec_2012\2.Anacci\Anacci\Anacci\bin\Debug\Anacci.exe.config
-D:\Telerik\Programming\CSharp_Part1\BGCoderContests\TelerikAcademyExam1_28_Dec_2012\2.Anacci\Anacci\Anacci\obj\Debug\Anacci.csprojResolveAssemblyReference.cache
-D:\Telerik\Programming\CSharp_Part1\BGCoderContests\TelerikAcademyExam1_28_Dec_2012\2.Anacci\Anacci\Anacci\bin\Debug\Anacci.exe
-D:\Telerik\Programming\CSharp_Part1\BGCoderContests\TelerikAcademyExam1_28_Dec_2012\2.Anacci\Anacci\Anacci\bin\Debug\Anacci.pdb
-D:\Telerik\Programming\CSharp_Part1\BGCoderContests\TelerikAcademyExam1_28_Dec_2012\2.Anacci\Anacci\Anacci\obj\Debug\Anacci.exe
-D:\Telerik\Programming\CSharp_Part1\BGCoderContests\TelerikAcademyExam1_28_Dec_2012\2.Anacci\Anacci\Anacci\obj\Debug\Anacci.pdb

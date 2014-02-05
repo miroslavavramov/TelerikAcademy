@@ -1,6 +1,0 @@
-D:\Telerik\Programming\CSharp_Part1\BGCoderContests\TelerikAcademyExam1_29_Dec_2012\4.UKFlag\UKFlag\UKFlag\bin\Debug\UKFlag.exe.config
-D:\Telerik\Programming\CSharp_Part1\BGCoderContests\TelerikAcademyExam1_29_Dec_2012\4.UKFlag\UKFlag\UKFlag\bin\Debug\UKFlag.exe
-D:\Telerik\Programming\CSharp_Part1\BGCoderContests\TelerikAcademyExam1_29_Dec_2012\4.UKFlag\UKFlag\UKFlag\bin\Debug\UKFlag.pdb
-D:\Telerik\Programming\CSharp_Part1\BGCoderContests\TelerikAcademyExam1_29_Dec_2012\4.UKFlag\UKFlag\UKFlag\obj\Debug\UKFlag.csprojResolveAssemblyReference.cache
-D:\Telerik\Programming\CSharp_Part1\BGCoderContests\TelerikAcademyExam1_29_Dec_2012\4.UKFlag\UKFlag\UKFlag\obj\Debug\UKFlag.exe
-D:\Telerik\Programming\CSharp_Part1\BGCoderContests\TelerikAcademyExam1_29_Dec_2012\4.UKFlag\UKFlag\UKFlag\obj\Debug\UKFlag.pdb

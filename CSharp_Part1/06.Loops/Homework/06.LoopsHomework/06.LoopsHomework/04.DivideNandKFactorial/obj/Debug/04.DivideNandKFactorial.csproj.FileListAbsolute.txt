@@ -1,6 +1,0 @@
-D:\Telerik\C#1\06.Loops\Homework\06.LoopsHomework\06.LoopsHomework\04.DivideNandKFactorial\bin\Debug\04.DivideNandKFactorial.exe.config
-D:\Telerik\C#1\06.Loops\Homework\06.LoopsHomework\06.LoopsHomework\04.DivideNandKFactorial\bin\Debug\04.DivideNandKFactorial.exe
-D:\Telerik\C#1\06.Loops\Homework\06.LoopsHomework\06.LoopsHomework\04.DivideNandKFactorial\bin\Debug\04.DivideNandKFactorial.pdb
-D:\Telerik\C#1\06.Loops\Homework\06.LoopsHomework\06.LoopsHomework\04.DivideNandKFactorial\obj\Debug\04.DivideNandKFactorial.exe
-D:\Telerik\C#1\06.Loops\Homework\06.LoopsHomework\06.LoopsHomework\04.DivideNandKFactorial\obj\Debug\04.DivideNandKFactorial.pdb
-D:\Telerik\C#1\06.Loops\Homework\06.LoopsHomework\06.LoopsHomework\04.DivideNandKFactorial\obj\Debug\04.DivideNandKFactorial.csprojResolveAssemblyReference.cache

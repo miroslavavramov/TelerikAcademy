@@ -1,6 +1,0 @@
-C:\Users\denis\Desktop\EXAM\CSharp_1_Exam_6_Dec_2013\02.TheHorror\bin\Debug\02.TheHorror.exe.config
-C:\Users\denis\Desktop\EXAM\CSharp_1_Exam_6_Dec_2013\02.TheHorror\bin\Debug\02.TheHorror.exe
-C:\Users\denis\Desktop\EXAM\CSharp_1_Exam_6_Dec_2013\02.TheHorror\bin\Debug\02.TheHorror.pdb
-C:\Users\denis\Desktop\EXAM\CSharp_1_Exam_6_Dec_2013\02.TheHorror\obj\Debug\02.TheHorror.exe
-C:\Users\denis\Desktop\EXAM\CSharp_1_Exam_6_Dec_2013\02.TheHorror\obj\Debug\02.TheHorror.pdb
-C:\Users\denis\Desktop\EXAM\CSharp_1_Exam_6_Dec_2013\02.TheHorror\obj\Debug\02.TheHorror.csprojResolveAssemblyReference.cache

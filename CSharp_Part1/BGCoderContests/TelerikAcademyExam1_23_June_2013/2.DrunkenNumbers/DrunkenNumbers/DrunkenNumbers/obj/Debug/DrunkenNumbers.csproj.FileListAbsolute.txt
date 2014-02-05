@@ -1,6 +1,0 @@
-D:\Telerik\C#1\Contests\TelerikAcademyExam1_23_June_2013\2.DrunkenNumbers\DrunkenNumbers\DrunkenNumbers\bin\Debug\DrunkenNumbers.exe.config
-D:\Telerik\C#1\Contests\TelerikAcademyExam1_23_June_2013\2.DrunkenNumbers\DrunkenNumbers\DrunkenNumbers\bin\Debug\DrunkenNumbers.exe
-D:\Telerik\C#1\Contests\TelerikAcademyExam1_23_June_2013\2.DrunkenNumbers\DrunkenNumbers\DrunkenNumbers\bin\Debug\DrunkenNumbers.pdb
-D:\Telerik\C#1\Contests\TelerikAcademyExam1_23_June_2013\2.DrunkenNumbers\DrunkenNumbers\DrunkenNumbers\obj\Debug\DrunkenNumbers.csprojResolveAssemblyReference.cache
-D:\Telerik\C#1\Contests\TelerikAcademyExam1_23_June_2013\2.DrunkenNumbers\DrunkenNumbers\DrunkenNumbers\obj\Debug\DrunkenNumbers.exe
-D:\Telerik\C#1\Contests\TelerikAcademyExam1_23_June_2013\2.DrunkenNumbers\DrunkenNumbers\DrunkenNumbers\obj\Debug\DrunkenNumbers.pdb

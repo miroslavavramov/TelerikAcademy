@@ -1,9 +1,0 @@
-C:\Users\denis\Desktop\EXAM\CSharp_1_Exam_6_Dec_2013\03.XExpression\bin\Debug\03.XExpression.exe.config
-C:\Users\denis\Desktop\EXAM\CSharp_1_Exam_6_Dec_2013\03.XExpression\bin\Debug\03.XExpression.exe
-C:\Users\denis\Desktop\EXAM\CSharp_1_Exam_6_Dec_2013\03.XExpression\bin\Debug\03.XExpression.pdb
-C:\Users\denis\Desktop\EXAM\CSharp_1_Exam_6_Dec_2013\03.XExpression\obj\Debug\03.XExpression.csprojResolveAssemblyReference.cache
-C:\Users\denis\Desktop\EXAM\CSharp_1_Exam_6_Dec_2013\03.XExpression\obj\Debug\03.XExpression.exe
-C:\Users\denis\Desktop\EXAM\CSharp_1_Exam_6_Dec_2013\03.XExpression\obj\Debug\03.XExpression.pdb
-D:\Telerik\TelerikAcademy\Programming\CSharp_Part1\EXAM_06_2013\CSharp_1_Exam_6_Dec_2013\03.XExpression\bin\Debug\03.XExpression.exe.config
-D:\Telerik\TelerikAcademy\Programming\CSharp_Part1\EXAM_06_2013\CSharp_1_Exam_6_Dec_2013\03.XExpression\obj\Debug\03.XExpression.exe
-D:\Telerik\TelerikAcademy\Programming\CSharp_Part1\EXAM_06_2013\CSharp_1_Exam_6_Dec_2013\03.XExpression\obj\Debug\03.XExpression.pdb

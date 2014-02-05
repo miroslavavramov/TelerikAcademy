@@ -1,9 +1,0 @@
-D:\Telerik\Programming\CSharp_Part1\BGCoderContests\TelerikAcademyExam1_24_June_2013_Evening\3.CardWars\CardWars\CardWars\bin\Debug\CardWars.exe.config
-D:\Telerik\Programming\CSharp_Part1\BGCoderContests\TelerikAcademyExam1_24_June_2013_Evening\3.CardWars\CardWars\CardWars\bin\Debug\CardWars.exe
-D:\Telerik\Programming\CSharp_Part1\BGCoderContests\TelerikAcademyExam1_24_June_2013_Evening\3.CardWars\CardWars\CardWars\bin\Debug\CardWars.pdb
-D:\Telerik\Programming\CSharp_Part1\BGCoderContests\TelerikAcademyExam1_24_June_2013_Evening\3.CardWars\CardWars\CardWars\obj\Debug\CardWars.csprojResolveAssemblyReference.cache
-D:\Telerik\Programming\CSharp_Part1\BGCoderContests\TelerikAcademyExam1_24_June_2013_Evening\3.CardWars\CardWars\CardWars\obj\Debug\CardWars.exe
-D:\Telerik\Programming\CSharp_Part1\BGCoderContests\TelerikAcademyExam1_24_June_2013_Evening\3.CardWars\CardWars\CardWars\obj\Debug\CardWars.pdb
-D:\Telerik\Programming\CSharp_Part1\BGCoderContests\TelerikAcademyExam1_24_June_2013_Evening\3.CardWars\CardWars\CardWars\bin\Debug\Microsoft.QualityTools.Testing.Fakes.dll
-D:\Telerik\Programming\CSharp_Part1\BGCoderContests\TelerikAcademyExam1_24_June_2013_Evening\3.CardWars\CardWars\CardWars\bin\Debug\System.Numerics.4.0.0.0.Fakes.dll
-D:\Telerik\Programming\CSharp_Part1\BGCoderContests\TelerikAcademyExam1_24_June_2013_Evening\3.CardWars\CardWars\CardWars\bin\Debug\System.Numerics.4.0.0.0.Fakes.xml

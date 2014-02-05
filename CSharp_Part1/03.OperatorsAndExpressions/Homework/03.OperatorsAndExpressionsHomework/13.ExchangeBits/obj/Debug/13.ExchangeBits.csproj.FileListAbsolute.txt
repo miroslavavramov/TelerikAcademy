@@ -1,9 +1,0 @@
-D:\Telerik\C#1\03.OperatorsAndExpressions\Homework\03.OperatorsAndExpressionsHomework\13.ExchangeBits\bin\Debug\13.ExchangeBits.exe.config
-D:\Telerik\C#1\03.OperatorsAndExpressions\Homework\03.OperatorsAndExpressionsHomework\13.ExchangeBits\obj\Debug\13.ExchangeBits.csprojResolveAssemblyReference.cache
-D:\Telerik\C#1\03.OperatorsAndExpressions\Homework\03.OperatorsAndExpressionsHomework\13.ExchangeBits\bin\Debug\13.ExchangeBits.exe
-D:\Telerik\C#1\03.OperatorsAndExpressions\Homework\03.OperatorsAndExpressionsHomework\13.ExchangeBits\bin\Debug\13.ExchangeBits.pdb
-D:\Telerik\C#1\03.OperatorsAndExpressions\Homework\03.OperatorsAndExpressionsHomework\13.ExchangeBits\obj\Debug\13.ExchangeBits.exe
-D:\Telerik\C#1\03.OperatorsAndExpressions\Homework\03.OperatorsAndExpressionsHomework\13.ExchangeBits\obj\Debug\13.ExchangeBits.pdb
-D:\Telerik\Programming\CSharp_Part1\03.OperatorsAndExpressions\Homework\03.OperatorsAndExpressionsHomework\13.ExchangeBits\bin\Debug\13.ExchangeBits.exe.config
-D:\Telerik\Programming\CSharp_Part1\03.OperatorsAndExpressions\Homework\03.OperatorsAndExpressionsHomework\13.ExchangeBits\obj\Debug\13.ExchangeBits.exe
-D:\Telerik\Programming\CSharp_Part1\03.OperatorsAndExpressions\Homework\03.OperatorsAndExpressionsHomework\13.ExchangeBits\obj\Debug\13.ExchangeBits.pdb

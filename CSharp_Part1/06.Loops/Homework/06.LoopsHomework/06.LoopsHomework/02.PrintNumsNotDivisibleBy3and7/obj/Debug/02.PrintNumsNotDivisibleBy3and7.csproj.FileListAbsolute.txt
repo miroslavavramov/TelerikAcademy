@@ -1,5 +1,0 @@
-D:\Telerik\C#1\06.Loops\Homework\06.LoopsHomework\06.LoopsHomework\02.PrintNumsNotDivisibleBy3and7\bin\Debug\02.PrintNumsNotDivisibleBy3and7.exe.config
-D:\Telerik\C#1\06.Loops\Homework\06.LoopsHomework\06.LoopsHomework\02.PrintNumsNotDivisibleBy3and7\bin\Debug\02.PrintNumsNotDivisibleBy3and7.exe
-D:\Telerik\C#1\06.Loops\Homework\06.LoopsHomework\06.LoopsHomework\02.PrintNumsNotDivisibleBy3and7\bin\Debug\02.PrintNumsNotDivisibleBy3and7.pdb
-D:\Telerik\C#1\06.Loops\Homework\06.LoopsHomework\06.LoopsHomework\02.PrintNumsNotDivisibleBy3and7\obj\Debug\02.PrintNumsNotDivisibleBy3and7.exe
-D:\Telerik\C#1\06.Loops\Homework\06.LoopsHomework\06.LoopsHomework\02.PrintNumsNotDivisibleBy3and7\obj\Debug\02.PrintNumsNotDivisibleBy3and7.pdb

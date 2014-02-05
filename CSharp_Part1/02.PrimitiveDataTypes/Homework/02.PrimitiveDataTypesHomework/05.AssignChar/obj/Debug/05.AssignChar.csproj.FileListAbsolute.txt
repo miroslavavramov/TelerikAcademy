@@ -1,9 +1,0 @@
-D:\Telerik\C#_part_1\02_Primitive_Data_Types\Homework\02_Primitive_Data_Types_Homework\05.AssignChar\bin\Debug\ConsoleApplication2.exe.config
-D:\Telerik\C#_part_1\02_Primitive_Data_Types\Homework\02_Primitive_Data_Types_Homework\05.AssignChar\obj\Debug\ConsoleApplication2.exe
-D:\Telerik\C#_part_1\02_Primitive_Data_Types\Homework\02_Primitive_Data_Types_Homework\05.AssignChar\obj\Debug\ConsoleApplication2.pdb
-D:\Telerik\C#1\02.PrimitiveDataTypes\Homework\02.PrimitiveDataTypesHomework\05.AssignChar\bin\Debug\ConsoleApplication2.exe.config
-D:\Telerik\C#1\02.PrimitiveDataTypes\Homework\02.PrimitiveDataTypesHomework\05.AssignChar\obj\Debug\ConsoleApplication2.exe
-D:\Telerik\C#1\02.PrimitiveDataTypes\Homework\02.PrimitiveDataTypesHomework\05.AssignChar\obj\Debug\ConsoleApplication2.pdb
-D:\Telerik\C#1\02.PrimitiveDataTypes\Homework\02.PrimitiveDataTypesHomework\05.AssignChar\bin\Debug\ConsoleApplication2.exe
-D:\Telerik\C#1\02.PrimitiveDataTypes\Homework\02.PrimitiveDataTypesHomework\05.AssignChar\bin\Debug\ConsoleApplication2.pdb
-D:\Telerik\C#1\02.PrimitiveDataTypes\Homework\02.PrimitiveDataTypesHomework\05.AssignChar\obj\Debug\05.AssignChar.csprojResolveAssemblyReference.cache

@@ -1,6 +1,0 @@
-D:\Telerik\Programming\CSharp_Part1\BGCoderContests\TelerikAcademyExam1_06_Dec_2011_Morning\5.Pillars\Pillars\Pillars\bin\Debug\Pillars.exe.config
-D:\Telerik\Programming\CSharp_Part1\BGCoderContests\TelerikAcademyExam1_06_Dec_2011_Morning\5.Pillars\Pillars\Pillars\obj\Debug\Pillars.csprojResolveAssemblyReference.cache
-D:\Telerik\Programming\CSharp_Part1\BGCoderContests\TelerikAcademyExam1_06_Dec_2011_Morning\5.Pillars\Pillars\Pillars\bin\Debug\Pillars.exe
-D:\Telerik\Programming\CSharp_Part1\BGCoderContests\TelerikAcademyExam1_06_Dec_2011_Morning\5.Pillars\Pillars\Pillars\bin\Debug\Pillars.pdb
-D:\Telerik\Programming\CSharp_Part1\BGCoderContests\TelerikAcademyExam1_06_Dec_2011_Morning\5.Pillars\Pillars\Pillars\obj\Debug\Pillars.exe
-D:\Telerik\Programming\CSharp_Part1\BGCoderContests\TelerikAcademyExam1_06_Dec_2011_Morning\5.Pillars\Pillars\Pillars\obj\Debug\Pillars.pdb

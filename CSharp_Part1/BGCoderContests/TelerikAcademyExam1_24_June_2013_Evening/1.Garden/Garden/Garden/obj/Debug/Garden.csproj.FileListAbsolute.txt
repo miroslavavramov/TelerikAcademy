@@ -1,6 +1,0 @@
-D:\Telerik\Programming\CSharp_Part1\BGCoderContests\TelerikAcademyExam1_24_June_2013_Evening\1.Garden\Garden\Garden\bin\Debug\Garden.exe.config
-D:\Telerik\Programming\CSharp_Part1\BGCoderContests\TelerikAcademyExam1_24_June_2013_Evening\1.Garden\Garden\Garden\bin\Debug\Garden.exe
-D:\Telerik\Programming\CSharp_Part1\BGCoderContests\TelerikAcademyExam1_24_June_2013_Evening\1.Garden\Garden\Garden\bin\Debug\Garden.pdb
-D:\Telerik\Programming\CSharp_Part1\BGCoderContests\TelerikAcademyExam1_24_June_2013_Evening\1.Garden\Garden\Garden\obj\Debug\Garden.csprojResolveAssemblyReference.cache
-D:\Telerik\Programming\CSharp_Part1\BGCoderContests\TelerikAcademyExam1_24_June_2013_Evening\1.Garden\Garden\Garden\obj\Debug\Garden.exe
-D:\Telerik\Programming\CSharp_Part1\BGCoderContests\TelerikAcademyExam1_24_June_2013_Evening\1.Garden\Garden\Garden\obj\Debug\Garden.pdb

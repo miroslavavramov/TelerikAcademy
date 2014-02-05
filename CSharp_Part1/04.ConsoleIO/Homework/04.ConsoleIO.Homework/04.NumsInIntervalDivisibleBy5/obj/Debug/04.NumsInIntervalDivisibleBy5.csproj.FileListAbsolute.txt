@@ -1,5 +1,0 @@
-D:\Telerik\C#1\04.ConsoleIO\Homework\04.ConsoleIO.Homework\04.NumsInIntervalDivisibleBy5\bin\Debug\04.NumsInIntervalDivisibleBy5.exe.config
-D:\Telerik\C#1\04.ConsoleIO\Homework\04.ConsoleIO.Homework\04.NumsInIntervalDivisibleBy5\bin\Debug\04.NumsInIntervalDivisibleBy5.exe
-D:\Telerik\C#1\04.ConsoleIO\Homework\04.ConsoleIO.Homework\04.NumsInIntervalDivisibleBy5\bin\Debug\04.NumsInIntervalDivisibleBy5.pdb
-D:\Telerik\C#1\04.ConsoleIO\Homework\04.ConsoleIO.Homework\04.NumsInIntervalDivisibleBy5\obj\Debug\04.NumsInIntervalDivisibleBy5.exe
-D:\Telerik\C#1\04.ConsoleIO\Homework\04.ConsoleIO.Homework\04.NumsInIntervalDivisibleBy5\obj\Debug\04.NumsInIntervalDivisibleBy5.pdb

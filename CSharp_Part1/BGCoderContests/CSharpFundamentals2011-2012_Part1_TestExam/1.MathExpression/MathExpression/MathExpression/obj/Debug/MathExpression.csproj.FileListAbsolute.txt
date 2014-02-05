@@ -1,6 +1,0 @@
-D:\Telerik\Programming\CSharp_Part1\Contests\CSharpFundamentals2011-2012_p1_TestExam\1.MathExpression\MathExpression\MathExpression\bin\Debug\MathExpression.exe.config
-D:\Telerik\Programming\CSharp_Part1\Contests\CSharpFundamentals2011-2012_p1_TestExam\1.MathExpression\MathExpression\MathExpression\obj\Debug\MathExpression.csprojResolveAssemblyReference.cache
-D:\Telerik\Programming\CSharp_Part1\Contests\CSharpFundamentals2011-2012_p1_TestExam\1.MathExpression\MathExpression\MathExpression\bin\Debug\MathExpression.exe
-D:\Telerik\Programming\CSharp_Part1\Contests\CSharpFundamentals2011-2012_p1_TestExam\1.MathExpression\MathExpression\MathExpression\bin\Debug\MathExpression.pdb
-D:\Telerik\Programming\CSharp_Part1\Contests\CSharpFundamentals2011-2012_p1_TestExam\1.MathExpression\MathExpression\MathExpression\obj\Debug\MathExpression.exe
-D:\Telerik\Programming\CSharp_Part1\Contests\CSharpFundamentals2011-2012_p1_TestExam\1.MathExpression\MathExpression\MathExpression\obj\Debug\MathExpression.pdb

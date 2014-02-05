@@ -1,6 +1,0 @@
-D:\Telerik\Programming\CSharp_Part1\Contests\CSharpFundamentals2011-2012_Part1_TestExam\3.Trapezoid\Trapezoid\Trapezoid\bin\Debug\Trapezoid.exe.config
-D:\Telerik\Programming\CSharp_Part1\Contests\CSharpFundamentals2011-2012_Part1_TestExam\3.Trapezoid\Trapezoid\Trapezoid\bin\Debug\Trapezoid.exe
-D:\Telerik\Programming\CSharp_Part1\Contests\CSharpFundamentals2011-2012_Part1_TestExam\3.Trapezoid\Trapezoid\Trapezoid\bin\Debug\Trapezoid.pdb
-D:\Telerik\Programming\CSharp_Part1\Contests\CSharpFundamentals2011-2012_Part1_TestExam\3.Trapezoid\Trapezoid\Trapezoid\obj\Debug\Trapezoid.csprojResolveAssemblyReference.cache
-D:\Telerik\Programming\CSharp_Part1\Contests\CSharpFundamentals2011-2012_Part1_TestExam\3.Trapezoid\Trapezoid\Trapezoid\obj\Debug\Trapezoid.exe
-D:\Telerik\Programming\CSharp_Part1\Contests\CSharpFundamentals2011-2012_Part1_TestExam\3.Trapezoid\Trapezoid\Trapezoid\obj\Debug\Trapezoid.pdb

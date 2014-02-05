@@ -1,5 +1,0 @@
-D:\Telerik\Programming\CSharp_Part1\Contests\CSharpFundamentals2011-2012_Part1_TestExam\4.OddNumber\OddNumber\OddNumberListT\bin\Debug\OddNumberListT.exe.config
-D:\Telerik\Programming\CSharp_Part1\Contests\CSharpFundamentals2011-2012_Part1_TestExam\4.OddNumber\OddNumber\OddNumberListT\bin\Debug\OddNumberListT.exe
-D:\Telerik\Programming\CSharp_Part1\Contests\CSharpFundamentals2011-2012_Part1_TestExam\4.OddNumber\OddNumber\OddNumberListT\bin\Debug\OddNumberListT.pdb
-D:\Telerik\Programming\CSharp_Part1\Contests\CSharpFundamentals2011-2012_Part1_TestExam\4.OddNumber\OddNumber\OddNumberListT\obj\Debug\OddNumberListT.exe
-D:\Telerik\Programming\CSharp_Part1\Contests\CSharpFundamentals2011-2012_Part1_TestExam\4.OddNumber\OddNumber\OddNumberListT\obj\Debug\OddNumberListT.pdb

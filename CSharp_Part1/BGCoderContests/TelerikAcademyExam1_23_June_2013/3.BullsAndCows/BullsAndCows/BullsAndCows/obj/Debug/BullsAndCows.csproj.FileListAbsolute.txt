@@ -1,6 +1,0 @@
-D:\Telerik\C#1\Contests\TelerikAcademyExam1_23_June_2013\3.BullsAndCows\BullsAndCows\BullsAndCows\bin\Debug\BullsAndCows.exe.config
-D:\Telerik\C#1\Contests\TelerikAcademyExam1_23_June_2013\3.BullsAndCows\BullsAndCows\BullsAndCows\bin\Debug\BullsAndCows.exe
-D:\Telerik\C#1\Contests\TelerikAcademyExam1_23_June_2013\3.BullsAndCows\BullsAndCows\BullsAndCows\bin\Debug\BullsAndCows.pdb
-D:\Telerik\C#1\Contests\TelerikAcademyExam1_23_June_2013\3.BullsAndCows\BullsAndCows\BullsAndCows\obj\Debug\BullsAndCows.csprojResolveAssemblyReference.cache
-D:\Telerik\C#1\Contests\TelerikAcademyExam1_23_June_2013\3.BullsAndCows\BullsAndCows\BullsAndCows\obj\Debug\BullsAndCows.exe
-D:\Telerik\C#1\Contests\TelerikAcademyExam1_23_June_2013\3.BullsAndCows\BullsAndCows\BullsAndCows\obj\Debug\BullsAndCows.pdb

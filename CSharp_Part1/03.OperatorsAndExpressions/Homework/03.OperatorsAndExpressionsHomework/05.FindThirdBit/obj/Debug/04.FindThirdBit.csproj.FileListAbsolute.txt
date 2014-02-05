@@ -1,3 +1,0 @@
-D:\Telerik\C#1\03.OperatorsAndExpressions\Homework\03.OperatorsAndExpressionsHomework\05.FindThirdBit\bin\Debug\05.FindThirdBit.exe.config
-D:\Telerik\C#1\03.OperatorsAndExpressions\Homework\03.OperatorsAndExpressionsHomework\05.FindThirdBit\obj\Debug\05.FindThirdBit.exe
-D:\Telerik\C#1\03.OperatorsAndExpressions\Homework\03.OperatorsAndExpressionsHomework\05.FindThirdBit\obj\Debug\05.FindThirdBit.pdb

@@ -1,6 +1,0 @@
-D:\Telerik\C#1\02.PrimitiveDataTypes\Homework\02.PrimitiveDataTypesHomework\08.AssignStrings\bin\Debug\08.AssignStrings.exe.config
-D:\Telerik\C#1\02.PrimitiveDataTypes\Homework\02.PrimitiveDataTypesHomework\08.AssignStrings\bin\Debug\08.AssignStrings.exe
-D:\Telerik\C#1\02.PrimitiveDataTypes\Homework\02.PrimitiveDataTypesHomework\08.AssignStrings\bin\Debug\08.AssignStrings.pdb
-D:\Telerik\C#1\02.PrimitiveDataTypes\Homework\02.PrimitiveDataTypesHomework\08.AssignStrings\obj\Debug\08.AssignStrings.csprojResolveAssemblyReference.cache
-D:\Telerik\C#1\02.PrimitiveDataTypes\Homework\02.PrimitiveDataTypesHomework\08.AssignStrings\obj\Debug\08.AssignStrings.exe
-D:\Telerik\C#1\02.PrimitiveDataTypes\Homework\02.PrimitiveDataTypesHomework\08.AssignStrings\obj\Debug\08.AssignStrings.pdb

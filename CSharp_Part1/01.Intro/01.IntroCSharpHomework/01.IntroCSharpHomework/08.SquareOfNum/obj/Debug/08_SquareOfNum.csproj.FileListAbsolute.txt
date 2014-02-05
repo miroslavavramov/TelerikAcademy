@@ -1,9 +1,0 @@
-D:\Telerik\C#_part_1\01_Intro\homework\Solution1\08_SquareOfNum\bin\Debug\08_SquareOfNum.exe.config
-D:\Telerik\C#_part_1\01_Intro\homework\Solution1\08_SquareOfNum\bin\Debug\08_SquareOfNum.exe
-D:\Telerik\C#_part_1\01_Intro\homework\Solution1\08_SquareOfNum\bin\Debug\08_SquareOfNum.pdb
-D:\Telerik\C#_part_1\01_Intro\homework\Solution1\08_SquareOfNum\obj\Debug\08_SquareOfNum.csprojResolveAssemblyReference.cache
-D:\Telerik\C#_part_1\01_Intro\homework\Solution1\08_SquareOfNum\obj\Debug\08_SquareOfNum.exe
-D:\Telerik\C#_part_1\01_Intro\homework\Solution1\08_SquareOfNum\obj\Debug\08_SquareOfNum.pdb
-D:\Telerik\C#_part_1\01_Intro\01_IntroCSharp_Homework\08_SquareOfNum\bin\Debug\08_SquareOfNum.exe.config
-D:\Telerik\C#_part_1\01_Intro\01_IntroCSharp_Homework\08_SquareOfNum\obj\Debug\08_SquareOfNum.exe
-D:\Telerik\C#_part_1\01_Intro\01_IntroCSharp_Homework\08_SquareOfNum\obj\Debug\08_SquareOfNum.pdb

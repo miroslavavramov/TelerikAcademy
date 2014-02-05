@@ -1,5 +1,0 @@
-D:\Telerik\C#1\04.ConsoleIO\Homework\04.ConsoleIO.Homework\06.QuadraticEquation\bin\Debug\06.QuadraticEquation.exe.config
-D:\Telerik\C#1\04.ConsoleIO\Homework\04.ConsoleIO.Homework\06.QuadraticEquation\bin\Debug\06.QuadraticEquation.exe
-D:\Telerik\C#1\04.ConsoleIO\Homework\04.ConsoleIO.Homework\06.QuadraticEquation\bin\Debug\06.QuadraticEquation.pdb
-D:\Telerik\C#1\04.ConsoleIO\Homework\04.ConsoleIO.Homework\06.QuadraticEquation\obj\Debug\06.QuadraticEquation.exe
-D:\Telerik\C#1\04.ConsoleIO\Homework\04.ConsoleIO.Homework\06.QuadraticEquation\obj\Debug\06.QuadraticEquation.pdb

@@ -1,5 +1,0 @@
-D:\Telerik\C#1\06.Loops\Homework\06.LoopsHomework\06.LoopsHomework\03.GetMinMaxMembersOfSequence\bin\Debug\03.GetMinMaxMembersOfSequence.exe.config
-D:\Telerik\C#1\06.Loops\Homework\06.LoopsHomework\06.LoopsHomework\03.GetMinMaxMembersOfSequence\bin\Debug\03.GetMinMaxMembersOfSequence.exe
-D:\Telerik\C#1\06.Loops\Homework\06.LoopsHomework\06.LoopsHomework\03.GetMinMaxMembersOfSequence\bin\Debug\03.GetMinMaxMembersOfSequence.pdb
-D:\Telerik\C#1\06.Loops\Homework\06.LoopsHomework\06.LoopsHomework\03.GetMinMaxMembersOfSequence\obj\Debug\03.GetMinMaxMembersOfSequence.exe
-D:\Telerik\C#1\06.Loops\Homework\06.LoopsHomework\06.LoopsHomework\03.GetMinMaxMembersOfSequence\obj\Debug\03.GetMinMaxMembersOfSequence.pdb

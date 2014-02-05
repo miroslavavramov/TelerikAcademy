@@ -1,6 +1,0 @@
-D:\Telerik\Programming\CSharp_Part1\BGCoderContests\TelerikAcademyExam1_06_Dec_2011_Morning\3.FirTree\FirTree\FirTree\bin\Debug\FirTree.exe.config
-D:\Telerik\Programming\CSharp_Part1\BGCoderContests\TelerikAcademyExam1_06_Dec_2011_Morning\3.FirTree\FirTree\FirTree\bin\Debug\FirTree.exe
-D:\Telerik\Programming\CSharp_Part1\BGCoderContests\TelerikAcademyExam1_06_Dec_2011_Morning\3.FirTree\FirTree\FirTree\bin\Debug\FirTree.pdb
-D:\Telerik\Programming\CSharp_Part1\BGCoderContests\TelerikAcademyExam1_06_Dec_2011_Morning\3.FirTree\FirTree\FirTree\obj\Debug\FirTree.csprojResolveAssemblyReference.cache
-D:\Telerik\Programming\CSharp_Part1\BGCoderContests\TelerikAcademyExam1_06_Dec_2011_Morning\3.FirTree\FirTree\FirTree\obj\Debug\FirTree.exe
-D:\Telerik\Programming\CSharp_Part1\BGCoderContests\TelerikAcademyExam1_06_Dec_2011_Morning\3.FirTree\FirTree\FirTree\obj\Debug\FirTree.pdb

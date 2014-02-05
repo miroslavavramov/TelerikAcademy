@@ -1,9 +1,0 @@
-D:\Telerik\Programming\CSharp_Part2\08.MultidimensionalArrays\Homework\08.MultidimArraysHW\Ex02.MaxPlatform\bin\Debug\Ex02.MaxPlatform.exe.config
-D:\Telerik\Programming\CSharp_Part2\08.MultidimensionalArrays\Homework\08.MultidimArraysHW\Ex02.MaxPlatform\bin\Debug\Ex02.MaxPlatform.exe
-D:\Telerik\Programming\CSharp_Part2\08.MultidimensionalArrays\Homework\08.MultidimArraysHW\Ex02.MaxPlatform\bin\Debug\Ex02.MaxPlatform.pdb
-D:\Telerik\Programming\CSharp_Part2\08.MultidimensionalArrays\Homework\08.MultidimArraysHW\Ex02.MaxPlatform\obj\Debug\Ex02.MaxPlatform.exe
-D:\Telerik\Programming\CSharp_Part2\08.MultidimensionalArrays\Homework\08.MultidimArraysHW\Ex02.MaxPlatform\obj\Debug\Ex02.MaxPlatform.pdb
-D:\Telerik\Programming\CSharp_Part2\08.MultidimensionalArrays\Homework\08.MultidimArraysHW\Ex02.MaxPlatform\obj\Debug\Ex02.MaxPlatform.csprojResolveAssemblyReference.cache
-D:\Telerik\CSharp_Part2\08.MultidimensionalArrays\Homework\08.MultidimArraysHW\Ex02.MaxPlatform\bin\Debug\Ex02.MaxPlatform.exe.config
-D:\Telerik\CSharp_Part2\08.MultidimensionalArrays\Homework\08.MultidimArraysHW\Ex02.MaxPlatform\obj\Debug\Ex02.MaxPlatform.exe
-D:\Telerik\CSharp_Part2\08.MultidimensionalArrays\Homework\08.MultidimArraysHW\Ex02.MaxPlatform\obj\Debug\Ex02.MaxPlatform.pdb

@@ -1,6 +1,0 @@
-D:\Telerik\C#1\Contests\CSharpFundamentals2011-2012_Part1_SampleExam\3.ForestRoad\ForestRoad\ForestRoad\bin\Debug\ForestRoad.exe.config
-D:\Telerik\C#1\Contests\CSharpFundamentals2011-2012_Part1_SampleExam\3.ForestRoad\ForestRoad\ForestRoad\obj\Debug\ForestRoad.csprojResolveAssemblyReference.cache
-D:\Telerik\C#1\Contests\CSharpFundamentals2011-2012_Part1_SampleExam\3.ForestRoad\ForestRoad\ForestRoad\bin\Debug\ForestRoad.exe
-D:\Telerik\C#1\Contests\CSharpFundamentals2011-2012_Part1_SampleExam\3.ForestRoad\ForestRoad\ForestRoad\bin\Debug\ForestRoad.pdb
-D:\Telerik\C#1\Contests\CSharpFundamentals2011-2012_Part1_SampleExam\3.ForestRoad\ForestRoad\ForestRoad\obj\Debug\ForestRoad.exe
-D:\Telerik\C#1\Contests\CSharpFundamentals2011-2012_Part1_SampleExam\3.ForestRoad\ForestRoad\ForestRoad\obj\Debug\ForestRoad.pdb

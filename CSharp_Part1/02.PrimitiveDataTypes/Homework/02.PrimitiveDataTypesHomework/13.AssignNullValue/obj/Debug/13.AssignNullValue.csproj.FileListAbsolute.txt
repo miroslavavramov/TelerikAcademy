@@ -1,9 +1,0 @@
-D:\Telerik\C#1\02.PrimitiveDataTypes\Homework\02.PrimitiveDataTypesHomework\13.AssignNullValue\bin\Debug\13.AssignNullValue.exe.config
-D:\Telerik\C#1\02.PrimitiveDataTypes\Homework\02.PrimitiveDataTypesHomework\13.AssignNullValue\bin\Debug\13.AssignNullValue.exe
-D:\Telerik\C#1\02.PrimitiveDataTypes\Homework\02.PrimitiveDataTypesHomework\13.AssignNullValue\bin\Debug\13.AssignNullValue.pdb
-D:\Telerik\C#1\02.PrimitiveDataTypes\Homework\02.PrimitiveDataTypesHomework\13.AssignNullValue\obj\Debug\13.AssignNullValue.csprojResolveAssemblyReference.cache
-D:\Telerik\C#1\02.PrimitiveDataTypes\Homework\02.PrimitiveDataTypesHomework\13.AssignNullValue\obj\Debug\13.AssignNullValue.exe
-D:\Telerik\C#1\02.PrimitiveDataTypes\Homework\02.PrimitiveDataTypesHomework\13.AssignNullValue\obj\Debug\13.AssignNullValue.pdb
-C:\Users\denis\Desktop\hw\02.PrimitiveDataTypesHomework\13.AssignNullValue\bin\Debug\13.AssignNullValue.exe.config
-C:\Users\denis\Desktop\hw\02.PrimitiveDataTypesHomework\13.AssignNullValue\obj\Debug\13.AssignNullValue.exe
-C:\Users\denis\Desktop\hw\02.PrimitiveDataTypesHomework\13.AssignNullValue\obj\Debug\13.AssignNullValue.pdb

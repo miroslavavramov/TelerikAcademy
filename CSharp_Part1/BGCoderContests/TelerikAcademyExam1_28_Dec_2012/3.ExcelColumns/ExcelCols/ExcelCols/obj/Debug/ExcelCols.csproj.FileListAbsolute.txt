@@ -1,6 +1,0 @@
-D:\Telerik\Programming\CSharp_Part1\BGCoderContests\TelerikAcademyExam1_28_Dec_2012\3.ExcelColumns\ExcelCols\ExcelCols\bin\Debug\ExcelCols.exe.config
-D:\Telerik\Programming\CSharp_Part1\BGCoderContests\TelerikAcademyExam1_28_Dec_2012\3.ExcelColumns\ExcelCols\ExcelCols\obj\Debug\ExcelCols.csprojResolveAssemblyReference.cache
-D:\Telerik\Programming\CSharp_Part1\BGCoderContests\TelerikAcademyExam1_28_Dec_2012\3.ExcelColumns\ExcelCols\ExcelCols\bin\Debug\ExcelCols.exe
-D:\Telerik\Programming\CSharp_Part1\BGCoderContests\TelerikAcademyExam1_28_Dec_2012\3.ExcelColumns\ExcelCols\ExcelCols\bin\Debug\ExcelCols.pdb
-D:\Telerik\Programming\CSharp_Part1\BGCoderContests\TelerikAcademyExam1_28_Dec_2012\3.ExcelColumns\ExcelCols\ExcelCols\obj\Debug\ExcelCols.exe
-D:\Telerik\Programming\CSharp_Part1\BGCoderContests\TelerikAcademyExam1_28_Dec_2012\3.ExcelColumns\ExcelCols\ExcelCols\obj\Debug\ExcelCols.pdb

@@ -1,6 +1,0 @@
-D:\Telerik\C#1\04.ConsoleIO\Homework\04.ConsoleIO.Homework\08.PrintNumbers\bin\Debug\08.PrintNumbers.exe.config
-D:\Telerik\C#1\04.ConsoleIO\Homework\04.ConsoleIO.Homework\08.PrintNumbers\bin\Debug\08.PrintNumbers.exe
-D:\Telerik\C#1\04.ConsoleIO\Homework\04.ConsoleIO.Homework\08.PrintNumbers\bin\Debug\08.PrintNumbers.pdb
-D:\Telerik\C#1\04.ConsoleIO\Homework\04.ConsoleIO.Homework\08.PrintNumbers\obj\Debug\08.PrintNumbers.exe
-D:\Telerik\C#1\04.ConsoleIO\Homework\04.ConsoleIO.Homework\08.PrintNumbers\obj\Debug\08.PrintNumbers.pdb
-D:\Telerik\C#1\04.ConsoleIO\Homework\04.ConsoleIO.Homework\08.PrintNumbers\obj\Debug\08.PrintNumbers.csprojResolveAssemblyReference.cache

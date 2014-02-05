@@ -1,8 +1,0 @@
-word "FBI" occurs 10 times
-word "Act" occurs 5 times
-word "Gmail" occurs 5 times
-word "Google" occurs 4 times
-word "Weissmann" occurs 4 times
-word "talk" occurs 2 times
-word "Skype" occurs 1 times
-word "Zoidberg" occurs 0 times

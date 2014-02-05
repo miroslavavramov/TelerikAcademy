@@ -1,6 +1,0 @@
-D:\Telerik\Programming\CSharp_Part1\BGCoderContests\TelerikAcademyExam1_7_Dec_2011_Morning\5.Lines\Lines\Lines\bin\Debug\Lines.exe.config
-D:\Telerik\Programming\CSharp_Part1\BGCoderContests\TelerikAcademyExam1_7_Dec_2011_Morning\5.Lines\Lines\Lines\bin\Debug\Lines.exe
-D:\Telerik\Programming\CSharp_Part1\BGCoderContests\TelerikAcademyExam1_7_Dec_2011_Morning\5.Lines\Lines\Lines\bin\Debug\Lines.pdb
-D:\Telerik\Programming\CSharp_Part1\BGCoderContests\TelerikAcademyExam1_7_Dec_2011_Morning\5.Lines\Lines\Lines\obj\Debug\Lines.csprojResolveAssemblyReference.cache
-D:\Telerik\Programming\CSharp_Part1\BGCoderContests\TelerikAcademyExam1_7_Dec_2011_Morning\5.Lines\Lines\Lines\obj\Debug\Lines.exe
-D:\Telerik\Programming\CSharp_Part1\BGCoderContests\TelerikAcademyExam1_7_Dec_2011_Morning\5.Lines\Lines\Lines\obj\Debug\Lines.pdb

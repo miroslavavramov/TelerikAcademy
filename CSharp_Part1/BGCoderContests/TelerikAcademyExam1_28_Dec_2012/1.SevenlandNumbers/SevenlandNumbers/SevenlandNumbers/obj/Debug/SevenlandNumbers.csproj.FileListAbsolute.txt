@@ -1,6 +1,0 @@
-D:\Telerik\Programming\CSharp_Part1\BGCoderContests\TelerikAcademyExam1_28_Dec_2012\1.SevenlandNumbers\SevenlandNumbers\SevenlandNumbers\bin\Debug\SevenlandNumbers.exe.config
-D:\Telerik\Programming\CSharp_Part1\BGCoderContests\TelerikAcademyExam1_28_Dec_2012\1.SevenlandNumbers\SevenlandNumbers\SevenlandNumbers\bin\Debug\SevenlandNumbers.exe
-D:\Telerik\Programming\CSharp_Part1\BGCoderContests\TelerikAcademyExam1_28_Dec_2012\1.SevenlandNumbers\SevenlandNumbers\SevenlandNumbers\bin\Debug\SevenlandNumbers.pdb
-D:\Telerik\Programming\CSharp_Part1\BGCoderContests\TelerikAcademyExam1_28_Dec_2012\1.SevenlandNumbers\SevenlandNumbers\SevenlandNumbers\obj\Debug\SevenlandNumbers.csprojResolveAssemblyReference.cache
-D:\Telerik\Programming\CSharp_Part1\BGCoderContests\TelerikAcademyExam1_28_Dec_2012\1.SevenlandNumbers\SevenlandNumbers\SevenlandNumbers\obj\Debug\SevenlandNumbers.exe
-D:\Telerik\Programming\CSharp_Part1\BGCoderContests\TelerikAcademyExam1_28_Dec_2012\1.SevenlandNumbers\SevenlandNumbers\SevenlandNumbers\obj\Debug\SevenlandNumbers.pdb

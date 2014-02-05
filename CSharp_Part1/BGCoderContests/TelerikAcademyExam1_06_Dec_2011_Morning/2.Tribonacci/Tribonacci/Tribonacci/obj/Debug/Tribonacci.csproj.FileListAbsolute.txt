@@ -1,6 +1,0 @@
-D:\Telerik\Programming\CSharp_Part1\BGCoderContests\TelerikAcademyExam1_06_Dec_2011_Morning\2.Tribonacci\Tribonacci\Tribonacci\bin\Debug\Tribonacci.exe.config
-D:\Telerik\Programming\CSharp_Part1\BGCoderContests\TelerikAcademyExam1_06_Dec_2011_Morning\2.Tribonacci\Tribonacci\Tribonacci\obj\Debug\Tribonacci.csprojResolveAssemblyReference.cache
-D:\Telerik\Programming\CSharp_Part1\BGCoderContests\TelerikAcademyExam1_06_Dec_2011_Morning\2.Tribonacci\Tribonacci\Tribonacci\bin\Debug\Tribonacci.exe
-D:\Telerik\Programming\CSharp_Part1\BGCoderContests\TelerikAcademyExam1_06_Dec_2011_Morning\2.Tribonacci\Tribonacci\Tribonacci\bin\Debug\Tribonacci.pdb
-D:\Telerik\Programming\CSharp_Part1\BGCoderContests\TelerikAcademyExam1_06_Dec_2011_Morning\2.Tribonacci\Tribonacci\Tribonacci\obj\Debug\Tribonacci.exe
-D:\Telerik\Programming\CSharp_Part1\BGCoderContests\TelerikAcademyExam1_06_Dec_2011_Morning\2.Tribonacci\Tribonacci\Tribonacci\obj\Debug\Tribonacci.pdb

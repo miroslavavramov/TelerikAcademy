@@ -1,8 +1,0 @@
-D:\Telerik\C#_part_1\01_Intro\homework\Solution1\07_PrintDateTime\bin\Debug\07_PrintDateTime.exe.config
-D:\Telerik\C#_part_1\01_Intro\homework\Solution1\07_PrintDateTime\bin\Debug\07_PrintDateTime.exe
-D:\Telerik\C#_part_1\01_Intro\homework\Solution1\07_PrintDateTime\bin\Debug\07_PrintDateTime.pdb
-D:\Telerik\C#_part_1\01_Intro\homework\Solution1\07_PrintDateTime\obj\Debug\07_PrintDateTime.exe
-D:\Telerik\C#_part_1\01_Intro\homework\Solution1\07_PrintDateTime\obj\Debug\07_PrintDateTime.pdb
-D:\Telerik\C#_part_1\01_Intro\01_IntroCSharp_Homework\07_PrintDateTime\bin\Debug\07_PrintDateTime.exe.config
-D:\Telerik\C#_part_1\01_Intro\01_IntroCSharp_Homework\07_PrintDateTime\obj\Debug\07_PrintDateTime.exe
-D:\Telerik\C#_part_1\01_Intro\01_IntroCSharp_Homework\07_PrintDateTime\obj\Debug\07_PrintDateTime.pdb

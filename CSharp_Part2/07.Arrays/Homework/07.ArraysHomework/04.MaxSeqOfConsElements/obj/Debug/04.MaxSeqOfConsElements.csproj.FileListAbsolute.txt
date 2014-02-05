@@ -1,8 +1,0 @@
-D:\Telerik\Programming\CSharp_Part2\07.Arrays\Homework\07.ArraysHomework\04.MaxSeqOfConsElements\bin\Debug\04.MaxSeqOfConsElements.exe.config
-D:\Telerik\Programming\CSharp_Part2\07.Arrays\Homework\07.ArraysHomework\04.MaxSeqOfConsElements\bin\Debug\04.MaxSeqOfConsElements.exe
-D:\Telerik\Programming\CSharp_Part2\07.Arrays\Homework\07.ArraysHomework\04.MaxSeqOfConsElements\bin\Debug\04.MaxSeqOfConsElements.pdb
-D:\Telerik\Programming\CSharp_Part2\07.Arrays\Homework\07.ArraysHomework\04.MaxSeqOfConsElements\obj\Debug\04.MaxSeqOfConsElements.exe
-D:\Telerik\Programming\CSharp_Part2\07.Arrays\Homework\07.ArraysHomework\04.MaxSeqOfConsElements\obj\Debug\04.MaxSeqOfConsElements.pdb
-D:\Telerik\CSharp_Part2\07.Arrays\Homework\07.ArraysHomework\04.MaxSeqOfConsElements\bin\Debug\04.MaxSeqOfConsElements.exe.config
-D:\Telerik\CSharp_Part2\07.Arrays\Homework\07.ArraysHomework\04.MaxSeqOfConsElements\obj\Debug\04.MaxSeqOfConsElements.exe
-D:\Telerik\CSharp_Part2\07.Arrays\Homework\07.ArraysHomework\04.MaxSeqOfConsElements\obj\Debug\04.MaxSeqOfConsElements.pdb

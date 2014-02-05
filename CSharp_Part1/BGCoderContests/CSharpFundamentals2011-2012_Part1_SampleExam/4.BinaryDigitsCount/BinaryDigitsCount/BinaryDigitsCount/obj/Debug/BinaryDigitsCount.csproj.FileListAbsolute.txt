@@ -1,6 +1,0 @@
-D:\Telerik\C#1\Contests\CSharpFundamentals2011-2012_Part1_SampleExam\4.BinaryDigitsCount\BinaryDigitsCount\BinaryDigitsCount\bin\Debug\BinaryDigitsCount.exe.config
-D:\Telerik\C#1\Contests\CSharpFundamentals2011-2012_Part1_SampleExam\4.BinaryDigitsCount\BinaryDigitsCount\BinaryDigitsCount\bin\Debug\BinaryDigitsCount.exe
-D:\Telerik\C#1\Contests\CSharpFundamentals2011-2012_Part1_SampleExam\4.BinaryDigitsCount\BinaryDigitsCount\BinaryDigitsCount\bin\Debug\BinaryDigitsCount.pdb
-D:\Telerik\C#1\Contests\CSharpFundamentals2011-2012_Part1_SampleExam\4.BinaryDigitsCount\BinaryDigitsCount\BinaryDigitsCount\obj\Debug\BinaryDigitsCount.csprojResolveAssemblyReference.cache
-D:\Telerik\C#1\Contests\CSharpFundamentals2011-2012_Part1_SampleExam\4.BinaryDigitsCount\BinaryDigitsCount\BinaryDigitsCount\obj\Debug\BinaryDigitsCount.exe
-D:\Telerik\C#1\Contests\CSharpFundamentals2011-2012_Part1_SampleExam\4.BinaryDigitsCount\BinaryDigitsCount\BinaryDigitsCount\obj\Debug\BinaryDigitsCount.pdb

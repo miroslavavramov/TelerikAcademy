@@ -1,6 +1,0 @@
-D:\Telerik\CSharp_Part2\09.Methods\Homework\09.MethodsHomework\15.ParametersGeneric\bin\Debug\15.ParametersGeneric.exe.config
-D:\Telerik\CSharp_Part2\09.Methods\Homework\09.MethodsHomework\15.ParametersGeneric\bin\Debug\15.ParametersGeneric.exe
-D:\Telerik\CSharp_Part2\09.Methods\Homework\09.MethodsHomework\15.ParametersGeneric\bin\Debug\15.ParametersGeneric.pdb
-D:\Telerik\CSharp_Part2\09.Methods\Homework\09.MethodsHomework\15.ParametersGeneric\obj\Debug\15.ParametersGeneric.exe
-D:\Telerik\CSharp_Part2\09.Methods\Homework\09.MethodsHomework\15.ParametersGeneric\obj\Debug\15.ParametersGeneric.pdb
-D:\Telerik\CSharp_Part2\09.Methods\Homework\09.MethodsHomework\15.ParametersGeneric\obj\Debug\15.ParametersGeneric.csprojResolveAssemblyReference.cache
