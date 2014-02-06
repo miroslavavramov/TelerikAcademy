@@ -19,6 +19,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ex07.Timer", "Ex07.Timer\Ex
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ex08.Events", "Ex08.Events\Ex08.Events.csproj", "{709F9A4B-546F-4D49-89F1-EDA2F3BAEB99}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Students", "Students\Students.csproj", "{168DC175-8BA8-406C-AD20-58833021A1BB}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -57,6 +59,10 @@ Global
 		{709F9A4B-546F-4D49-89F1-EDA2F3BAEB99}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{709F9A4B-546F-4D49-89F1-EDA2F3BAEB99}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{709F9A4B-546F-4D49-89F1-EDA2F3BAEB99}.Release|Any CPU.Build.0 = Release|Any CPU
+		{168DC175-8BA8-406C-AD20-58833021A1BB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{168DC175-8BA8-406C-AD20-58833021A1BB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{168DC175-8BA8-406C-AD20-58833021A1BB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{168DC175-8BA8-406C-AD20-58833021A1BB}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
