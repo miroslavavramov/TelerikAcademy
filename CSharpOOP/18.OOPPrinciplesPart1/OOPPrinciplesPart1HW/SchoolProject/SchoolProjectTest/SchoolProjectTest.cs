@@ -28,7 +28,7 @@ class SchoolProjectTest
         class10A.AddStudent(petarGeorgiev, aniPlamenova, mladenNikolov, new Student("Kim", "Xo", "guest student"));
 
         mladenNikolov.AddComment("weakspot - Chemisty");
-        petarGeorgiev.Comments.Clear();
+        //petarGeorgiev.Comments.Clear();
 
         mySchool.AddClass(class10A, new ClassOfStudents("9 B", "empty test class"));
 
