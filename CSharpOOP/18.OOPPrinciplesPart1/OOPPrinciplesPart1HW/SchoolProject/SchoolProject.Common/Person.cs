@@ -1,4 +1,4 @@
-﻿namespace SchoolHierarchy.Common
+﻿namespace SchoolProject.Common
 {
     using System;
 
@@ -13,4 +13,5 @@
             this.LastName = lastName;
         }
     }
+
 }

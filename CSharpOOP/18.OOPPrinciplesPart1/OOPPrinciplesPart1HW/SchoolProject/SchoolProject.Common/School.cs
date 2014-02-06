@@ -1,4 +1,4 @@
-﻿namespace SchoolHierarchy.Common
+﻿namespace SchoolProject.Common
 {
     using System;
     using System.Collections.Generic;
@@ -17,17 +17,12 @@
         public void AddClass(params ClassOfStudents[] classesOfStudents)
         {
             foreach (var classOfStudents in classesOfStudents)
-                this.Classes.Add(classOfStudents);   
+                this.Classes.Add(classOfStudents);
         }
 
         public void RemoveClass(ClassOfStudents classOfStudents)
         {
             this.Classes.Remove(classOfStudents);
-        }
-
-        public void ClearClasses()
-        {
-            this.Classes.Clear();
         }
     }
 }

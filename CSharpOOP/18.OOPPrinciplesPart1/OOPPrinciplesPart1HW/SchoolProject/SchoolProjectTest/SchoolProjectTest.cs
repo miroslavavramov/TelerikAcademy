@@ -1,8 +1,8 @@
-﻿using SchoolHierarchy.Common;
+﻿using SchoolProject.Common;
 using System;
 using System.Collections.Generic;
 
-class SchoolTest
+class SchoolProjectTest
 {
     static void Main()
     {
@@ -10,9 +10,9 @@ class SchoolTest
 
         ClassOfStudents class10A = new ClassOfStudents("10 A");
 
-        Discipline mathematics = new Discipline("Mathematics", 7, 7, "emphasis on");
+        Discipline mathematics = new Discipline("Mathematics", 75, 50, "emphasis on");
         Discipline biology = new Discipline("Bilogy");
-        Discipline chemistry = new Discipline("Chemistry", 4, 4);
+        Discipline chemistry = new Discipline("Chemistry", 30, 15);
 
         Teacher lubomirKolev = new Teacher("Lubomir", "Kolev");
         Teacher gerasimGerasimov = new Teacher("Gerassim", "Gerassimov", "nickname - Gero");
@@ -28,8 +28,8 @@ class SchoolTest
         class10A.AddStudent(petarGeorgiev, aniPlamenova, mladenNikolov, new Student("Kim", "Xo", "guest student"));
 
         mladenNikolov.AddComment("weakspot - Chemisty");
-        petarGeorgiev.ClearComments();
-        
+        petarGeorgiev.Comments.Clear();
+
         mySchool.AddClass(class10A, new ClassOfStudents("9 B", "empty test class"));
 
         foreach (var classOfStudents in mySchool.Classes)
