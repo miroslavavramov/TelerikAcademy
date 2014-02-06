@@ -60,6 +60,7 @@
                 this.Comments.Add(comment);
             }
         }
+		
         public override string ToString()
         {
             var output = new StringBuilder("Class : " + this.ClassID);

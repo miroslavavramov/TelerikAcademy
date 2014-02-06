@@ -6,6 +6,7 @@
     interface ICommentable
     {
         List<string> Comments { get; set; }
+		
         void AddComment(params string[] comments);
     }
 }
