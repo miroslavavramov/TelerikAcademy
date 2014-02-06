@@ -21,6 +21,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ex08.Events", "Ex08.Events\
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Students", "Students\Students.csproj", "{168DC175-8BA8-406C-AD20-58833021A1BB}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ex17.GetLongestString", "Ex17.GetLongestString\Ex17.GetLongestString.csproj", "{4C6AC5EA-D369-415A-8642-82A86FA6121F}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -63,6 +65,10 @@ Global
 		{168DC175-8BA8-406C-AD20-58833021A1BB}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{168DC175-8BA8-406C-AD20-58833021A1BB}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{168DC175-8BA8-406C-AD20-58833021A1BB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4C6AC5EA-D369-415A-8642-82A86FA6121F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4C6AC5EA-D369-415A-8642-82A86FA6121F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4C6AC5EA-D369-415A-8642-82A86FA6121F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4C6AC5EA-D369-415A-8642-82A86FA6121F}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

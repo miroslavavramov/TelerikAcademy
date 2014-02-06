@@ -11,14 +11,14 @@
             List<Student> students = new List<Student>()
             {
                 new Student("Kaloyan", "Petrov", "551206", "02777111", "kaloyan@abv.bg", 1, "Mathematics", 6, 3, 5),
-                new Student("Jeni", "Stoyanova", "123405", "12094123","jeni@gmail.com", 2, "Medical", 2, 3, 4, 2, 4),
-                new Student("Reni", "Todorova", "774306", "12455521", "reni@yahoo.com", 3, "Social", 5, 4, 5, 2),
+                new Student("Jeni", "Stoyanova", "123405", "12094123","jeni@gmail.com", 2, "Medicine", 2, 3, 4, 2, 4),
+                new Student("Reni", "Todorova", "774306", "12455521", "reni@yahoo.com", 3, "Philosophy", 5, 4, 5, 2),
                 new Student("Georgi", "Marinov", "999403", "02112233", "joro@mail.bg", 2, "Mathematics", 5, 2, 2),
-                new Student("Martin", "Andonov", "123409", "22555432", "martin@hotmail.com", 2, "Judicial", 6, 6),
-                new Student("Simeon", "Kolev", "555505", "19012453", "simeon@hotmail.com", 3, "Social", 5, 4, 4, 5),
-                new Student("Kalina", "Ivanova", "999907", "03524943", "kalina@abv.bg", 1, "Medical", 3, 3, 4),
+                new Student("Martin", "Andonov", "123409", "22555432", "martin@hotmail.com", 2, "Physics", 6, 6),
+                new Student("Simeon", "Kolev", "555505", "19012453", "simeon@hotmail.com", 3, "Philosophy", 5, 4, 4, 5),
+                new Student("Kalina", "Ivanova", "999907", "03524943", "kalina@abv.bg", 1, "Medicine", 3, 3, 4),
                 new Student("Boris", "Atanasov", "123506", "02999999", "boris@aol.co.uk", 1, "Mathematics", 5, 6, 6),
-                new Student("Gergana", "Todorova", "663308", "84721200", "geri@gmail.com", 3, "Judicial", 4, 2, 4)
+                new Student("Simona", "Todorova", "663308", "84721200", "geri@gmail.com", 3, "Physics", 4, 2, 4)
             };
 
             #region Task9
@@ -85,7 +85,6 @@
             #endregion
 
             #region Task15
-
             var stEnrolledIn06 =
                 from student in students
                 where student.FacultyNumber[4] == '0' && student.FacultyNumber[5] == '6'
@@ -99,11 +98,9 @@
 
             foreach (var student in stEnrolledIn06)
                 Console.WriteLine("{0}, Marks : {1}", student.FullName, string.Join(", ", student.Marks));
-
             #endregion
 
             #region Task16
-
             Group[] mathDept = { new Group(1, "Mathematics") };
 
             var stFromMathDept =
@@ -118,12 +115,10 @@
             Console.WriteLine("\n|Task 16|\nStudents from the Department of Mathematics : (stored as anonymous types)\n");
 
             foreach (var student in stFromMathDept)
-                Console.WriteLine("{0} {1}", student.FullName);
-
+                Console.WriteLine("{0}", student.FullName);
             #endregion
 
             #region Task18
-
             var sortedByDeptName =
                 from student in students
                 group student by student.Group.DepartmentName
@@ -140,11 +135,9 @@
                 foreach (var student in department)
                     Console.WriteLine(student.FirstName + " " + student.LastName);
             }
-            
             #endregion
 
             #region Task 19
-
             sortedByDeptName = students
                 .GroupBy(s => s.Group.DepartmentName)
                 .OrderBy(s => s.Key);
@@ -158,7 +151,6 @@
                 foreach (var student in department)
                     Console.WriteLine(student.FirstName + " " + student.LastName);
             }
-
             #endregion
         }
         static void Print<T>(IEnumerable<T> collection)
