@@ -2,7 +2,6 @@
 using System;
 using System.Collections.Generic;
 
-
 class GSMTest
 {
     static void Main()

@@ -1,9 +1,9 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Text;
-
-namespace MobilePhone.Common
+﻿namespace MobilePhone.Common
 {
+    using System;
+    using System.Collections.Generic;
+    using System.Text;
+
     public class GSM
     {
         #region Fields

@@ -1,7 +1,7 @@
-﻿using System;
-
-namespace MobilePhone.Common
+﻿namespace MobilePhone.Common
 {
+    using System;
+
     public class Display
     {
         #region Fields

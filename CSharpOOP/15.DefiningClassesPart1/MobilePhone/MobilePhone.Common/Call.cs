@@ -1,8 +1,8 @@
-﻿using System;
-using System.Text;
-
-namespace MobilePhone.Common
+﻿namespace MobilePhone.Common
 {
+    using System;
+    using System.Text;
+
     public class Call
     {
         #region Fields
