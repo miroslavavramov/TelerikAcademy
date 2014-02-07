@@ -8,12 +8,7 @@ class SelectNumbersDivisibleBy3And7
 {
     static void Main()
     {
-        int[] numbers = new int[100];
-
-        for (int i = 0; i < numbers.Length; i++)
-        {
-            numbers[i] = i + 1;
-        }
+        int[] numbers = Enumerable.Range(1, 100).ToArray();
 
         var selectedUsingLambda =
             numbers.Where(x => (x % 21 == 0));
