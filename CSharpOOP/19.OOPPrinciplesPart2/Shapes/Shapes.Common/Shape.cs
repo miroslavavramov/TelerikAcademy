@@ -38,7 +38,7 @@
             this.Width = width;
             this.Height = height;
         }
+		
         public abstract double CalculateSurface();
-
     }
 }
