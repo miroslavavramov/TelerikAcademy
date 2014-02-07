@@ -41,9 +41,10 @@ class AnimalsTest
         foreach (var animal in animals)
             animal.ProduceSound();
     }
+
     static double GetAverageAge(IEnumerable<Animal> animals)
     {
-        return Math.Round(animals.Average(animal => animal.Age), 2);
+        return Math.Round(animals.Average(animal => animal.Age), 1);
     }
 
     static void Print<T>(IEnumerable<T> collection)
