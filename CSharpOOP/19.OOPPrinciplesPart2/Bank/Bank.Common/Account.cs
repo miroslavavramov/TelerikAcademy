@@ -22,7 +22,7 @@
             }
         }
 
-        protected Account(Customer customer, decimal balance, decimal interestRate) //i.o. to avoid creating accounts of non-specific type
+        protected Account(Customer customer, decimal balance, decimal interestRate) 
         {
             this.Customer = customer;
             this.Balance = balance;

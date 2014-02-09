@@ -2,12 +2,12 @@
 {
     using System;
 
-    public class Customer
+    public abstract class Customer
     {
-        public string Name { get; private set; }
+        public string Name { get; protected set; }
         
-        protected Customer(string name)     //can be accessed only by it's descendands
-        {                                   //i.o. to avoid creating customers of non-specific type
+        protected Customer(string name)     
+        {                                
             this.Name = name;
         }
     }

@@ -12,7 +12,7 @@ class BankTest
             new DepositAccount(new IndividualCustomer("Ivan Ivanov"), 9591.5M, .001M),
             new MortgageAccount(new IndividualCustomer("Petar Petrov"), -1e+5M, .05M),
             new LoanAccount(new CorporateCustomer("Planet Express Ltd."), -2e+4M, .025M),
-            new DepositAccount(new CorporateCustomer("Ponzi Ltd."), 5e+6M, 0.0045M)
+            new DepositAccount(new CorporateCustomer("Ponzi Ltd."), 5e+6M, 0.0045M),
         };
 
         Print(accounts);
