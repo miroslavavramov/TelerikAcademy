@@ -4,8 +4,8 @@
 
     public abstract class Human
     {
-        public string FirstName { get; private set; }
-        public string LastName { get; private set; }
+        public string FirstName { get; protected set; }
+        public string LastName { get; protected set; }
 
         public Human(string firstName, string lastName)
         {

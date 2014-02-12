@@ -24,7 +24,7 @@ class PeopleTest
         var sortedStudents = students
             .OrderBy(x => x.Grade);
 
-        Console.WriteLine("Sorted Students : \r\n");
+        Console.WriteLine("Sorted Students (by grade): \r\n");
 
         foreach (var student in sortedStudents)
             Console.WriteLine(student);
@@ -48,7 +48,7 @@ class PeopleTest
             orderby worker.CalcHourlySalary() descending
             select worker;
         
-        Console.WriteLine("\r\nSorted Workers : \r\n");
+        Console.WriteLine("\r\nSorted Workers (by salary): \r\n");
 
         foreach (var worker in sortedWorkers)
             Console.WriteLine(worker);
@@ -59,11 +59,10 @@ class PeopleTest
             .OrderBy(x => x.FirstName)
             .ThenBy(x => x.LastName);
 
-        Console.WriteLine("\r\nSorted People : \r\n");
+        Console.WriteLine("\r\nSorted People (by name): \r\n");
 
         foreach (var human in mergedList)
             Console.WriteLine(human.FirstName + " " + human.LastName);
 
-        Human a = new Human("ASD", "asd");
     }
 }

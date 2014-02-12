@@ -13,5 +13,4 @@
             this.LastName = lastName;
         }
     }
-
 }
