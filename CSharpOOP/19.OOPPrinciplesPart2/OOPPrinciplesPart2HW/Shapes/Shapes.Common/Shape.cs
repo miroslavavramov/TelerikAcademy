@@ -33,7 +33,7 @@
             }
         }
 
-        public Shape(double width, double height)
+        protected Shape(double width, double height)
         {
             this.Width = width;
             this.Height = height;
