@@ -5,8 +5,9 @@ using System.Linq;
 public static class GenericIEnumerableExtensions
 {
     public static T Sum<T>(this IEnumerable<T> collection)
+        where T : struct
     {
-        dynamic sum = 0;
+        dynamic sum = default(T);
 
         foreach (var item in collection)
         {
@@ -30,7 +31,7 @@ public static class GenericIEnumerableExtensions
 
     public static decimal Average<T>(this IEnumerable<T> collection)
     {
-        dynamic avrg = 0;
+        dynamic avrg = default(T);
         int count = 0;
 
         foreach (var item in collection)
