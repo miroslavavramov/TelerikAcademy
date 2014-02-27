@@ -6,7 +6,7 @@
     {
         static void Main()
         {
-            BinaryTree<int, string> myTree = new BinaryTree<int, string>();
+            BinarySearchTree<int, string> myTree = new BinarySearchTree<int, string>();
 
             myTree.AddNode(50, "Strawberry");
             myTree.AddNode(25, "Cranberry");
@@ -21,6 +21,7 @@
 
             //myTree.PostOrderTraverseTree(myTree.Root);
             //myTree.PreOrderTraverseTree(myTree.Root);
+            //myTree.InOrderTraverseTree(myTree.Root);
 
             Console.WriteLine("Node with key of 25: {0}\n", myTree.FindNode(25));
             
@@ -30,7 +31,6 @@
             myTree.PreOrderTraverseTree(myTree.Root);
 
             Console.WriteLine(myTree.FindNode(15).Equals(myTree.FindNode(2)));
-
         }
     }
 }

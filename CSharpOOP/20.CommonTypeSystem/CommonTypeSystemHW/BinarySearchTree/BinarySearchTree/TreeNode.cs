@@ -1,17 +1,10 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-
-namespace BinarySearchTree
+﻿namespace BinarySearchTree
 {
+    using System;
+
     class TreeNode<TKey, TValue>
         where TKey : IComparable
     {
-        private TreeNode<TKey, TValue> leftChild = null;
-        private TreeNode<TKey, TValue> rightChild = null;
-
         public TreeNode(TKey key, TValue value)
         {
             this.Key = key;
@@ -22,18 +15,10 @@ namespace BinarySearchTree
 
         public TValue Value { get; set; }
 
-        public TreeNode<TKey, TValue> LeftChild
-        {
-            get { return this.leftChild; }
-            set { this.leftChild = value; }
-        }
+        public TreeNode<TKey, TValue> LeftChild { get; set; }
 
-        public TreeNode<TKey, TValue> RightChild
-        {
-            get { return this.rightChild; }
-            set { this.rightChild = value; }
-        }
-
+        public TreeNode<TKey, TValue> RightChild { get; set; }
+        
         public override string ToString()
         {
             return string.Format("KEY: {0} VALUE: {1}", this.Key, this.Value);
@@ -49,6 +34,5 @@ namespace BinarySearchTree
         {
             return this.Key.GetHashCode() ^ this.Value.GetHashCode();
         }
-
     }
 }

@@ -1,21 +1,12 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-
-namespace BinarySearchTree
+﻿namespace BinarySearchTree
 {
-    class BinaryTree<TKey, TValue>
+    using System;
+    using System.Collections.Generic;
+
+    class BinarySearchTree<TKey, TValue>
         where TKey : IComparable
     {
-        private TreeNode<TKey,TValue> root = null;
-    
-        public TreeNode<TKey, TValue> Root
-        {
-            get { return this.root; }
-            set { this.root = value; } 
-        }
+        public TreeNode<TKey, TValue> Root { get; set; }
 
         public void AddNode(TKey key, TValue value)
         {
@@ -89,9 +80,9 @@ namespace BinarySearchTree
 
             if (focusNode.LeftChild == null && focusNode.RightChild == null)
             {
-                if (focusNode == root)
+                if (focusNode == Root)
                 {
-                    root = null;
+                    Root = null;
                 }
                 else if (isALeftChild)
                 {
@@ -104,9 +95,9 @@ namespace BinarySearchTree
             }
             else if (focusNode.RightChild == null)
             {
-                if (focusNode == root)
+                if (focusNode == Root)
                 {
-                    root = focusNode.LeftChild;
+                    Root = focusNode.LeftChild;
                 }
                 else if (isALeftChild)
                 {
@@ -119,9 +110,9 @@ namespace BinarySearchTree
             }
             else if (focusNode.LeftChild == null)
             {
-                if (focusNode == root)
+                if (focusNode == Root)
                 {
-                    root = focusNode.RightChild;
+                    Root = focusNode.RightChild;
                 }
                 else if (isALeftChild)
                 {
@@ -136,9 +127,9 @@ namespace BinarySearchTree
             {
                 TreeNode<TKey, TValue> replacement = GetReplacementNode(focusNode);
 
-                if (focusNode == root)
+                if (focusNode == Root)
                 {
-                    root = replacement;
+                    Root = replacement;
                 }
                 else if (isALeftChild)
                 {
