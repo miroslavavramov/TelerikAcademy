@@ -7,8 +7,10 @@ namespace AcademyEcosystem
 {
     public class Lion : Animal, ICarnivore
     {
+        private const int DefaultLionSize = 6;
+
         public Lion(string name, Point location) 
-            : base(name, location, 6)
+            : base(name, location, DefaultLionSize)
         {
         }
 

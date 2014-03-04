@@ -7,8 +7,9 @@ namespace AcademyEcosystem
 {
     public class Grass : Plant
     {
+        private const int DefaultGrassSize = 2;
         public Grass(Point location) 
-            : base(location, 2)
+            : base(location, DefaultGrassSize)
         {
         }
 

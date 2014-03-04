@@ -7,10 +7,12 @@ namespace AcademyEcosystem
 {
     public class Boar : Animal, ICarnivore, IHerbivore
     {
+        private const int DefaultBoarSize = 4;
+
         private int biteSize;
 
         public Boar(string name, Point location) 
-            : base(name, location, 4)
+            : base(name, location, DefaultBoarSize)
         {
             this.biteSize = 2;
         }

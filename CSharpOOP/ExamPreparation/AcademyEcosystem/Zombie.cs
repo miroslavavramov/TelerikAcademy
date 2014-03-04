@@ -7,8 +7,10 @@ namespace AcademyEcosystem
 {
     public class Zombie : Animal
     {
+        private const int DefaultZombieSize = 0;
+
         public Zombie(string name, Point location) 
-            : base(name, location, 0)
+            : base(name, location, DefaultZombieSize)
         {
         }
 

@@ -7,8 +7,10 @@ namespace AcademyEcosystem
 {
     public class Wolf : Animal, ICarnivore
     {
+        private const int DefaultWolfSize = 4;
+
         public Wolf(string name, Point location) 
-            : base(name, location, 4)
+            : base(name, location, DefaultWolfSize)
         {
         }
 

@@ -58,7 +58,6 @@ namespace AcademyEcosystem
                         throw new ArgumentException("Birth command contains invalid arguments!");
                     }
             }
-            
         }
     }
 }
