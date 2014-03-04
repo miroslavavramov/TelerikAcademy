@@ -1,0 +1,212 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="AlexandreDumasOOP.Common.Characters.Character" Collapsed="true">
+    <Position X="9.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAEAAAAAAQAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Characters\Character.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="AlexandreDumasOOP.Common.Characters.Elf" Collapsed="true">
+    <Position X="6.25" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAARAAAAAAAAAEAAAAAAAAAAIAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Characters\Elf.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="AlexandreDumasOOP.Common.Characters.Hero" Collapsed="true">
+    <Position X="9.5" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AgAkAQAAQAAEAAIFAAAAAABAAIAAAACgAAAAggAAAAE=</HashCode>
+      <FileName>Characters\Hero.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="AlexandreDumasOOP.Common.Characters.Human" Collapsed="true">
+    <Position X="8.5" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAQAAAAAAAAAEAAAAAAAAAAAAAAAAAAIAAAAAAQA=</HashCode>
+      <FileName>Characters\Human.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="AlexandreDumasOOP.Common.Characters.Orc" Collapsed="true">
+    <Position X="10.75" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAQAAAAAAAAAEAAAAAAACAAAAAAEAAAAAAAAAAAA=</HashCode>
+      <FileName>Characters\Orc.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="AlexandreDumasOOP.Common.Characters.Undead" Collapsed="true">
+    <Position X="13" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAQAAAAAAAAAEAAAAAAAAAAAAEAAIAAAAAAAAAAA=</HashCode>
+      <FileName>Characters\Undead.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="AlexandreDumasOOP.Common.Engine" Collapsed="true">
+    <Position X="25" Y="0.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQACAAgAEAIAAABAQAoAAACAEAAAQAABDCAAAAAAAA=</HashCode>
+      <FileName>Engine.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="AlexandreDumasOOP.Common.InvalidRangeException" Collapsed="true">
+    <Position X="26.75" Y="0.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAABBAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>InvalidRangeException.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="AlexandreDumasOOP.Common.Items.Armour" Collapsed="true">
+    <Position X="7" Y="6" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAEAAAABAAAAAAEAAAAAAAAAAAAAAAAAAAAAgAAAAI=</HashCode>
+      <FileName>Items\Armour.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="AlexandreDumasOOP.Common.Items.Axe" Collapsed="true">
+    <Position X="22.5" Y="9" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Items\Axe.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="AlexandreDumasOOP.Common.Items.Bow" Collapsed="true">
+    <Position X="13.5" Y="9" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Items\Bow.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="AlexandreDumasOOP.Common.Items.Charm" Collapsed="true">
+    <Position X="10" Y="6" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAEAAAARAAAAEAEAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Items\Charm.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="AlexandreDumasOOP.Common.Items.Crossbow" Collapsed="true">
+    <Position X="11.25" Y="9" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Items\Crossbow.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="AlexandreDumasOOP.Common.Items.Item" Collapsed="true">
+    <Position X="12.75" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>BAABAAAAAQAAAAAEAAAAAAQAAAAAAAAAAAEABAAAAAA=</HashCode>
+      <FileName>Items\Item.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="AlexandreDumasOOP.Common.Items.ItemShop" Collapsed="true">
+    <Position X="28.5" Y="0.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAgAAQAAAAAAAgAAAAAAAAAAAAA=</HashCode>
+      <FileName>Items\ItemShop.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="AlexandreDumasOOP.Common.Items.MagicalWeapon" Collapsed="true">
+    <Position X="16.75" Y="7.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAIAAAEAAAAAAAAAAAAAAAAAAAAAAgAAAA=</HashCode>
+      <FileName>Items\MagicalWeapon.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="AlexandreDumasOOP.Common.Items.MeleeWeapon" Collapsed="true">
+    <Position X="21.25" Y="7.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAkAAAAAAAAAAAAAAAgAAAAAAAAAAA=</HashCode>
+      <FileName>Items\MeleeWeapon.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="AlexandreDumasOOP.Common.Items.Orb" Collapsed="true">
+    <Position X="15.75" Y="9" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Items\Orb.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="AlexandreDumasOOP.Common.Items.RangedWeapon" Collapsed="true">
+    <Position X="12.25" Y="7.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAEAAAAAAACgAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Items\RangedWeapon.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="AlexandreDumasOOP.Common.Items.Staff" Collapsed="true">
+    <Position X="18" Y="9" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Items\Staff.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="AlexandreDumasOOP.Common.Items.Sword" Collapsed="true">
+    <Position X="20.25" Y="9" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Items\Sword.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="AlexandreDumasOOP.Common.Items.Weapon" Collapsed="true">
+    <Position X="16.75" Y="6" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAACAACAAAAAgAAEAAAAAAAAAAAAAAIAAAAAAAAAAAA=</HashCode>
+      <FileName>Items\Weapon.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Struct Name="AlexandreDumasOOP.Common.Location" Collapsed="true">
+    <Position X="25" Y="2" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAIAAAAAAAAAAAAAAQAAAAAAAAA=</HashCode>
+      <FileName>Location.cs</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Interface Name="AlexandreDumasOOP.Common.Interfaces.IBattler" Collapsed="true">
+    <Position X="25" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAQAAAAAABAAAAAAAAAIAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Interfaces\IBattler.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="AlexandreDumasOOP.Common.Interfaces.IEquipper" Collapsed="true">
+    <Position X="26.75" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAgAAAAggAAAAE=</HashCode>
+      <FileName>Interfaces\IEquipper.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="AlexandreDumasOOP.Common.Interfaces.IEvader" Collapsed="true">
+    <Position X="28.5" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Interfaces\IEvader.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="AlexandreDumasOOP.Common.Interfaces.INameable" Collapsed="true">
+    <Position X="25" Y="4" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Interfaces\INameable.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="AlexandreDumasOOP.Common.Interfaces.IPriceable" Collapsed="true">
+    <Position X="26.75" Y="4" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Interfaces\IPriceable.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Enum Name="AlexandreDumasOOP.Common.LocationType" Collapsed="true">
+    <Position X="25" Y="5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAIAAAAgAAAAAAAAgAAAAAAEAAIAAAAAAAAAAAAAA=</HashCode>
+      <FileName>LocationType.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>

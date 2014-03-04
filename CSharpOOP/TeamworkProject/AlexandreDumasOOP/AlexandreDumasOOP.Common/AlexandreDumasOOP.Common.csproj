@@ -1,0 +1,87 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{8E3C6287-F265-44EA-BE68-94C8A47299BA}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>AlexandreDumasOOP.Common</RootNamespace>
+    <AssemblyName>AlexandreDumasOOP.Common</AssemblyName>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Characters\Character.cs" />
+    <Compile Include="Characters\Elf.cs" />
+    <Compile Include="Characters\Hero.cs" />
+    <Compile Include="Characters\Human.cs" />
+    <Compile Include="Characters\Orc.cs" />
+    <Compile Include="Characters\Undead.cs" />
+    <Compile Include="Engine.cs" />
+    <Compile Include="Interfaces\IEquipper.cs" />
+    <Compile Include="Interfaces\IBattler.cs" />
+    <Compile Include="Interfaces\IEvader.cs" />
+    <Compile Include="Interfaces\INameable.cs" />
+    <Compile Include="Interfaces\IPriceable.cs" />
+    <Compile Include="InvalidRangeException.cs" />
+    <Compile Include="Items\Armour.cs" />
+    <Compile Include="Items\Axe.cs" />
+    <Compile Include="Items\Bow.cs" />
+    <Compile Include="Items\Charm.cs" />
+    <Compile Include="Items\Crossbow.cs" />
+    <Compile Include="Items\Item.cs" />
+    <Compile Include="Items\ItemShop.cs" />
+    <Compile Include="Items\MagicalWeapon.cs" />
+    <Compile Include="Items\MeleeWeapon.cs" />
+    <Compile Include="Items\Orb.cs" />
+    <Compile Include="Items\RangedWeapon.cs" />
+    <Compile Include="Items\Staff.cs" />
+    <Compile Include="Items\Sword.cs" />
+    <Compile Include="Items\Weapon.cs" />
+    <Compile Include="Location.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="LocationType.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="FierceBattleClassDiagram.cd" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="IntroLogo.txt" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>
