@@ -1,4 +1,9 @@
-TelerikAcademy
-==============
+#Telerik Academy
+<hr />
 
-My Projects &amp; Assignments @ Telerik Academy
+####My Projects &amp; Assignments @ Telerik Academy
+
+
+
+
+

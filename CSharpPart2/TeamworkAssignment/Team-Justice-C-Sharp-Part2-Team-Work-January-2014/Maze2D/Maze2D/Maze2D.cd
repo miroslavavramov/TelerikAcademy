@@ -1,0 +1,60 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="Maze2D.GameControl">
+    <Position X="2" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAMAAQCAAAABCAAAAAAQAAAAAAEAgAAACAAAAAAgAA=</HashCode>
+      <FileName>GameControl.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Maze2D.GameUI">
+    <Position X="4.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABAAAAAA=</HashCode>
+      <FileName>GameUI.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Maze2D.MazeCell">
+    <Position X="6.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ACNAQAADQKAABAIwAAACCQIKAAmAAkAAAQAAAAAgAEA=</HashCode>
+      <FileName>MazeCell.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Maze2D.MenuItem">
+    <Position X="4.25" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAQAAAAEAAAAAABgAgAAYAI=</HashCode>
+      <FileName>Menu.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Maze2D.Menu">
+    <Position X="2" Y="4.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAEAgAAAAAAAAAAAAAAAAAAAAIAAAAAAIAAAAAAAAAA=</HashCode>
+      <FileName>Menu.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Maze2D.Player">
+    <Position X="4.25" Y="5" Width="1.5" />
+    <NestedTypes>
+      <Struct Name="Maze2D.Player.visited" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>Player.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Struct>
+    </NestedTypes>
+    <TypeIdentifier>
+      <HashCode>AgAAAEAAIIAAAAAgAAAAIAAAAAAAgAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Player.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Maze2D.ScoreSystem">
+    <Position X="2" Y="6.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAACACACAAAgAAgAAAAAAAAAIAKAEIAAAAAAAAAg=</HashCode>
+      <FileName>ScoreSystem.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>
