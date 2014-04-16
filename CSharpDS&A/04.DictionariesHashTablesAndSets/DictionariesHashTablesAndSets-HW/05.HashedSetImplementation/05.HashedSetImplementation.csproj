@@ -4,11 +4,11 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{987BDEA1-3678-47C0-A755-B1B2DD0E5876}</ProjectGuid>
+    <ProjectGuid>{F6CD5CAF-1CFB-4012-9D9D-CE2E355F5234}</ProjectGuid>
     <OutputType>Exe</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>_03.SortInIncreasingOrder</RootNamespace>
-    <AssemblyName>03.SortInIncreasingOrder</AssemblyName>
+    <RootNamespace>_05.HashedSetImplementation</RootNamespace>
+    <AssemblyName>05.HashedSetImplementation</AssemblyName>
     <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
   </PropertyGroup>
@@ -32,8 +32,7 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
-    <Reference Include="PowerCollections, Version=1.0.2141.24679, Culture=neutral, processorArchitecture=MSIL">
-      <SpecificVersion>False</SpecificVersion>
+    <Reference Include="PowerCollections">
       <HintPath>..\packages\XAct.Wintellect.PowerCollections.0.0.1\lib\net20\PowerCollections.dll</HintPath>
     </Reference>
     <Reference Include="System" />
@@ -45,7 +44,8 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="SortInIncreasingOrder.cs" />
+    <Compile Include="HashedSet.cs" />
+    <Compile Include="HashedSetTest.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
@@ -53,7 +53,10 @@
     <None Include="packages.config" />
   </ItemGroup>
   <ItemGroup>
-    <WCFMetadata Include="Service References\" />
+    <ProjectReference Include="..\04.HashTableImplementation\04.HashTableImplementation.csproj">
+      <Project>{9ed3d814-924f-4c9d-b7bd-b336c9de1475}</Project>
+      <Name>04.HashTableImplementation</Name>
+    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

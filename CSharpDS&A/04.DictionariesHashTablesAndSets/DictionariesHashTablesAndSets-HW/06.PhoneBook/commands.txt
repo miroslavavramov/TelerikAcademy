@@ -1,0 +1,6 @@
+﻿find(Ivan)
+find(Gergana, Sofia)
+find(Mitaka)
+find(Jivko)
+find(Gergana, Pleven)
+find(Ivan Zlatev)

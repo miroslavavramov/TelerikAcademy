@@ -1,0 +1,6 @@
+﻿Ivan Petrov             | Plovdiv  | 0888 12 34 56
+Maria Todorova          | Varna    | 052 23 45 67
+Pesho                   | Karnobat | 0899 999 888
+Gergana Hristova        | Sofia    | 02 946 946 946
+Ivan Zlatev				| Ruse	   | 993 123 531
+Mitaka					| Burgas   | 0890 125 911
