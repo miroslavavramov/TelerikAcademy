@@ -1,0 +1,14 @@
+﻿p {
+    font-family: Consolas, Calibri, sans-serif;
+    color: #0094ff;
+}
+
+    P:first-letter {
+        font-family: 'Edwardian Script ITC';
+        font-size: 2.2em;
+    }
+
+    p:first-line {
+        font-weight: bold;
+        line-height: 50px;
+    }

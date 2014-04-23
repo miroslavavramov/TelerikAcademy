@@ -1,0 +1,79 @@
+table {
+    border-collapse: collapse;
+}
+
+thead {
+    border-bottom: 1px solid #595959;
+    background-color: #5ece06;
+    color: white;
+    text-align: left;
+    font-weight: 300;
+}
+
+th, td {
+    height: 35px;
+    border-right: 1px solid #595959;
+    border-left: 1px solid #595959;
+    vertical-align: central;
+    padding-left: 10px;
+}
+
+th:first-child {
+    border-left: none;
+}
+
+th:last-child {
+    border-right: none;
+}
+
+td:first-child {
+    border-left: none;
+}
+    
+td:last-child {
+    border-right: none;
+}
+
+tr:nth-child(2n) {
+    background-color: #ececd8;
+}
+
+.ukFlag {
+    padding-left: 40px;
+    background-image: url('../images/ukflag.jpg');
+    background-position: 8px 10px;
+    background-repeat: no-repeat;
+    vertical-align: central;
+}
+
+.mexicanFlag {
+    padding-left: 40px;
+    background-image: url('../images/mexicanflag.jpg');
+    background-position: 8px 10px;
+    background-repeat: no-repeat;
+    vertical-align: central;
+}
+
+.germanFlag {
+    padding-left: 40px;
+    background-image: url('../images/germanflag.jpg');
+    background-position: 8px 10px;
+    background-repeat: no-repeat;
+    vertical-align: central;
+}
+
+.firstCol {
+    width: 180px;
+}
+
+.secondCol {
+    width: 140px;
+}
+
+.thirdCol {
+    width: 160px;
+}
+
+.fourthCol {
+    width: 100px;
+}

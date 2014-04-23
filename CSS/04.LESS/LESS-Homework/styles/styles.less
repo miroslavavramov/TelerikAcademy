@@ -1,0 +1,210 @@
+﻿// CONSTANTS
+
+@defaultFont: 14px normal Arial;
+@defaultColor: #fff;
+@defaultBorder: 1px solid #000;
+@inputDefaultBgColor: #B35EF3;
+@defaultAnchorColor: #D0A3F7;
+
+//MIXINS
+
+.BorderRadius (@radius: 5px) {
+    -webkit-border-radius: @radius;
+    -moz-border-radius: @radius;
+    border-radius: @radius;
+    -moz-background-clip: padding;
+    -webkit-background-clip: padding-box;
+    background-clip: padding-box;
+}
+
+.LinearGradient(@color1, @stop1, @color2, @stop2) {
+    background: -webkit-linear-gradient(@color1 @stop1, @color2 @stop2);
+    background: -moz-linear-gradient(@color1 @stop1, @color2 @stop2);
+    background: -o-linear-gradient(@color1 @stop1, @color2 @stop2);
+    background: linear-gradient(@color1 @stop1, @color2 @stop2);
+}
+
+//RESET
+
+body, header, section, footer, article, h1, h2, h3, h4, h5, h6, input, button, label, p, fieldset, nav, ul, li, a, span, strong, em {
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+body {
+    font: @defaultFont;
+    color: @defaultColor;
+    .LinearGradient(#DFB9F9, 0%, #9215F2, 22%);
+
+    & > header {
+        padding: 15px 10px 10px 10px;
+
+        & > div {
+            margin-top: 25px;
+
+            #logo-container {
+                float: left;
+                position: relative;
+            }
+
+            #reg-form-container {
+                float: right;
+                margin-right: 120px;
+                font-size: 12px;
+                position: relative;
+
+                div {
+                    text-align: right;
+
+                    input {
+                        background: @inputDefaultBgColor;
+                        border: @defaultBorder;
+                        margin-top: 5px;
+                        margin-left: 10px;
+                        .BorderRadius(100px);
+                    }
+                }
+
+                button {
+                    background: @inputDefaultBgColor;
+                    border: @defaultBorder;
+                    border-style: outset;
+                    padding: 5px 10px;
+                    margin-top: 5px;
+                    font-size: inherit;
+                    font-weight: bold;
+                    color: @defaultColor;
+                    .BorderRadius(10px);
+
+                    &:hover {
+                        background: #781fc7;
+                        border-style: inset;
+                    }
+                }
+            }
+        }
+
+        nav {
+            border: @defaultBorder;
+            clear: both;
+            margin: 16px;
+            padding: 8px;
+            width: 70%;
+            .BorderRadius(15px);
+
+            #main-nav-list > li {
+                display: inline-block;
+                margin-left: 15px;
+
+                & > ul {
+                    display: none;
+                    position: absolute;
+                    background-color: #9215F2;
+                    border: @defaultBorder;
+                    .BorderRadius(20px);
+                    padding: 10px;
+
+                }
+
+                &:hover > a + ul {
+                    display: block;
+                }
+            }
+
+            a {
+                text-decoration: none;
+                color: @defaultColor;
+                font-size: 18px;
+
+                &:hover {
+                    font-weight: bold;
+                    text-decoration: underline;
+                }
+            }
+
+            .nav-list {
+                list-style-type: none;
+            }
+        }
+    }
+
+    & > section {
+        float: left;
+        width: 72%;
+        margin-left: 10px;
+
+        & > article {
+            border: @defaultBorder;
+            .BorderRadius(10px);
+            padding: 25px 15px 25px 15px;
+            margin-bottom: 15px;
+            font-size: 12px;
+
+            & > header > h1 {
+                font-size: 16px;
+                padding-bottom: 3px;
+            }
+
+            & > footer {
+                margin-top: 3px;
+                text-align: right;
+            }
+        }
+    }
+
+    & > aside {
+        float: right;
+        width: 20%;
+        margin-right: 70px;
+        padding-top: 15px;
+        font-size: 12px;
+
+        strong, em {
+            color: @defaultAnchorColor;
+        }
+
+        & > ul {
+            & > li {
+                border: @defaultBorder;
+                .BorderRadius();
+                list-style-type: none;
+                margin-bottom: 15px;
+                padding: 15px;
+
+                & > h2 {
+                    font-size: 14px;
+                    margin-bottom: 10px;
+                }
+
+                & > ul {
+                    & > li {
+                        list-style-type: none;
+                        background: url(../images/li-dot.png) no-repeat;
+                        padding-left: 25px;
+                    }
+                }
+            }
+        }
+    }
+
+    & > footer {
+        clear: both;
+        text-align: center;
+        font-weight: bold;
+        padding: 15px;
+    }
+
+    a {
+        text-decoration: none;
+        color: @defaultAnchorColor;
+
+        &:hover {
+            text-decoration: underline;
+        }
+    }
+
+    time {
+        font-family: Consolas, 'Lucida Console', 'DejaVu Sans Mono', monospace;
+    }
+}

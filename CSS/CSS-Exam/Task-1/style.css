@@ -1,0 +1,71 @@
+﻿* {
+  padding: 0;
+  margin: 0;
+}
+html,
+body {
+  font-family: "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+#wrapper {
+  width: 960px;
+  margin: 0 auto;
+}
+#wrapper > header {
+  background: url(images/header-bg.png);
+  padding: 15px;
+}
+#wrapper > header > h1 {
+  display: inline-block;
+  float: left;
+  font-size: 1em;
+  text-transform: uppercase;
+  color: #575E5B;
+}
+#wrapper > header > nav > ul {
+  display: inline-block;
+  color: #575E5B;
+  font-size: 0.9em;
+  float: right;
+}
+#wrapper > header > nav > ul > li {
+  list-style-type: none;
+  display: inline-block;
+  margin-right: 15px;
+}
+#wrapper > header > nav > ul > li:last-of-type {
+  margin-right: 5px;
+}
+#wrapper > div#searchBar {
+  background: #000;
+  color: #B9C6B9;
+  padding: 10px;
+  font-size: 0.9em;
+}
+#wrapper > div#searchBar a {
+  color: #B9C6B9;
+  font-size: 1em;
+  text-decoration: none;
+}
+#wrapper > div#searchBar > div#archives {
+  display: inline-block;
+}
+#wrapper > div#searchBar > div#search {
+  display: inline-block;
+  float: right;
+}
+#wrapper > div#content {
+  color: #575E5B;
+}
+#wrapper > div#content > h1 {
+  font-size: 1.5em;
+  padding: 15px 0;
+}
+#wrapper > div#content > article {
+  font-size: 0.9em;
+}
+#wrapper > div#content > article > p {
+  padding-bottom: 10px;
+}
+.clear {
+  clear: both;
+}

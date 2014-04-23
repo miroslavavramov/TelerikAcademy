@@ -1,0 +1,146 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <title>Calculator</title>
+    <link href="styles/styles.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+    <div id="wrapper">
+        <div id="navPane">
+            <table>
+                <tr>
+                    <td><span>V</span>iew</td>
+                    <td><span>E</span>dit</td>
+                    <td><span>H</span>elp</td>
+                </tr>
+            </table>
+        </div>
+        <div id="mainContainer">
+            <div id="displayBox">
+                <input type="text" value="12345" dir="rtl" />
+            </div>
+            <div id="bitsContainer">
+                <table>
+                    <tr>
+                        <td>0000</td>
+                        <td>0000</td>
+                        <td>0000</td>
+                        <td>0000</td>
+                        <td>0000</td>
+                        <td>0000</td>
+                        <td>0000</td>
+                        <td>0000</td>
+                    </tr>
+                    <tr>
+                        <td colspan="4" class="dec">63</td>
+                        <td colspan="3" class="dec">47</td>
+                        <td dir="rtl" class="rightmostDec">32</td>
+                    </tr>
+                    <tr>
+                        <td>0000</td>
+                        <td>0000</td>
+                        <td>0000</td>
+                        <td>0000</td>
+                        <td>0000</td>
+                        <td>0000</td>
+                        <td>0000</td>
+                        <td>0000</td>
+                    </tr>
+                    <tr>
+                        <td colspan="4" class="dec">31</td>
+                        <td colspan="3" class="dec">15</td>
+                        <td dir="rtl" class="rightmostDec">0</td>
+                    </tr>
+                </table>
+            </div>
+            <div id="controls">
+                <table>
+                    <tr>
+                        <td rowspan="3" id="numSystems">
+                            <form>
+                                <input type="radio" name="numSystem" id="hex" />
+                                <label for="hex">Hex</label><br />
+                                <input type="radio" name="numSystem" id="dec" />
+                                <label for="dec">Dec</label><br />
+                                <input type="radio" name="numSystem" id="oct" />
+                                <label for="oct">Oct</label><br />
+                                <input type="radio" name="numSystem" id="bin" />
+                                <label for="bin">Bin</label>
+                            </form>
+                        </td>
+                        <td><button class="inactiveBtn" disabled="disabled">&nbsp;</button></td>
+                        <td><button class="activeBtn">Mod</button></td>
+                        <td><button class="inactiveBtn" disabled="disabled">A</button></td>
+                        <td><button class="mutedBtn">MC</button></td>
+                        <td><button class="mutedBtn">MR</button></td>
+                        <td><button class="mutedBtn">MS</button></td>
+                        <td><button class="mutedBtn">M+</button></td>
+                        <td><button class="mutedBtn">M-</button></td>
+                    </tr>
+                    <tr>
+                        <td><button class="activeBtn">(</button></td>
+                        <td><button class="activeBtn">)</button></td>
+                        <td><button class="inactiveBtn" disabled="disabled">B</button></td>
+                        <td><button class="activeBtn">&larr;</button></td>
+                        <td><button class="activeBtn">CE</button></td>
+                        <td><button class="activeBtn">C</button></td>
+                        <td><button class="activeBtn">&plusmn;</button></td>
+                        <td><button class="inactiveBtn" disabled="disabled">&radic;</button></td>
+                    </tr>
+                    <tr>
+                        <td><button class ="activeBtn">RoL</button></td>
+                        <td><button class="activeBtn">RoR</button></td>
+                        <td><button class="inactiveBtn" disabled="disabled">C</button></td>
+                        <td><button class="digitBtn">7</button></td>
+                        <td><button class="digitBtn">8</button></td>
+                        <td><button class="digitBtn">9</button></td>
+                        <td><button class="activeBtn">/</button></td>
+                        <td><button class="inactiveBtn" disabled="disabled">%</button></td>
+                    </tr>
+                    <tr>
+                        <td rowspan="3" id="binLengths">
+                            <form>
+                                <input type="radio" name="binLength" id="qword" />
+                                <label for="qword">Qword</label><br />
+                                <input type="radio" name="binLength" id="dword" />
+                                <label for="dword">Dword</label><br />
+                                <input type="radio" name="binLength" id="word" />
+                                <label for="word">Word</label><br />
+                                <input type="radio" name="binLength" id="byte" />
+                                <label for="byte">Byte</label>
+                            </form>
+                        </td>
+                        <td><button class="activeBtn">Or</button></td>
+                        <td><button class=" activeBtn">Xor</button></td>
+                        <td><button class="inactiveBtn" disabled="disabled">D</button></td>
+                        <td><button class="digitBtn">4</button></td>
+                        <td><button class="digitBtn">5</button></td>
+                        <td><button class="digitBtn">6</button></td>
+                        <td><button class="activeBtn">*</button></td>
+                        <td><button class="inactiveBtn" disabled="disabled">1/x</button></td>
+                    </tr>
+                    <tr>
+                        <td><button class="activeBtn">Lsh</button></td>
+                        <td><button class="activeBtn">Rsh</button></td>
+                        <td><button class="inactiveBtn" disabled="disabled">E</button></td>
+                        <td><button class="digitBtn">1</button></td>
+                        <td><button class="digitBtn">2</button></td>
+                        <td><button class="digitBtn">3</button></td>
+                        <td><button class="activeBtn">-</button></td>
+                        <td rowspan="2"><button class="activeBtn" id="equalSign">=</button></td>
+                    </tr>
+                    <tr>
+                        <td><button class="activeBtn">Not</button></td>
+                        <td><button class="activeBtn">And</button></td>
+                        <td><button class="inactiveBtn" disabled="disabled">F</button></td>
+                        <td colspan="2"><button class="digitBtn" id="zeroBtn">0</button></td>
+                        <td><button class="inactiveBtn" disabled="disabled">.</button></td>
+                        <td colspan="2"><button class="activeBtn">+</button></td>
+                    </tr>
+                </table>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

@@ -1,0 +1,21 @@
+﻿ul{
+    list-style-type: none;
+}
+ul li{
+    overflow: auto;
+    max-height: 1em;
+}
+ul li:hover{
+    display:block;
+    max-height:10em;
+    text-decoration: underline;
+}
+ul.nestedList{
+    max-height: 4em;
+    padding: 0px 0px 0px 5px;
+    color: #a4a3aa;
+    display:block;
+}
+ul.nestedList li:hover{
+    max-height: 1em;
+}

@@ -1,0 +1,140 @@
+﻿body {
+    padding: 0;
+    margin: 0;
+    font-size: 12px;
+    font-family: Verdana, sans-serif;
+}
+
+#wrapper {
+    margin: 10px;
+    width: 850px;
+    border: 2px solid #808080;
+    background-color: #f1f1f1;
+}
+
+nav {
+    display: inline-block;
+    margin-left: 3px;
+    font-size: 11px;
+}
+
+    nav header {
+        margin-top: 5px;
+        margin-left: 5px;
+        font-weight: bold;
+        font-size: 14px;
+    }
+
+    nav ul {
+        position: relative;
+        padding: 0;
+        list-style-type: none;
+    }
+
+        nav ul li a {
+            color: #000;
+            text-decoration: none;
+        }
+
+        nav ul li .summary {
+            color: #860000;
+            font-weight: bold;
+        }
+
+        nav ul li a:hover {
+            text-decoration: underline;
+        }
+
+#mainContent {
+    display: inline-block;
+    margin-top: 5px;
+    margin-left: 15px;
+    width: 60%;
+    border: 1px solid #a2a2a2;
+    background-color: #fff;
+    vertical-align: top;
+}
+
+#innerWrapper {
+    padding: 5px;
+}
+
+    #innerWrapper footer {
+        padding-bottom: 20px;
+    }
+
+.separator {
+    margin-top: 5px;
+    margin-bottom: 5px;
+    width: 100%;
+    height: 1.7px;
+    background-color: #a9a9a9;
+}
+
+.titleBar {
+    width: 100%;
+    background-color: #808080;
+    color: #fff;
+    font-weight: bold;
+}
+
+    .titleBar div {
+        padding-left: 5px;
+    }
+
+.content img {
+    float: left;
+    margin-right: 10px;
+}
+
+.content a {
+    color: #860000;
+    font-size: 12px;
+}
+
+#advertisementBar {
+    width: 20%;
+    margin-top: 5px;
+    vertical-align: top;
+    display: inline-block;
+}
+
+    #advertisementBar article {
+        border: 1px solid #bcbcbc;
+        background-color: #fff;
+        margin-bottom: 2px;
+    }
+
+        #advertisementBar article p {
+            text-align: center;
+            margin: 0;
+            padding: 2px 0 5px 0;
+        }
+        #advertisementBar article input[type=text] {
+            width: 60%;
+            margin-left: 20px;
+            margin-top: 10px;
+            margin-bottom: 5px;
+        }
+        #advertisementBar article img{
+            padding-left: 40px;
+            padding-top: 5px;
+        }
+.advTitle {
+    width: 100%;
+    background-color: #808080;
+    color: #fff;
+    font-weight: bold;
+    text-align: center;
+}
+
+.navBtn{
+    width: 95px;
+    background-color: #fff;
+    border: 1.5px solid #000;
+}
+.searchBtn {
+    width: 20px;
+    height: 20px; 
+}
+

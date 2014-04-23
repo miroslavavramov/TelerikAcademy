@@ -1,0 +1,38 @@
+﻿body {
+    color: #ACB1AA;
+    font-size: 12px;
+    font-family: Arial;
+}
+
+table {
+    background-color: #6F6F6F;
+}
+
+thead {
+    text-align: left;
+    font-size: 20px;
+}
+
+a {
+    color: #FFFFFF;
+    text-decoration: none;
+}
+
+td {
+    padding: 8px;
+}
+
+.rowtitle {
+    color: #FFFFFF;
+    font-style: italic;
+}
+
+.unsupported {
+    color: #FF0000;
+    font-weight: bold;
+}
+
+.unanswered {
+    color: orange;
+    font-weight: bold;
+}
