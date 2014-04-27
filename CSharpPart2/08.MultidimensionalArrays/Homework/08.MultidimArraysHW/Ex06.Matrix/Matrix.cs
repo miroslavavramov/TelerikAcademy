@@ -8,6 +8,7 @@ class Matrix
     {
         this.matrix = new int[rows, cols];
     }
+
     public int Rows //property
     {
         get
@@ -15,6 +16,7 @@ class Matrix
             return this.matrix.GetLength(0);
         }
     }
+
     public int Cols //property
     {
         get
@@ -22,6 +24,7 @@ class Matrix
             return this.matrix.GetLength(1);
         }
     }
+
     public static Matrix GenerateMatrix()   //static method
     {   
         Console.Write("Rows = ");
@@ -49,9 +52,11 @@ class Matrix
                 }
             }
         }
+
         Console.WriteLine();
         return myMatrix;
     }
+
     public static Matrix operator +(Matrix matrix1, Matrix matrix2)     //add  
     {
         Matrix sum = new Matrix(matrix1.Rows, matrix1.Cols);
@@ -71,16 +76,18 @@ class Matrix
         }
         return sum;
     }
+
     public static Matrix operator -(Matrix matrix1, Matrix matrix2)     //subtract  
     {
         Matrix sum = new Matrix(matrix1.Rows, matrix1.Cols);
+
         if (matrix1.Rows != matrix2.Rows || matrix1.Cols != matrix2.Cols)
         {
             Console.WriteLine("Matrices can't be subtracted, because they're not the same size!");
             sum = new Matrix(0, 0);
             return sum;
         }
-        //else
+        
         for (int row = 0; row < matrix1.Rows; row++)
         {
             for (int col = 0; col < matrix1.Cols; col++)
@@ -88,11 +95,13 @@ class Matrix
                 sum[row, col] = matrix1[row, col] - matrix2[row, col];
             }
         }
+
         return sum;
     }
     public static Matrix operator *(Matrix matrix1, Matrix matrix2)     //multiply
     {
         Matrix product = new Matrix(matrix1.Rows, matrix2.Cols);
+
         if (matrix1.Cols != matrix2.Rows)
         {
             Console.WriteLine("Matrices can't be multiplied, because the colums of the first\n" +
@@ -101,7 +110,7 @@ class Matrix
             
             return product;
         }
-        //else
+
         for (int row = 0; row < product.Rows; row++)
         {
             for (int col = 0; col < product.Cols; col++)
@@ -112,11 +121,14 @@ class Matrix
                 }
             }
         }
+
         return product;
     }
+
     public override string ToString()
     {
         string output = "";
+
         for (int row = 0; row < this.Rows; row++)
         {
             for (int col = 0; col < this.Cols; col++)
@@ -125,8 +137,10 @@ class Matrix
             }
             output += Environment.NewLine;
         }
+
         return output;
     }
+
     public static void PrintMatrix(Matrix matrix)  //static method
     {
         for (int row = 0; row < matrix.Rows; row++)
@@ -135,10 +149,12 @@ class Matrix
             {
                 Console.Write("{0,3} ", matrix[row, col]);
             }
+
             Console.WriteLine();
         }
     }
-    public int this[int row, int col]   //indexer (instance method)
+
+    public int this[int row, int col]   //indexer 
     {
         get
         {

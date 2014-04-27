@@ -15,7 +15,9 @@ class Program
     navigate:
         Console.Clear();
         Console.BufferHeight = Console.WindowHeight;
+
         ContentsPart1();
+
         while (true)
         {
             Console.CursorVisible = false;
@@ -59,6 +61,7 @@ class Program
             Console.ForegroundColor = ConsoleColor.DarkYellow;
             string input = Console.ReadLine();
             Console.ResetColor();
+
             switch (input)
             {
                 default:
@@ -133,8 +136,8 @@ class Program
                     break;
             }
         }
-
     }
+
     static void ContentsPart1()
     {
         Console.ForegroundColor = ConsoleColor.Gray;
@@ -186,6 +189,7 @@ class Program
         Console.WriteLine("Page 1/2");
         Console.SetCursorPosition(35, 38);
     }
+
     static void ContentsPart2()
     {
         Console.ForegroundColor = ConsoleColor.Gray;
@@ -235,6 +239,7 @@ class Program
         Console.SetCursorPosition(90, 37);
         Console.WriteLine("Page 2/2");
     }
+
     static void Exit()
     {
         Console.Clear();
@@ -245,6 +250,5 @@ class Program
         Thread.Sleep(2000);
         Environment.Exit(0);
     }
-
 }
 

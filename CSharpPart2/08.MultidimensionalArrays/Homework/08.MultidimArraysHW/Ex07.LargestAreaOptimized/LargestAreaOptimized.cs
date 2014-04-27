@@ -5,12 +5,18 @@ class LargestAreaOptimized
 {
     static int[,] field = new int[7, 7];
     static bool[,] visited = new bool[7, 7];
+
     static void Main()
     {
         Random rnd = new Random();
         for (int i = 0; i < field.GetLength(0); i++)
-            for (int j = 0; j < field.GetLength(1); j++) { field[i, j] = rnd.Next('A', 'D'); }
-
+        {
+            for (int j = 0; j < field.GetLength(1); j++)
+            {
+                field[i, j] = rnd.Next('A', 'D');
+            }
+        }
+        
         int max = 0;
         int area = 0;
         int element = -1;
@@ -22,8 +28,13 @@ class LargestAreaOptimized
             for (int k = 0; k < field.GetLength(1); k++)
             {
                 Console.Write((char)field[i, k] + " ");
+
                 area = Find(i, k);
-                if (area > max) { max = area; startRow = i; startCol = k; element = field[i, k]; }
+
+                if (area > max) 
+                { 
+                    max = area; startRow = i; startCol = k; element = field[i, k]; 
+                }
             }
             Console.WriteLine();
         }
@@ -31,6 +42,7 @@ class LargestAreaOptimized
         Console.WriteLine("element : " + (char)element);
         Console.WriteLine("postion r:{0} c:{1}\n", startRow, startCol);
     }
+
     static int Find(int row, int col)
     {
         int distance = 1;

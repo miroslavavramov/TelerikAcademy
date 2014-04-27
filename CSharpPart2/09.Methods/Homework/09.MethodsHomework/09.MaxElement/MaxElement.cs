@@ -14,9 +14,16 @@ class MaxElement
             Console.Write("Sorted : ");
             Print(myArray);
         }
-        catch (FormatException fe) { Console.WriteLine(fe.Message); }
-        catch (OverflowException ofe) { Console.WriteLine(ofe.Message); }
+        catch (FormatException fe) 
+        {
+            Console.WriteLine(fe.Message); 
+        }
+        catch (OverflowException ofe) 
+        {
+            Console.WriteLine(ofe.Message); 
+        }
     }
+
     static int GetMaxElementIndex(int[] arr, int startIndex)
     {
         int maxElementIndex = startIndex;
@@ -26,22 +33,27 @@ class MaxElement
            if(arr[i] >= arr[maxElementIndex])  
                maxElementIndex = i;
         }
+
         return maxElementIndex;
     }
+
     static void SortMyArray(int[] arr)
     {
         for (int i = 0; i < arr.Length; i++)
         {
             Swap(arr, i, GetMaxElementIndex(arr, i));
         }
+
         Array.Reverse(arr);
     }
+
     static void Swap(int[] arr, int index1, int index2)
     {
         int temp = arr[index1];
         arr[index1] = arr[index2];
         arr[index2] = temp;
     }
+
     static int[] GenerateArray()
     {
         Console.Write("Array length = ");
@@ -61,13 +73,16 @@ class MaxElement
         Console.WriteLine("Array is generted!" + Environment.NewLine);
         return arr;
     }
+
     static void Print<T>(T[] arr)
     {
         Console.Write("Array : { ");
+
         foreach (var num in arr)
         {
             Console.Write(num + " ");
         }
+
         Console.WriteLine(" }" + Environment.NewLine);
     }
 }

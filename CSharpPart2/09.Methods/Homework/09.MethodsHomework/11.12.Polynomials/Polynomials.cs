@@ -12,6 +12,7 @@ class Polynomials
         PrintPolynomial(Subtract(new List<int> {1, 5, 0, 2 }, new List<int> {6, 2, 0, 0 }));                    
         PrintPolynomial(Multiply(new List<int> { 2, 6, 2, 1, 0, 2, 2 }, new List<int> {5, 3, 0, 0, 1, 2, 7}));
     }
+
     static List<int> Add(List<int> p1, List<int> p2)
     {
         List<int> sum = new List<int>(Math.Max(p1.Count, p2.Count));
@@ -22,6 +23,7 @@ class Polynomials
         }
         return sum;
     }
+
     static List<int> Subtract(List<int> p1, List<int> p2)
     {
         List<int> sum = new List<int>(Math.Max(p1.Count, p2.Count));
@@ -32,6 +34,7 @@ class Polynomials
         }
         return sum;
     }
+
     static List<int> Multiply(List<int> p1, List<int> p2)
     {
         List<int> sum = new List<int>(Math.Max(p1.Count, p2.Count));
@@ -42,6 +45,7 @@ class Polynomials
         }
         return sum;
     }
+
     static void PrintPolynomial(List<int> p)
     {
         for (int i = p.Count-1; i >= 0; i--)

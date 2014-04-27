@@ -12,13 +12,23 @@ class ExtractPalindomes
         var words = Regex.Matches(text, @"\b\w+\b");
 
         foreach (var word in words)
-            if (IsPalindrome(word.ToString().ToUpper())) Console.WriteLine(word);
-        
+        {
+            if (IsPalindrome(word.ToString().ToUpper()))
+            { 
+                Console.WriteLine(word); 
+            }
+        }
     }
+
     static bool IsPalindrome(string s)
     {
         for (int i = 0; i < s.Length; i++)
-            if (s[i] != s[s.Length - 1 - i]) return false;
+        {
+            if (s[i] != s[s.Length - 1 - i])
+            {
+                return false;
+            }
+        }
 
         return true;
     }

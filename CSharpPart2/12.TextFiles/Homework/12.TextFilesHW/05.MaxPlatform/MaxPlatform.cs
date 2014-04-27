@@ -9,6 +9,7 @@ using System.IO;
 // 0 2 3 4  -->	17
 // 3 7 1 2
 // 4 3 3 2
+
 class MaxPlatform
 {
     static void Main()
@@ -17,9 +18,11 @@ class MaxPlatform
 
         File.WriteAllText(@"..\..\output.txt", GetMaxPlatform(matrix).ToString());
     }
+
     static int[,] ReadMatrixFromFile(string path)
     {
         int[,] matrix;
+
         using (StreamReader reader = new StreamReader(path))
         {
             int length = int.Parse(reader.ReadLine());
@@ -28,12 +31,17 @@ class MaxPlatform
             for (int row = 0; row < length; row++)
             {
                 string[] line = reader.ReadLine().Split(' ');
+
                 for (int col = 0; col < length; col++)
+                {
                     matrix[row, col] = int.Parse(line[col]);
+                }
             }
+
             return matrix;
         }   
     }
+
     static int GetMaxPlatform(int[,] matrix)
     {
         int maxPlatform = int.MinValue;
@@ -47,6 +55,7 @@ class MaxPlatform
                 maxPlatform = platform > maxPlatform ? platform : maxPlatform;
             }
         }
+
         return maxPlatform;
     }
 }

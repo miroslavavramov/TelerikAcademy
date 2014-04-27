@@ -13,8 +13,10 @@ class ForbiddenWords
         List<string> forbiddenWords = new List<string>() {"PHP", "CLR", "Microsoft" };
 
         foreach (var word in forbiddenWords)
+        {
             text = text.Replace(word, new string('*', word.Length));
-        
+        }
+
         Console.WriteLine(text);
     }
 }

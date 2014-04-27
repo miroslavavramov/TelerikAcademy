@@ -28,6 +28,7 @@ public class CheckSpecificSubsetSum
 
             Random rnd = new Random();  // Random class, which is used to generate random numbers
             int[] array = new int[length];
+
             for (int i = 0; i < length; i++)
             {
                 array[i] = rnd.Next(min, max);  //assign random values(in [min,max] interval) to the elements

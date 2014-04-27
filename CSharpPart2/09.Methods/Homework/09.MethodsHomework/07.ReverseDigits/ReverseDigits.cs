@@ -10,18 +10,25 @@ class ReverseDigits
             Console.WriteLine("Reversed: {0}", Reverse(int.Parse(Console.ReadLine())));
         }
         catch (FormatException fe)
-        { Console.WriteLine(fe.Message); }
+        { 
+            Console.WriteLine(fe.Message); 
+        }
         catch (OverflowException ofe)
-        { Console.WriteLine(ofe.Message); }
+        { 
+            Console.WriteLine(ofe.Message); 
+        }
     }
+
     static int Reverse(int n)
     {
         int result = 0;
+
         while (n > 0)
         {
             result = result * 10 + n % 10;
             n /= 10;
         }
+
         return result;
     }
 }

@@ -12,6 +12,7 @@ public class QuickSortAlgorithm
             int length = int.Parse(Console.ReadLine());
             Console.WriteLine();
             int[] array = new int[length];
+
             for (int index = 0; index < length; index++)    //assign values
             {
                 Console.Write("     array[{0}] = ", index);
@@ -52,6 +53,7 @@ public class QuickSortAlgorithm
                 pIndex++;
             }
         }
+
         arr[end] = arr[pIndex];
         arr[pIndex] = pivot;
         return pIndex;      //pivot index

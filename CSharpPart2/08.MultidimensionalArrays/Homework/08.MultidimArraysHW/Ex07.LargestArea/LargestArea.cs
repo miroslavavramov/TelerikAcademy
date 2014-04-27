@@ -23,8 +23,13 @@ class LargestArea
 
                 //assign random values [1..4)
                 for (int i = 0; i < matrix.GetLength(0); i++)
-                    for (int j = 0; j < matrix.GetLength(1); j++) { matrix[i, j] = rnd.Next(1, 4); }
-
+                {
+                    for (int j = 0; j < matrix.GetLength(1); j++)
+                    {
+                        matrix[i, j] = rnd.Next(1, 4);
+                    }
+                }
+                
                 Print(matrix);
 
                 int area;
@@ -32,11 +37,13 @@ class LargestArea
                 int bestNum = -1;
                 int startRow = -1;
                 int startCol = -1;
+
                 for (int row = 0; row < matrix.GetLength(0); row++)
                 {
                     for (int col = 0; col < matrix.GetLength(1); col++)
                     {
                         area = CalculateArea(row, col);
+
                         if (area > maxArea)
                         {
                             maxArea = area;
@@ -46,6 +53,7 @@ class LargestArea
                         }
                     }
                 }
+
                 Console.WriteLine("\nmax area: " + maxArea);
                 Console.WriteLine("element: " + bestNum);
                 Console.WriteLine("start pos: r:{0} c:{1}\n", startRow, startCol);
@@ -58,8 +66,10 @@ class LargestArea
             {
                 Console.WriteLine(ofe.Message);
             }
+
             Console.WriteLine("\nPress <ENTER> to try again.");
             ConsoleKeyInfo pressedKey = Console.ReadKey();
+
             if (pressedKey.Key == ConsoleKey.Enter)
             {
                 Console.Clear();
@@ -76,6 +86,7 @@ class LargestArea
     {                                           
         int distance = 1;
         visited[row, col] = true;
+
         if (row > 0 && matrix[row, col] == matrix[row - 1, col] && visited[row - 1, col] == false)    //N
         {
             distance += GoNorth(row - 1, col);
@@ -92,12 +103,15 @@ class LargestArea
         {
             distance += GoWest(row, col - 1);
         }
+
         return distance;
     }
+
     static int GoNorth(int row, int col)
     {
         visited[row, col] = true;
         int dist = 1;
+
         if (row == 0 || matrix[row, col] != matrix[row - 1, col] || visited[row - 1, col] == true)
         {
             if (col < matrix.GetLength(1) - 1 && matrix[row, col] == matrix[row, col + 1] && visited[row, col + 1] == false)    //E
@@ -128,10 +142,12 @@ class LargestArea
         }
 
     }
+
     static int GoEast(int row, int col)
     {
         visited[row, col] = true;
         int dist = 1;
+
         if (col == matrix.GetLength(1) - 1 || matrix[row, col] != matrix[row, col + 1] || visited[row, col + 1] == true)
         {
             if (row > 0 && matrix[row, col] == matrix[row - 1, col] && visited[row - 1, col] == false)    //N
@@ -161,10 +177,12 @@ class LargestArea
             return dist;
         }
     }
+
     static int GoSouth(int row, int col)
     {
         visited[row, col] = true;
         int dist = 1;
+
         if (row == matrix.GetLength(0) - 1 || matrix[row, col] != matrix[row + 1, col] || visited[row + 1, col] == true)
         {
             if (col < matrix.GetLength(1) - 1 && matrix[row, col] == matrix[row, col + 1] && visited[row, col + 1] == false)    //E
@@ -194,10 +212,12 @@ class LargestArea
             return dist;
         }
     }
+
     static int GoWest(int row, int col)
     {
         visited[row, col] = true;
         int dist = 1;
+
         if (col == 0 || matrix[row, col] != matrix[row, col - 1] || visited[row, col - 1] == true)
         {
             if (row > 0 && matrix[row, col] == matrix[row - 1, col] && visited[row - 1, col] == false)    //N
@@ -228,6 +248,7 @@ class LargestArea
         }
 
     }
+
     static void Print<T>(T[,] matrix)   //generic method; works with various data types 
     {
         Console.WriteLine();

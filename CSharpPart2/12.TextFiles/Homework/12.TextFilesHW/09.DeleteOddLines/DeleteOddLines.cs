@@ -11,19 +11,23 @@ class DeleteOddLines
         using (StreamReader reader = new StreamReader(@"..\..\text.txt"))
         {
             int i = 1;
+
             for (string line; (line=reader.ReadLine()) != null; i++)
             {
-                if ((i & 1) == 0) evenLines.Add(line); 
+                if ((i & 1) == 0)
+                {
+                    evenLines.Add(line);
+                }
             }
         }
+
         using (StreamWriter writer = new StreamWriter(@"..\..\text.txt"))
         {
             for (int i = 0; i < evenLines.Count; i++)
             {
                 writer.WriteLine(evenLines[i]);
             }
-        }
-        
+        }   
     }
 }
 

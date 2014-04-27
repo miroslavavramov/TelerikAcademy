@@ -9,6 +9,7 @@ class ExtractTextFromXML
         using (StreamReader reader = new StreamReader(@"..\..\testXML.xml")) 
         {
             List<string> separatedWords = new List<string>();
+
             for (string line; (line = reader.ReadLine()) != null;)
             {
                 for (int start = 0; start < line.Length; start++)
@@ -21,6 +22,7 @@ class ExtractTextFromXML
                     }
                 }
             }
+
             foreach (var word in separatedWords)
             {
                 Console.WriteLine(word);

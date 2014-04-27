@@ -9,6 +9,7 @@ class CheckBrackets
         Console.WriteLine(Check("(9-x*y)*((7-3)*((1-y)"));
         Console.WriteLine(Check(")x+(5+5)/y("));
     }
+
     static bool Check(string e)
     {
         int leftBracketsCount = e.Length - e.Replace("(", "").Length;
@@ -20,6 +21,7 @@ class CheckBrackets
         {
             return false;
         }
+
         return true;
     }
 }

@@ -29,6 +29,7 @@ public class CheckSubsetSum
 
             Random rnd = new Random();  // Random class, which is used to generate random numbers
             int[] array = new int[length];
+
             for (int i = 0; i < length; i++)
             {
                 array[i] = rnd.Next(min, max);  //assign random values(in [min,max] interval) to the elements
@@ -46,10 +47,12 @@ public class CheckSubsetSum
             for (int i = 1; i < 1 << array.Length; i++)     // 1 << n <=> Math.Pow(2, n), but works lot faster
             {
                 tempSum = 0;
+
                 for (int k = 0; k < array.Length; k++)
                 {
                     tempSum += array[k] * CheckBitAtPosition(i, k);
                 }
+
                 if (tempSum == sum) // print subset
                 {
                     subsetFound = true;
@@ -76,11 +79,14 @@ public class CheckSubsetSum
             {
                 Console.WriteLine("\n\n Total Subsets: {0}", totalSubsets);
             }
+
             Console.Write("\n\n Array: { ");
+
             foreach (int number in array)
             {
                 Console.Write("{0} ", number);
             }
+
             Console.Write("}\n\t\t\t\t");
 
             Console.ResetColor();

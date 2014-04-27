@@ -18,7 +18,9 @@ class BinSearch
                 int[] numbers = new int[n];
 
                 for (int i = 0; i < n; i++)
+                {
                     numbers[i] = int.Parse(Console.ReadLine());
+                }
 
                 Array.Sort(numbers);
                 Console.Write("Sorted array: ");
@@ -26,9 +28,18 @@ class BinSearch
 
                 int output = Array.BinarySearch(numbers, k);
                 //Console.WriteLine(output);
-                if (output > 0) { Console.WriteLine("Largest number <= K : {0}", numbers[output]); }
-                else if ((~output) - 1 >= 0) { Console.WriteLine("Largest num <= K : {0}", numbers[(~output) - 1]); }
-                else { Console.WriteLine("No such number"); }
+                if (output > 0)
+                {
+                    Console.WriteLine("Largest number <= K : {0}", numbers[output]);
+                }
+                else if ((~output) - 1 >= 0) 
+                { 
+                    Console.WriteLine("Largest num <= K : {0}", numbers[(~output) - 1]); 
+                }
+                else 
+                { 
+                    Console.WriteLine("No such number"); 
+                }
             }
             catch (Exception e)
             {
@@ -46,14 +57,14 @@ class BinSearch
                 break;  //exit
             }
         }
-        
+
     }
     static void Print<T>(T[] arr)   //generic method; works with various data types
     {
         foreach (var item in arr)
-	    {
-		    Console.Write(item + " ");
-	    }
+        {
+            Console.Write(item + " ");
+        }
         Console.WriteLine();
     }
 }

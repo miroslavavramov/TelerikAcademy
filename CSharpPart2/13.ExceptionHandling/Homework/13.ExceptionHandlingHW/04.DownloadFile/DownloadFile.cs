@@ -12,6 +12,7 @@ class DownloadFile
             try
             {
                 string url = @"http://telerikacademy.com/Content/Images/news-img01.png";
+
                 Client.DownloadFile(url, "ninja.png");
             }
             catch (ArgumentException)

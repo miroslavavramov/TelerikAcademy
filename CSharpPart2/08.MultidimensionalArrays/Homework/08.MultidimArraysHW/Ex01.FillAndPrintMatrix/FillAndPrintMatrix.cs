@@ -10,13 +10,15 @@ class FillAndPrintMatrix
             {
                 Console.Write("{0,3} ", matrix[row,col]);
             }
+
             Console.WriteLine();
         }
     }
+
     static void A(int[,] matrix, int length)
     {
         int value = 1;
-        //assign values
+        
         for (int col = 0; col < length; col++)
         {
             for (int row = 0; row < length; row++)
@@ -28,9 +30,11 @@ class FillAndPrintMatrix
         Console.WriteLine(" A) ");
         Print(matrix);  //print matrix
     }
+
     static void B(int[,] matrix, int length)
     {
         int value = 1;
+
         for (int col = 0; col < length; col++)
         {
             if (col % 2 == 0)
@@ -53,9 +57,11 @@ class FillAndPrintMatrix
         Console.WriteLine(" B) ");
         Print(matrix);
     }
+
     static void C(int[,] matrix, int length)
     {
         int value = 1;
+
         for (int row = length-1; row >= 0; row--)
         {
             for (int col = 0; col < length-row; col++)
@@ -64,6 +70,7 @@ class FillAndPrintMatrix
                 value++;
             }
         }
+
         for (int col = 1; col < length; col++)
         {
             for (int row = 0; row < length-col; row++)
@@ -72,9 +79,11 @@ class FillAndPrintMatrix
                 value++;
             }
         }
+
         Console.WriteLine(" C) ");
         Print(matrix);
     }
+
     static void D(int[,] matrix, int length)
     {
         int row = 0; int col = 0;
@@ -130,6 +139,7 @@ class FillAndPrintMatrix
         Console.WriteLine(" D) ");
         Print(matrix);
     }
+
     static void Main()
     {
         while (true)
@@ -149,8 +159,10 @@ class FillAndPrintMatrix
             {
                 Console.WriteLine(e.Message);
             }
+
             Console.WriteLine("\nPress <ENTER> to try again.");
             ConsoleKeyInfo pressedKey = Console.ReadKey();
+
             if (pressedKey.Key == ConsoleKey.Enter)
             {
                 Console.Clear();
@@ -161,8 +173,5 @@ class FillAndPrintMatrix
                 Environment.Exit(0);
             }
         }
-        
-    }
-    
+    }   
 }
-

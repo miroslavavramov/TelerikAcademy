@@ -7,14 +7,16 @@ class UnicodeLiterals
     {
         Console.WriteLine(ToUnicode(Console.ReadLine()));   
     }
+
     static string ToUnicode(string s)
     {
         var output = new StringBuilder();
 
         for (int i = 0; i < s.Length; i++)
+        {
             output.Append(@"\u" + string.Format("{0:X4}", (int)s[i]));
+        }
 
         return output.ToString();
     }
 }
-

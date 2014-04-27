@@ -15,36 +15,45 @@ class ParametersGeneric
         Console.WriteLine("Sum : " + SumCalc(1, 89, -102, 99.99, 11, 3, -54, 712, 1.002, 151, 18, 2.79, 10));
         Console.WriteLine("Product : " + ProductCalc(931, -0.89, -3, 10));
     }
+
     static T MinCalc<T>(params T[] arr)
     {
         Array.Sort(arr);
         return arr[0];
     }
+
     static T MaxCalc<T>(params T[] arr)
     {
         Array.Sort(arr);
         return arr[arr.Length - 1];
     }
+
     static double AvrgCalc<T>(params T[] arr) 
     {
         return Convert.ToDouble(SumCalc(arr)) / arr.Length;
     }
+
     static T SumCalc<T>(params T[] arr)
     {
         dynamic sum = 0;
+
         for (int i = 0; i < arr.Length; i++)
         {
             sum += arr[i];
         }
+
         return sum;
     }
+
     static T ProductCalc<T>(params T[] arr)
     {
         dynamic prod = 1;
+
         for (int i = 0; i < arr.Length; i++)
         {
             prod *= arr[i];
         }
+
         return prod;
     }
 }

@@ -16,9 +16,9 @@ class ExtractSentences
         var extractedSentences = Regex.Matches(text, pattern, RegexOptions.IgnoreCase);
 
         foreach (var sentence in extractedSentences)
+        {
             Console.WriteLine(sentence);
-
-        
+        }
     }
 }
 

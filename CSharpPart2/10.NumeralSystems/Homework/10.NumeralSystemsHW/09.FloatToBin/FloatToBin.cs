@@ -14,8 +14,22 @@ class FloatToBin
         string mantissa = "";
 
         f = Math.Abs(f);                                    //use abs. value i.o. to simplfy calculations
-        if (f > 1) { for (; f > 2; f /= 2) power++; }       //normalize by dividing  by 2 so f = 1.YYYYY * 2^power
-        else { for (; f < 1; f*=2) power--; }               // f = 1.YYYYY * 2^(-power)
+
+        if (f > 1)                                          //normalize by dividing  by 2 so f = 1.YYYYY * 2^power
+        {   
+            for (; f > 2; f /= 2) 
+            {
+                power++;
+            }
+        }       
+        else
+        {
+            for (; f < 1; f *= 2)                           // f = 1.YYYYY * 2^(-power)
+            {
+                power--;
+            }
+        }               
+
         exp = power + 127;                                  //calculate the decimal value of the exponent
 
         f = (f - 1) * 2;                                    //only the fractional part of the normalized number is to be used
@@ -23,8 +37,10 @@ class FloatToBin
         for (; mantissa.Length < 23; f *= 2)
         {
             mantissa += f >= 1 ? "1" : "0";
+
             f = f >= 1 ? f - 1 : f;
         }
+
         Console.ForegroundColor = ConsoleColor.Green;
         Console.Write(msb);
         Console.ForegroundColor = ConsoleColor.Yellow;
@@ -33,21 +49,25 @@ class FloatToBin
         Console.WriteLine(mantissa);
         Console.ResetColor();
     }
+
     static string ToBinary(int n)
     {
         string binary = "";
         
         for (int i = n; i != 0; i >>= 1)
+        {
             binary += (char)('0' + (i & 1));
-
+        }
+        
         return n == 0 ? "0".PadLeft(8, '0') : Reverse(binary.PadRight(8, '0'));
     }
+
     static string Reverse(string s)
     {
         char[] arr = s.ToCharArray();
         Array.Reverse(arr);
         s = arr.ToString();
+
         return new string(arr);
     }
 }
-

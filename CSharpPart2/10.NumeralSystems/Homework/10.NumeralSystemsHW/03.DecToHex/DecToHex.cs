@@ -6,20 +6,25 @@ class DecToHex
     {
         Console.WriteLine(ToHex(int.Parse(Console.ReadLine())));
     }
+
     static string ToHex(int n)
     {
         string hex = "";
 
-        for (int i = n; i > 0; i >>= 4)     
+        for (int i = n; i > 0; i >>= 4)
+        {
             hex += (char)((i & 15) > 9 ? ((i & 15) + 'A' - 10) : ((i & 15) + '0')); 
-
+        }
+        
         return n == 0 ? "0" : Reverse(hex);
     }
+
     static string Reverse(string s)
     {
         char[] arr = s.ToCharArray();
         Array.Reverse(arr);
         s = arr.ToString();
+
         return new string(arr);
     }
 }

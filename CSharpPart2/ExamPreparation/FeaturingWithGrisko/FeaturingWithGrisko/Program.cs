@@ -36,6 +36,7 @@ class Program
         else
         {
             GeneratePermutations(arr, k + 1);
+			
             for (int i = k + 1; i < arr.Length; i++)
             {
                 Swap(ref arr[k], ref arr[i]);

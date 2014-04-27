@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.IO;
 //Write a program that removes from a text file all words listed in given another text file. 
 //Handle all possible exceptions in your methods.
+
 class DeleteWords2
 {
     static void Main()
@@ -15,8 +16,12 @@ class DeleteWords2
             using (StreamWriter writer = new StreamWriter(@"..\..\remainingWords.txt"))
             {
                 for (int i = 0; i < words.Count; i++)
+                {
                     if (!wordsToRemove.Contains(words[i]))
+                    {
                         writer.WriteLine(words[i]);
+                    }
+                }
             }
             
         }
@@ -41,15 +46,20 @@ class DeleteWords2
             Console.WriteLine(uae.Message);
         }
     }
+
     static List<string> SeparateWordsFromText(string path)
     {
         List<string> list = new List<string>();
+
         using (StreamReader reader = new StreamReader(path))
         {
             string text = reader.ReadToEnd();
+
             char[] separators = { ' ', ',', '.', '!', '?', ':', ';', '(', ')', '\n', '\r' };
+
             list = new List<string>(text.Split(separators, StringSplitOptions.RemoveEmptyEntries));
         }
+
         return list;
     }
 }

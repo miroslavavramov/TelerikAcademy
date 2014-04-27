@@ -38,6 +38,7 @@ class Tasks
         }
 
     }
+
     static void Reverse()
     {
         while (true)
@@ -46,27 +47,48 @@ class Tasks
             {
                 Console.Write("Enter a number: ");
                 long n = long.Parse(Console.ReadLine());
-                if (n <= 0) { Console.Clear(); continue; }
+
+                if (n <= 0) 
+                { 
+                    Console.Clear(); continue; 
+                }
+
                 long result = 0;
+
                 while (n > 0)
                 {
                     result = result * 10 + n % 10;
                     n /= 10;
                 }
+
                 Console.WriteLine("Reversed: {0}", result);
             }
             catch (Exception e)
             {
                 Console.WriteLine(e.Message);
             }
+
             Console.WriteLine("Press <Enter> to try again or <ESC> to go to Main Menu.");
             ConsoleKeyInfo pressedKey = Console.ReadKey();
-            if (pressedKey.Key == ConsoleKey.Enter) { Console.Clear(); continue; }
-            else if (pressedKey.Key == ConsoleKey.Escape) { Console.Clear(); Tasks.Main(); }
-            else { Environment.Exit(0); }
+
+            if (pressedKey.Key == ConsoleKey.Enter) 
+            {
+                Console.Clear(); 
+                continue; 
+            }
+            else if (pressedKey.Key == ConsoleKey.Escape) 
+            { 
+                Console.Clear(); 
+                Tasks.Main(); 
+            }
+            else 
+            { 
+                Environment.Exit(0); 
+            }
         }
 
     }
+
     static void Average()
     {
         while (true)
@@ -81,14 +103,28 @@ class Tasks
 
             avrg /= (double)arr.Length;
             Print(arr);
+
             Console.WriteLine("Average: {0:F3}", avrg);
             Console.WriteLine("\nPress <Enter> to try again or <ESC> to go to Main Menu.");
             ConsoleKeyInfo pressedKey = Console.ReadKey();
-            if (pressedKey.Key == ConsoleKey.Enter) { Console.Clear(); continue; }
-            else if (pressedKey.Key == ConsoleKey.Escape) { Console.Clear(); Tasks.Main(); }
-            else { Environment.Exit(0); }
+
+            if (pressedKey.Key == ConsoleKey.Enter) 
+            { 
+                Console.Clear(); 
+                continue; 
+            }
+            else if (pressedKey.Key == ConsoleKey.Escape) 
+            { 
+                Console.Clear(); 
+                Tasks.Main(); 
+            }
+            else 
+            { 
+                Environment.Exit(0); 
+            }
         }
     }
+
     static void Equation()
     {
         while(true)
@@ -97,9 +133,15 @@ class Tasks
             {
                 Console.Write(" a = ");
                 double a = double.Parse(Console.ReadLine());
-                if (a < 1) { Console.Clear(); continue; }
+
+                if (a < 1) 
+                { 
+                    Console.Clear(); continue; 
+                }
+
                 Console.Write(" b = ");
                 double b = double.Parse(Console.ReadLine());
+
                 Console.WriteLine("\n Equation: {0}*x + {1} = 0", a,b);
                 Console.WriteLine(" x = {0} \n", (-b) / a);
             }
@@ -109,21 +151,43 @@ class Tasks
             }
             Console.WriteLine("Press <Enter> to try again or <ESC> to go to Main Menu.");
             ConsoleKeyInfo pressedKey = Console.ReadKey();
-            if (pressedKey.Key == ConsoleKey.Enter) { Console.Clear(); continue; }
-            else if (pressedKey.Key == ConsoleKey.Escape) { Console.Clear(); Tasks.Main(); }
-            else { Environment.Exit(0); }
+
+            if (pressedKey.Key == ConsoleKey.Enter) 
+            { 
+                Console.Clear(); 
+                continue; 
+            }
+            else if (pressedKey.Key == ConsoleKey.Escape) 
+            { 
+                Console.Clear(); 
+                Tasks.Main(); 
+            }
+            else 
+            { 
+                Environment.Exit(0); 
+            }
         }
     }
+
     static int[] GenerateArray()
     {
-        int length = 0; int min = 0; int max = 0;
+        int length = 0; 
+        int min = 0; 
+        int max = 0;
+
         while (true)
         {
             try
             {
                 Console.Write("Array length = ");
                 length = int.Parse(Console.ReadLine());
-                if (length < 1) { Console.Clear(); continue; }
+
+                if (length < 1) 
+                { 
+                    Console.Clear(); 
+                    continue; 
+                }
+
                 Console.Write("Min value = ");
                 min = int.Parse(Console.ReadLine());
                 Console.Write("Max value = ");
@@ -134,8 +198,17 @@ class Tasks
             {
                 Console.WriteLine("You did something wrong! Press <Enter> to try again\nor <ESC> to go to Main Menu.");
                 ConsoleKeyInfo pressedKey = Console.ReadKey();
-                if (pressedKey.Key == ConsoleKey.Enter) { Console.Clear(); continue; }
-                else if (pressedKey.Key == ConsoleKey.Escape) { Console.Clear(); Tasks.Main(); }
+
+                if (pressedKey.Key == ConsoleKey.Enter) 
+                { 
+                    Console.Clear(); 
+                    continue; 
+                }
+                else if (pressedKey.Key == ConsoleKey.Escape) 
+                { 
+                    Console.Clear(); 
+                    Tasks.Main(); 
+                }
             }
         }
 
@@ -146,16 +219,20 @@ class Tasks
         {
             arr[i] = rnd.Next(min, max);
         }
+
         Console.WriteLine("Array is generted!" + Environment.NewLine);
         return arr;
     }
+
     static void Print<T>(T[] arr)
     {
         Console.Write("Array : { ");
+
         foreach (var num in arr)
         {
             Console.Write(num + " ");
         }
+
         Console.WriteLine(" }" + Environment.NewLine);
     }
 }

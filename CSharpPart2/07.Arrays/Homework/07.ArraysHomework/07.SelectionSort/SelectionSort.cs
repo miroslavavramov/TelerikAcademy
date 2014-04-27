@@ -11,9 +11,12 @@ public class SelectionSort
             Console.Write("Task 7:\n\n ");
             Console.Write(" How many elements should the array contain? ");
             Console.ForegroundColor = ConsoleColor.Yellow;
+
             int length = int.Parse(Console.ReadLine());
             Console.WriteLine();
+
             int[] array = new int[length];
+
             for (int index = 0; index < length; index++)    //assign values
             {
                 Console.Write("     array[{0}] = ", index);
@@ -35,10 +38,12 @@ public class SelectionSort
 
             Console.ForegroundColor = ConsoleColor.Green;
             Console.Write("\n  Sorted array: ");
+
             foreach (var element in array) //print sorted array
             {
                 Console.Write(element + " ");
             }
+
             Console.ResetColor();
             Console.WriteLine("\n\n");
         }

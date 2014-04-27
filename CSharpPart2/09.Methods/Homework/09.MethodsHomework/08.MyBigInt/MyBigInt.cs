@@ -22,12 +22,17 @@ class MyBigInt
         //DateTime end = DateTime.Now;
         //Console.WriteLine("Execution Time: " + (end - start));
     }
+
     static string Add(string s1, string s2)
     {
         if (s1.Length > s2.Length)
+        {
             s2 = s2.Insert(0, new string('0', s1.Length - s2.Length));
+        }
         else if (s1.Length < s2.Length)
-            s1 = s1.Insert(0, new string('0', s2.Length - s1.Length));
+        { 
+            s1 = s1.Insert(0, new string('0', s2.Length - s1.Length)); 
+        }
 
         s1 = Reverse(s1);
         s2 = Reverse(s2);
@@ -40,6 +45,7 @@ class MyBigInt
             if (s1[i] >= 48 && s1[i] <= 57 && s2[i] >= 48 && s2[i] <= 57)
             {
                 temp += (int)(char.GetNumericValue(s1[i]) + char.GetNumericValue(s2[i]));
+
                 if (temp > 9 && i == s1.Length - 1)
                 {
                     sum.Append(temp % 10);
@@ -56,11 +62,14 @@ class MyBigInt
                     temp = 0;
                 }
             }
-            else{ Console.WriteLine("Invalid Input!"); return null; }
+            else
+            { 
+                Console.WriteLine("Invalid Input!"); return null; 
+            }
         }
         return Reverse(sum.ToString());
-        //return sum.ToString();
     }
+
     static string Reverse(string s)
     {
         char[] arr = s.ToCharArray();        

@@ -30,6 +30,7 @@ public class BinarySearch
 
             Random rnd = new Random();  // Random class, which is used to generate random numbers
             int[] array = new int[length];
+
             for (int i = 0; i < length; i++)
             {
                 array[i] = rnd.Next(min, max);  //assign random values(in [min,max] interval) to the elements
@@ -57,10 +58,12 @@ public class BinarySearch
             }
 
             Console.Write("\n Array: { ");
+
             foreach (int element in array)
             {
                 Console.Write("{0} ", element);
             }
+
             Console.Write("}\n\n");
             Console.ResetColor();
             Console.ReadKey();

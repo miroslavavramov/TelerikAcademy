@@ -14,8 +14,10 @@
 
             string[] words = { "Luxemburg", "Canada", "China", "UAE", "Netherlands", "Brazil" };
 
-            Array.Sort(words, (word1, word2) => word1.Length.CompareTo(word2.Length));
-
+            Array.Sort(
+                words, (word1, word2) => word1.Length.CompareTo(word2.Length)
+                );
+            
             Print(words);
         }
         static void Print<T>(T[] collection)

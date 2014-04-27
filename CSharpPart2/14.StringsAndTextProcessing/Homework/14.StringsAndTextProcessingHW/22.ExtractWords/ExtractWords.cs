@@ -16,13 +16,19 @@ class ExtractWords
 
         for (int i = 0; i < sep.Count; i++)
         {
-            if (!words.ContainsKey(sep[i].ToString())) 
+            if (!words.ContainsKey(sep[i].ToString()))
+            {
                 words.Add(sep[i].ToString(), 1);
-            
-            else words[sep[i].ToString()] += 1;
+            }
+            else
+            {
+                words[sep[i].ToString()] += 1;
+            }
         }
 
         foreach (var word in words)
+        {
             Console.WriteLine("{0} {1}", word.Key, word.Value);
+        }
     }
 }

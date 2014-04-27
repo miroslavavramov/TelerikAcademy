@@ -26,13 +26,18 @@ class WordsCount
                     for (int i = 0; i < words.Count; i++)
                     {
                         count = Regex.Matches(text, @"\b" + words[i] + @"\b").Count;
+
                         result.Add(words[i], count);
                     }
 
-                    result = result.OrderByDescending(x => x.Value).ToDictionary(x => x.Key, x => x.Value);
+                    result = result
+                        .OrderByDescending(x => x.Value)
+                        .ToDictionary(x => x.Key, x => x.Value);
 
                     foreach (var item in result)
+                    {
                         writer.WriteLine("word \"{0}\" occurs {1} times", item.Key, item.Value);
+                    }
                 }
             }
         }
@@ -57,17 +62,19 @@ class WordsCount
             Console.WriteLine(uae.Message);
         }
     }
+
     static List<string> SeparateWordsFromText(string path)
     {
         List<string> list = new List<string>();
+
         using (StreamReader reader = new StreamReader(path))
         {
             string text = reader.ReadToEnd();
             char[] separators = { ' ', ',', '.', '!', '?', ':', ';', '(', ')', '\r', '\n'};
             list = new List<string>(text.Split(separators, StringSplitOptions.RemoveEmptyEntries));
         }
+
         return list;
-    }
-    
+    }   
 }
 

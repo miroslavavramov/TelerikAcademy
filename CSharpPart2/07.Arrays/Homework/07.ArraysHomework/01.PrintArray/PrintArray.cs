@@ -9,11 +9,15 @@ public class PrintArray
         Console.WriteLine("Task 1: ");
         int[] array = new int[20];
         Console.WriteLine();
+
         //assign values
+
         for (int index = 0; index < array.Length; index++)
         {
             array[index] = index * 5;
+
             Thread.Sleep(200);
+
             Console.ForegroundColor = ConsoleColor.Yellow;
             Console.Write(" element[{0}] = ", index);
             Console.ForegroundColor = ConsoleColor.White;

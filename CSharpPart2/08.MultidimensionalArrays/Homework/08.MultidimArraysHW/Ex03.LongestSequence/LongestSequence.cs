@@ -6,6 +6,7 @@
 class LongestSequence
 {
     static string[,] matrix;
+
     static void Main()
     {
         while (true)
@@ -19,6 +20,7 @@ class LongestSequence
                 for (int i = 0; i < strCount; i++)
                 {
                     words[i] = Console.ReadLine();
+
                     if (words[i].Length > 4)
                     {
                         Console.WriteLine("Input should be no more than 4 characters long! Try again.");
@@ -33,8 +35,13 @@ class LongestSequence
 
                 //generate string matrix and fill it with array's elements in random order
                 for (int row = 0; row < height; row++)
-                    for (int col = 0; col < width; col++) { matrix[row, col] = words[rnd.Next(strCount)]; }
-
+                {
+                    for (int col = 0; col < width; col++)
+                    {
+                        matrix[row, col] = words[rnd.Next(strCount)];
+                    }
+                }
+                
                 Print(matrix);
 
                 //find longest sequence
@@ -49,6 +56,7 @@ class LongestSequence
                     {                                                                       //every possible direction and assign the largest
                         streak = GetMax(CheckRows(row, col), CheckCols(row, col),           //as a value to count
                             CheckDiag1(row, col), CheckDiag2(row, col));
+
                         if (longestStreak < streak)                                         //compare and reset
                         {
                             longestStreak = streak; bestWord = matrix[row, col];
@@ -65,8 +73,10 @@ class LongestSequence
             {
                 Console.WriteLine(e.Message);
             }
+
             Console.WriteLine("\nPress <ENTER> to try again.");
             ConsoleKeyInfo pressedKey = Console.ReadKey();
+
             if (pressedKey.Key == ConsoleKey.Enter)
             {
                 Console.Clear();
@@ -102,44 +112,53 @@ class LongestSequence
     static int CheckRows(int row, int col)   //recursive call; if you're not familiar with it, debug it with F11
     {                                                   
         int count = 1;
+
         if (col == matrix.GetLength(1) - 1 || matrix[row, col] != matrix[row, col + 1])
         {
             return count;
         }
+
         return count += CheckRows(row, col + 1);
     }
     static int CheckCols(int row, int col)
     {
         int count = 1;
+
         if (row == matrix.GetLength(0) - 1 || matrix[row, col] != matrix[row + 1, col])
         {
             return count;
         }
+
         return count += CheckCols(row + 1, col);
     }
     static int CheckDiag1(int row, int col)           //diagonal from left to right
     {
         int count = 1;
+
         if ((row == matrix.GetLength(0) - 1 || col == matrix.GetLength(1) - 1)
             || matrix[row, col] != matrix[row + 1, col + 1])
         {
             return count;
         }
+
         return count += CheckDiag1(row + 1, col + 1);
     }
     static int CheckDiag2(int row, int col)           //diagonal from right to left
     {
         int count = 1;
+
         if ((row == matrix.GetLength(0) - 1 || col == 0)
             || matrix[row, col] != matrix[row + 1, col - 1])
         {
             return count;
         }
+
         return count += CheckDiag2(row + 1, col - 1);
     }
     static void Print<T>(T[,] matrix)   //generic method; works with various data types 
     {
         Console.WriteLine();
+
         for (int row = 0; row < matrix.GetLength(0); row++)
         {
             for (int col = 0; col < matrix.GetLength(1); col++)

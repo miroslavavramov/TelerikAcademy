@@ -58,6 +58,7 @@ public class MergeSortAlgorithm
 
         return Merge(leftArr, rightArr);
     }
+
     static int[] Merge(int[] left, int[] right)
     {
         int[] arr = new int[left.Length + right.Length];
@@ -79,6 +80,7 @@ public class MergeSortAlgorithm
         }
         return arr;
     }
+
     static void PrintArray(int[] array)
     {
         Console.Write("\t { ");
@@ -89,6 +91,7 @@ public class MergeSortAlgorithm
         Console.Write("} \n");
         Console.WriteLine();
     }
+
     static int[] AssignValues(int[] array)
     {
         Console.WriteLine();
@@ -99,6 +102,5 @@ public class MergeSortAlgorithm
         }
         return array;
     }
-
 }
 

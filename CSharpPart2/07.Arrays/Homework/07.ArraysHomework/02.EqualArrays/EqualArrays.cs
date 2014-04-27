@@ -29,6 +29,7 @@ public class EqualArrays
                 int[] secondArray = new int[secondArrayLength];
 
                 Console.WriteLine("\nAssign values of Array 1 : ");     //read array 1
+
                 for (int index = 0; index < firstArrayLength; index++)
                 {
                     Console.ForegroundColor = ConsoleColor.Yellow;
@@ -38,11 +39,13 @@ public class EqualArrays
 
                 Console.ResetColor();
                 Console.WriteLine("\nAssign values of Array 2 : ");     //read array 2 and compare
+
                 for (int index = 0; index < secondArrayLength; index++)
                 {
                     Console.ForegroundColor = ConsoleColor.Yellow;
                     Console.Write("   element[{0}] = ", index);
                     secondArray[index] = int.Parse(Console.ReadLine());
+
                     if (firstArray[index] != secondArray[index])
                     {
                         areEqual = false;

@@ -12,8 +12,12 @@ class ExtractDates
 
         string datePattern = @"\b\d+.\d+.\d+\b";
         var dates = Regex.Matches(text, datePattern);
-        
+
         foreach (var date in dates)
-            Console.WriteLine(DateTime.Parse(date.ToString()).ToString("d", new CultureInfo("en-CA")));    
+        {
+            Console.WriteLine(
+                DateTime.Parse(date.ToString()).ToString("d", new CultureInfo("en-CA"))
+                );
+        }
     }
 }

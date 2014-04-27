@@ -12,7 +12,9 @@ public class MaxSumOfSeq
             Console.ForegroundColor = ConsoleColor.Yellow;
             int length = int.Parse(Console.ReadLine());
             Console.WriteLine();
+
             int[] array = new int[length];
+
             for (int index = 0; index < length; index++)    //assign values
             {
                 Console.Write("     array[{0}] = ", index);
@@ -47,10 +49,12 @@ public class MaxSumOfSeq
             // print the best sequence
             Console.ForegroundColor = ConsoleColor.Green;
             Console.Write("\n\n  Best sequence : { ");
+
             for (int i = startIndex; i < startIndex + bestCount; i++)
             {
                 Console.Write(array[i] + " ");
             }
+
             Console.Write("}\n\n");
             Console.ResetColor();
             Console.ReadKey();

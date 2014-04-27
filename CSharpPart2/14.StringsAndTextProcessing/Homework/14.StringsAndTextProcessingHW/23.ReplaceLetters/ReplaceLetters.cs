@@ -11,10 +11,18 @@ class ReplaceLetters
         {
             for (int k = i+1; k < s.Length; k++)
             {
-                if (s[k] == s[i]) { s = s.Remove(k, 1); k--; }
-                else { break; }
+                if (s[k] == s[i]) 
+                { 
+                    s = s.Remove(k, 1); 
+                    k--; 
+                }
+                else 
+                {
+                    break; 
+                }
             }
         }
+
         Console.WriteLine(s);
     }
 }

@@ -17,17 +17,24 @@ class CompareElements
             Print(myArray);
         }
         catch (FormatException fe)
-        { Console.WriteLine(fe.Message); }
+        { 
+            Console.WriteLine(fe.Message); 
+        }
         catch (OverflowException ofe)
-        { Console.WriteLine(ofe.Message); }
+        { 
+            Console.WriteLine(ofe.Message); 
+        }
     }
+
     static void CompareToNeighbours(int[] arr, int n)
     {
         int index = -1;
+
         for (int i = 0; i < arr.Length; i++)
         {
             if (arr[i] == n) { index = i; break; }
         }
+
         if (index > 0 && index < arr.Length-1)    
         {
             if (arr[index] > arr[index-1] && arr[index] > arr[index+1])
@@ -64,16 +71,19 @@ class CompareElements
         {
             arr[i] = rnd.Next(min, max);
         }
+
         Console.WriteLine("Array is generted!" + Environment.NewLine);
         return arr;
     }
     static void Print<T>(T[] arr)
     {
         Console.Write("Array : { ");
+
         foreach (var num in arr)
         {
             Console.Write(num + " ");
         }
+
         Console.WriteLine(" }" + Environment.NewLine);
     }
 }

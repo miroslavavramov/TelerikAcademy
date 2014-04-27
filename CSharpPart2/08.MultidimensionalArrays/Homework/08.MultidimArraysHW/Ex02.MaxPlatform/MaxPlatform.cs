@@ -8,6 +8,7 @@ class MaxPlatform
     static int CheckPlatform(int[,] matrix, int row, int col)
     {
         int sum = 0;
+
         for (int rows = row; rows < row+3; rows++)
         {
             for (int cols = col; cols < col+3; cols++)
@@ -29,6 +30,7 @@ class MaxPlatform
                 height = int.Parse(Console.ReadLine());
                 Console.Write("Width = ");
                 width = int.Parse(Console.ReadLine());
+
                 if (height < 3 || width < 3)
                 {
                     Console.WriteLine("Height and Width should be BOTH >= 3");
@@ -42,6 +44,7 @@ class MaxPlatform
 
                     Random rnd = new Random();
                     //generate and assign random values
+
                     for (int row = 0; row < height; row++)
                     {
                         for (int col = 0; col < width; col++)
@@ -50,6 +53,7 @@ class MaxPlatform
                         }
                     }
                     //find max 3x3 platform 
+
                     for (int row = 0; row < height-2; row++)
                     {
                         for (int col = 0; col < width-2; col++)
@@ -64,6 +68,7 @@ class MaxPlatform
                     }
                     //print matrix and highlight the platform
                     Console.WriteLine();
+
                     for (int row = 0; row < height; row++)
 			        {
 			            for (int col = 0; col < width; col++)
@@ -84,8 +89,10 @@ class MaxPlatform
             {
                 Console.WriteLine(e.Message);
             }
+
             Console.WriteLine("\nPress <ENTER> to try again.");
             ConsoleKeyInfo pressedKey = Console.ReadKey();
+
             if (pressedKey.Key == ConsoleKey.Enter)
             {
                 Console.Clear();
@@ -99,4 +106,3 @@ class MaxPlatform
         }
     }
 }
-

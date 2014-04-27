@@ -30,6 +30,7 @@ public class SieveOfErathosthenesAlgorithm
             //print primes
             Console.ForegroundColor = ConsoleColor.Green;
             Console.WriteLine("\n Prime numbers [1..{0}] : ", n);
+
             for (int i = 1; i < n; i++)
             {
                 if (!isComposite[i])
@@ -38,6 +39,7 @@ public class SieveOfErathosthenesAlgorithm
                     Console.WriteLine(" " + i);
                 }
             }
+
             Console.WriteLine("\n Total Primes: {0}", totalPrimes);
             Console.WriteLine();
             Console.ResetColor();

@@ -8,10 +8,13 @@ public class MaxIncreasingSeq
         {
             Console.Write("Task 5:\n\n ");
             Console.Write(" How many elements should the array contain? ");
+
             Console.ForegroundColor = ConsoleColor.Yellow;
             int length = int.Parse(Console.ReadLine());
             Console.WriteLine();
+
             int[] array = new int[length];
+
             for (int index = 0; index < length; index++)    //assign values
             {
                 Console.Write("     array[{0}] = ", index);

@@ -10,15 +10,19 @@ class OrderAlphabetically
                         by spaces and prints the list in an alphabetical order.";
 
         var sep = Regex.Matches(text, @"\b\w+\b");
+
         List<string> words = new List<string>();
 
         foreach (var item in sep)
+        {
             words.Add(item.ToString());
+        }
 
         words.Sort();
 
         foreach (var word in words)
+        {
             Console.WriteLine(word);
-        
+        }
     }
 }

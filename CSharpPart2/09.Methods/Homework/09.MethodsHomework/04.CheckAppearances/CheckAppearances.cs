@@ -12,6 +12,7 @@ class CheckAppearances
             int number = int.Parse(Console.ReadLine());
 
             Console.WriteLine("Your number appears {0} times in the array!", CountAppearances(myArray, number));
+
             Print(myArray);
         }
         catch (FormatException fe)
@@ -30,11 +31,13 @@ class CheckAppearances
 
         Array.Copy(arr, copy, arr.Length);
         Array.Sort(copy);
+
         int index = Array.BinarySearch(copy, n);    //if n appears more than once - returns the middle index
 
         if (index >= 0)
         {
             count++;
+
             for (int i = index + 1; i < copy.Length && copy[i] == n; i++)
             {
                 count++;
@@ -44,6 +47,7 @@ class CheckAppearances
                 count++;
             }
         }
+
         return count;
     }
     static int[] GenerateArray()
@@ -62,17 +66,20 @@ class CheckAppearances
         {
             arr[i] = rnd.Next(min, max);
         }
+
         Console.WriteLine("Array is generted!" + Environment.NewLine);
+
         return arr;
     }
     static void Print<T>(T[] arr)
     {
         Console.Write("{ ");
+
         foreach (var num in arr)
         {
             Console.Write(num + " ");
         }
+
         Console.WriteLine(" }" + Environment.NewLine);
     }
 }
-

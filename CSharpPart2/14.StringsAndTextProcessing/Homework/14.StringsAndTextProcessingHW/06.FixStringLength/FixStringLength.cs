@@ -10,8 +10,10 @@ class FixStringLength
         string input = Console.ReadLine();
 
         if (input.Length < 20)
+        {
             input += new string('*', 20 - input.Length);
-        
+        }
+
         Console.WriteLine(input);
     }
 }

@@ -18,14 +18,20 @@ class FindElement
                 case -1: Console.WriteLine("No element is bigger than both of its neighbours");
                     break;
             }
+
             Print(array);
             Console.ReadKey();
         }
         catch(FormatException fe)
-        { Console.WriteLine(fe.Message); }
+        { 
+            Console.WriteLine(fe.Message); 
+        }
         catch(OverflowException ofe)
-        { Console.WriteLine(ofe.Message); }
+        { 
+            Console.WriteLine(ofe.Message); 
+        }
     }
+
     static int CompareToNeighbours(int[] arr)
     {
         for (int i = 1; i < arr.Length-1; i++)
@@ -37,6 +43,7 @@ class FindElement
         }
         return -1;  //not found
     }
+
     static int[] GenerateArray()
     {
         Console.Write("Array length = ");
@@ -53,16 +60,20 @@ class FindElement
         {
             arr[i] = rnd.Next(min, max);
         }
+
         Console.WriteLine("Array is generted!" + Environment.NewLine);
         return arr;
     }
+
     static void Print<T>(T[] arr)
     {
         Console.Write("Array : { ");
+
         foreach (var num in arr)
         {
             Console.Write(num + " ");
         }
+
         Console.WriteLine(" }" + Environment.NewLine);
     }
 }

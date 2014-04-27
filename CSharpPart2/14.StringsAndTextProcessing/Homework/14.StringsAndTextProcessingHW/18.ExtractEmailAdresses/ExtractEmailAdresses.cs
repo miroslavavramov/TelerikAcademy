@@ -8,9 +8,12 @@ class ExtractEmailAdresses
     {
         string text = "Nemo Nobody(nobody@nowhere.com) has just sent an email to Santa Claus at your_santa@lappland.net.";
         string emailPattern = @"\b[A-za-z0-9._+-]+@+[A-Za-z0-9.]+.[a-z0-9]\b";
+
         var emails = Regex.Matches(text, emailPattern);
 
         foreach (var item in emails)
-            Console.WriteLine(item);       
+        {
+            Console.WriteLine(item);
+        }    
     }
 }

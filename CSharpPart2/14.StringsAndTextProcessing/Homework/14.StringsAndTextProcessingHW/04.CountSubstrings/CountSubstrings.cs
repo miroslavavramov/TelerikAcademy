@@ -10,7 +10,9 @@ class CountSubstrings
                         We will move out of it in 5 days.";
 
         string pattern = "in";
+
         int matches = Regex.Matches(text, pattern, RegexOptions.IgnoreCase).Count;
+
         Console.WriteLine(matches);
     }
 }

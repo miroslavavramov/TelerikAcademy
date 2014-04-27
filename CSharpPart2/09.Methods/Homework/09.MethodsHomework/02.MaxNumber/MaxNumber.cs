@@ -15,11 +15,11 @@ class Program
             int biggestNum = GetMax(firstNum, GetMax(secondNum, thirdNum));
             Console.WriteLine("Biggest : {0}", biggestNum);
         }
-        catch(FormatException fe)
+        catch (FormatException fe)
         {
             Console.WriteLine(fe.Message);
         }
-        catch(OverflowException ofe)
+        catch (OverflowException ofe)
         {
             Console.WriteLine(ofe.Message);
         }

@@ -10,6 +10,7 @@ public class MaxSumOfElements
             Console.Write("Task 6:\n\n");
             Console.Write(" N = ");
             Console.ForegroundColor = ConsoleColor.Yellow;
+
             int N = int.Parse(Console.ReadLine());
 
             int length = N;
@@ -21,6 +22,7 @@ public class MaxSumOfElements
             Console.WriteLine();
 
             int[] array = new int[N];
+
             for (int index = 0; index < N; index++)    //assign values
             {
                 Console.Write(" array[{0}] = ", index);
@@ -28,6 +30,7 @@ public class MaxSumOfElements
             }
 
             //sort elements of the array in increasing order
+
             for (int i = 0; i < length; i++)
             {
                 for (int k = i + 1; k < length; k++)
@@ -42,12 +45,15 @@ public class MaxSumOfElements
             }
 
             //print K elements with biggest sum
+
             Console.Write("\n K elements with biggest sum: ");
+
             for (int i = length - 1; i > length - K - 1; i--)
             {
                 Console.ForegroundColor = ConsoleColor.Green;
                 Console.Write("{0} ", array[i]);
             }
+
             Console.ResetColor();
             Console.WriteLine("\n\n");
         }

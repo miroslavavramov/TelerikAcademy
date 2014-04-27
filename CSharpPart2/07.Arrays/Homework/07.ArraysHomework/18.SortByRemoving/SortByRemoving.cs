@@ -39,10 +39,12 @@ public class SortByRemoving
 
             Console.ForegroundColor = ConsoleColor.Green;
             Console.Write("\n Maximal increasing subset : { ");
+
             foreach (var item in maxIncreasingSubset)
             {
                 Console.Write(item + " ");
             }
+
             Console.Write("}\n\n");
             Console.ResetColor();
             Console.ReadKey();

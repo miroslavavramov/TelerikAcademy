@@ -14,8 +14,11 @@ public class CompareCharArrays
 
             char[] arr1 = new char[length];
             char[] arr2 = new char[length];
+
             //assign values and compare
+
             Console.WriteLine("\n Assign values: (each elements must hold exactly one character!)");
+
             for (int index = 0; index < length; index++)
             {
                 Console.ForegroundColor = ConsoleColor.Yellow;

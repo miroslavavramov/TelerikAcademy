@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Text;
 using System.Threading;
 using System.Globalization;
+
 class ArithmeticalExpression
 {
     static List<char> arithmeticOperations = new List<char>() { '+', '-', '*', '/' };
@@ -15,6 +16,7 @@ class ArithmeticalExpression
         //TODO : Add Sin, Cos f's
 
         string input = Console.ReadLine();
+
         input = input.Replace(" ", String.Empty);
 
         try
@@ -87,6 +89,7 @@ class ArithmeticalExpression
         {
             tokens.Add(number.ToString());
         }
+
         return tokens;
     }
     static Queue<string> ConvertToReversePolishNotation(List<string> tokens)
@@ -147,6 +150,7 @@ class ArithmeticalExpression
                 }
             }
         }
+
         while (stack.Count != 0)
         {
             if (brackets.Contains(stack.Peek()[0]))
@@ -155,6 +159,7 @@ class ArithmeticalExpression
             }
             queue.Enqueue(stack.Pop());
         }
+
         return queue;
     }
     static double CalculateResult(Queue<string> queue)
@@ -256,6 +261,7 @@ class ArithmeticalExpression
                 }
             }
         }
+
         if (stack.Count == 1)
         {
             return stack.Pop();
@@ -265,12 +271,14 @@ class ArithmeticalExpression
             throw new ArgumentException("Invalid Input");
         }
     }
+
     static int CheckPrecedence(string arithmeticOperator)
     {
         if (arithmeticOperator == "+" || arithmeticOperator == "-")
         {
             return 1;
         }
+
         return 2;
     }
 }
