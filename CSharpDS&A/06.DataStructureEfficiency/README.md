@@ -1,13 +1,5 @@
 ##Data Structiure Efficiency (Assignments)
-1. A text file students.txt holds information about students and their courses in the following format:
-| First Name 	| Last Name 	| Course 	|
-|------------	|-----------	|--------	|
-| Kiril      	| Ivanov    	| C#     	|
-| Stefka     	| Nikolova  	| SQL    	|
-| Stela      	| Mineva    	| Java   	|
-| Milena     	| Petrova   	| C#     	|
-| Ivan       	| Grigorov  	| C#     	|
-| Ivan       	| Kolev     	|        	|
+1. A text file students.txt holds information about students and their courses.
 Using `SortedDictionary<K,T>` print the courses in alphabetical order and for each of them prints the students ordered by family and then by name:
  * C#: Ivan Grigorov, Kiril Ivanov, Milena Petrova
  * Java: Stela Mineva
