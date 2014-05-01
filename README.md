@@ -1,6 +1,6 @@
 #Telerik Academy 
 ### *Projects And Assignments*
-<hr>
+
 
 ##C# Part I
 1. **Intro C#** ([assignment](https://github.com/stinger907/TelerikAcademy/tree/master/CSharpPart1/01.Intro/01.IntroCSharpHomework/01.IntroCSharpHomework)) 
