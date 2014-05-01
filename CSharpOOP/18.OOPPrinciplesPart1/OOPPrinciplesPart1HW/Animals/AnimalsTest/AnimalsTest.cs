@@ -36,10 +36,12 @@ class AnimalsTest
         Console.WriteLine("Cats : ");
         Print(cats);
         Console.WriteLine("\r\nCats' average age : {0}\r\n", GetAverageAge(cats));
-        
+
 
         foreach (var animal in animals)
+        {
             animal.ProduceSound();
+        }
     }
 
     static double GetAverageAge(IEnumerable<Animal> animals)
@@ -50,7 +52,9 @@ class AnimalsTest
     static void Print<T>(IEnumerable<T> collection)
     {
         foreach (var item in collection)
+        {
             Console.WriteLine(item);
+        }
     }
 }
 

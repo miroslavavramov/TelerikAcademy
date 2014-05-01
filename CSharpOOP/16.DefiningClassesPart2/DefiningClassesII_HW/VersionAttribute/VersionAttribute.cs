@@ -3,6 +3,7 @@ using System.Reflection;
 
 [AttributeUsage(AttributeTargets.Struct | AttributeTargets.Method |AttributeTargets.Class
     | AttributeTargets.Interface | AttributeTargets.Enum, AllowMultiple = false)]
+
 class VersionAttribute : Attribute
 {
     public int Major { get; private set; }

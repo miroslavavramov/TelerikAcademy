@@ -5,7 +5,8 @@
     public class Worker
         : Human
     {
-        private const byte weeklyWorkdays = 5;
+        private const byte WeeklyWorkdays = 5;
+
         private decimal? weeklySalary;
         private byte? dailyWorkingHours;
 
@@ -45,6 +46,7 @@
             : base(firstName, lastName)
         {
         }
+
         public Worker(string firstName, string lastName, decimal weeklySalary, byte dailyWorkingHours)
             : base(firstName, lastName)
         {
@@ -58,7 +60,7 @@
             {
                 throw new ArgumentNullException("The complete information isn't provided!");
             }
-            return (decimal)(this.WeeklySalary / (this.DailyWorkingHours * weeklyWorkdays));
+            return (decimal)(this.WeeklySalary / (this.DailyWorkingHours * WeeklyWorkdays));
         }
 
         public override string ToString()

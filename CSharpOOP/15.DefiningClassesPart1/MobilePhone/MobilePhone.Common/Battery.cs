@@ -4,14 +4,11 @@
 
     public class Battery
     {
-        #region Fields
         private BatteryType type;
         private string model;
         private double? hoursIdle;
         private double? hoursTalk;
-        #endregion
 
-        #region Properties
         public string Model
         {
             get
@@ -27,6 +24,7 @@
                 this.model = value;
             }
         }
+
         public double? HoursIdle
         {
             get
@@ -42,6 +40,7 @@
                 this.hoursIdle = value;
             }
         }
+
         public double? HoursTalk
         {
             get
@@ -57,6 +56,7 @@
                 this.hoursTalk = value;
             }
         }
+
         public BatteryType Type
         {
             get
@@ -68,19 +68,17 @@
                 this.type = value;
             }
         }
-        #endregion
 
-        #region Constructors
         public Battery(BatteryType type)
             : this(type, null, null)
         {
-
         }
+
         public Battery(BatteryType type, double? hoursIdle, double? hoursTalk)
             : this(type, null, hoursIdle, hoursTalk)
         {
-
         }
+
         public Battery(BatteryType type, string model, double? hoursIdle, double? hoursTalk)
         {
             this.Type = type;
@@ -88,6 +86,5 @@
             this.HoursIdle = hoursIdle;
             this.HoursTalk = hoursTalk;
         }
-        #endregion
     }
 }

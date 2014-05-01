@@ -5,13 +5,10 @@
 
     public class Call
     {
-        #region Fields
         private DateTime timeOfCall;
         private ulong callDuration;
         private string dialedNumber;
-        #endregion
 
-        #region Properties
         public DateTime TimeOfCall
         {
             get
@@ -23,6 +20,7 @@
                 this.timeOfCall = value;
             }
         }
+
         public ulong CallDuration
         {
             get
@@ -34,6 +32,7 @@
                 this.callDuration = value;
             }
         }
+
         public string DialedNumber
         {
             get
@@ -52,18 +51,14 @@
                 this.dialedNumber = value;
             }
         }
-        #endregion
 
-        #region Constructors
         public Call(DateTime timeOfCall, ulong callDuration, string dialedNumber)
         {
             this.TimeOfCall = timeOfCall;
             this.CallDuration = callDuration;
             this.DialedNumber = dialedNumber;
         }
-        #endregion
 
-        #region Methods
         public override string ToString()
         {
             var output = new StringBuilder();
@@ -74,6 +69,5 @@
 
             return output.ToString();
         }
-        #endregion
     }
 }

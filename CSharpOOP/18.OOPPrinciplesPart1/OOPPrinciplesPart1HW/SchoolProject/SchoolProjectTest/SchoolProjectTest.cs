@@ -33,7 +33,9 @@ class SchoolProjectTest
         mySchool.AddClass(class10A, new ClassOfStudents("9 B", "empty test class"));
 
         foreach (var classOfStudents in mySchool.Classes)
+        {
             Console.WriteLine(classOfStudents);
+        }
     }
 }
 

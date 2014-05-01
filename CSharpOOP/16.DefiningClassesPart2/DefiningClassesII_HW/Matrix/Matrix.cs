@@ -4,27 +4,23 @@ using System.Text;
 class Matrix<T>
     where T : IComparable
 {
-    #region Fields
     private T[,] matrix;
     private Random rnd = new Random();
-    #endregion
-
-    #region Properties
+ 
     public int Rows { get; private set; }
     public int Columns { get; private set; }
 
-    public T this[int row, int column]  //indexer
+    public T this[int row, int column]  
     {
         get { return this.matrix[row, column]; }
         set { this.matrix[row, column] = value; }
     }
-    #endregion
 
-    #region Constructors
     public Matrix()
-        : this(3, 3)    //default 
+        : this(3, 3)  
     {
     }
+
     public Matrix(int rows, int columns)
     {
         if (rows <= 0 || columns <= 0)
@@ -38,11 +34,7 @@ class Matrix<T>
         this.matrix = new T[this.Rows, this.Columns];
     }
 
-    #endregion
-
-    #region Operator Overloading
-
-    public static Matrix<T> operator +(Matrix<T> matrix1, Matrix<T> matrix2)     //addition  
+    public static Matrix<T> operator +(Matrix<T> matrix1, Matrix<T> matrix2)  
     {
         if (matrix1.Rows != matrix2.Rows || matrix1.Columns != matrix2.Columns)
         {
@@ -60,7 +52,8 @@ class Matrix<T>
         }
         return sum;
     }
-    public static Matrix<T> operator -(Matrix<T> matrix1, Matrix<T> matrix2)     //subtraction  
+
+    public static Matrix<T> operator -(Matrix<T> matrix1, Matrix<T> matrix2)    
     {
         if (matrix1.Rows != matrix2.Rows || matrix1.Columns != matrix2.Columns)
         {
@@ -78,7 +71,8 @@ class Matrix<T>
         }
         return sum;
     }
-    public static Matrix<T> operator *(Matrix<T> matrix1, Matrix<T> matrix2)     //multiplication 
+
+    public static Matrix<T> operator *(Matrix<T> matrix1, Matrix<T> matrix2)  
     {
         if (matrix1.Columns != matrix2.Rows)
         {
@@ -115,6 +109,7 @@ class Matrix<T>
         }
         return true;
     }
+
     public static bool operator false(Matrix<T> matrix)
     {
         for (int i = 0; i < matrix.Rows; i++)
@@ -130,9 +125,6 @@ class Matrix<T>
         return true;
     }
 
-    #endregion
-
-    #region Methods
     public void AssignRandomValues(int min, int max)
     {
         for (int i = 0; i < this.Rows; i++)
@@ -143,6 +135,7 @@ class Matrix<T>
             }
         }
     }
+
     public override string ToString()
     {
         var output = new StringBuilder();
@@ -157,5 +150,4 @@ class Matrix<T>
         }
         return output.ToString();
     }
-    #endregion
 }

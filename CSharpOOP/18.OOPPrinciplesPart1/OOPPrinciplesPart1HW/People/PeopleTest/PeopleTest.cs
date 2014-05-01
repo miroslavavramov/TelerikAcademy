@@ -63,6 +63,5 @@ class PeopleTest
 
         foreach (var human in mergedList)
             Console.WriteLine(human.FirstName + " " + human.LastName);
-
     }
 }

@@ -12,6 +12,7 @@ static class StringBuilderExtensions
         return output.Append(sb.ToString().Substring(startIndex, length));
     }
 }
+
 class SubstringExtension
 {
     static void Main()

@@ -11,11 +11,13 @@ public class Timer
         : this(5,20)
     {
     }
+
     public Timer(int span, int elapsedRuntimeSeconds)
     {
         this.Span = span;
         this.ElapsedRuntimeSeconds = elapsedRuntimeSeconds;
     }
+
     public int Span { get; private set; }
     public int ElapsedRuntimeSeconds { get; private set; }
 
@@ -41,4 +43,3 @@ public class Timer
         Console.WriteLine("You've probably got better things to do.");
     }
 }
-

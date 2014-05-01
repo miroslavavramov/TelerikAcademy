@@ -24,13 +24,16 @@
                 }
                 else return 0; 
             }
-            else //if (this.Customer is CorporateCustomer)
+            else 
             {
                 if (months > 12)
                 {
                     return base.CalculateInterest(months - 12) * base.CalculateInterest(12) / 2;
                 }
-                else return base.CalculateInterest(months) / 2;
+                else
+                {
+                    return base.CalculateInterest(months) / 2;
+                }
             }
         }
     }

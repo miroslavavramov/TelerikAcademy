@@ -4,35 +4,28 @@ using System.Text;
 class GenericList<T>
     where T : IComparable
 {
-    #region Fields
-
     private T[] list;
 
-    #endregion
-
-    #region Properties
     public int Count
     {
         get; private set;
     }
+
     public int Capacity
     {
         get { return this.list.Length; }
     }
-    #endregion
-
-    #region Constructors
+    
     public GenericList() : this(4)  //default capacity
     {
     }
+
     public GenericList(int capacity)
     {
         this.list = new T[capacity];
         this.Count = 0;
     }
-    #endregion
-
-    #region Methods
+    
     public void Add(T element)
     {
         if (this.Count == this.Capacity)
@@ -43,6 +36,7 @@ class GenericList<T>
         list[this.Count] = element;
         this.Count += 1;
     }
+
     public void RemoveAt(int index)
     {
         if (index >= this.Count)
@@ -54,8 +48,10 @@ class GenericList<T>
         {
             list[i] = list[i + 1];
         }
+
         this.Count -= 1;
     }
+
     public void Insert(int index, T element)
     {
         if (!(index >= 0 && index <= this.Count))
@@ -75,11 +71,13 @@ class GenericList<T>
         list[index] = element;
         this.Count += 1;
     }
+
     public void Clear()
     {
         list = new T[4];
         this.Count = 0;
     }
+
     public int Find(T element)
     {
         for (int i = 0; i < this.Count; i++)
@@ -91,6 +89,7 @@ class GenericList<T>
         }
         return -1;
     }
+
     public T GetAt(int index)
     {
         if (index > this.Count)
@@ -99,6 +98,7 @@ class GenericList<T>
         }
         return list[index];
     }
+
     public T Min()
     {
         if (this.Count == 0)
@@ -118,6 +118,7 @@ class GenericList<T>
 
         return min;
     }
+
     public T Max()
     {
         if (this.Count == 0)
@@ -137,6 +138,7 @@ class GenericList<T>
 
         return max;
     }
+
     public override string ToString()
     {
         if (this.Count == 0)
@@ -158,6 +160,7 @@ class GenericList<T>
 
         return output.Append(" ]").ToString();
     }
+
     private void ExtendCapacity()
     {
         T[] extended = new T[this.Capacity * 2];
@@ -169,6 +172,4 @@ class GenericList<T>
 
         list = extended;
     }
-
-    #endregion
 }

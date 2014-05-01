@@ -16,10 +16,12 @@
             : this(classId, new List<Teacher>(), new List<Student>(), null)
         {
         }
+
         public ClassOfStudents(string classId, params string[] comments) 
             : this(classId, new List<Teacher>(), new List<Student>(), comments)
         {
         }
+
         public ClassOfStudents(string classId, List<Teacher> teachers, List<Student> students, params string[] comments)
         {
             this.ClassID = classId;
@@ -28,13 +30,18 @@
 
             this.Comments = new List<string>();
 
-            if (comments != null) AddComment(comments);
+            if (comments != null) 
+            { 
+                AddComment(comments); 
+            }
         }
 
         public void AddTeacher(params Teacher[] teachers)
         {
             foreach (var teacher in teachers)
+            {
                 this.Teachers.Add(teacher);
+            }
         }
 
         public void RemoveTeacher(Teacher teacher)
@@ -45,7 +52,9 @@
         public void AddStudent(params Student[] students)
         {
             foreach (var student in students)
+            {
                 this.Students.Add(student);
+            }
         }
 
         public void RemoveStudent(Student student)
@@ -71,6 +80,7 @@
             }
 
             output.AppendLine("\n\nTeachers : ");
+
             if (this.Teachers.Count == 0)
             {
                 output.AppendLine("No teachers to show.");
@@ -78,10 +88,13 @@
             else
             {
                 foreach (var teacher in this.Teachers)
+                {
                     output.AppendLine("-" + teacher.ToString());
+                }
             }
 
             output.AppendLine("\nStudents : ");
+
             if (this.Students.Count == 0)
             {
                 output.AppendLine("No students to show.");
@@ -89,7 +102,9 @@
             else
             {
                 foreach (var student in this.Students)
+                {
                     output.AppendLine("-" + student.ToString());
+                }
             }
 
             return output.ToString();

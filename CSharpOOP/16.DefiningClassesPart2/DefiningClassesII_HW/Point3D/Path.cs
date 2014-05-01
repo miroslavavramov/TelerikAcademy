@@ -5,7 +5,7 @@ class Path
 {
     private List<Point3D> path;
 
-    public Point3D this[int index]  //indexer
+    public Point3D this[int index]  
     {
         get { return this.path[index]; }
     }
@@ -29,6 +29,7 @@ class Path
     {
         this.path.Remove(point);
     }
+
     public override string ToString()
     {
         var output = new StringBuilder();

@@ -28,10 +28,12 @@
             : this(firstName, lastName, classNumber, null)
         {
         }
+
         public Student(string firstName, string lastName, params string[] comments)
             : this(firstName, lastName, null, comments)
         {
         }
+
         public Student(string firstName, string lastName, byte? classNumber, params string[] comments)
             : base(firstName, lastName)
         {

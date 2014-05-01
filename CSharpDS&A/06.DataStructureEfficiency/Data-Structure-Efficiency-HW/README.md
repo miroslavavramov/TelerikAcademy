@@ -1,4 +1,4 @@
-##Data Structiure Efficiency (Assignments)
+##Data Structiure Efficiency
 1. A text file students.txt holds information about students and their courses.
 Using `SortedDictionary<K,T>` print the courses in alphabetical order and for each of them prints the students ordered by family and then by name:
  * C#: Ivan Grigorov, Kiril Ivanov, Milena Petrova

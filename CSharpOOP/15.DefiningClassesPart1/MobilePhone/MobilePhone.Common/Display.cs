@@ -4,12 +4,9 @@
 
     public class Display
     {
-        #region Fields
         private double? size;
         private int? colors;
-        #endregion
 
-        #region Properties
         public double? Size
         {
             get
@@ -41,24 +38,21 @@
                 this.colors = value;
             }
         }
-        #endregion
 
-        #region Constructors
         public Display(double? size)
             : this(size, null)
         {
-
         }
+
         public Display(int? colors)
             : this(null, colors)
         {
-
         }
+
         public Display(double? size, int? colors)
         {
             this.Size = size;
             this.Colors = colors;
         }
-        #endregion
     }
 }

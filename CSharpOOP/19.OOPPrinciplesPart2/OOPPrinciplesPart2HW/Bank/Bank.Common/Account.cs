@@ -8,7 +8,9 @@
         private decimal monthlyInterestRate;
 		
         public Customer Customer { get; protected set; }
+
         public decimal Balance { get; protected set; }
+
         public decimal MonthlyInterestRate
         {
             get { return this.monthlyInterestRate; }

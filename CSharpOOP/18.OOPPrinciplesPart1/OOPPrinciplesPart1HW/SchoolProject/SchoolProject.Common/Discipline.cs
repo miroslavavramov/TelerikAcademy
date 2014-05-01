@@ -43,6 +43,7 @@
             : this(name, 45, 30, null)
         {
         }
+
         public Discipline(string name, byte lectures, byte exercises, params string[] comments)
         {
             this.Name = name;
@@ -63,8 +64,9 @@
 
         public override string ToString()
         {
-            var output = new StringBuilder
-                (string.Format("{0} (L:{1} E:{2})", this.Name, this.Lectures, this.Exercises));
+            var output = new StringBuilder(
+                string.Format("{0} (L:{1} E:{2})", this.Name, this.Lectures, this.Exercises)
+                );
 
             if(this.Comments.Count != 0)
             {

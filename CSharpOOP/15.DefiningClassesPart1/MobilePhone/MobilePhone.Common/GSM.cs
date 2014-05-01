@@ -6,7 +6,8 @@
 
     public class GSM
     {
-        #region Fields
+        private const decimal Rate = 0.37M;
+
         private string model;
         private string manufacturer;
         private decimal? price;
@@ -14,14 +15,11 @@
         private Battery battery;
         private Display display;
 
-        private const decimal RATE = 0.37M;
         private List<Call> callHistory = new List<Call>();
 
         private static readonly GSM iPhone4S = new GSM("iPhone 4S", "Apple", 700M, "Nemo Nobody",
             new Battery(BatteryType.LiPo, 200, 14), new Display(3.5,(int)(16e+6)));
-        #endregion
-        
-        #region Properties
+   
         public string Model
         {
             get 
@@ -37,6 +35,7 @@
                 this.model = value; 
             }
         }
+
         public string Manufacturer
         {
             get 
@@ -52,6 +51,7 @@
                 this.manufacturer = value; 
             }
         }
+
         public string Owner
         {
             get 
@@ -67,6 +67,7 @@
                 this.owner = value; 
             }
         }
+
         public decimal? Price
         {
             get 
@@ -82,6 +83,7 @@
                 this.price = value; 
             }
         }
+
         public Battery Battery
         {
             get
@@ -93,6 +95,7 @@
                 this.battery = value;
             }
         }
+
         public Display Display
         {
             get
@@ -104,6 +107,7 @@
                 this.display = value;
             }
         }
+
         public List<Call> CallHistory
         {
             get
@@ -115,6 +119,7 @@
                 this.callHistory = value;
             }
         }
+
         public static GSM IPhone4S
         {
             get
@@ -122,34 +127,31 @@
                 return iPhone4S;
             }
         }
-        #endregion
-
-        #region Constructors
+        
         public GSM(string model, string manufacturer)
             : this(model, manufacturer, null)
         {
-
         }
+
         public GSM(string model, string manufacturer, decimal? price)
             : this(model, manufacturer, price, null)
         {
-
         }
+
         public GSM(string model, string manufacturer, decimal? price, string owner)
             : this(model, manufacturer, price, owner, null)
         {
-
         }
+
         public GSM(string model, string manufacturer, decimal? price, string owner, Battery battery)
             : this(model, manufacturer, price, owner, battery, null)
         {
-
         }
         public GSM(string model, string manufacturer, decimal? price, Battery battery, Display display)
             : this(model, manufacturer, price, null, battery, display)
         {
-
         }
+
         public GSM(string model, string manufacturer, decimal? price, string owner, Battery battery, Display display)
         {
             this.Model = model;
@@ -159,9 +161,7 @@
             this.Battery = battery;
             this.Display = display;
         }
-        #endregion
-
-        #region Methods
+        
         public override string ToString()
         {
             var output = new StringBuilder();
@@ -213,29 +213,34 @@
             
             return output.ToString();
         }
+
         public void AddCall(Call call)
         {
             this.CallHistory.Add(call);
         }
+
         public void DeleteCall(Call call)
         {
             this.CallHistory.Remove(call);
         }
+
         public void ClearCallHistory()
         {
             this.CallHistory.Clear();
         }
+
         public decimal CalculateBill()
         {
             decimal total = 0;
 
             foreach (var call in this.CallHistory)
             {
-                total += ((call.CallDuration / 60M) * RATE);
+                total += ((call.CallDuration / 60M) * Rate);
             }
 
             return Math.Round(total,2);
         }
+
         public void ShowCallHistory()
         {
             if (this.CallHistory.Count == 0)
@@ -251,6 +256,5 @@
             }
             Console.WriteLine();
         }
-        #endregion
     }
 }

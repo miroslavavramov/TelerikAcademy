@@ -14,10 +14,12 @@
             : this(firstName, lastName, new List<Discipline>(), null)
         {
         }
+
         public Teacher(string firstName, string lastName, params string[] comments)
             : this(firstName, lastName, new List<Discipline>(), comments)
         {
         }
+
         public Teacher(string firstName, string lastName, List<Discipline> disciplines, params string[] comments)
             : base(firstName, lastName)
         {

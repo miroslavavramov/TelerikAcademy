@@ -1,4 +1,4 @@
-##Linear Data Structures (Assignments)
+##Linear Data Structures
 
 <ol>
 <li>

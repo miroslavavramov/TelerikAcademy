@@ -72,8 +72,9 @@
             Console.WriteLine("\n|Task 13|\nStudents that have at least one excellent mark (stored as anonymous types) : \n");
 
             foreach (var student in stWithExcellentMark)
+            {
                 Console.WriteLine("{0}, Marks : {1}", student.FullName, string.Join(", ", student.Marks));
-
+            }
             #endregion
 
             #region Task14
@@ -97,7 +98,9 @@
             Console.WriteLine("\n|Task 15|\nMarks of students enrolled in 2006 : (stored as anonymous types)\n");
 
             foreach (var student in stEnrolledIn06)
+            {
                 Console.WriteLine("{0}, Marks : {1}", student.FullName, string.Join(", ", student.Marks));
+            }
             #endregion
 
             #region Task16
@@ -115,7 +118,9 @@
             Console.WriteLine("\n|Task 16|\nStudents from the Department of Mathematics : (stored as anonymous types)\n");
 
             foreach (var student in stFromMathDept)
+            {
                 Console.WriteLine("{0}", student.FullName);
+            }
             #endregion
 
             #region Task18
@@ -133,7 +138,9 @@
                 Console.WriteLine("#" + department.Key);
 
                 foreach (var student in department)
+                {
                     Console.WriteLine(student.FirstName + " " + student.LastName);
+                }
             }
             #endregion
 
@@ -149,10 +156,13 @@
                 Console.WriteLine("#" + department.Key);
 
                 foreach (var student in department)
+                {
                     Console.WriteLine(student.FirstName + " " + student.LastName);
+                }
             }
             #endregion
         }
+
         static void Print<T>(IEnumerable<T> collection)
         {
             foreach (var item in collection)

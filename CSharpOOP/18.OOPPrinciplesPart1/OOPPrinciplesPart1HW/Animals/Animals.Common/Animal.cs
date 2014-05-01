@@ -34,6 +34,7 @@
                 this.age = value;
             }
         }
+
         public bool IsMale { get; private set; }
 
         public Animal(string name, byte age, bool isMale)
@@ -49,6 +50,6 @@
                  this.Name, this.Age, IsMale ? "male" : "female");
         }
 
-        public abstract void ProduceSound();    //abstract methods don't possess bodies
+        public abstract void ProduceSound();   
     }
 }
