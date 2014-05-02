@@ -18,6 +18,10 @@
 17. Write a program to return the `string` with maximum length from an `array` of `strings`. Use `LINQ`.
 18. Create a program that extracts all students grouped by `GroupName` and then prints them to the console. Use `LINQ`.
 19. Rewrite the previous using extension methods.
+20. \* By using `delegates` develop an universal static method to calculate the sum of infinite convergent series with given precision depending on a function of its term. By using proper functions for the term calculate with a 2-digit precision the sum of the infinite series:
+	* `1 + 1/2 + 1/4 + 1/8 + 1/16 + …`
+	* `1 + 1/2! + 1/3! + 1/4! + 1/5! + …`
+	* `1 + 1/2 - 1/4 + 1/8 - 1/16 + …` 
 
 
 
