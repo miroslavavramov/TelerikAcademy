@@ -52,7 +52,7 @@
 5. **Advanced Data Structures** ([assignment](https://github.com/stinger907/TelerikAcademy/tree/master/CSharpDS%26A/05.AdvancedDataStructures/Advanced-Data-Structures-HW))
 6. **Data Structure Efficiency** ([assignment](https://github.com/stinger907/TelerikAcademy/tree/master/CSharpDS%26A/06.DataStructureEfficiency/Data-Structure-Efficiency-HW))
 7. **Sorting And Searching Algorithms** ([assignment](https://github.com/stinger907/TelerikAcademy/tree/master/CSharpDS%26A/07.SortingAndSearchingAlgorithms/SortingAndSearchingAlgorithmsHW/Sorting-and-Searching-Algorithms-Homework))
-8. **Recursion** ([assignment]())
+8. **Recursion** ([assignment](https://github.com/stinger907/TelerikAcademy/tree/master/CSharpDS%26A/08.Recursion/RecursionHW))
 9. **Combinatorics** ([assignment]())
 10. **Dynamic Programming** ([assignment]())
 11. **Graphs And Graph Algorithms** ([assignment]())
