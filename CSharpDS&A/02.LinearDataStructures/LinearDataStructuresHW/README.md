@@ -63,6 +63,27 @@ Implement the ADT stack as auto-resizable array. Resize the capacity on demand (
 Implement the ADT queue as dynamic linked list. Use generics (LinkedQueue<T>) to allow storing different data types in the queue.
 </li>
 <li>
-* We are given a labyrinth of size N x N. Some of its cells are empty (0) and some are full (x). We can move from an empty cell to another empty cell if they share common wall. Given a starting position (*) calculate and fill in the array the minimal distance from this position to any other cell in the array. Use "u" for all unreachable cells.
+* We are given a labyrinth of size N x N. Some of its cells are empty (0) and some are full (x). We can move from an empty cell to another empty cell if they share common wall. Given a starting position (*) calculate and fill in the array the minimal distance from this position to any other cell in the array. Use "u" for all unreachable cells. Example:<br>
+<table>
+<tr>
+<td><table>
+<tr><td>0</td><td>0</td><td>0</td><td>x</td><td>0</td><td>x</td></tr>
+<tr><td>0</td><td>x</td><td>0</td><td>x</td><td>0</td><td>x</td></tr>
+<tr><td>0</td><td>*</td><td>x</td><td>0</td><td>x</td><td>0</td></tr>
+<tr><td>0</td><td>x</td><td>0</td><td>0</td><td>0</td><td>0</td></tr>
+<tr><td>0</td><td>0</td><td>0</td><td>x</td><td>x</td><td>0</td></tr>
+<tr><td>0</td><td>0</td><td>0</td><td>x</td><td>0</td><td>x</td></tr>
+</table></td>
+<td>
+<table>
+<tr><td>3</td><td>4</td><td>5</td><td>x</td><td>u</td><td>x</td></tr>
+<tr><td>2</td><td>x</td><td>6</td><td>x</td><td>u</td><td>x</td></tr>
+<tr><td>1</td><td>*</td><td>x</td><td>8</td><td>x</td><td>10</td></tr>
+<tr><td>2</td><td>x</td><td>6</td><td>7</td><td>8</td><td>9</td></tr>
+<tr><td>3</td><td>4</td><td>5</td><td>x</td><td>x</td><td>10</td></tr>
+<tr><td>4</td><td>5</td><td>6</td><td>x</td><td>u</td><td>x</td></tr>
+</table></td>
+</tr>
+</table>
 </li>
 </ol>
