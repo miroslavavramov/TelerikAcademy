@@ -8,10 +8,10 @@
 
 3. Create the following HTML Page
 	* Hint: Use Fieldsets and Nested tables
-	 ![](http://s29.postimg.org/oz807qelz/Untitled2.png)
+	* ![](http://s29.postimg.org/oz807qelz/Untitled2.png)
 
 4. \* Construct the following Grid component:
 	* Try to make a HTML page, that looks just like the example
 	* CSS is required
-	 ![](http://s28.postimg.org/qku7pm3d9/Untitled3.png)
+	* ![](http://s28.postimg.org/qku7pm3d9/Untitled3.png)
 
