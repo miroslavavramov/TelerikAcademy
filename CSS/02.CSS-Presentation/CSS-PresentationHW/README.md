@@ -13,4 +13,4 @@
 	* It should look exactly the same
 	* Implement hover effects for the buttons
 	* The calculator should not have any functionality
-	*![](http://s28.postimg.org/g4kj6iphp/Untitled3.png)
+	* ![](http://s28.postimg.org/g4kj6iphp/Untitled3.png)
