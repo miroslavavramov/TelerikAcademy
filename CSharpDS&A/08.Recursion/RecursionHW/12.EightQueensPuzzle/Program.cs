@@ -63,14 +63,8 @@ class Program
     {
         var copy = new byte[N, N];
 
-        for (int x = 0; x < N; x++)
-        {
-            for (int y = 0; y < N; y++)
-            {
-                copy[x, y] = board[x, y];
-            }
-        }
-
+        Array.Copy(board, copy, board.Length);
+        
         return copy;
     }
 
