@@ -1,10 +1,10 @@
 1. Create a Web form that looks like this sample:
 	* <br> 
-	 ![](http://s28.postimg.org/zel46pqbx/Untitled.png)
+	* ![](http://s28.postimg.org/zel46pqbx/Untitled.png)
 
 2. Create the following using tables and forms:
 	* <br>
-	 ![](http://s28.postimg.org/h1p49w58t/Untitled1.png)
+	* ![](http://s28.postimg.org/h1p49w58t/Untitled1.png)
 
 3. Create the following HTML Page
 	* Hint: Use Fieldsets and Nested tables
