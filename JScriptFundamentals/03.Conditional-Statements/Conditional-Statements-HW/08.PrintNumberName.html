@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8" />
+	<link rel="stylesheet" href="styles/js-console.css">
+</head>
+<body>
+	<script type="text/javascript">
+    	function updateTextInput(val) {
+      		document.getElementById("textInput").value = val; 
+    	}
+  	</script>
+	<label for="number">Number: </label>
+		<input id="number" type="range" min="0" max="999" onchange="updateTextInput(this.value)" required/>
+	    <input type="text" id="textInput" value="">
+	<button onclick="printNumberName()">Print Name</button>
+
+	<div id="js-console"></div>
+    <script src="scripts/js-console.js"></script>
+    <script>
+    	function printNumberName(){
+    		var num = parseInt(document.getElementById("number").value);
+
+    		var fromOneToNineteen = ["", "one", "two", "three", "four", "five", "six", "seven", "eight", "nine", "ten", "eleven", "twelve", "thirteen", "fourteen", "fifteen", "sixteen", "seventeen", "eighteen", "nineteen"];
+            var decimalsNames = ["", "", "twenty", "thirty", "forty", "fifty", "sixty", "seventy", "eighty", "ninety"];
+            var hundredsNames = ["", "one hundred", "two hundred", "three hundred", "four hundred", "five hundred", "six hundred", "seven hundred", "eight hundred", "nine hundred"];
+
+            var hundreds = Math.floor(num / 100);
+        	var decimals = Math.floor(num / 10) - hundreds * 10;
+        	var units = num % 10; 
+
+        	if(num >= 100 && num <= 999){
+        		if(decimals < 2){
+        			if(units == 0 && decimals == 0){
+        				jsConsole.writeLine(hundredsNames[hundreds]);
+        			}else{
+        				jsConsole.writeLine(hundredsNames[hundreds] + " and " + fromOneToNineteen[num % 100]);
+        			}
+        		}else{
+        			jsConsole.writeLine(hundredsNames[hundreds] + " and " + decimalsNames[decimals] + " " + fromOneToNineteen[units]);
+        		}
+        	}
+        	else if(num >= 20 && num <= 99){
+        		jsConsole.writeLine(decimalsNames[decimals] + fromOneToNineteen[units]);
+        	}
+        	else if(num >= 0 && num < 20){
+        		if(num == 0){
+        			jsConsole.writeLine("zero");
+        		}else{
+        			jsConsole.writeLine(fromOneToNineteen[num]);
+        		}
+        	}
+    	}
+    </script>
+</body>
+</html>

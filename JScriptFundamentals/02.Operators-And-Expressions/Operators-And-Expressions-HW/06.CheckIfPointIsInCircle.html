@@ -1,0 +1,30 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <title></title>
+    <link href="styles/js-console.css" rel="stylesheet" />
+</head>
+<body>
+    <div id="js-console"></div>
+    <script src="scripts/js-console.js"></script>
+    <script>
+        function isNumber(n) {
+            return !isNaN(parseFloat(n)) && isFinite(n);
+        }
+        function inCircle(pX, pY, oX, oY, r) {
+            return Math.pow(pX - oX, 2) + Math.pow(pY - oY, 2) <= r * r;
+        }
+        
+        var oX = 0;
+        var oY = 0;
+        var r = 5;
+        var pX = prompt("enter px");
+        var pY = prompt("enter py");
+
+        if (isNumber(pX) && isNumber(pY)) {
+            jsConsole.write("point p(x,y) is in circle k(0,5) : " + inCircle(pX, pY, oX, oY, r));
+        }
+    </script>
+</body>
+</html>

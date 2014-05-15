@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8" />
+	<link rel="stylesheet" href="styles/js-console.css">
+</head>
+<body>
+	<button onclick="execute()">Execute</button>
+	<div id="js-console"></div>
+    <script src="scripts/js-console.js"></script>
+    <script>
+    	function deepCopy(obj){
+    		if(obj == null || typeof obj != "object"){
+    			return obj;
+    		}
+    		if(obj instanceof Array){
+    			var copied = [];
+
+    			for(var i = 0; i < obj.length; i++){
+    				copied[i] = deepCopy(obj[i]);
+    			}
+    			return copied;
+    		}
+    		if(obj instanceof Object){
+    			var copied = {};
+
+				for(var prop in obj){
+					if(obj.hasOwnProperty(prop)){
+						copied[prop] = deepCopy(obj[prop]);
+					}
+				}
+				return copied;
+    		}
+
+    	}
+    	function printObj(obj){
+    		for(var prop in obj){
+    			jsConsole.writeLine(prop + " " + obj[prop]);
+    		}
+    	}
+    	function execute(){
+    		var toon = {
+    			fName: "Bender",
+    			lName: "Rodriguez",
+    			sex: "male"
+    		}
+
+    		var copiedToon = deepCopy(toon);
+
+    		printObj(toon);
+    		printObj(copiedToon);
+    	}
+    </script>
+</body>
+</html>

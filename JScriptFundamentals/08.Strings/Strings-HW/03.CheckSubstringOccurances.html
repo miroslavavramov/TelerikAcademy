@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8" />
+	<link rel="stylesheet" href="styles/js-console.css">
+</head>
+<body>
+	<button onclick="onCheckButtonClick()">Check</button>
+	<div id="js-console"></div>
+    <script src="scripts/js-console.js"></script>
+    <script>
+    	function countSubstrOccurances(text, substr){
+    		return text.match(new RegExp(substr, "gi")).length;
+    	}
+    	function onCheckButtonClick(){
+    		var text = "We are living in an yellow submarine. We don't have anything else. Inside the submarine is very tight. So we are drinking all the day. We will move out of it in 5 days.";
+    		var substr = "in";
+
+    		jsConsole.writeLine("text: " + text);
+    		jsConsole.writeLine("substr: " + substr);
+    		jsConsole.writeLine("occurances: " + countSubstrOccurances(text, substr));
+    	}
+    </script>
+</body>
+</html>

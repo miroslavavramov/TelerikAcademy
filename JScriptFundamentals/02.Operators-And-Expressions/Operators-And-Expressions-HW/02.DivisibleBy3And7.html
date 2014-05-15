@@ -1,0 +1,30 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <link href="styles/js-console.css" rel="stylesheet" />
+</head>
+<body>
+    <div id="js-console"></div>
+    <script src="scripts/js-console.js"></script>
+    <script>
+        function isNumber(n) {
+            return !isNaN(parseInt(n)) && isFinite(n);
+        }
+
+        var num = prompt("Enter integer number");
+
+        if (isNumber(num)) {
+            if (num % 3 === 0 && num % 7 === 0) {
+                jsConsole.writeLine(num + " is divisible by 3 and 7");
+            }
+            else {
+                jsConsole.writeLine(num + " is not divisible by 3 and 7");
+            }
+        }
+        else {
+            jsConsole.writeLine("invalid input");
+        }
+    </script>
+</body>
+</html>

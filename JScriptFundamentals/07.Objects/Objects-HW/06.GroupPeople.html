@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8" />
+	<link rel="stylesheet" href="styles/js-console.css">
+</head>
+<body>
+	<button onclick="execute()">Execute</button>
+	<div id="js-console"></div>
+    <script src="scripts/js-console.js"></script>
+    <script>
+    	function person(fName, lName, age){
+            return{
+            	fName: fName,
+                lName: lName,
+                age: age,
+                toString: function() { 
+                    return fName + " " + lName + " " + age; 
+                }    
+            };
+        }
+    	function group(people, prop) {
+            
+            var groups = {};
+
+            people.map(function (person) {
+                if (groups[person[prop]] === undefined){
+                    groups[person[prop]] = [];
+                }
+                groups[person[prop]].push(person);
+            });
+
+            return groups;
+        }
+        function execute(){
+			var simpsons = 
+	        [
+				person("Homer", "Simpson", 39),
+				person("Maggie", "Simpson", 2),
+				person("Bart", "Simpson", 9),
+				person("Lisa", "Simpson", 8),
+	            person("Marge", "Simpson", 37),
+	            person("Montgomery", "Burns", 115)
+			];
+
+			var groupedByAge = group(simpsons,"age");
+
+			for (var p in groupedByAge) {
+				jsConsole.writeLine(p + " -> " + groupedByAge[p]);
+			}
+		}
+    </script>
+</body>
+</html>

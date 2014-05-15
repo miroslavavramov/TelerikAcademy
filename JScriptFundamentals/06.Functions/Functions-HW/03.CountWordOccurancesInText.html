@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8" />
+	<link rel="stylesheet" href="styles/js-console.css">
+</head>
+<body>	
+	<label for="text">Splash your text here:</label><br/>
+	<textarea id="text" rows="5" cols="50"></textarea><br/>
+	<label for="word">Type a word</label>
+	<input id="word" required />
+	<button onclick="printWordOccurancesOnBtnClick()">Check Occurances</button>	
+	<div id="js-console"></div>
+    <script src="scripts/js-console.js"></script>
+    <script>
+    	function printWordOccurancesOnBtnClick(){
+    		var text = document.getElementById("text").value;
+    		var word = document.getElementById("word").value;
+
+    		var caseInsensitiveCount = text.match(new RegExp(word, "ig")).length;		
+    		var caseSensitiveCount = text.match(new RegExp(word, "g")).length;
+
+			jsConsole.write("Case insensitive search: ");
+			jsConsole.writeLine(word + " occurs " + caseInsensitiveCount + " times");
+    		jsConsole.write("Case Sensitive search: ");
+			jsConsole.writeLine(word + " occurs " + caseSensitiveCount + " times");	
+    	}
+    </script>
+</body>
+</html>

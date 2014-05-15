@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8" />
+	<link rel="stylesheet" href="styles/js-console.css">
+</head>
+<body>
+	<div id="js-console"></div>
+    <script src="scripts/js-console.js"></script>
+    <script>
+		var arr = [3, 2, 3, 2, 9, 2, 4, 5, 1, 8];
+
+		var maxCount = 0;
+		var count;
+		var start;
+
+		for (var i = 0; i < arr.length; i++) {
+			count = 0;
+			for(var k = i+1; ; k++){
+				if(k < arr.length && arr[k] > arr[k-1]){
+					count++;
+				}
+				else{
+					if(count > maxCount){
+						maxCount = count;
+						start = i;
+						i += count - 1;
+					}
+					break;
+				}
+			}
+		}
+
+		jsConsole.writeLine("Array:" + arr.join(", "));
+		jsConsole.write("max increasing sequence: ")
+
+		for(var i = start; i <= start + maxCount; i++){
+			jsConsole.write(arr[i] + " ");
+		}   		
+    </script>
+</body>
+</html>

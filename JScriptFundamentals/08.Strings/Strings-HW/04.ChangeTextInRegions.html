@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8" />
+	<link rel="stylesheet" href="styles/js-console.css">
+</head>
+<body>
+	<button onclick="onChangeButtonClick()">Change</button>
+	<div id="js-console"></div>
+    <script src="scripts/js-console.js"></script>
+    <script>
+    	function buildStringBuilder() {
+            return {
+                result: [],
+                length: 0,
+                append: function (value) {
+                    this.result[this.length] = value;
+                    this.length += value.length;
+                    return this;
+                },
+                toString: function () {
+                    return this.result.join("");
+                }
+            };
+        }
+        function buildStack(){
+        	return {
+        		result: [],
+			 	length: 0,
+			 	pop: function(){ 
+			 		this.length--;
+			 		return this.result.pop();
+		 		},
+			 	push: function(item){
+			 		this.length++;
+			 		this.result.push(item);
+			  		return this;
+			 	},
+			 	peek: function(){
+			 		return this.result[this.length - 1];
+		 		}
+        	};
+		}
+    	function changeTextInRegions(text){
+    		var upOpeningTagLength = 8;
+    		var upClosingTagLength = 9;
+    		var lowOpeningTagLength = 9;
+    		var lowClosingTagLength = 10;
+    		var mixOpeningTagLength = 9;
+    		var mixClosingTagLength = 10;
+    		var toUpper = false;
+    		var toLower = false;
+    		var toMix = false;
+    		var regionPrecedenceStack = buildStack();
+    		var output = buildStringBuilder();
+
+    		for(var i = 0; i < text.length; i++){
+
+    			if(text.substr(i,upOpeningTagLength) == "<upcase>"){
+    				toUpper = true;
+    				regionPrecedenceStack.push("toUpper");
+    				i += upOpeningTagLength;
+    			}
+    			if(text.substr(i,lowOpeningTagLength) == "<lowcase>"){
+    				toLower = true;
+    				regionPrecedenceStack.push("toLower");
+    				i += lowOpeningTagLength;
+    			}
+    			if(text.substr(i,mixOpeningTagLength) == "<mixcase>"){
+    				toMix = true;
+    				regionPrecedenceStack.push("toMix");
+    				i += mixOpeningTagLength;
+    			}
+    			if(text.substr(i, upClosingTagLength) == "</upcase>"){
+    				toUpper = false;
+    				regionPrecedenceStack.pop("toUpper");
+    				i += upClosingTagLength;
+    			}
+    			if(text.substr(i, lowClosingTagLength) == "</lowcase>"){
+    				toLower = false;
+    				regionPrecedenceStack.pop("toLower");
+    				i += lowClosingTagLength;
+    			}
+    			if(text.substr(i, mixClosingTagLength) == "</mixcase>"){
+    				toMix = false;
+    				regionPrecedenceStack.pop("toMix");
+    				i += mixClosingTagLength;
+    			}
+
+    			if(toUpper && regionPrecedenceStack.peek() == "toUpper"){
+    				output.append(text[i].toUpperCase());
+    			}
+    			else if(toLower && regionPrecedenceStack.peek() == "toLower"){
+    				output.append(text[i].toLowerCase());
+    			}
+    			else if(toMix && regionPrecedenceStack.peek() == "toMix"){
+					output.append(
+    					Math.round(Math.random()) == 0 ? text[i].toUpperCase() : text[i].toLowerCase()
+    					);
+    			}
+    			else{
+    				output.append(text[i]);
+    			}
+    		}
+
+    		return output.toString();
+    	}
+    	function onChangeButtonClick(){
+    		var text = "We are <mixcase>living</mixcase> in a <upcase>yellow submarine</upcase>. We <mixcase>don't</mixcase> have <lowcase>aNYThinG</lowcase> else.";
+
+    		jsConsole.writeLine(changeTextInRegions(text));
+    	}
+    </script>
+</body>
+</html>

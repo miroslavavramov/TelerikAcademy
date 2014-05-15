@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8" />
+	<link rel="stylesheet" href="styles/js-console.css">
+</head>
+<body>
+	<button onclick="execute()">Execute</button>
+	<div id="js-console"></div>
+    <script src="scripts/js-console.js"></script>
+    <script>
+    	Array.prototype.remove = function(elem){
+    		for (var i = 0; i < this.length; i++) {
+    			if(elem === this[i]){
+    				this.splice(i,1);
+    			}
+    		};
+    	}
+		function execute(){
+			var arr = [1,4,2,5,1,2,4,6,3,1,6,1,1];
+			jsConsole.writeLine(arr);
+			arr.remove(1);
+			jsConsole.writeLine(arr);
+		}
+    </script>
+</body>
+</html>

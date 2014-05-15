@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8" />
+	<link rel="stylesheet" href="styles/js-console.css">
+</head>
+<body>
+	<label>Enter Index[1,10]</label>
+	<input id="indexInput" />
+	<button onclick="onCheckBtnClick()">Check</button>
+	<div id="js-console"></div>
+    <script src="scripts/js-console.js"></script>
+    <script>
+    	function compareToNeighbours(pos, arr){
+    		if(pos <= 0 || pos >= arr.length - 1){
+    			return 0;
+    		}
+    		else if(arr[pos] > arr[pos+1] && arr[pos] > arr[pos-1]){
+    			return 1;
+    		}
+    		else{
+    			return -1;
+    		}
+    	}
+    	function onCheckBtnClick(){
+    		var arr = [1, 54 , 12, 14, 55, 3, 1, 34, 66, 1];
+    		var index = parseInt(document.getElementById("indexInput").value);
+    		var result = compareToNeighbours(index, arr);
+
+    		jsConsole.writeLine(arr);
+
+    		if(result == 1){
+    			jsConsole.writeLine("element at provided index is bigger than its neighbours")
+    		}
+    		else if(result == 0){
+    			jsConsole.writeLine("provided index represents either an array border or is out of its scope");
+    		}
+    		else{
+    			jsConsole.writeLine("element at provided index is NOT bigger than its neighbours");
+    		}
+    	}
+    </script>
+</body>
+</html>

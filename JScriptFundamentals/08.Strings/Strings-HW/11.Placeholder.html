@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8" />
+	<link rel="stylesheet" href="styles/js-console.css">
+</head>
+<body>
+	<button onclick="execute()">Execute</button>
+	<div id="js-console"></div>
+    <script src="scripts/js-console.js"></script>
+    <script>
+    	function buildStringBuilder() {
+            return {
+                result: [],
+                length: 0,
+                append: function (value) {
+                    this.result[this.length] = value;
+                    this.length += value.length;
+                    return this;
+                },
+                toString: function () {
+                    return this.result.join("");
+                }
+            };
+        }
+    	function stringFormat(){
+    		var format = arguments[0];
+    		var output = buildStringBuilder();
+
+    		for(var i = 0; i < format.length; i++){
+    			if(format[i] == "{" && !isNaN(parseInt(format[i+1]))){
+    				
+    				var placeholderValue = buildStringBuilder();
+    				
+    				for(var k = i+1; format[k] != '}'; k++){
+    					placeholderValue.append(format[k]);
+    				}
+
+    				output.append(arguments[parseInt(placeholderValue)+1].toString());
+					i += placeholderValue.length + 1;
+    			}
+    			else{
+    				output.append(format[i].toString());
+    			}
+    		}
+
+    		return output.toString();
+    	}
+    	
+    	function execute(){
+    		var format = "{0}, {1}, {0} text {2}";
+			var str = stringFormat(format,1,"Pesho","Gosho");
+			jsConsole.writeLine(str);
+    	}
+    </script>
+</body>
+</html>

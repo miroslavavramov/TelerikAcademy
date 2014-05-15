@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8" />
+	<link rel="stylesheet" href="styles/js-console.css">
+</head>
+<body>
+	<label for="firstNum">First Number</label>
+		<input id="firstNum" required/>
+	<label for="secondNum">Second Number</label>
+		<input id="secondNum" required	/><br />
+	<button onclick="tryExchangeValues()">Try Exchange Values</button>
+	<div id="js-console"></div>
+    <script src="scripts/js-console.js"></script>
+    <script>
+	    function tryExchangeValues(){
+	    	var a = parseInt(jsConsole.readInteger("#firstNum"));
+    		var b = parseInt(jsConsole.readInteger("#secondNum"));
+
+    		if(a < b){
+	    		var c = a;
+	    		a = b;
+	    		b = c;
+	    		jsConsole.writeLine("values have been exchanged");
+	    		jsConsole.writeLine("First Number = " + a);
+	    		jsConsole.writeLine("Second Number = " + b);
+	    	}
+	    	else{
+	    		jsConsole.writeLine("values haven't been exchanged");
+	    	}
+	    }
+    </script>
+</body>
+</html>

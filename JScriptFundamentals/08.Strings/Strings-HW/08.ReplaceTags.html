@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8" />
+	<link rel="stylesheet" href="styles/js-console.css">
+</head>
+<body>
+	<button onclick="onReplaceButtonClick()">Replace</button>
+	<div id="js-console"></div>
+    <script src="scripts/js-console.js"></script>
+    <script>
+    	function replaceAnchorTags(htmlCode){
+	        return htmlCode
+	        	.replace(/<a href=(.*?)>/g, '[URL=$1]')
+	        	.replace(/<\/a>/g, '[/URL]');
+    	}
+    	function onReplaceButtonClick(){
+    		var htmlCode = "<p>Please visit <a href=\"http://academy.telerik. com\">our site</a> to choose a training course. Also visit <a href=\"www.devbg.org\">our forum</a> to discuss the courses.</p>";
+
+    		jsConsole.writeLine(replaceAnchorTags(htmlCode));
+    	}
+    </script>
+</body>
+</html>

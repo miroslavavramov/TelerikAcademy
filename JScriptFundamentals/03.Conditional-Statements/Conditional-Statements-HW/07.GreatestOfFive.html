@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8" />
+	<link rel="stylesheet" href="styles/js-console.css">
+</head>
+<body>
+	<label for="num1">First Number</label>
+		<input id="num1" required /><br />
+	<label for="num2">Second Number</label>
+		<input id="num2" required /><br />
+	<label for="num3">Third Number</label>
+		<input id="num3" required /><br />
+	<label for="num4">Fourth Number</label>
+		<input id="num4" required /><br />
+	<label for="num5">Fifth Number</label>
+		<input id="num5" required /></br />
+	<button onclick="printMax()">Print Max</button>
+	<div id="js-console"></div>
+    <script src="scripts/js-console.js"></script>
+    <script>
+    	function printMax(){
+    		var max = Number.MIN_VALUE;
+
+			for(i = 1; i <= 5; i++){
+				var temp = parseFloat(document.getElementById("num"+i.toString()).value);
+				max = max > temp ? max : temp;
+			}
+			
+			jsConsole.writeLine(max);
+		}
+	</script>
+</body>
+</html>

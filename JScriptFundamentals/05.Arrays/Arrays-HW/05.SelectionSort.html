@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8" />
+	<link rel="stylesheet" href="styles/js-console.css">
+</head>
+<body>
+	<div id="js-console"></div>
+    <script src="scripts/js-console.js"></script>
+    <script>
+    	var arr = [9, 4, 7, 22, 0, 7, 5, 3];
+    	var currIndex = 0;
+		var temp;
+
+		jsConsole.writeLine("unsorted: " + arr.join(", "));
+
+    	for(var i = 0; i < arr.length; i++){
+    		for(var k = i+1; k < arr.length; k++){
+    			if(arr[k] < arr[i]){
+    				temp = arr[k];
+    				arr[k] = arr[i];
+    				arr[i] = temp;
+    			}
+    		}
+		}
+		jsConsole.writeLine("sorted: " + arr.join(", "));
+    </script>
+</body>
+</html>

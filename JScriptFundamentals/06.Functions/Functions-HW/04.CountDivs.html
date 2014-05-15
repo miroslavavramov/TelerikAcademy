@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8" />
+	<link rel="stylesheet" href="styles/js-console.css">
+</head>
+<body>
+	<div></div>
+    <div></div>
+    <div>
+		<button onclick="printDivsCountOnBtnClick()">Count Divs</button>
+	</div>
+	<div id="js-console"></div>
+    <script src="scripts/js-console.js"></script>
+    <script>
+    	function printDivsCountOnBtnClick(){
+    		jsConsole.writeLine(
+    			document.getElementsByTagName("div").length
+    			);
+    	}
+    </script>
+</body>
+</html>

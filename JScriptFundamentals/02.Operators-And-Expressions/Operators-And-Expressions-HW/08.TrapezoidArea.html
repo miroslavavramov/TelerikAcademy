@@ -1,0 +1,28 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <title></title>
+    <link href="styles/js-console.css" rel="stylesheet" />
+</head>
+<body>
+    <div id="js-console"></div>
+    <script src="scripts/js-console.js"></script>
+    <script>
+        function Validate(n) {
+            return !isNaN(parseFloat(n)) && isFinite(n) && n > 0;
+        }
+        var a = prompt("a = ");
+        var b = prompt("b = ");
+        var h = prompt("h = ");
+
+        if (Validate(a) && Validate(b) && Validate(h)) {
+            var area = (a + b) * h / 2;
+            jsConsole.write("trapezoid area: " + area);
+        }
+        else {
+            jsConsole.write("invalid input");
+        }
+    </script>
+</body>
+</html>

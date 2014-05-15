@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8" />
+	<link rel="stylesheet" href="styles/js-console.css">
+</head>
+<body>
+	<label>Enter Number[1,10]</label>
+	<input id="numberInput" />
+	<button onclick="onCheckOccuracesBtnClick()">Check Occurances</button>
+	<div id="js-console"></div>
+    <script src="scripts/js-console.js"></script>
+    <script>
+    	function countOccurances(arr, n){
+    		var count = 0;
+
+    		for(var i = 0; i < arr.length; i++)	{
+    			if(arr[i] === n){
+    				count++;
+    			}
+    		}
+
+    		return count;
+    	}
+    	function onCheckOccuracesBtnClick(){
+    		var num = parseInt(document.getElementById("numberInput").value);
+    		var arr = [1, 3, 5, 1, 8, 8, 6, 3, 1];
+
+    		jsConsole.writeLine(arr);
+    		jsConsole.writeLine(num + " occurs " + countOccurances(arr, num) + " times ");
+    	}
+
+    </script>
+</body>
+</html>

@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8" />
+	<link rel="stylesheet" href="styles/js-console.css">
+</head>
+<body>
+	<label for="firstNum">First Number</label>
+		<input id="firstNum" required/><br />
+	<label for="secondNum">Second Number</label>
+		<input id="secondNum" required/><br />
+	<label for="thirdNum">Third Number</label>
+		<input id="thirdNum" required/><br />
+	<button onclick="getProductSign()">Get Product Sign</button>
+	<div id="js-console"></div>
+    <script src="scripts/js-console.js"></script>
+    <script>
+	    function getProductSign(){
+	    	var a = parseInt(jsConsole.readInteger("#firstNum"));
+	    	var b = parseInt(jsConsole.readInteger("#secondNum"));
+	    	var c = parseInt(jsConsole.readInteger("#thirdNum"));
+
+	    	if(a < 0 ^ b < 0 ^ c < 0){
+	    		jsConsole.writeLine("-");
+	    	}
+	    	else{
+	    		jsConsole.writeLine("+");
+	    	}
+	    }
+    </script>
+</body>
+</html>

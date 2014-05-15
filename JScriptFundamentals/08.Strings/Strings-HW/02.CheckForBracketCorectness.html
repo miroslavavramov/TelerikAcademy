@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8" />
+	<link rel="stylesheet" href="styles/js-console.css">
+</head>
+<body>
+	<label for="stringInput">Type an expression: </label>
+	<input id="stringInput" />
+	<button onclick="onCheckBracketsButtonClick()">Check Brackets</button>
+	<div id="js-console"></div>
+    <script src="scripts/js-console.js"></script>
+    <script>
+    	function checkBrackets(exp){
+    		var leftBracketsCount = exp.length - exp.replace("(", "").length;
+        	var rightBracketsCount = exp.length - exp.replace(")", "").length;
+
+        	if(
+        		leftBracketsCount != rightBracketsCount ||
+        		exp.indexOf("(") > exp.indexOf(")") ||
+        		exp.lastIndexOf("(") > exp.lastIndexOf(")")
+        	){
+        		return false;
+        	}
+        	return true;
+    	}
+    	function onCheckBracketsButtonClick(){
+    		var expression = document.getElementById("stringInput").value;
+
+    		jsConsole.writeLine(
+    			checkBrackets(expression) ? "Correct" : "Incorrect"
+    			);
+    	}
+    </script>
+</body>
+</html>

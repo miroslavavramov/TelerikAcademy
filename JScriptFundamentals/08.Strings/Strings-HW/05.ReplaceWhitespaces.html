@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8" />
+	<link rel="stylesheet" href="styles/js-console.css">
+</head>
+<body>
+	<button onclick="onReplaceButtonClick()">Replace</button>
+	<div id="js-console"></div>
+    <script src="scripts/js-console.js"></script>
+    <script>
+    	function buildStringBuilder() {
+            return {
+                result: [],
+                length: 0,
+                append: function (value) {
+                    this.result[this.length] = value;
+                    this.length += value.length;
+                    return this;
+                },
+                toString: function () {
+                    return this.result.join("");
+                }
+            };
+        }
+    	function replaceWhitespaces(text){
+    		var output = buildStringBuilder();
+
+    		for(var i = 0; i < text.length; i++){
+    			if(text[i] == " "){
+    				output.append("&amp;nbsp;");
+    				continue;
+    			}
+    			output.append(text[i]);
+    		}
+
+    		return output.toString();
+    	}
+    	function replaceWhitespacesWithRegex(text){
+    		var re = new RegExp(/\s/g);
+    		return text.replace(re, "&amp;nbsp;");
+    	}
+    	function onReplaceButtonClick(){
+    		var text = "We are living in a yellow submarine.";
+    		
+    		jsConsole.writeLine(
+    			replaceWhitespaces(text)
+    			);
+    		jsConsole.writeLine(
+    			replaceWhitespacesWithRegex(text)
+    			);
+    	}
+    </script>
+</body>
+</html>

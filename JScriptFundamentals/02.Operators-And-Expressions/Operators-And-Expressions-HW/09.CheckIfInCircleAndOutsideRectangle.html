@@ -1,0 +1,42 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <title></title>
+    <link href="styles/js-console.css" rel="stylesheet" />
+</head>
+<body>
+    <div id="js-console"></div>
+    <script src="scripts/js-console.js"></script>
+    <script>
+        function isNumber(n) {
+            return !isNaN(parseFloat(n)) && isFinite(n);
+        }
+        function inCircle(pX, pY, oX, oY, r) {
+            return Math.pow(pX - oX, 2) + Math.pow(pY - oY, 2) <= r * r;
+        }
+        function inRectangle(pX, pY, rectMinX, rectMaxX, rectMinY, rectMaxY) {
+            return pX >= rectMinX && pX <= rectMaxX && pY >= rectMinY && pY <= rectMaxY;
+        }
+        
+        var oX = 1;
+        var oY = 1;
+        var r = 3;
+        var rectMinX = -1;
+        var rectMaxX = 5;
+        var rectMinY = -1;
+        var rectMaxY = 1;
+
+        var pX = prompt("pX = ");
+        var pY = prompt("pY = ");
+        
+        if (isNumber(pX) && isNumber(pY)) {
+            
+            var inCircleAndOutisdeRect =
+                inCircle(pX, pY, oX, oY, r) && !inRectangle(pX, pY, rectMinX, rectMaxX, rectMinY, rectMaxY);
+
+            jsConsole.write("p(x,y) is inside k((1,1),3) and outside rect((-1,5),(-1,1)) : " + inCircleAndOutisdeRect);
+        }
+    </script>
+</body>
+</html>

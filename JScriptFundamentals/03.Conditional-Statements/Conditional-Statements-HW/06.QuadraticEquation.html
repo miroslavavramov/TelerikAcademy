@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8" />
+	<link rel="stylesheet" href="styles/js-console.css">
+</head>
+<body>
+	<label for="a">a = </label>
+		<input id="a" required/><br />
+	<label for="b">b = </label>
+		<input id="b" required/><br />
+	<label for="c">c =</label>
+		<input id="c" required/><br />
+	<span>a*x^2 + b*x + c = 0</span>
+	<button onclick="solve()">Solve</button>
+	<div id="js-console"></div>
+    <script src="scripts/js-console.js"></script>
+    <script>
+    	function solve(){
+    		var a = parseFloat(document.getElementById("a").value);
+    		var b = parseFloat(document.getElementById("b").value);
+    		var c = parseFloat(document.getElementById("c").value);
+    		var discriminant = b*b - 4*a*c;
+
+    		if(a == 0){
+    			jsConsole.writeLine("The equation is linear.");
+    			if(b == 0){
+    				if(c == 0){
+    					jsConsole.writeLine("Every number is a solution");
+    				}
+    				else{
+    					jsConsole.writeLine("There is no solution");
+    				}
+    			}
+    			else{
+    				var root = -(c/b);
+    				jsConsole.writeLine("The equation has one real root" + root);
+    			}
+    		}
+    		else{
+    			if(discriminant < 0){
+    				jsConsole.writeLine("The equation has no real roots");
+    			}
+    			else if(discriminant == 0){
+    				var root = (-b) / (2*a);
+    				jsConsole.writeLine("root1 = root2 = " + root);
+    			}
+    			else{
+    				var root1 = (-b + Math.sqrt(discriminant)) / (2 * a);
+    				var root2 = (-b - Math.sqrt(discriminant)) / (2 * a);
+    				jsConsole.writeLine("root1 = " + root1 + ", root2 = " + root2);
+    			}
+    		}
+    	}
+    </script>
+</body>
+</html>

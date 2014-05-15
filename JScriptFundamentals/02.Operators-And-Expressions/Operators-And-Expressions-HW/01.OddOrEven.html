@@ -1,0 +1,31 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <link href="styles/js-console.css" rel="stylesheet" />
+</head>
+<body>
+    <div id="js-console"></div>
+    <script src="scripts/js-console.js"></script>
+    <input id="inputNum" />
+    <script>
+        function isNumber(n) {
+            return !isNaN(parseInt(n)) && isFinite(n);
+        }
+        
+        var num = prompt("Enter integer");
+
+        if (isNumber(num)) {
+            if (num % 2 === 0) {
+                jsConsole.writeLine("number is even");
+            }
+            else {
+                jsConsole.write("number is odd");
+            }
+        }
+        else {
+            jsConsole.write("invalid input");
+        }
+    </script>
+</body>
+</html>

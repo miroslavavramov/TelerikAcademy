@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8" />
+	<link rel="stylesheet" href="styles/js-console.css">
+</head>
+<body>
+	<button onclick="onExtractButtonClick()">Extract</button>
+	<div id="js-console"></div>
+    <script src="scripts/js-console.js"></script>
+    <script>
+    function extractTextFromHtml(htmlCode){
+    	var tagPattern = new RegExp(/<.*?>/g);
+    	return htmlCode.replace(tagPattern, "");
+    }
+    function onExtractButtonClick(){
+    	var htmlCode = "<html><head><title>Sample site</title></head><body><div>text<div>more text</div>and more...</div>in body</body></html>";
+    	jsConsole.writeLine(extractTextFromHtml(htmlCode));
+    }
+    </script>
+</body>
+</html>

@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8" />
+	<link rel="stylesheet" href="styles/js-console.css">
+</head>
+<body>
+	<label for="inputNumber">Enter Number</label>
+		<input id="inputNumber" />
+	<button onclick="printReversed()">Print Reversed</button>
+	<div id="js-console"></div>
+    <script src="scripts/js-console.js"></script>
+    <script>
+        function reverseDigits(num){
+            var result = 0;
+
+            while (num > 0)
+            {
+                result = result * 10 + num % 10;
+                num = Math.floor(num / 10);
+            }
+
+            return result;
+        }
+    	function printReversed(){
+    		jsConsole.writeLine(reverseDigits(
+                parseInt(document.getElementById("inputNumber").value)
+                ));
+		}
+    </script>
+</body>
+</html>

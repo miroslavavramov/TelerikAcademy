@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8" />
+	<link rel="stylesheet" href="styles/js-console.css">
+</head>
+<body>
+	<button onclick="execute()">Execute</button>
+	<div id="js-console"></div>
+    <script src="scripts/js-console.js"></script>
+    <script>
+    	function hasProperty(obj, prop){
+    		for(var property in obj){
+    			if(property === prop){
+    				return true;
+    			}
+    		}
+    		return false;
+    	}
+    	function execute(){
+    		var toon = {
+    			fName: "John",
+    			lName: "Zoidberg",
+    			sex: "male"
+    		}
+
+    		jsConsole.writeLine(hasProperty(toon, "fName"));
+    		jsConsole.writeLine(hasProperty(toon, "age"));
+    	}
+    </script>
+</body>
+</html>

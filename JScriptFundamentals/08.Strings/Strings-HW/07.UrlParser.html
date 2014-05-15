@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8" />
+	<link rel="stylesheet" href="styles/js-console.css">
+</head>
+<body>
+	<label for="urlInput">Enter URL</label>
+	<input id="urlInput" />
+	<button onclick="onParseButtonClick()">Parse</button>
+	<div id="js-console"></div>
+    <script src="scripts/js-console.js"></script>
+    <script>
+    	function buildStringBuilder() {
+            return {
+                result: [],
+                length: 0,
+                append: function (value) {
+                    this.result[this.length] = value;
+                    this.length += value.length;
+                    return this;
+                },
+                toString: function () {
+                    return this.result.join("");
+                }
+            };
+        }
+    	function parseUrl(url){
+			var output = buildStringBuilder();
+
+	        var serverStartIndex = url.indexOf("://") + 3;
+	        var serverEndIndex = url.indexOf("/", serverStartIndex);
+
+	        var protocol = url.substr(0, url.indexOf(":"));
+	        var server = url.substr(serverStartIndex, serverEndIndex-serverStartIndex);
+	        var resource = url.substr(serverEndIndex, url.length - serverEndIndex);
+
+	        output.append(protocol + " + ").append(server + " + ").append(resource);
+
+        	return output.toString();
+    	}
+    	function onParseButtonClick(){
+    		jsConsole.writeLine(
+    			parseUrl(document.getElementById("urlInput").value)
+    			);
+    	}
+    </script>
+</body>
+</html>

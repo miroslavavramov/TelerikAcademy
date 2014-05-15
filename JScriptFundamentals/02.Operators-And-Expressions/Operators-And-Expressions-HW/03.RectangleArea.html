@@ -1,0 +1,26 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <link href="styles/js-console.css" rel="stylesheet" />
+</head>
+<body>
+    <div id="js-console"></div>
+    <script src="scripts/js-console.js"></script>
+    <script>
+        function isNumber(n) {
+            return !isNaN(parseInt(n)) && isFinite(n);
+        }
+
+        var a = prompt("Enter side a");
+        var b = prompt("Enter side b");
+
+        if (isNumber(a) && isNumber(b)) {
+            jsConsole.write("Area = " + a * b);
+        }
+        else {
+            jsConsole.write("Invalid input");
+        }
+    </script>
+</body>
+</html>

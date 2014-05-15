@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8" />
+	<link rel="stylesheet" href="styles/js-console.css">
+</head>
+<body>
+	<div id="js-console"></div>
+    <script src="scripts/js-console.js"></script>
+    <script>
+    	var max = " ";	//ascii character with smallest index (32)
+    	var min = "~";	//ascii character with highest index (126)
+
+    	for(var prop in document){
+    		if(prop.toLowerCase() > max){
+    			max = prop;
+    		}
+    		if(prop.toLowerCase() < min){
+    			min = prop;
+    		}
+    	}
+
+    	jsConsole.writeLine("Smallest(lexicographically) property in document : " + min);
+    	jsConsole.writeLine("Biggest(lexicographically) property in document : " + max);
+
+    	max = " ";
+    	min = "~";
+
+    	for(var prop in window){
+    		if(prop.toLowerCase() > max){
+    			max = prop;
+    		}
+    		if(prop.toLowerCase() < min){
+    			min = prop;
+    		}
+    	}
+
+    	jsConsole.writeLine("Smallest(lexicographically) property in window : " + min);
+    	jsConsole.writeLine("Biggest(lexicographically) property in window : " + max);
+
+    	max = " ";
+    	min = "~";
+
+    	for(var prop in navigator){
+    		if(prop.toLowerCase() > max){
+    			max = prop;
+    		}
+    		if(prop.toLowerCase() < min){
+    			min = prop;
+    		}
+    	}
+
+    	jsConsole.writeLine("Smallest(lexicographically) property in navigator : " + min);
+    	jsConsole.writeLine("Biggest(lexicographically) property in navigator : " + max);
+    </script>
+</body>
+</html>

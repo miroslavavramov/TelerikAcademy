@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8" />
+	<link rel="stylesheet" href="styles/js-console.css">
+</head>
+<body>
+	<button onclick="execute()">Execute</button>
+	<div id="js-console"></div>
+    <script src="scripts/js-console.js"></script>
+    <script>
+    	function person(fName, lName, age){
+            return{
+                fName: fName,
+                lName: lName,
+                age: age,
+                toString: function() { 
+                    return fName + " " + lName + " " + age; 
+                }    
+            };
+    	}
+    	function getYoungestPerson(people){
+    		var minAge = Number.MAX_VALUE;
+    		var index = 0;
+
+    		for(var i = 0; i < people.length; i++){
+    			if(people[i].age < minAge){
+    				minAge = people[i].age;
+    				index = i;
+    			}
+    		}
+    		return people[index];
+    	}
+    	function execute(){
+    		var simpsons = 
+            [
+    			person("Homer", "Simpson", 39),
+    			person("Maggie", "Simpson", 2),
+    			person("Bart", "Simpson", 9),
+    			person("Lisa", "Simpson", 8),
+                person("Marge", "Simpson", 37),
+                person("Montgomery", "Burns", 115)
+    		];
+            
+    		jsConsole.writeLine(getYoungestPerson(simpsons));
+    	}
+    </script>
+</body>
+</html>

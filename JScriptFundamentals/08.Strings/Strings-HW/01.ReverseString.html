@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8" />
+	<link rel="stylesheet" href="styles/js-console.css">
+</head>
+<body>
+	<label for="stringInput">Type a string: </label>
+	<input id="stringInput" />
+	<button onclick="onPrintReversedButtonClick()">Print Reversed</button>
+	<div id="js-console"></div>
+    <script src="scripts/js-console.js"></script>
+    <script>
+    	function buildStringBuilder() {
+            return {
+                result: [],
+                length: 0,
+                append: function (value) {
+                    this.result[this.length] = value;
+                    this.length += value.length;
+                    return this;
+                },
+                toString: function () {
+                    return this.result.join("");
+                }
+            };
+        }
+    	function reverseString(str){
+    		var output = buildStringBuilder();
+
+    		for(var i = str.length-1; i >= 0; i--){
+    			output.append(str[i]);
+    		}
+
+    		return output;
+    	}
+    	function onPrintReversedButtonClick(){
+    		jsConsole.writeLine(reverseString(
+    			document.getElementById("stringInput").value
+    			));
+    	}
+    </script>
+</body>
+</html>
