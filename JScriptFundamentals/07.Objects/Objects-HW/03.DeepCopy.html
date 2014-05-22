@@ -10,28 +10,18 @@
     <script src="scripts/js-console.js"></script>
     <script>
     	function deepCopy(obj){
-    		if(obj == null || typeof obj != "object"){
+    		if(obj === null || typeof obj !== "object"){
     			return obj;
     		}
-    		if(obj instanceof Array){
-    			var copied = [];
+    		
+			var copied = obj.constructor();
 
-    			for(var i = 0; i < obj.length; i++){
-    				copied[i] = deepCopy(obj[i]);
-    			}
-    			return copied;
-    		}
-    		if(obj instanceof Object){
-    			var copied = {};
-
-				for(var prop in obj){
-					if(obj.hasOwnProperty(prop)){
-						copied[prop] = deepCopy(obj[prop]);
-					}
+			for(var prop in obj){
+				if(obj.hasOwnProperty(prop)){
+					copied[prop] = deepCopy(obj[prop]);
 				}
-				return copied;
-    		}
-
+			}
+			return copied;
     	}
     	function printObj(obj){
     		for(var prop in obj){
@@ -49,6 +39,12 @@
 
     		printObj(toon);
     		printObj(copiedToon);
+			
+			var arr = [99,31,57];
+			var copiedArr = deepCopy(arr);
+			
+			printObj(arr);
+			printObj(copiedArr);
     	}
     </script>
 </body>

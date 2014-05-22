@@ -4,20 +4,23 @@
     <meta charset="utf-8"/>
 </head>
 <body>
+Template:
 <div data-type="template" id="list-item">
     <strong>-{name}-</strong> <span>-{age}-</span>
 </div>
 <script>
-    function generateList(people, template) {
+    function generateList(objects, template) {
         var outputUL = document.createElement("ul");
-        var liContent, liItem, person;
+        var liContent, liItem;
 
-        for (var i = 0; i < people.length; i++) {
-            liContent = template;
-            person = people[i];
+        for (var i = 0; i < objects.length; i++) {
+    		var obj = objects[i];
+    		liContent = template;
 
-            liContent = liContent.replace("name", person.name);
-            liContent = liContent.replace('age', person.age);
+            for(var prop in obj){
+            	var re = new RegExp('\{'+prop+'\}','ig');
+            	liContent = liContent.replace(re, obj[prop]);
+            }
 
             liItem = document.createElement("li");
             liItem.innerHTML = liContent;

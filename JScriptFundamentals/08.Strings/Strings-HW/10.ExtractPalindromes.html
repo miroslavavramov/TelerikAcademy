@@ -10,29 +10,27 @@
     <script src="scripts/js-console.js"></script>
     <script>
     	function isPalindrome(str){
-    		for (var i = 0; i < str.Length; i++){
-    			if (str[i] != str[str.Length - 1 - i]){
+    		for (var i = 0; i < str.length; i++){
+    			if (str[i].toLowerCase() != str[str.length - 1 - i].toLowerCase()){
     				return false;		
     			} 
     		}
 	        return true;
     	}
     	function extractPalindromes(text){
-    		var words = text.match(/\b\w+(?=y\b)/g);
+    		var words = text.match(/\b\w+\b/g);
     		var palindromes = [];
 
-    		for(var w in words){
-    			if(isPalindrome(w)){
-    				palindromes.push(w);
+    		for(var i = 0; i < words.length; i++){
+    			if(isPalindrome(words[i])){
+    				palindromes.push(words[i]);
     			}
     		}
 
     		return palindromes;
     	}
     	function onExtractButtonClick(){
-    		var text = "Some people have names that are palindromes. Included are given names
-						(Ada, Anna, Bob, Aviva), surnames (Harrah, Renner, Salas, Arora)
-						or both (Eve, Hannah, Maham, Otto)";
+    		var text = "Some people have names that are palindromes Included are given names (Ada, Anna, Bob, Aviva), surnames (Harrah, Renner, Salas, Arora) or both (Eve, Hannah, Maham, Otto)";
 
     		jsConsole.writeLine(
     			extractPalindromes(text)

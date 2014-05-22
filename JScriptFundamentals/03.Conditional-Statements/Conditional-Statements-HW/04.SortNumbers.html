@@ -16,31 +16,31 @@
     <script src="scripts/js-console.js"></script>
     <script>
     	function printSorted(){
-    		var a = parseInt(jsConsole.readInteger("#firstNum"));
-	    	var b = parseInt(jsConsole.readInteger("#secondNum"));
-	    	var c = parseInt(jsConsole.readInteger("#thirdNum"));
+    		var a = parseInt(document.getElementById("firstNum").value);
+	    	var b = parseInt(document.getElementById("secondNum").value);
+	    	var c = parseInt(document.getElementById("thirdNum").value);
 
-	    	if (a >= b){
+	    	if (a >= b && a >= c){
                 if (b >= c){
                     jsConsole.writeLine(a + ", " + b + ", " + c);
                 }
-                if (c >= b && a >= c){
+                else {
                     jsConsole.writeLine(a + ", " + c + ", " + b);
                 }
-            }	
-            else if (b >= a){
+            } 
+			else if (b >= a && b >= c){
                 if (a >= c){
                     jsConsole.writeLine(b + ", " + a + ", " + c);
                 }
-                if (b >= c && c >= a){
+                else{
                     jsConsole.writeLine(b + ", " + c + ", " + a);
                 }
-            }
-            else if (c >= b){
+            } 
+			else if (c >= b && c >= a){
                 if (b >= a){
                     jsConsole.writeLine(c + ", " + b + ", " + a);
                 }
-                if (c >= a && a >= b){
+                else{
                     jsConsole.writeLine(c + ", " + a + ", " + b);
                 }
             }
