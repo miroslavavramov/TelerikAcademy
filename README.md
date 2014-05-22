@@ -44,6 +44,17 @@
 3. **CSS Layout** ([assignment](https://github.com/stinger907/TelerikAcademy/tree/master/CSS/03.CSS-Layout/CSS-LayoutHW))
 4. **LESS** ([assignment](https://github.com/stinger907/TelerikAcademy/tree/master/CSS/04.LESS/LESS-Homework))
 
+##JavaScript Fundamentals
+1. **Data Types And Variables** ([assignment](https://github.com/stinger907/TelerikAcademy/tree/master/JScriptFundamentals/01.Data-Types-And-Variables/Data-Types-And-Variables-HW))
+2. **Operators And Expressions** ([assignment](https://github.com/stinger907/TelerikAcademy/tree/master/JScriptFundamentals/02.Operators-And-Expressions/Operators-And-Expressions-HW))
+3. **Conditional Statements** ([assignment](https://github.com/stinger907/TelerikAcademy/tree/master/JScriptFundamentals/03.Conditional-Statements/Conditional-Statements-HW))
+4. **Loops** ([assignment](https://github.com/stinger907/TelerikAcademy/tree/master/JScriptFundamentals/04.Loops/Loops-HW))
+5. **Arrays** ([assignment](https://github.com/stinger907/TelerikAcademy/tree/master/JScriptFundamentals/05.Arrays/Arrays-HW))
+6. **Functions** ([assignment](https://github.com/stinger907/TelerikAcademy/tree/master/JScriptFundamentals/06.Functions/Functions-HW))
+7. **Objects** ([assignment](https://github.com/stinger907/TelerikAcademy/tree/master/JScriptFundamentals/07.Objects/Objects-HW)) 
+8. **Strings** ([assignment](https://github.com/stinger907/TelerikAcademy/tree/master/JScriptFundamentals/08.Strings/Strings-HW)) 
+9. **Exam Preparation** ([assignment](https://github.com/stinger907/TelerikAcademy/tree/master/JScriptFundamentals/ExamPreparation))
+
 ##C# Data Structures And Algorithms
 1. **Data Structures Algorithms And Complexity**
 2. **Linear Data Structures** ([assignment](https://github.com/stinger907/TelerikAcademy/tree/master/CSharpDS%26A/02.LinearDataStructures/LinearDataStructuresHW))
